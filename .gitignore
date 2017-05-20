@@ -34,6 +34,8 @@ ehthumbs.db
 Icon?
 Thumbs.db
 *.swp
+.bash_history
+
 
 # phpstorm
 .idea/*
