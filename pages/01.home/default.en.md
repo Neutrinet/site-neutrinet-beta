@@ -2,10 +2,13 @@
 title: Home
 ---
 
-# Grav is Running! Or is it?
+# Grav is Running! Or is it? Neutrinet is in th3 pl4ce.
 ## You have installed **Grav** successfully
 
 Congratulations! You have installed the **Base Grav Package** that provides a **simple page** and the default **antimatter** theme to get you started.
+
+<iframe width="400" height="215" src="https://files.neutrinet.be/index.php/apps/calendar/embed/375V4JSNHTU04NXL"></iframe>
+
 
 !!! If you want a more **full-featured** base install, you should check out [**Skeleton** packages available in the downloads](http://getgrav.org/downloads).
 
