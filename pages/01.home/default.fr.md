@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# Grav is Running! Ou est-ce?
+# Grav is Running! Qu'est-ce?
 ## Vous avez installé ** Grav ** avec succès
 
 Toutes nos félicitations! Vous avez installé le ** Base Grav Package ** qui fournit une ** page simple ** et le thème par défaut ** antimatter ** pour vous aider à démarrer.
