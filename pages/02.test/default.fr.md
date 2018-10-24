@@ -1,7 +1,8 @@
 ---
-Titre: Ma nouvelle page
+Titre: 'Ma nouvelle page'
 ---
-# Ma nouvelle page!
+
+# Ma nouvelle page !!
 
 C'est le corps de ** ma nouvelle page ** et je peux facilement utiliser la syntaxe _Markdown_ ici.
 
