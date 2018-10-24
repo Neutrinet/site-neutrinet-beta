@@ -1,5 +1,8 @@
 ---
 title: Home
+show_header: true
+show_footer: true
+onpage_menu: '0'
 ---
 
 # Grav is Running! Or is it? Neutrinet is in th3 pl4ce.
