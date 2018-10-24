@@ -25,7 +25,7 @@ home:
   alias: /home
   hide_in_urls: false
 pages:
-  theme: quark
+  theme: grayscale
   order:
     by: default
     dir: asc
