@@ -2,6 +2,8 @@ enabled: true
 text_var: 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)'
 folders:
   - pages
+  - themes
+  - plugins
 repository: 'https://github.com/Neutrinet/site-neutrinet-beta/'
 user: neutrinet-site
 webhook: /_git-sync
