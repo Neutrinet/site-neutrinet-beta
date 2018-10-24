@@ -1,0 +1,26 @@
+enabled: true
+text_var: 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)'
+folders:
+  - pages
+repository: 'https://github.com/Neutrinet/site-neutrinet-beta/'
+user: neutrinet-site
+webhook: /_git-sync
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  name: Site-sync-Neutrinet
+  email: site@neutrinet.be
+  bin: git
+logging: true
+sync:
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+webhook_enabled: '0'
+webhook_secret: bace9d417499fd68a6ffaa463aa845f0aa028f7af0c96526
+password: gitsync-def50200d1d7785f478049a1b15b362df2f59d09f07a28cdeb96494a27d16d4e21911faef5c4ac7e1c732a16a1e9875779a571897e059b2a5b164f94fbd3255c1c5be95a79271d82cc50d2120db4b2713bc25603d6c0a1fbdec9b90b6335f212

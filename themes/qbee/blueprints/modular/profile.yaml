@@ -1,0 +1,40 @@
+title: Profile
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        buttons:
+          fields:
+            columns:
+              fields:
+                column1:
+                  fields:
+                    header.show_header:
+                      unset@: true
+                    header.show_footer:
+                      unset@: true
+            qbee_advanced:
+              fields:
+                header.image_position:
+                  options:
+                    left: 'Left'
+                    right: 'Right'
+                    
+        skils:
+          type: tab
+          title: Skills
+          fields:
+            header.skills:
+              name: skills
+              type: list
+              label: Skills
+
+              fields:
+                .header:
+                  type: text
+                  label: Header
+                .value:
+                  type: text
+                  label: Value (0 to 100)

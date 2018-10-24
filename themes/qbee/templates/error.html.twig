@@ -1,0 +1,12 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block body %}
+    {% include 'partials/fragments/error.html.twig' 
+        with {
+            id: page.header.id, 
+            classes: ['error-section', page.header.color_scheme, page.header.css_classes]|join(' '),
+            styles: page.header.css_styles,
+            col_clss: 'push-center push-middle'
+        } 
+    %}
+{% endblock %}

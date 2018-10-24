@@ -1,0 +1,23 @@
+title: Text
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        buttons:
+          fields:
+            columns:
+              fields:
+                column1:
+                  fields:
+                    header.show_header:
+                      unset@: true
+                    header.show_footer:
+                      unset@: true
+            qbee_advanced:
+              fields:
+                header.image_position:
+                  options:
+                    left: 'Left'
+                    right: 'Right'

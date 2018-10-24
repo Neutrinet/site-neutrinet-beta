@@ -1,0 +1,32 @@
+{% macro nav_loop(pages, local) %}
+    {% for p in pages %}
+        {% set active_page = (p.active or p.activeChild) ? 'active' : '' %}
+        {% set page_url = p.url %}
+
+        {% if local %}
+            {% set page_url = p.header.id ? '#' ~ p.header.id : '#_' ~ p.menu|lower|replace({' ':'_'}) %}
+        {% endif %}
+
+        <li class="{{ active_page }}">
+            <a href="{{ page_url }}">
+                {% if p.header.menu_icon %}<i class="{{p.header.menu_icon}}"></i>{% endif %} {{ p.menu }}
+            </a>
+            {% if p.children.visible.count > 0 %}
+            <ul>
+                {{ _self.nav_loop(p.children.visible) }}
+            </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+{% endmacro %}
+
+{% if page.header.onpage_menu %}
+    <ul id="onpage-menu">
+        {{ _self.nav_loop(page.collection(), true) }}
+    </ul>
+{% else %}
+    <ul>
+        {{ _self.nav_loop(pages.children.visible, false) }}
+    </ul>
+{% endif %}
+

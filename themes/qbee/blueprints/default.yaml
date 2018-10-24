@@ -1,0 +1,163 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.subtitle:
+              ordering@: header.title
+              type: text
+              style: vertical
+              label: Subtitle
+
+        buttons:
+          type: tab
+          title: QBee
+          fields:
+            columns:
+              type: columns
+              fields:
+                column1:
+                  type: column
+                  fields:
+                    qbee_layout:
+                      type: section
+                      title: Page/Module Layout
+                      underline: true
+                    header.show_header:
+                      type: toggle
+                      label: Show Header
+                      help: Controls whether the page header is displayed or not.
+                      highlight: 1
+                      default: 1
+                      options:
+                        1: PLUGIN_ADMIN.ENABLED
+                        0: PLUGIN_ADMIN.DISABLED
+                      validate:
+                        type: bool
+                    header.show_footer:
+                      type: toggle
+                      label: Show Footer
+                      help: Controls whether the page footer is displayed or not.
+                      highlight: 1
+                      default: 1
+                      options:
+                        1: PLUGIN_ADMIN.ENABLED
+                        0: PLUGIN_ADMIN.DISABLED
+                      validate:
+                        type: bool
+                    header.show_heading:
+                      type: toggle
+                      label: Show Title & Subtitle
+                      help: Controls whether the page/module Title and Subtitle are displayed or not.
+                      highlight: 1
+                      default: 1
+                      options:
+                        1: PLUGIN_ADMIN.ENABLED
+                        0: PLUGIN_ADMIN.DISABLED
+                      validate:
+                        type: bool
+                    header.menu_icon:
+                      type: iconpicker
+                      label: Menu Icon
+                      description: 'Sets the menu icon for this page/module.'
+                      size: medium
+                      
+                column2:
+                  type: column
+                  fields:
+                    qbee_style:
+                      type: section
+                      title: Page/Module Style
+                      underline: true
+                    header.color_scheme:
+                      type: select
+                      label: Color Scheme
+                      description: 'Sets the color scheme for this page/module.'
+                      size: medium
+                      default: scheme-light
+                      options:
+                        scheme-light: White (default)
+                        scheme-gray-light: Lightgray
+                        scheme-gray-dark: Dimgray
+                        scheme-dark: Black
+                    header.padding:
+                      type: select
+                      label: Padding
+                      description: 'Set the top and bottom padding of thos page/module.'
+                      size: medium
+                      default: md-pad
+                      options:
+                        no-pad: No padding
+                        xs-pad: Smaller (16px)
+                        sm-pad: Small (32px)
+                        md-pad: Midium (64px)
+                        lg-pad: Large (96px)
+                        xl-pad: Larger (128px)
+                    header.css_classes:
+                      type: text
+                      label: CSS Classes
+                      markdown: true
+                      description: 'CSS classes applied to this page/module.'
+
+            qbee_advanced:
+              type: section
+              title: Advanced Settings
+              underline: true
+
+              fields:
+                header.id:
+                  type: text
+                  size: medium
+                  label: Element ID
+                  description: 'The element ID of this page/module.'
+                  validate:
+                  rule: slug
+                header.css_styles:
+                  type: text
+                  label: In-line CSS
+                  markdown: true
+                  description: 'In-line CSS styles applied to this page/module.'
+                header.image:
+                  type: filepicker
+                  label: Page Image
+                  preview_images: true
+                  description: 'When not specified, this defaults to the first image found in the page''s folder if image position is not ''None''.'
+                header.image_position:
+                  type: select
+                  label: Image position
+                  size: medium
+                  classes: fancy
+                  default: none
+                  options:
+                    none: 'None'
+                    back: 'Background'
+                header.parallax_enabled:
+                  type: toggle
+                  label: Parallax Scrolling Effect
+                  desciption: Enables parallax scrolling effect on modules with background image.
+                  highlight: 0
+                  default: 0
+                  options:
+                    1: PLUGIN_ADMIN.ENABLED
+                    0: PLUGIN_ADMIN.DISABLED
+                  validate:
+                    type: bool
+                header.parallax_direction:
+                  type: select
+                  label: Parallax Direction
+                  description: 'Sets the direction (vertical, horizontal) of the elements while scrolling.'
+                  size: medium
+                  classes: fancy
+                  default: vertical
+                  options:
+                    vertical: 'Vertical'
+                    horizontal: 'Horizontal'
+                header.parallax_factor:
+                  type: text
+                  size: medium
+                  default: 0.5
+                  label: Parallax Factor
+                  description: Sets elements offset and speed. It can be positive (0.5) or negative (-0.5). Less means slower.                      

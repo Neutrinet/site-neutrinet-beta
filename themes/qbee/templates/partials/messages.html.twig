@@ -1,0 +1,14 @@
+{% set msg_map = {'info':'success', 'error': 'error', 'warning': 'warning'} %}
+
+<section class="msg-section">
+    <div class="container-wrap">
+        {% for message in grav.messages.fetch %}
+            {% set scope = message.scope|e %}
+
+            <div class="message {{ msg_map[scope] }}" data-component="message">
+                {{ message.message|raw }}
+                <span class="close small"></span>
+            </div>
+        {% endfor %}
+    </div>
+</section>

@@ -1,0 +1,72 @@
+{% set assets_ext = theme_var('production_mode') ? '.min' : '' %}
+{% set site_icon = theme_var('site_icon') ? theme_var('site_icon') : 'images/favicon.png'  %}
+
+<!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
+<head>
+{% block head %}
+    <meta charset="utf-8" />
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include 'partials/metadata.html.twig' %}
+
+    <link rel="icon" type="image/png" href="{{ url('theme://' ~ site_icon) }}" />
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://css/kube' ~ assets_ext ~ '.css', 100) %}
+        {% do assets.addCss('theme://css/font-montserrat' ~ assets_ext ~ '.css', 99) %}
+        {% do assets.addCss('theme://css/font-lato' ~ assets_ext ~ '.css', 98) %}
+        {% do assets.addCss('theme://css/font-source-code-pro' ~ assets_ext ~ '.css', 97) %}
+        {% do assets.addCss('https://use.fontawesome.com/releases/v5.1.0/css/all.css', 96) %}
+        {% do assets.addCss('theme://css-compiled/theme' ~ assets_ext ~ '.css', 1) %}
+        {% do assets.addCss('theme://css/custom.css', -1) %}
+    {% endblock %}
+    {{ assets.css() }}
+
+    {% block javascripts %}
+        {% do assets.addJs('jquery', 100) %}
+        {% do assets.addJs('theme://js/kube' ~ assets_ext ~ '.js', 99)%}
+        {% do assets.addJs('theme://js/jquery.paroller' ~ assets_ext ~ '.js', {'priority': 98, 'group': 'bottom'})%}
+        {% do assets.addJs('theme://js/jquery.onePageNav' ~ assets_ext ~ '.js', {'priority': 97, 'group': 'bottom'})%}
+        {% do assets.addJs('theme://js/theme.js', {'priority': 1, 'group': 'bottom'})%}
+        {% do assets.addJs('theme://js/custom.js', {'priority': -1, 'group': 'bottom'})%}
+    {% endblock %}
+    {{ assets.js() }}
+
+{% endblock head%}
+</head>
+<body class="{{ header.body_classes }}">
+    {% block splash %}{% endblock %}
+
+    {% if header.show_header is not defined or header.show_header %}
+        {% block header %}
+            {% include 'partials/header.html.twig' %}
+        {% endblock %}
+    {% endif %}
+
+    <main>
+        {% block hero %}{% endblock %}
+        
+        {% block body %}{% endblock %}
+    </main>
+
+    {% block messages %}
+        {% if grav.messages.all %}
+            {% include 'partials/messages.html.twig' %}
+        {% endif %}
+    {% endblock %}
+
+    {% if header.show_footer is not defined or header.show_footer %}
+        {% block footer %}
+            {% include 'partials/footer.html.twig' %}
+        {% endblock %}
+    {% endif %}
+
+    {% block bottom %}
+        {{ assets.js('bottom') }}
+    {% endblock %}
+</body>
+</html>

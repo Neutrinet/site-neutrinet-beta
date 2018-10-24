@@ -1,0 +1,46 @@
+title: Features
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        buttons:
+          fields:
+            columns:
+              fields:
+                column1:
+                  fields:
+                    header.show_header:
+                      unset@: true
+                    header.show_footer:
+                      unset@: true
+        features:
+          type: tab
+          title: Features
+          fields:
+            header.columns:
+              type: select
+              label: Page Layout
+              size: medium
+              default: col-4
+              options:
+                col-6: '2 columns'
+                col-4: '3 columns'
+                col-3: '4 columns'
+                col-2: '6 columns'
+            header.features:
+              name: features
+              type: list
+              label: Features
+
+              fields:
+                .icon:
+                  type: iconpicker
+                  label: Icon
+                .header:
+                  type: text
+                  label: Header
+                .text:
+                  type: text
+                  label: Text

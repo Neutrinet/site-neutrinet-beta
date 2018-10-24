@@ -1,0 +1,22 @@
+<footer>
+    <div class="container-wrap">
+        <div class="container">
+            <div class="row auto">
+                <div class="col">
+                    {% block copy %}
+                        <div class="copyright">
+                            {% if theme.site_copy is not empty %}
+                                {{ theme.site_copy }}
+                            {% else %}
+                            <p class="small">Copyright © 2018 - QBee Theme - All rights reserved - QBee Theme is released under the <a href="https://github.com/jorgetite/grav-theme-qbee/blob/master/LICENSE">MIT license</a></p>
+                            {% endif %}
+                        </div>
+                    {% endblock %}
+                    <p class="qbee smaller">
+                        <a href="https://github.com/jorgetite/grav-theme-qbee">QBee Theme</a> was <i class="fas fa-code text-accent"></i> with <i class="fas fa-heart text-beat"></i> by <a href="http://www.jorgetite.com">Jorge Tite</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

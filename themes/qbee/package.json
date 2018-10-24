@@ -1,0 +1,35 @@
+{
+  "name": "qbee",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jorgetite/grav-theme-qbee",
+  "author": "Jorge Tite <me@jorgetite.com>",
+  "description": "QBee theme",
+  "main": "css-compiled/theme.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorgetite/grav-theme-qbee"
+  },
+  "license": "MIT",
+  "keywords": [
+    "grav",
+    "theme",
+    "kube",
+    "responsive",
+    "mobile-friendly",
+    "front-end",
+    "modern"
+  ],
+  "bugs": {
+    "url": "https://github.com/jorgetite/grav-theme-qbee/issues"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

@@ -1,0 +1,75 @@
+/*---------------------------------------------------------------------------
+|    QBee - Section Color Schemes
+|--------------------------------------------------------------------------*/
+
+// Text color
+// ---------------------------------------------------------------------------
+.text-primary {
+    color: $qbee-color-primary;
+}
+.text-stress {
+    color: $qbee-color-stress;
+}
+.text-accent {
+    color: $qbee-color-accent;
+}
+.text-beat {
+    color: $qbee-color-beat;
+}
+
+
+// Light Gray Scheme
+// ---------------------------------------------------------------------------
+.scheme-gray-light {
+    background-color: $qbee-black-50;
+
+    .feature-item {
+        background-color: $qbee-color-white;
+    }
+}
+
+// Dark Gray Scheme
+// ---------------------------------------------------------------------------
+.scheme-gray-dark {
+    @include qbee-scheme(
+        $qbee-black-700,    // color-back
+        $qbee-gray-200,     // color-text
+        $qbee-gray-400,     // color-text-light
+        $qbee-gray-100,     // color-text-dark
+        $qbee-gray-100,     // color-head
+        $qbee-gray-300,     // color-head-light
+        $qbee-gray-50,      // color-head-dark
+        $qbee-color-link,   // color-link
+        $qbee-color-link-hover,     // color-link-hover
+        $qbee-gray-100,     // color-code
+        $qbee-black-500,    // color-code-back
+        $qbee-black-500,    // color-border
+        rgba($qbee-color-white, 0.2),    // color-shadow
+        $qbee-black-600,    // color-feature-back
+        $qbee-black-200,    // color-profile-back
+        $qbee-gray-700      // color-profile-text
+    );
+}
+
+// Dark Scheme
+// ---------------------------------------------------------------------------
+.scheme-dark {
+    @include qbee-scheme(
+        $qbee-black-900,    // color-back
+        $qbee-gray-300,     // color-text
+        $qbee-gray-500,     // color-text-light
+        $qbee-gray-200,     // color-text-dark
+        $qbee-gray-200,     // color-head
+        $qbee-gray-400,     // color-head-light
+        $qbee-gray-100,     // color-head-dark
+        $qbee-color-link,   // color-link
+        $qbee-color-link-hover,     // color-link-hover
+        $qbee-gray-200,     // color-code
+        $qbee-black-700,    // color-code-back
+        $qbee-black-700,    // color-border
+        rgba($qbee-color-white, 0.15),    // color-shadow
+        $qbee-black-800,    // color-feature-back
+        $qbee-black-100,    // color-profile-back
+        $qbee-gray-800      // color-profile-text
+    );
+}

@@ -1,0 +1,17 @@
+title: Neutrinet
+default_lang: fr
+author:
+  name: Neutrinet
+  email: contact@neutrinet.be
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Neutrinet asbl'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog

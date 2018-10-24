@@ -1,0 +1,6 @@
+{% extends 'partials/fragments/default.html.twig' %}
+
+{% block heading %}
+    <h2>{% if page.header.show_heading %}{{page.header.title}}{% else %}{{ 'QBEE.ERROR.TITLE'|t }} {{ page.header.http_response_code }}{% endif %}</h1>
+    <h3>{% if page.header.show_heading and page.header.subtitle %}{{page.header.subtle}}{% else %}{{ 'QBEE.ERROR.MESSAGE'|t }}{% endif %}</h2>
+{% endblock %}

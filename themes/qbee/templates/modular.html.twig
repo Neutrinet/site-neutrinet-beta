@@ -1,0 +1,19 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block splash %}
+    {% for module in page.collection() if module.template == 'modular/splash' %}
+        {{ module.content }}
+    {% endfor %}
+{% endblock %}
+
+{% block hero %}
+    {% for module in page.collection() if module.template == 'modular/hero' %}
+        {{ module.content }}
+    {% endfor %}
+{% endblock %}
+
+{% block body %}
+    {% for module in page.collection() if not (module.template in ['modular/splash', 'modular/hero']) %}
+        {{ module.content }}
+    {% endfor %}
+{% endblock %}

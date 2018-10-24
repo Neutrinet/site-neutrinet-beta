@@ -1,0 +1,35 @@
+{% extends 'partials/fragments/default.html.twig' %}
+{% set colw = image ? 'col-4' : 'col-6' %}
+
+{% block content %}
+    <div class="content row gutters">
+        {% if render_image and img_position != 'back' %}
+            <div class="col {{colw}} {% if img_position == 'left' %}first{% else %}last{% endif %}">
+                <div class="img-wrap">
+                    <img class="profile" src="{{ image.url }}" />
+                </div>
+            </div>
+        {% endif %}
+        <div class="col {{colw}}">
+            {{page.content}}
+        </div>
+        <div class="skill-list col {{colw}}">
+            {% for skill in page.header.skills %}
+                <div class="skill-item">
+                    {% if skill.header %}
+                        <h6>{{ skill.header }}</h6>
+                    {% endif %}
+                    <div class="skill-meter">
+                        <progress value="{{skill.value}}" max="100">
+                            <div class="progress-bar" role="presentation">
+                                <span class="progress-meter" style="width: {{skill.value}}%;">
+                                </span>
+                            </div>
+                        </progress>
+                        <span class="skill-value" style="left: {{skill.value}}%;">{{skill.value}}%</span>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

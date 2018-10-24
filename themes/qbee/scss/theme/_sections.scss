@@ -1,0 +1,252 @@
+/*---------------------------------------------------------------------------
+|    QBee - Sections
+|--------------------------------------------------------------------------*/
+
+// Messages Section
+// ---------------------------------------------------------------------------
+.msg-section {
+    position: fixed;
+    bottom: 1rem;
+    width: 100%;
+    z-index: $z-over-all;
+
+    .message {
+        text-align: center;
+        margin-bottom: 0.25rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+// Splash Section
+// ---------------------------------------------------------------------------
+.splash-section {
+    height: 100vh;
+    width: 100vw;
+
+    .container-wrap {
+        display: flex;
+
+        .container-row {
+            height: 100%;
+        }
+    }
+}
+
+
+// Header Section
+// ---------------------------------------------------------------------------
+header {
+    height: 4rem;
+    background-color: $qbee-header-color-back;
+    color: $qbee-header-color-text;
+
+    a {
+        color: $qbee-header-color-link;
+        text-decoration: none;
+        &:hover {
+            color: $qbee-header-color-link-hover;
+            text-decoration: none;
+            @include transition(all linear 0.3s);
+        }
+    }
+    .container-wrap {
+        @include transition(all ease 0.5s);
+        &.sticky {
+            position: relative;
+            z-index: $z-over-control;
+        }
+        &.fixed {
+            position: fixed;
+            background-color: rgba($qbee-header-color-back, 0.95);
+            box-shadow: 0 0 8px 4px rgba($qbee-header-color-back, 0.50);
+        }    
+    }
+    .site-brand {
+        display: flex;
+        align-items: center;
+        .site-name {
+            margin-bottom: 0;
+            color: $qbee-header-color-text;
+            font-size: $qbee-header-font-size-head;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .site-logo {
+            max-height: $qbee-header-font-size-head;
+            margin-right: 0.5rem;
+        }
+        &:hover {
+            color: $qbee-header-color-link-hover;
+        }
+    }
+
+    #navbar-sm {
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        #nav-toggle {
+            margin-left: auto;
+        }
+    }
+    
+    #navbar {
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        nav.site-menu {
+            ul {
+                justify-content: flex-end;
+                li {
+                    font-weight: 300;
+                    margin-left: 1.75rem;
+                    a {
+                        border-bottom: 4px solid transparent;
+                        &:hover {
+                            border-bottom-color: $qbee-color-accent;
+                        }
+                    }
+                    &.active {
+                        a {
+                            color: $qbee-header-color-link-hover;
+                            border-bottom-color: $qbee-color-primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// Hero Section
+// ---------------------------------------------------------------------------
+.hero-section {
+    .container-wrap {
+        display: flex;
+
+        .container-row {
+            height: 100%;
+        }
+    }
+}
+
+// Text Section
+// ---------------------------------------------------------------------------
+
+
+// Features Section
+// ---------------------------------------------------------------------------
+.features-section {
+    .feature-item {
+        margin-bottom: 2%;
+        padding: 2rem 1.25rem;
+        border: 1px solid transparent;
+        background-color: $qbee-feature-color-item-back;
+        text-align: center;
+        @include transition(all ease 0.3s);
+    
+        &:hover {
+            border-color:  $qbee-color-border;
+        }
+        .feature-icon {
+            color: $qbee-color-head-light;
+            font-size: $heading-font-size-1;
+            margin-bottom: 0.5rem;
+        }
+        .feature-content {
+            h4 {
+                font-weight: 500;
+            }
+            p {
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+
+// Profile Section
+// ---------------------------------------------------------------------------
+.profile-section {
+    .skill-item {
+        margin-bottom: 1.5rem;
+        h6 {
+            margin-bottom: 0;
+            color: $qbee-color-head-light;
+        }
+        .skill-meter {
+            position: relative;
+            .skill-value {
+                display: block;
+                position: absolute;
+                top: -24px;
+                left: 0%;
+                padding: 4px;
+                color: $qbee-profile-color-label-text;
+                background: $qbee-profile-color-label-back;
+                border-radius: 4px 6px 4px 1px;
+                font-size: $font-size - 6px;
+                line-height: 16px;
+            }
+        }
+    }
+}
+
+
+
+// Error Section
+// ---------------------------------------------------------------------------
+.error-section {
+    .container-row {
+        min-height: 25rem;
+        height: 70vh;
+    }
+    h2 {
+        border-left: .75rem solid $qbee-color-error;
+        padding-left: 1rem;
+        font-weight: 700;
+    }
+    h3 {
+        font-weight: 300;
+        margin-bottom: 3rem;
+    }
+}
+
+// Footer Section
+// ---------------------------------------------------------------------------
+footer {
+    height: 100%;
+    background-color: $qbee-color-black;
+
+    .container-wrap {
+        padding: 1.5rem 0.5rem 1rem;
+
+        .copyright {
+            text-align: center;
+            color: $qbee-gray-300;
+            font-weight: 300;
+            a {
+                color: $qbee-gray-300;
+                &:hover {
+                    color: $qbee-color-accent;
+                }
+            }
+        }
+        .qbee {
+            text-align: center;
+            color: $qbee-gray-500;
+            a {
+                color: $qbee-gray-500;
+                &:hover {
+                    color: $qbee-color-primary;
+                }
+            }
+        }
+    }
+}

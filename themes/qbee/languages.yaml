@@ -1,0 +1,66 @@
+en:
+  QBEE:
+    BLOG:
+      ITEM:
+        CONTINUE_READING: Continue reading...
+        NEXT_POST: Next Post
+        PREV_POST: Previous Post
+    SHOP:
+      ITEM:
+        BACK: Back
+        NEXT_ITEM: Next Item
+        PREV_ITEM: Previous Item
+    SIDEBAR:
+      SIMPLE_SEARCH:
+        HEADLINE: Search
+      RELATED_POSTS:
+        HEADLINE: Related Posts
+      RANDOM_ARTICLE:
+        HEADLINE: Random Article
+        FEELING_LUCKY: I'm Feeling Lucky!
+      SOME_TEXT_WIDGET:
+        HEADLINE: Some Text Widget
+      POPULAR_TAGS:
+        HEADLINE: Popular Tags
+      ARCHIVES:
+        HEADLINE: Archives
+      SYNDICATE:
+        HEADLINE: Syndicate
+    FORM_DATA:
+      SUMMARY: "Here is the summary of what you wrote to us:"
+    ERROR:
+      TITLE: Error
+      MESSAGE: "Oops, something went wrong..."
+es:
+  QBEE:
+    BLOG:
+      ITEM:
+        CONTINUE_READING: Continuar leyendo...
+        NEXT_POST: Siguiente Entrada
+        PREV_POST: Entrada Previa
+    SHOP:
+      ITEM:
+        BACK: Regresar
+        NEXT_ITEM: Siguiente Artículo
+        PREV_ITEM: Artículo Anterior
+    SIDEBAR:
+      SIMPLE_SEARCH:
+        HEADLINE: Buscar
+      RELATED_POSTS:
+        HEADLINE: Entradas Relacionadas
+      RANDOM_ARTICLE:
+        HEADLINE: Artículo Aleatorio
+        FEELING_LUCKY: Voy a tener suerte!
+      SOME_TEXT_WIDGET:
+        HEADLINE: Algunos Widget de Texto
+      POPULAR_TAGS:
+        HEADLINE: Etiquetas Populares
+      ARCHIVES:
+        HEADLINE: Archivos
+      SYNDICATE:
+        HEADLINE: Distribuir
+    FORM_DATA:
+      SUMMARY: "Este es un resumen de lo escrito:"
+    ERROR:
+      TITLE: Error
+      MESSAGE: "Oh no, ha ocurrido algo inesperado..."

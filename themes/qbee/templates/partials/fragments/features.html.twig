@@ -1,0 +1,24 @@
+{% extends 'partials/fragments/default.html.twig' %}
+
+{% block content %}
+    <div class="content">
+        {{ page.content }}
+    </div>
+    <div class="feature-list row gutters">
+    {% for feature in page.header.features %}
+        <div class="feature-item col {{page.header.columns}}">
+            <div class="feature-icon">
+                <i class="{{ feature.icon }}"></i>
+            </div>
+            <div class="feature-content">
+                {% if feature.header %}
+                    <h4>{{ feature.header }}</h4>
+                {% endif %}
+                {% if feature.text %}
+                    <p>{{ feature.text }}</p>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}

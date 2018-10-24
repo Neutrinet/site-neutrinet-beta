@@ -1,0 +1,30 @@
+{% macro explode_data_attribs(data) %}
+    {% for k, v in data %}
+        {% if v is not empty %}
+            data-{{k}}="{{v}}" 
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+
+{% set id = id ? id : (page.header.id ? page.header.id : '_' ~ page.menu|lower|replace({' ':'_'})) %}
+{% set image = page.header.image ? page.media[page.header.image] : page.media.images|first %}
+{% set render_image = image and page.header.image_position is defined and page.header.image_position != 'none' %}
+{% set img_position = render_image ? page.header.image_position : '' %}
+
+{% if render_image and img_position == 'back' %}
+    {% set classes = classes ~ ' bg-img' %}
+    {% set styles = styles ~ 'background-image: url(' ~ image.url ~ ');' %}
+    {% if page.header.parallax_enabled %}
+        {% set data_atts = {'paroller-factor': page.header.parallax_factor, 'paroller-direction': page.header.parallax_direction} %}
+    {% endif %}
+{% endif %}
+
+<section id="{{id}}" {% if classes %}class="{{classes}}"{% endif %} {% if styles %}style="{{styles}}"{% endif %} {{ _self.explode_data_attribs(data_atts) }}>
+    {% block section %}
+    <div class="container-wrap {{page.header.padding}}">
+        <div class="container">
+            {% block container %}{% endblock %}
+        </div>
+    </div>
+    {% endblock %}
+</section>

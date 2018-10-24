@@ -1,0 +1,12 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block body %}
+    {% include 'partials/fragments/default.html.twig' 
+        with {
+            id: page.header.id, 
+            classes: ['default-section', page.header.color_scheme, page.header.css_classes]|join(' '),
+            styles: page.header.css_styles,
+            row_clss: 'auto'
+        } 
+    %}
+{% endblock %}
