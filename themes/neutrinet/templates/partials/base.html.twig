@@ -44,16 +44,16 @@
                         {% include 'partials/logo.html.twig' %}
                     </section>
                     <section class="navbar-section">
-
-                        <nav class="dropmenu animated">
+                      <nav class="dropmenu animated">
                             {% block header_navigation %}
-                        {% include 'partials/navigation.html.twig' %}
+                            {% include 'partials/navigation.html.twig' %}
                             {% endblock %}
                         </nav>
 
                         {% if config.plugins.login.enabled and grav.user.username %}
                             <span class="login-status-wrapper"><i class="fa fa-user"></i> {% include 'partials/login-status.html.twig' %}</span>
                         {% endif %}
+
                     </section>
                 </nav>
             </section>
@@ -87,6 +87,7 @@
 {% block footer %}
     <section id="footer" class="section bg-gray">
         <section class="container {{ grid_size }}">
+            {% include 'partials/langswitcher.html.twig' %}
             <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart-o pulse "></i> by <a href="https://trilby.media">Trilby Media</a>.</p>
         </section>
     </section>

@@ -1,1 +1,0 @@
-Use this folder to store your custom theme images (i.e. favicon, logo, etc)
