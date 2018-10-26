@@ -1,6 +1,6 @@
 ---
-title: Neutrinet asbl
-menu: Accueil
+title: Neutrinet vzw
+menu: Home
 onpage_menu: false
 body_classes: title-h1h2 header-dark header-transparent
 
