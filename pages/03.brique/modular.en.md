@@ -1,5 +1,5 @@
 ---
-title: One Page Demo Site
+title: Internet Cube
 menu: Cube
 onpage_menu: false
 body_classes: title-h1h2 header-dark header-transparent

@@ -5,8 +5,8 @@ hero_classes: parallax text-light
 hero_image: header.jpg
 ---
 
-# We do InternetCube
-## Fast, Simple, Powerful...
+# Wij doen Internet Kubus
+# Zelf-hosting, thuis, laag consumptie…
 
 Grav is a modern flat-file CMS system that focuses on making web development fun again.
 

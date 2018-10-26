@@ -1,6 +1,6 @@
 ---
-title: VPN
-menu: VPN
+title: Internet Kubus
+menu: Kubus
 onpage_menu: false
 body_classes: title-h1h2 header-dark header-transparent
 

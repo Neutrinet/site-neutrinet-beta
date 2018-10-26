@@ -5,8 +5,8 @@ hero_classes: parallax text-light
 hero_image: header.jpg
 ---
 
-# We do VPN
-## Fast, Simple, Powerful...
+# We doen VPN
+## Zo snel als we kunnen…
 
 Grav is a modern flat-file CMS system that focuses on making web development fun again.
 
