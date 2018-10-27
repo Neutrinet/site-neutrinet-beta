@@ -1,7 +1,9 @@
-<!-- TITLE: Comptes -->
-<!-- SUBTITLE: ... sont désormais -->
+---
+title: Comptes publiques
+---
 
-# Comptes publiques
+Comptes publiques
+=================
 
 Sur base du [PV du 16 février 2016](/pvs/2017/02-16#communication), nos [comptes sont désormais publiques](https://admin.neutrinet.be/accounts/)
 

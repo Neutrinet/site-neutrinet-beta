@@ -1,8 +1,11 @@
 ---
 title: Compta!
-page-toc:
-  active: true
 ---
+
+La génération automatique d'une Table of Content est due à deux choses :
+
+* le plugin TOC machin truc
+* l'instertion d'un morceau de code dans un fichier `twig` du theme de `Neutrinet` comme expliqué [ici](https://github.com/trilbymedia/grav-plugin-page-toc/blob/develop/README.md#usage)
 
 # Compte bancaire
 
@@ -26,9 +29,9 @@ Où ? Quand? Via biztax, annuellement.
 "La date limite légale de dépôt est le dernier jour du mois suivant celui de l'AG statutaire, sans tomber plus de 6 mois à partir de la date de clôture de l'exercice."
 
 Clôture exercice de Neutrinet : 31 décembre N.
-L'AG doit donc être organisée en janvier, février, mars, avril, ou mai. 
- 
-Date limite du dépôt de la déclaration IPM (impôts de personnes morales) : 27 septembre pour 2018 car nous disposons de la "période complémentaire". 
+L'AG doit donc être organisée en janvier, février, mars, avril, ou mai.
+
+Date limite du dépôt de la déclaration IPM (impôts de personnes morales) : 27 septembre pour 2018 car nous disposons de la "période complémentaire".
 
 
 # Créer le fichier PDF à envoyer à BizTax
@@ -45,5 +48,5 @@ Quand ? Le dépôt des comptes annuels doit intervenir au plus tard dans le mois
 Pour plus d'infos, un chouette document [ici](http://vieassociative.be/sites/default/files/20140724-comptes-annuels-petite-asbl.pdf)
 
 
-# Taxe annuelle sur les ASBL 
+# Taxe annuelle sur les ASBL
 [C](https://finances.belgium.be/fr/asbl/impots_et_tva/declaration_d_impot)

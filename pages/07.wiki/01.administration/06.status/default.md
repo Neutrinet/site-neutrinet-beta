@@ -1,7 +1,13 @@
 <!-- TITLE: Les Statuts -->
 <!-- Dernière version publiée au moniteur-->
 
+La génération automatique d'une Table of Content est due à deux choses :
+
+* le plugin TOC machin truc
+* l'instertion d'un morceau de code dans un fichier `twig` du theme de `Neutrinet` comme expliqué [ici](https://github.com/trilbymedia/grav-plugin-page-toc/blob/develop/README.md#usage)
+
 Pour voir la liste des publications au moniteur, [c'est ici](http://www.ejustice.just.fgov.be/cgi_tsv/tsv_l_1.pl?hrc=BL000000&jvorm=ASBL&sql=naam+contains++%27Neutrinet%27+and+jvorm+contains+%27ASBL%27&rech=4&lang=fr&fromtab=TSV&btw=835033012&DETAIL=ALL+PUB)!
+
 # Conseil d'administration
 
 - Wannes De Smet
@@ -48,4 +54,4 @@ Pour voir la liste des publications au moniteur, [c'est ici](http://www.ejustice
 
 **Article 13.** Un règlement d'ordre intérieur est établi par le conseil d'administration qui le fait approuver par l'assemblée générale. Ce règlement est destiné à fixer les divers points non prévus par les statuts.
 
-**Article 14.** L'exercice social commence le 1er janvier pour se terminer le 31 décembre. 
+**Article 14.** L'exercice social commence le 1er janvier pour se terminer le 31 décembre.
