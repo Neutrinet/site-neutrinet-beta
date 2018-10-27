@@ -7,7 +7,7 @@ hero_image: header.jpg
 
 # Quoi ?
 # Heu… Comment ?
-# Qui ? Pourquoi ?
+# Qui ? Pourquoi ? Wtf ?
 
 
 
