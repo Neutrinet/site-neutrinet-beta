@@ -1,0 +1,15 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+    {% if config.get('plugins.page-toc.active') or attribute(page.header, 'page-toc').active %}
+    <div class="page-toc">
+        {% set table_of_contents = toc(page.content) %}
+        {% if table_of_contents is not empty %}
+        {{ table_of_contents }}
+        {% endif %}
+    </div>
+    {% endif %}
+
+    {{ page.content|raw }}
+{% endblock %}

@@ -59,3 +59,12 @@ pages/
 Chaque _page_ ou _module_ dans Grav peut **ou pas** contenir des traductions.  Le moteur de Grav cherche après un fichier correspondant à une langue choisie _(ex: fichier.fr.md ou fichier.en.md,… )_ et affichera ce qu'il pourra si ça existe.  Sinon il affichera la langue par défaut **ou** le seul et unique fichier qu'il trouverait _(même si c'est fichier.md sans .fr. ou .en.,… )_.
 
 Donc dans l'exemple ci-dessus, pour traduire la section `03._callout` il suffit de rajouter `text.en.md` et du contenu en anglais, `text.nl.md` et du contenu en néerlandais et, par soucis de clareté, renommer `text.md` en `text.fr.md`… et c'est tout.
+
+Plugins éventuels ?
+-------------------
+
+Sans vouloir tomber dans la _plugin mania_ à la WordPress, peut-être quelques plugins qui **pourraient** être utiles **si** c'est **vraiment** le cas.  Parce que au plus il y en aura, au plus _obscure_ ça sera pour les suivant·e·s qui devraient gérer le basard.
+
+ * [Page Inject (transclusion?)](https://github.com/getgrav/grav-plugin-page-inject/blob/master/README.md)
+ * [Page TOC](https://github.com/trilbymedia/grav-plugin-page-toc/blob/develop/README.md)
+ * [Events (heu?)](https://github.com/kalebheitzman/grav-plugin-events/blob/master/README.md)
