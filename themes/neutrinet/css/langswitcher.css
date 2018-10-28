@@ -1,0 +1,26 @@
+#footer .langswitcher {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 0;
+    display: inline-block;
+}
+
+#footer .langswitcher li {
+    display: inline-block;
+    margin-left: 0.5rem;
+    line-height: 1rem;
+}
+
+#footer .langswitcher li:first-child {
+    margin-left: 0;
+}
+
+#footer .langswitcher .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
