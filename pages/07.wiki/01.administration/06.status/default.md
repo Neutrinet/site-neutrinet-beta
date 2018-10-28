@@ -1,12 +1,20 @@
-<!-- TITLE: Les Statuts -->
-<!-- Dernière version publiée au moniteur-->
+---
+page-toc:
+  active: true
+---
 
-La génération automatique d'une Table of Content est due à deux choses :
+La génération automatique d'une Table of Content est due à trois choses :
 
-* le plugin TOC machin truc
+* le plugin TOC machin truc _(activé mais pas par défaut pour toutes les pages)_
 * l'instertion d'un morceau de code dans un fichier `twig` du theme de `Neutrinet` comme expliqué [ici](https://github.com/trilbymedia/grav-plugin-page-toc/blob/develop/README.md#usage)
+* l'ajout du code ci-dessous dans les pages pour lesquelles une TOC serait voulue
 
-Pour voir la liste des publications au moniteur, [c'est ici](http://www.ejustice.just.fgov.be/cgi_tsv/tsv_l_1.pl?hrc=BL000000&jvorm=ASBL&sql=naam+contains++%27Neutrinet%27+and+jvorm+contains+%27ASBL%27&rech=4&lang=fr&fromtab=TSV&btw=835033012&DETAIL=ALL+PUB)!
+```
+---
+page-toc:
+  active: true
+---
+```
 
 # Conseil d'administration
 
@@ -20,6 +28,8 @@ Pour voir la liste des publications au moniteur, [c'est ici](http://www.ejustice
 - Olivier Meunier
 
 # Statuts
+
+Pour voir la liste des publications au moniteur, [c'est ici](http://www.ejustice.just.fgov.be/cgi_tsv/tsv_l_1.pl?hrc=BL000000&jvorm=ASBL&sql=naam+contains++%27Neutrinet%27+and+jvorm+contains+%27ASBL%27&rech=4&lang=fr&fromtab=TSV&btw=835033012&DETAIL=ALL+PUB)!
 
 **Article 1.** L'association prend pour dénomination : Neutrinet ASBL
 

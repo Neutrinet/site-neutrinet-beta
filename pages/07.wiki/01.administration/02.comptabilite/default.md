@@ -1,11 +1,21 @@
 ---
 title: Compta!
+page-toc:
+  active: true
 ---
 
-La génération automatique d'une Table of Content est due à deux choses :
+La génération automatique d'une Table of Content est due à trois choses :
 
-* le plugin TOC machin truc
+* le plugin TOC machin truc _(activé mais pas par défaut pour toutes les pages)_
 * l'instertion d'un morceau de code dans un fichier `twig` du theme de `Neutrinet` comme expliqué [ici](https://github.com/trilbymedia/grav-plugin-page-toc/blob/develop/README.md#usage)
+* l'ajout du code ci-dessous dans les pages pour lesquelles une TOC serait voulue
+
+```
+---
+page-toc:
+  active: true
+---
+```
 
 # Compte bancaire
 

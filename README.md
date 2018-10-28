@@ -65,6 +65,16 @@ Plugins éventuels ?
 
 Sans vouloir tomber dans la _plugin mania_ à la WordPress, peut-être quelques plugins qui **pourraient** être utiles **si** c'est **vraiment** le cas.  Parce que au plus il y en aura, au plus _obscure_ ça sera pour les suivant·e·s qui devraient gérer le basard.
 
+> Notez que pour la parti **blog**, une série de plugins ont été ajoutés, mais jusque là tout va bien.
+
+**Pas encore Installés**
+
  * [Page Inject (transclusion?)](https://github.com/getgrav/grav-plugin-page-inject/blob/master/README.md)
- * [Page TOC](https://github.com/trilbymedia/grav-plugin-page-toc/blob/develop/README.md)
  * [Events (heu?)](https://github.com/kalebheitzman/grav-plugin-events/blob/master/README.md)
+ * [Grav Shortcode Assets Plugin](https://github.com/getgrav/grav-plugin-shortcode-assets/blob/develop/README.md)
+
+**Installés**
+
+ * [Page TOC](https://github.com/trilbymedia/grav-plugin-page-toc/blob/develop/README.md)
+ * [Grav Shortcode UI Plugin](https://github.com/getgrav/grav-plugin-shortcode-ui/blob/master/README.md) _(dépend de Shortcode Core)_
+ * [Grav Shortcode Core Plugin](https://github.com/getgrav/grav-plugin-shortcode-core/blob/master/README.md)
