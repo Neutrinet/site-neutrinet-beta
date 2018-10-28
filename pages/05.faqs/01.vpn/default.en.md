@@ -1,5 +1,5 @@
 ---
-title: F.A.Q.
+title: about VPN
 ---
 
 Bla bla en **anglais**
