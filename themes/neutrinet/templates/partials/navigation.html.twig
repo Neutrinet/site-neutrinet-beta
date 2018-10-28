@@ -3,7 +3,7 @@
 <ul {{ tree ? 'class="tree"' : '' }}>
     {{ macros.nav_loop(pages) }}
     {% if config.plugins.langswitcher.enabled %}
-    <li><a href="#">{{ 'PLUGIN_ADMIN.LANGUAGES'|t }}</a>
+    <li><a href="#">{{ 'PLUGIN_ADMIN.LANGUAGE'|t }}</a>
         {% include 'partials/langswitcher.html.twig' %}
     </li>
     {% endif %}
