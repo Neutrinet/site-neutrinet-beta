@@ -3,29 +3,21 @@ title: Homepage Highlights
 menu: Highlights
 class: offset-box
 features:
-- header: FFDN
-  text: "C'est des gentils amis !"
-  icon: fa fa-fighter-jet
-  url: https://ffdn.org
-- header: Yunohost
-  text: "Le truc qui fait que la brique fonctionne bien!"
-  icon: fa fa-database
-  url: https://yunohst.org
-- header: Awesome Technology
-  text: "Grav employs best-in-class technologies such as Twig, Markdown &amp; Yaml"
-  icon: fa fa-cubes
-- header: Super Flexible
-  text: "From the ground up, with many plugin hooks, Grav is extremely extensible"
-  icon: fa fa-object-ungroup
-- header: Abundant Plugins
-  text: "A vibrant developer community means 200+ plugins available to download"
-  icon: fa fa-puzzle-piece
-- header: Free / Open Source
-  text: "Grav is an open source project, so you can spend your money on other stuff"
-  icon: fa fa-money
+- header: Install Party
+  text: "Tout les 3ème dimanche de chaque mois pour installer des trucs et bidouiller."
+  icon: fa fa-cogs
+  url: "#install_party"
+- header: Réunion des membres
+  text: "Tout les 3ème mardi de chaque mois pour faire avancer Neutrinet asbl."
+  icon: fa fa-file-text
+  url: "#réunion_des_membres"
+- header: Rencontre aléatoire
+  text: "C'est pas parce qu'il y a un cœur qu'on est en mode club échangiste ! ^_^"
+  icon: fa fa-heart-o
+  url: "#rencontre_aléatoire"
 ---
 
-# Why Grav?
-## **build sites better**
+# Associatif ?
+## **on vend pas des services** <br /> on **fait** de l'Internet !
 
-We believe the best recipe to make something great, is to bake with [quality ingredients](#features) and add dollops of [cool stuff](#features).
+Si vous avez envie d'en faire aussi, venez… venez !

@@ -5,12 +5,12 @@ hero_classes: parallax text-light
 hero_image: header.jpg
 ---
 
-# Wij zijn neutrinet
-## Snel, Eenvoudig, Krachtig…
+# Wij zijn Neutrinet
+## Snel, Eenvoudig, Krachtig !
 
-Grav is a modern flat-file CMS system that focuses on making web development fun again.
+Allé zeg… we doen **associatief** Internet.
 
-[Read the documentation](https://learn.getgrav.org?classes=btn,btn-primary,btn-lg&target=_blank)
+[het VPN](/vpn?classes=btn,btn-primary,btn-lg&target=_blank) & [de Kubus](/brique?classes=btn,btn-primary,btn-lg&target=_blank)
 
 
 

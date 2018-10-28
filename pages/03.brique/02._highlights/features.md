@@ -21,11 +21,11 @@ features:
     - header: Free / Open Source
       text: "Grav is an open source project, so you can spend your money on other stuff"
       icon: fa fa-money
-           
-    
+
+
 ---
 
-# Why Grav?
-## **build sites better**
+# Commander ?
+## **à vos risques et périls**
 
-We believe the best recipe to make something great, is to bake with [quality ingredients](#features) and add dollops of [cool stuff](#features). 
+Ha ben oui! Mettre ses doigts dans l'[auto-hébergement](https://fr.wikipedia.org/wiki/Auto-h%C3%A9bergement_(Internet)) c'est se lancer corps et âme dans une grande et belle aventure !

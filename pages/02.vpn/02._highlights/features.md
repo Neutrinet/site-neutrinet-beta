@@ -21,11 +21,11 @@ features:
     - header: Free / Open Source
       text: "Grav is an open source project, so you can spend your money on other stuff"
       icon: fa fa-money
-           
-    
+
+
 ---
 
-# Why Grav?
-## **build sites better**
+# Commander ?
+## **et puis quoi encore…**
 
-We believe the best recipe to make something great, is to bake with [quality ingredients](#features) and add dollops of [cool stuff](#features). 
+Vous croyez que ça suffit pour construire un Internet </br> [Neutre](https://www.laquadrature.net/fr/neutralite_du_Net), [Décentralisé](https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d'Internet) _(bien que ce fut l'idée à la base :/ )_ et [Solidaire](https://fr.wikipedia.org/wiki/Solidarit%C3%A9) !

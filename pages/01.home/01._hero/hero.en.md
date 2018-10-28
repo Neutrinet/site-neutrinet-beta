@@ -6,11 +6,11 @@ hero_image: header.jpg
 ---
 
 # We are Neutrinet
-## Fast, Simple, Powerful...
+## Fast, Simple, Powerful !
 
-Grav is a modern flat-file CMS system that focuses on making web development fun again.
+You kiding ? Yop… We just do some **non-profit** clean and net Internet.
 
-[Read the documentation](https://learn.getgrav.org?classes=btn,btn-primary,btn-lg&target=_blank)
+[da VPN](/vpn?classes=btn,btn-primary,btn-lg&target=_blank) & [ze Cube](/brique?classes=btn,btn-primary,btn-lg&target=_blank)
 
 
 

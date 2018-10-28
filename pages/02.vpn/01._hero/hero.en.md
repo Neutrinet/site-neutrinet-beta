@@ -8,9 +8,9 @@ hero_image: header.jpg
 # We do VPN
 ## As fast as we can…
 
-Grav is a modern flat-file CMS system that focuses on making web development fun again.
+With a **Fixed IP**, but it **does not** replace your current provider !
 
-[Read the documentation](https://learn.getgrav.org?classes=btn,btn-primary,btn-lg&target=_blank)
+[Order](https://api.neutrinet.be/?classes=btn,btn-primary,btn-lg&target=_blank)
 
 
 
