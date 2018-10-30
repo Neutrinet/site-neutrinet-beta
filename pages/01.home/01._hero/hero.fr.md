@@ -10,7 +10,7 @@ hero_image: header.jpg
 
 Nous faisons de l'Internet en mode **associatif** avec…
 
-[du VPN](/vpn?classes=btn,btn-primary) & [de la Brique](/brique?classes=btn,btn-success)
+[du VPN](/vpn?classes=btn,btn-primary) et [de la Brique](/brique?classes=btn,btn-success)
 
 
 
