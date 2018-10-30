@@ -8,7 +8,7 @@ hero_image: header.jpg
 # Nous sommes Neutrinet
 ## Neutre. Décentralisé. Solidaire !
 
-On fait de l'Internet en mode **associatif**, et on propose…
+Nous faisons de l'Internet en mode **associatif** et nous proposons…
 
 [du VPN](/vpn?classes=btn,btn-primary) & [de la Brique](/brique?classes=btn,btn-success)
 
