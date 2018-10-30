@@ -1,16 +1,16 @@
 ---
 title: 'Héro de la page accueil'
 menu: Top
-hero_classes: parallax text-light
+hero_classes: 'parallax text-light'
 hero_image: header.jpg
 ---
 
 # Nous sommes Neutrinet
-## Rapides, Simples et Puissant·es !
+## Neutre. Décentralisé. Solidaire !
 
-Sans déconner… on fait de l'Internet en mode **associatif** sans tondu.
+Nous faisons de l'Internet en mode **associatif** avec…
 
-[du VPN](/vpn?classes=btn,btn-primary,btn-lg&target=_blank) & [de la Brique](/brique?classes=btn,btn-primary,btn-lg&target=_blank)
+[du VPN](/vpn?classes=btn,btn-primary) & [de la Brique](/brique?classes=btn,btn-success)
 
 
 
