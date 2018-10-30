@@ -17,7 +17,4 @@ features:
 class: offset-box
 ---
 
-# Associatif ?
-## On ne vend pas des services, on **fait** de l'Internet !
-
-Si vous avez envie d'en faire aussi, venez… venez !
+Si vous avez envie d'en faire aussi de l'Interoueb… Venez ! Venez !
