@@ -11,7 +11,7 @@ features:
         header: 'Réunion des membres'
         text: 'Tous les 3ème mardi de chaque mois pour faire avancer Neutrinet asbl.'
     -
-        icon: 'fa fa-cocktail'
+        icon: 'fa fa-beer'
         header: 'Rencontre aléatoire'
         text: 'De temps en temps, juste pour boire un verre, papoter, etc.'
 class: offset-box
