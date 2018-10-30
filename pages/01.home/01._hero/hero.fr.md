@@ -8,9 +8,9 @@ hero_image: header.jpg
 # Nous sommes Neutrinet
 ## Neutre. Décentralisé. Solidaire !
 
-Sans déconner… on fait de l'Internet en mode **associatif** sans tondu.
+On fait de l'Internet en mode **associatif**, et on propose…
 
-[du VPN](/vpn?classes=btn,btn-primary,btn-lg) & [de la Brique](/brique?classes=btn,btn-primary,btn-lg&)
+[du VPN](/vpn?classes=btn,btn-primary,btn-lg) & [de la Brique](/brique?classes=btn,btn-primary,btn-lg)
 
 
 
