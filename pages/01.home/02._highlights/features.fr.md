@@ -5,15 +5,15 @@ features:
     -
         icon: 'fa fa-cogs'
         header: 'Install Party'
-        text: 'Tout les 3ème dimanche de chaque mois pour installer des trucs et bidouiller.'
+        text: 'Tous les 3ème dimanche de chaque mois pour installer des trucs et bidouiller.'
     -
         icon: 'fa fa-file-text'
         header: 'Réunion des membres'
-        text: 'Tout les 3ème mardi de chaque mois pour faire avancer Neutrinet asbl.'
+        text: 'Tous les 3ème mardi de chaque mois pour faire avancer Neutrinet asbl.'
     -
-        icon: 'fa fa-heart-o'
+        icon: 'fa fa-cocktail'
         header: 'Rencontre aléatoire'
-        text: 'C''est pas parce qu''il y a un cœur qu''on est en mode club échangiste ! ^_^'
+        text: 'De temps en temps, juste pour boire un verre, papoter, etc.'
 class: offset-box
 ---
 
