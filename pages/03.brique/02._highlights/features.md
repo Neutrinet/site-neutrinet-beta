@@ -28,4 +28,4 @@ features:
 # Commander ?
 ## **à vos risques et périls**
 
-Ha ben oui! Mettre ses doigts dans l'[auto-hébergement](https://fr.wikipedia.org/wiki/Auto-h%C3%A9bergement_(Internet)) c'est se lancer corps et âme dans une grande et belle aventure !
+Ha ben oui! Mettre ses doigts dans l'[auto-hébergement](https://fr.wikipedia.org/wiki/Auto-h%C3%A9bergement_(Internet)) c'est <br /> se lancer corps et âme dans une grande aventure !

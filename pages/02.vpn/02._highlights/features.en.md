@@ -31,6 +31,6 @@ features:
 Vous croyez que ça suffit pour construire un Internet </br> [Neutre](https://www.laquadrature.net/fr/neutralite_du_Net), [Décentralisé](https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d'Internet) _(bien que ce fut l'idée à la base :/ )_ et [Solidaire](https://fr.wikipedia.org/wiki/Solidarit%C3%A9) !
 
 [ui-image-compare]
-![Without VPN](Explication-visuelle-vpn-sans.png?cache)
-![With VPN](Explication-visuelle-vpn-avec.png?cache)
+![Without VPN](visuel-sans-vpn.png?cache)
+![With VPN](visuel-avec-vpn.png?cache)
 [/ui-image-compare]

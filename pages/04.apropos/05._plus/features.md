@@ -4,7 +4,7 @@ menu: Highlights
 class: offset-box
 ---
 
-# Faire tourner la boutique
-## Avec des outils et des humain·e·s
+# Pour faire fonctionner Neutrinet
+## C'est pas de la magie _(quoi que…)_
 
-C'est pas la magie _(pas encore en tout cas)_ qui fait fonctionner l'association, mais l'utilisation des quelques outils repris ci-dessous.
+C'est aussi des trucs et des tâches parfois un peu chiant·e·s à faire.

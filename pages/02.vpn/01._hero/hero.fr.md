@@ -5,7 +5,7 @@ hero_classes: parallax text-light
 hero_image: header.jpg
 ---
 
-# On fait du VPN
+# Nous faisons du VPN
 ## Aussi vite que possible…
 
 Avec une **IP Fixe**, mais ça **remplace pas** votre actuel fournisseur !
