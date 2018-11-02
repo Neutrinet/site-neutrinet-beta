@@ -78,3 +78,25 @@ Sans vouloir tomber dans la _plugin mania_ à la WordPress, peut-être quelques 
  * [Page TOC](https://github.com/trilbymedia/grav-plugin-page-toc/blob/develop/README.md)
  * [Grav Shortcode UI Plugin](https://github.com/getgrav/grav-plugin-shortcode-ui/blob/master/README.md) _(dépend de Shortcode Core)_
  * [Grav Shortcode Core Plugin](https://github.com/getgrav/grav-plugin-shortcode-core/blob/master/README.md)
+
+**À propos de Bolg & Feeds rss**
+
+ * [sur le forum de Grav](https://discourse.getgrav.org/t/how-to-have-rss-per-tag/7476/2) - pour les RSS par tag
+
+
+ Idées, inspirations, ressources…
+---------------------------------
+
+## Disroot ##
+
+ * [Page about](https://disroot.org/en/about) - transparence / ouverture / privacy …
+ * [page community](https://disroot.org/en/community) - comment aider / contribuer …
+
+## FAI Maison ##
+
+ * [Outil de transparence](https://transparence.faimaison.net/public/) - pour évaluer le coût de fonctionnement / prix libre
+ * [L'association](https://www.faimaison.net/pages/association.html) - comment décrire l'association
+
+## Sur _l'open source_
+
+ * [Awesome Open Source Organization](https://github.com/Mayeu/awesome-open-source-organizations) - une liste de projets sympas

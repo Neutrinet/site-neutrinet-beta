@@ -1,5 +1,6 @@
 ---
 title: 'Rencontre aléatoire'
+media_order: NeutrinetCrewInverted.jpg
 image_align: right
 menu: 'Rencontre aléatoire'
 ---

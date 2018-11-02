@@ -1,7 +1,7 @@
 ---
 title: 'Homepage Hero'
 menu: Top
-hero_classes: parallax text-light
+hero_classes: 'parallax text-dark overlay-light'
 hero_image: header.jpg
 ---
 
@@ -10,7 +10,7 @@ hero_image: header.jpg
 
 Avec une **IP Fixe**, mais ça **remplace pas** votre actuel fournisseur !
 
-[Commander](https://api.neutrinet.be/?classes=btn,btn-primary,btn-lg&target=_blank)
+[Commander](https://api.neutrinet.be/?classes=btn,btn-error,btn-lg&target=_blank)
 
 
 
