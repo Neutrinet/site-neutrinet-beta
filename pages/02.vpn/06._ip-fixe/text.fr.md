@@ -9,6 +9,12 @@ menu: 'IP Fixe'
 
 Pour vous lancer dans l'auto-hébergement, contribuer à la (re)[décentralisation d'Internet](https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d'Internet) et surtout atteindre…
 
+<<<<<<< HEAD
 * [le Niveau 2](/brique#niveau_2) _(Hot Spot)_
 * [le Niveau 3](/brique#niveau_3) _(Serveur Mail)_
 * [le Niveau 4](/brique#niveau_4) _(Nextcloud)_
+=======
+* [le Niveau 2](/brique#niveau2) _(Hot Spot)_
+* [le Niveau 3](/brique#niveau3) _(Serveur Mail)_
+* [le Niveau 4](/brique#niveau4) _(Nextcloud)_
+>>>>>>> ea1c49325b2f5ed2fcca69d3e656f948ab09de07
