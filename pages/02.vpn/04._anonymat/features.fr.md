@@ -24,9 +24,8 @@ features:
 class: small
 ---
 
-# Youpie ! 
-## **Avec un VPN je peux tout faire !**
+## Hahaaaa ! **Avec un VPN je peux tout faire !**
 
-!! FAUX ! Notre VPN **n'est pas un outil magique d'anonymisation** puisqu'il est fournit avec une **IP fixe** !
+!! **FAUX**. Notre VPN n'est pas un outil **magique** d'anonymisation. <br /> Notemment parce qu'il est fournit avec une **IP fixe**.
 
-! L'[anonymat sur Internet](https://fr.wikipedia.org/wiki/Anonymat_sur_Internet) est beaucoup plus complexe.
+L'[anonymat sur Internet](https://fr.wikipedia.org/wiki/Anonymat_sur_Internet) est beaucoup plus complexe.
