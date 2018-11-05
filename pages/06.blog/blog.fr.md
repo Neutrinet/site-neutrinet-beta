@@ -6,7 +6,7 @@ body_classes: header-dark
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-tiny parallax'
 hero_image: mushrooms.jpg
 custom: 'new thing'
-blog_url: /blog
+blog_url: /blog/demo
 show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
