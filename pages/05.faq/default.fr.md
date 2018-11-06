@@ -4,6 +4,8 @@ page-toc:
   active: true
 ---
 
+!! En cours de rédaction
+
 La génération automatique d'une Table of Content est due à trois choses :
 
 * le plugin TOC machin truc _(activé mais pas par défaut pour toutes les pages)_
