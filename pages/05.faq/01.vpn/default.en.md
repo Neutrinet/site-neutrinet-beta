@@ -2,6 +2,8 @@
 title: about VPN
 ---
 
+!! En cours de rédaction
+
 Bla bla en **anglais**
 
 La génération automatique d'une Table of Content est due à deux choses :

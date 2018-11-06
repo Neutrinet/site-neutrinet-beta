@@ -2,6 +2,8 @@
 title: F.A.Q.
 ---
 
+!! En cours de rédaction
+
 Bla bla en **néerlandais**
 
 La génération automatique d'une Table of Content est due à deux choses :
