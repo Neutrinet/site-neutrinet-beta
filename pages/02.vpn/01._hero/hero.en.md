@@ -10,7 +10,7 @@ hero_image: header.jpg
 
 With a **Fixed IP**, but it **does not** replace your current provider !
 
-[Order](https://api.neutrinet.be/?classes=btn,btn-primary,btn-lg&target=_blank)
+[Order](https://api.neutrinet.be/?classes=btn,btn-error,btn-lg)
 
 
 

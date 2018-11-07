@@ -1,36 +1,39 @@
 ---
-title: Homepage Highlights
+title: 'Homepage Highlights'
 menu: Highlights
-class: offset-box
 features:
-	- header: Crazy Fast
-	  text: "Performance is not just an afterthought, we baked it in from the start!"
-	  icon: fa fa-fighter-jet
-    - header: Easy to build
-      text: "Simple text files means Grav is trivial to install, and easy to maintain"
-      icon: fa fa-database
-    - header: Awesome Technology
-      text: "Grav employs best-in-class technologies such as Twig, Markdown &amp; Yaml"
-      icon: fa fa-cubes
-    - header: Super Flexible
-      text: "From the ground up, with many plugin hooks, Grav is extremely extensible"
-      icon: fa fa-object-ungroup
-    - header: Abundant Plugins
-      text: "A vibrant developer community means 200+ plugins available to download"
-      icon: fa fa-puzzle-piece
-    - header: Free / Open Source
-      text: "Grav is an open source project, so you can spend your money on other stuff"
-      icon: fa fa-money
-
-
+    -
+        icon: 'fa fa-microchip'
+        header: OpenVPN
+        text: 'Is the free software we use to build the VPN tunnels.'
+        url: 'https://en.wikipedia.org/wiki/OpenVPN'
+    -
+        icon: 'fa fa-sitemap'
+        header: "Fixed IPv4 & IPv6"
+        text: 'To start hosting yourself !'
+        url: 'https://en.wikipedia.org/wiki/IP_address'
+    -
+        icon: 'fa fa-cubes'
+        header: 'Multi plate-form software'
+        text: 'It runs on GNU/Linux, and also the others.'
+        url: 'https://www.privatetunnel.com/apps/#'
+class: offset-box
 ---
 
-# Commander ?
-## **et puis quoi encore…**
+# With the VPN
+## You can reach the Level 1
 
-Vous croyez que ça suffit pour construire un Internet </br> [Neutre](https://www.laquadrature.net/fr/neutralite_du_Net), [Décentralisé](https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d'Internet) _(bien que ce fut l'idée à la base :/ )_ et [Solidaire](https://fr.wikipedia.org/wiki/Solidarit%C3%A9) !
+Encrypt your communications and contribute to [Net neutrality](https://www.laquadrature.net/en/Net_neutrality)
 
 [ui-image-compare]
 ![Without VPN](visuel-sans-vpn.png?cache)
 ![With VPN](visuel-avec-vpn.png?cache)
 [/ui-image-compare]
+
+[right][_those pictures sources_](https://github.com/Neutrinet/site-neutrinet-beta/tree/master/pages/02.vpn/02._highlights/)[/right]
+
+[left]
+!!!! A [VPN](https://en.wikipedia.org/wiki/Virtual_private_network) is a tool widely used in the business world. It relies on the [encryption](https://en.wikipedia.org/wiki/Encryption) of all network exchanges _(traffic)_ between two entities _(people, buildings, geographically remote places,…)_ with the different [Internet service providers](https://en.wikipedia.org/wiki/Internet_service_provider) being **unable to watch or interact with what is happening** _(except for blocking everything, but we are not there yet, or copying everything with the idea of deciphering it later)_.
+[/left]
+
+We offer a **VPN connexion** to you, your familly and friends. <br /> With a [Pay what you want](https://en.wikipedia.org/wiki/Pay_what_you_want) policy. Arround 8€/month advised.

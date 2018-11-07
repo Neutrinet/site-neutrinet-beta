@@ -2,7 +2,7 @@
 title: Blog
 sitemap:
     changefreq: monthly
-body_classes: 'header-dark header-transparent'
+body_classes: header-dark
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-tiny parallax'
 hero_image: mushrooms.jpg
 custom: 'new thing'

@@ -10,7 +10,7 @@ hero_image: header.jpg
 
 Met een **Fix IP**, maar het vervangt uw huidige leverancier **niet** !
 
-[Bestel](https://api.neutrinet.be/?classes=btn,btn-primary,btn-lg&target=_blank)
+[Bestel](https://api.neutrinet.be/?classes=btn,btn-error,btn-lg)
 
 
 

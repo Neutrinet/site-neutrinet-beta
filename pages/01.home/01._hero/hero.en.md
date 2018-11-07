@@ -5,12 +5,12 @@ hero_classes: parallax text-light
 hero_image: header.jpg
 ---
 
-# We are Neutrinet
-## Fast, Simple, Powerful !
+# We are <br /> Neutrinet
+## Neutral, Decentralized, And you ?
 
-You kiding ? Yop… We just do some **non-profit** clean and net Internet.
+We **do not** sell services, we **build Internet** using…
 
-[da VPN](/vpn?classes=btn,btn-primary,btn-lg&target=_blank) & [ze Cube](/brique?classes=btn,btn-primary,btn-lg&target=_blank)
+[da VPN](/vpn?classes=btn,btn-primary) & [ze Cube](/brique?classes=btn,btn-success)
 
 
 

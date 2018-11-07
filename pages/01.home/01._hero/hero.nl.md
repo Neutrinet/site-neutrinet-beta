@@ -6,11 +6,11 @@ hero_image: header.jpg
 ---
 
 # Wij zijn Neutrinet
-## Snel, Eenvoudig, Krachtig !
+## Neutraal, gedecentraliseerd, <br /> met youw ?
 
-Allé zeg… we doen **associatief** Internet.
+Wij **verkopen geen diensten**, wij **bouwen internet** met behulp van…
 
-[het VPN](/vpn?classes=btn,btn-primary,btn-lg&target=_blank) & [de Kubus](/brique?classes=btn,btn-primary,btn-lg&target=_blank)
+[het VPN](/vpn?classes=btn,btn-primary) & [de Kubus](/brique?classes=btn,btn-success)
 
 
 

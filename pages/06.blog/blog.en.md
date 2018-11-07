@@ -18,7 +18,6 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
-custom: 'new thing'
 feed:
     description: 'Sample Blog Description'
     limit: 10
