@@ -18,6 +18,7 @@ visible: false
   * le nom de domaine principal de votre brique
   * les adresses IPv4 et IPv6
 * Tester avec [Mail Tester](http://mail-tester.com/) jusqu'à obtention d'un 10/10
+* Quid d'un MX secondaire ?
 
 ## Faisons le ensemble
 

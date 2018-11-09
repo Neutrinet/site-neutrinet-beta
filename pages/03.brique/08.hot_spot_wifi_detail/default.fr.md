@@ -10,6 +10,15 @@ visible: false
 
 [center]![](labriqueinternet-detouree.png?resize=400)[/center]
 
+# Choisir le matériel
+
+Nous vous recommandons la configuration suivante :
+
+* blablabla
+
+Mais si vous souhaitez comprendre pourquoi et vous faire votre propre idée c'est que vous cherchez plus d'[autonomie](/brique/autonomie_detail).
+
+
 ## Faites le vous même
 
 * Du matériel (commander)
