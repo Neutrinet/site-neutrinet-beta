@@ -6,7 +6,7 @@ visible: false
 
 !! Under construction
 
-# Wifi Hot Spot _(Level 2)_
+# Wifi Hot Spot _(Step 2)_
 
 [center]![](labriqueinternet-detouree.png?resize=400)[/center]
 

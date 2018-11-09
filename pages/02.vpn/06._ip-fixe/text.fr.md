@@ -9,6 +9,6 @@ menu: 'IP Fixe'
 
 Pour vous lancer dans l'auto-hébergement, contribuer à la (re)[décentralisation d'Internet](https://fr.wikipedia.org/wiki/Red%C3%A9centralisation_d'Internet) et **surtout** disposer de votre propre…
 
-* [Hot Spot Wifi](/brique#hot_spot_wifi) _(Niveau 2)_
-* [Serveur Mail](/brique#serveur_mail) _(Niveau 3)_
-* [Nextcloud](/brique#nextcloud) _(Niveau 4)_
+* [Hot Spot Wifi](/brique#hot_spot_wifi) _(Étape 2)_
+* [Serveur Mail](/brique#serveur_mail) _(Étape 3)_
+* [Nextcloud](/brique#nextcloud) _(Étape 4)_

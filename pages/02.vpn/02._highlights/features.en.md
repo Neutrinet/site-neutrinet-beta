@@ -21,7 +21,7 @@ class: offset-box
 ---
 
 # With the VPN
-## You can reach the Level 1
+## You will reach a **first step**
 
 Encrypt your communications and contribute to [Net neutrality](https://www.laquadrature.net/en/Net_neutrality)
 

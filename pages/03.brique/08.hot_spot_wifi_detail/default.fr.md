@@ -6,7 +6,7 @@ visible: false
 
 !! En cours de rédaction
 
-# Hot Spot Wifi _(Niveau 2)_
+# Hot Spot Wifi _(Étape 2)_
 
 [center]![](labriqueinternet-detouree.png?resize=400)[/center]
 

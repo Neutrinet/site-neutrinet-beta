@@ -6,7 +6,7 @@ visible: false
 
 !! En cours de rédaction
 
-# Nextcloud _(Niveau 4)_
+# Nextcloud _(Étape 4)_
 
 [center]![](labriqueinternet-detouree.png?resize=400)[/center]
 

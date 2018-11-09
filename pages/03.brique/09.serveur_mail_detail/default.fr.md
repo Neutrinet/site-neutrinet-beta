@@ -6,7 +6,7 @@ visible: false
 
 !! En cours de rédaction
 
-# Serveur Mail _(Niveau 3)_
+# Serveur Mail _(Étape 3)_
 
 [center]![](labriqueinternet-detouree.png?resize=400)[/center]
 

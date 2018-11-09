@@ -21,7 +21,7 @@ class: offset-box
 ---
 
 # Avec un VPN
-## Vous atteindrez le Niveau 1
+## Vous atteindrez une **première étape**
 
 Chiffrez vos communications et contribuez à la [Neutralité du Net](https://www.laquadrature.net/fr/neutralite_du_Net)
 
