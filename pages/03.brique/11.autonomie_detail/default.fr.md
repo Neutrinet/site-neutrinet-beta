@@ -5,10 +5,11 @@ visible: false
 body_classes: header-dark
 ---
 
-!! En cours de rédaction
+## Vers une plus grande autonomie
 
-En gardant à l'idée d'héberger une ou plusieurs boîtes mail, d'utiliser Nextcloud et peut-être plus encore, voici ce vers quoi il faudrait « tendre ».
+Mais de quoi est constituée [[color=red]LaBrique[/color][color=black]Înter.net[/color]](https://labriqueinter.net) ?
 
+## Le matériel
 
 ### De l'électricité
 
@@ -153,57 +154,50 @@ Utilisez le stick USB vers Ethernet avec [ce tuto](https://hackstub.netlib.re/wi
 ### Boitier
 
 [ui-tabs position="top-left" active="0" theme="default"]
-[ui-tab title="Plastique"]
-
-* Plastic (Lime1 seulement, plus supporté depuis la nouvelle Lime1 sans les découpes)
-
-[/ui-tab]
 [ui-tab title="Métallique"]
 
-* Métalique (Attention aux boutons)
+![BOX-LIME-BLACK-1](BOX-LIME-BLACK-1.jpg?resize=200&class=float-right)
+
+Il n'y a plus que la version métallique du boiter pour les Lime1 et Lime2.
+
+Bien que ce boitier existe en différents coloris, nous ne prenons que le noir. Libre à vous de le commander dans une autre couleur.
+
+! [Attention aux boutons!](/blog/boitier-metallique)
+
+**Sur le site de Olimex**: [BOX-LIME-BLACK-1](https://www.olimex.com/Products/OLinuXino/BOXES/BOX-LIME/)
+
+[/ui-tab]
+[ui-tab title="<s>Plastique</s>"]
+
+![A10-OLinuXino-LIME-BOX-1](A10-OLinuXino-LIME-BOX-1.jpg?resize=200&class=float-right)
+
+Ce boitier aura fait partie de [[color=red]LaBrique[/color][color=black]Înter.net[/color]](https://labriqueinter.net) depuis ses début.  Il n'était compatble qu'avec la Lime1 mais maintenant qu'elle a été redessinée, elle ne rentre plus dedans. Dommage, on l'aimait bien.
+
+**Sur le site de Olimex**: Est renseigné comme étant obsolète.
 
 [/ui-tab]
 [/ui-tabs]
 
+## Les logiciels
 
+Bien que le matériel présenté ci-dessus soit en mesure d'accueillir [différentes distributions GNU/Linux pour processeur ARM](https://www.linux-arm.info/index.php/other-distributions), c'est [Yunohost](https://yunohost.org/#/install_on_arm_board_fr) que nous recommandons pour vous lancer dans l'[auto-hébegement](https://yunohost.org/#/selfhosting_fr).
 
-#### Le « maximum » possible
-
-* une Lime2
-* une alimentation
-* un boitier
-* une antenne Wifi
-* une carte MicroSD pour le boot
-* un set de câble SATA
-* un disque dur SATA pour le système et les données
-* un disque dur USB **avec alimentation** pour les sauvegardes _(pas assez de puissance sur les USBs)_
-* un nom de domaine payant (abc.xyz) ou utiliser un domaine offert (abc.noho.st ou abc.nohost.me)
-* un VPN avec une IP fixe en IPv4 et IPv6 comme proposé par Neutrinet
-* installer et configurer Yunohost
-* activer Let's Encrypt
-* configurer le DNS correctement (automanique pour les domaines abc.noho.st ou abc.nohost.me)
-* demander la configuration du SPF
-
-
-#### Le « minimum » possible
-* une Lime1
-* une alimentation
-* un boitier
-* une antenne Wifi
-* une carte MicroSD pour le boot, le système, les paramètres (et les données si il y en a)
-* un VPN avec une IP fixe en IPv4 et IPv6 comme proposé par Neutrinet
-
+[![Écosystème Yunohost](yunohost_ecosystem_fr.png)](https://yunohost.org/#/overview_fr)
 
 ## Ils en parlent Aussi
 
-**membres de la FFDN**
+**Chez des membres de la FFDN**
 
-* https://www.rezine.org/acc%C3%A8s_Internet_local/labrique/
-* https://www.franciliens.net/brique-internet/
-* https://iloth.net/brique-internet/
-* https://ldn-fai.net/la-brique-internet/
-* https://mycelium-fai.org/wiki/documentation/briques_internet
+* [Résine](https://www.rezine.org/acc%C3%A8s_Internet_local/labrique/)
+* [Franciliens](https://www.franciliens.net/brique-internet/)
+* [Iloth](https://iloth.net/brique-internet/)
+* [Loraine Data Network](https://ldn-fai.net/la-brique-internet/)
+* [Mycélium](https://mycelium-fai.org/wiki/documentation/briques_internet)
 
-**le wiki du projet**
+**Sur le wiki du projet**
 
-* https://wiki.labriqueinter.net/doku.php
+* [Wiki de la brique](https://wiki.labriqueinter.net/doku.php)
+
+**Et le forum Yunohost**
+
+* [Le support de labrique](https://forum.yunohost.org/c/support/internet-cube)
