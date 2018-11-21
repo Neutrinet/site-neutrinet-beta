@@ -4,7 +4,7 @@ title : Wiki
 
 ### Our collective digital memory…
 
-[right][… it's the Wiki !](https://learn.getgrav.org?classes=btn,btn-primary,btn-lg&target=_blank)[/right]
+[right][… it's the Wiki !](https://wiki.neutrinet.be?classes=btn,btn-primary,btn-lg&target=_blank)[/right]
 
 To read it, you just have to go on it.
 

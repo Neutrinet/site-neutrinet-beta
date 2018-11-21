@@ -4,7 +4,7 @@ title : Wiki
 
 ### Notre mémoire numérique collective…
 
-[right][… c'est le Wiki !](https://learn.getgrav.org?classes=btn,btn-primary,btn-lg&target=_blank)[/right]
+[right][… c'est le Wiki !](https://wiki.neutrinet.org?classes=btn,btn-primary,btn-lg&target=_blank)[/right]
 
 Pour le lire, c'est accessible à toutes et tous.
 
