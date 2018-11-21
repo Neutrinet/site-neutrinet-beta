@@ -9,7 +9,7 @@ features:
         url: 'https://en.wikipedia.org/wiki/OpenVPN'
     -
         icon: 'fa fa-sitemap'
-        header: "Fixed IPv4 & IPv6"
+        header: 'Fixed IPv4 & IPv6'
         text: 'To start hosting yourself !'
         url: 'https://en.wikipedia.org/wiki/IP_address'
     -
@@ -23,7 +23,7 @@ class: offset-box
 # With the VPN
 ## You will reach a **first step**
 
-Encrypt your communications and contribute to [Net neutrality](https://www.laquadrature.net/en/Net_neutrality)
+Encrypt your communications and contribute to [Net neutrality](https://en.wikipedia.org/wiki/Net_neutrality)
 
 [ui-image-compare]
 ![Without VPN](visuel-sans-vpn.png?cache)
