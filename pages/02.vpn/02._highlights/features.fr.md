@@ -23,7 +23,7 @@ class: offset-box
 # Avec un VPN
 ## Vous atteindrez une **première étape**
 
-Chiffrez vos communications et contribuez à la [Neutralité du Net](https://www.laquadrature.net/fr/neutralite_du_Net)
+Chiffrez vos communications et contribuez à la [Neutralité du Net](https://fr.wikipedia.org/wiki/Neutralit%C3%A9_du_r%C3%A9seau)
 
 [ui-image-compare]
 ![Sans VPN](visuel-sans-vpn.png?cache)
