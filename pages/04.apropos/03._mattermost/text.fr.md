@@ -4,7 +4,7 @@ menu: Mattermost
 image_align: right
 ---
 
-## De quoi **discutter**
+## De quoi **discuter**
 
 Nous utilisons **Mattermost** qui est installé sur notre propre serveur et sur lequel il existe des **salons publics** pour par exemple le support et des **salons privés** pour les membres actifs au sein de l'association.
 
