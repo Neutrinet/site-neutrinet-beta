@@ -5,12 +5,12 @@ hero_classes: 'parallax text-dark overlay-light-gradient'
 hero_image: header.jpg
 ---
 
-# Nous faisons du VPN
-## Aussi vite que possible…
+# We do VPN
+## As fast as we can…
 
-Avec une **IP Fixe**, mais ça **ne remplace pas** votre actuel fournisseur.
+With a **Fixed IP**, but it **does not** replace your current provider !
 
-[Commander](https://api.neutrinet.be/?classes=btn,btn-error,btn-lg)
+[Order](https://api.neutrinet.be/?classes=btn,btn-error,btn-lg)
 
 
 
