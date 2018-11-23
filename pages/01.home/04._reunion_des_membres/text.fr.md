@@ -9,4 +9,4 @@ menu: 'Réunion des membres'
 
 12, rue Belliard à 1040 Bruxelles, dans les [bureaux d'EDRi](https://osm.org/go/0EoS3yxK5?node=3396312894).
 
-[Tous les 3ème mardi du mois](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL?classes=btn,btn-primary,btn-lg)
+[Tous les 3ème mardi du mois !](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL?classes=btn,btn-primary,btn-lg)
