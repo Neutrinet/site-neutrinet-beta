@@ -1,8 +1,8 @@
 ---
 title: 'Autonomie en détail'
+body_classes: header-dark
 menu: 'Autonomie en détail'
 visible: false
-body_classes: header-dark
 ---
 
 ## Vers une plus grande autonomie
@@ -143,7 +143,7 @@ MOD-WIFI-AR9271(-ANT) is USB WiFi adapter which is with Open Source Linux driver
 
 ![USB-ETHERNET-AX77882B-1](USB-ETHERNET-AX77882B-1.jpg?resize=200&class=float-right)
 
-Utilisez le stick USB vers Ethernet avec [ce tuto](https://hackstub.netlib.re/wiki/index.php?title=Utiliser_une_brique_pour_faire_un_NAT) pour comlpétez ou remplacer le wifi et distribuer un accès Internet _(nettoyé par notre [vpn](/vpn))_ sur le réseau câblé de la maison.<br /> Rien que ça ! `^_^`
+Utilisez le stick USB vers Ethernet avec [ce tuto](https://hackstub.netlib.re/wiki/index.php?title=Utiliser_une_brique_pour_faire_un_NAT) pour complétez ou remplacer le wifi et distribuer un accès Internet _(nettoyé par notre [vpn](/vpn))_ sur le réseau câblé de la maison.<br /> Rien que ça ! `^_^`
 
 ! Pour les bidouilleurs et les bidouilleuses qui n'aiment pas les ondes.
 
@@ -171,7 +171,7 @@ Bien que ce boitier existe en différents coloris, nous ne prenons que le noir. 
 
 ![A10-OLinuXino-LIME-BOX-1](A10-OLinuXino-LIME-BOX-1.jpg?resize=200&class=float-right)
 
-Ce boitier aura fait partie de [[color=red]LaBrique[/color][color=black]Înter.net[/color]](https://labriqueinter.net) depuis ses début.  Il n'était compatble qu'avec la Lime1 mais maintenant qu'elle a été redessinée, elle ne rentre plus dedans. Dommage, on l'aimait bien.
+Ce boitier aura fait partie de [[color=red]LaBrique[/color][color=black]Înter.net[/color]](https://labriqueinter.net) depuis ses débuts.  Il n'était compatble qu'avec la Lime1 mais maintenant qu'elle a été redessinée, elle ne rentre plus dedans. Dommage, on l'aimait bien.
 
 **Sur le site de Olimex**: Est renseigné comme étant obsolète.
 
