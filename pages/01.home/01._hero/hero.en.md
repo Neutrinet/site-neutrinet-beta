@@ -5,7 +5,7 @@ hero_classes: 'parallax text-light overlay-dark-gradient'
 hero_image: header.jpg
 ---
 
-# We are <br /> Neutrinet
+# We are Neutrinet
 ## Neutral, Decentralized, And you ?
 
 We **do not** sell services, we **build Internet** using…
