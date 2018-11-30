@@ -100,3 +100,7 @@ Sans vouloir tomber dans la _plugin mania_ à la WordPress, peut-être quelques 
 ## Sur _l'open source_
 
  * [Awesome Open Source Organization](https://github.com/Mayeu/awesome-open-source-organizations) - une liste de projets sympas
+ 
+## Sur « les bonnes pratiques »
+
+ * Les [Postures encouragées](https://no-google.frama.wiki/actions:cafenogoogle:cafenogoogle#les_postures_encouragees) de No G00gle.
