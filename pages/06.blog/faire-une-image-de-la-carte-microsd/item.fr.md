@@ -47,6 +47,8 @@ La carce MicroSD de [[color=red]LaBrique[/color][color=black]Înter.net[/color]]
 
 Sans compression (`gzip`), le fichier de sortie _(l'image de votre carte microSD)_ occupera un espace sur votre disque dur, égal à la taille de la carte MitroSD.
 
+! Les fichiers produits peuvent tout à fait **faire plus que 4GB** et dans ce cas il est **indispensable** que le disque qui accueillera ces images soit formaté dans un [système de fichier](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_fichiers) comme NTFS, EXT4 ou HFS qui accepte de créer des fichiers « unique » qui font plus que 4 Gigas.  
+
 ### Identifier votre carte microSD
 
 * éteindre la brique depuis l'interface web, la ligne de commande, le bouton ou au pire en débranchant la prise électrique.
