@@ -44,6 +44,7 @@ The **Shortcode Core** plugin only has a few options to configure.  The default 
 enabled: true
 active: true
 active_admin: true
+admin_pages_only: true
 parser: regex
 custom_shortcodes:
 load_fontawesome: false
@@ -52,6 +53,7 @@ load_fontawesome: false
 * `enabled: true|false` toggles if the shortcodes plugin is turned on or off
 * `active: true|false` toggles if shortcodes will be enabled site-wide or not
 * `active_admin: true|false` toggles if shortcodes will be processed in the admin plugin
+* `admin_pages_only: true|false` toggles if admin should only process shortcodes for Grav pages
 * `parser: wordpress|regex|regular` let's you configure the parser to use. 
 * `custom_shortcodes:` the path to a directory where you can put your custom shortcodes (e.g. `/user/custom/shortcodes`)
 * `load_fontawesome: true|false` toggles if the fontawesome icon library should be loaded or not
@@ -290,6 +292,13 @@ You can also specifically choose from `note`, `info`, `warning`, `tip` types whi
 Danger Will Robinson! Danger, Will Robinson!
 [/notice]
 ```
+#### Figure
+
+Figure elements are the recommended way to add self-contained units of flow content, i.e. images, charts and other visual elements that can be moved away from the main flow of the document without affecting the document's meaning. Figures may include captions through the `caption` attribute. Both `id` and `class` attributes are also available.
+
+[figure id="fig1" class="image" caption="**Fig. 1** A beautiful figure."]
+![Gorgeous image](image.png)
+[/figure]
 
 #### FontAwesome
 

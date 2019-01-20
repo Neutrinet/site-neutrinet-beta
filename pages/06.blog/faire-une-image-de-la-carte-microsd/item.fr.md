@@ -1,6 +1,6 @@
 ---
 title: 'Faire une image de la carte microSD'
-date: '12:00 10/11/2018'
+date: '10/11/2018 12:00 pm'
 taxonomy:
     category:
         - blog
@@ -84,13 +84,13 @@ Ce qui nous intéresse est de faire une image complète de la carte microSD **en
 #### créer un fichier image
 
 ```
-$ sudo dd if=/dev/sdb of=fichier_image_de_ma_brique.img
+$ sudo dd if=/dev/sdb of=fichier_image_de_ma_brique.img bs=10M
 ```
 
 #### créer un fichier image compressé « à la volée »
 
 ```
-$ sudo dd if=/dev/sdb | gzip -c  > fichier_image_de_ma_brique.img.gz
+$ sudo dd if=/dev/sdb bs=10M | gzip -c  > fichier_image_de_ma_brique.img.gz
 ```
 
 ### Restaurer une image vers une carte microSD
@@ -100,12 +100,12 @@ $ sudo dd if=/dev/sdb | gzip -c  > fichier_image_de_ma_brique.img.gz
 #### depuis une image non compressée
 
 ```
-$ sudo dd if=fichier_image_de_ma_brique.img of=/dev/sdb
+$ sudo dd if=fichier_image_de_ma_brique.img of=/dev/sdb bs=10M
 ```
 
 #### depuis une image compressée
 
 ```
-$ gunzip -c fichier_image_de_ma_brique.img.gz | dd of=/dev/sdb
+$ gunzip -c fichier_image_de_ma_brique.img.gz | dd of=/dev/sdb bs=10M
 ```
 

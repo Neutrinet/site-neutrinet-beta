@@ -10,7 +10,7 @@
     position: absolute;
     top: 0;
     transform: translate(-50%, -50%) scale(0);
-    transition: transform .2s ease;
+    transition: transform .2s;
     width: $control-width-sm;
     z-index: $zindex-3;
   }
@@ -19,7 +19,7 @@
   &:hover .popover-container {
     display: block;
     opacity: 1;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%) scale(1);
   }
 
   &.popover-right {
@@ -30,7 +30,7 @@
 
     *:focus + .popover-container,
     &:hover .popover-container {
-      transform: translate(0, -50%);
+      transform: translate(0, -50%) scale(1);
     }
   }
 
@@ -42,7 +42,7 @@
 
     *:focus + .popover-container,
     &:hover .popover-container {
-      transform: translate(-50%, 0);
+      transform: translate(-50%, 0) scale(1);
     }
   }
 
@@ -54,7 +54,7 @@
 
     *:focus + .popover-container,
     &:hover .popover-container {
-      transform: translate(-100%, -50%);
+      transform: translate(-100%, -50%) scale(1);
     }
   }
 
