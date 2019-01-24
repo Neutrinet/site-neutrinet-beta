@@ -1,3 +1,32 @@
+# v2.8.2
+## 12/14/2018
+  
+1. [](#new)  
+  * Fire `onUserLoginRegisteredUser()` event to allow manipulation of User object after registration
+
+# v2.8.1
+## 12/13/2018
+
+1. [](#bugfix)
+  * Fix various redirects to use `lang-safe` variety for better multi-language support [#186]((https://github.com/getgrav/grav-plugin-login/issues/186))
+  * Ensure only defined `user_registration.fields` are allowed in registration and profile forms
+
+# v2.8.0
+## 11/12/2018
+
+1. [](#new)
+    * Store remember me triplets into `user://data/rememberme` instead of storing them into the cache
+    * Ability to register + authorize but require accounts to be manually enabled [#180](https://github.com/getgrav/grav-plugin-login/issues/180)
+1. [](#improved)
+    * If login on registration or activation has been turned on, use login redirect if override is not set
+    * Don’t set default templates for `register` and `unauthorized`, use overridable templates [#179](https://github.com/getgrav/grav-plugin-login/issues/179)
+    * Updated `de.yaml` [#175](https://github.com/getgrav/grav-plugin-login/pull/175)
+    * Updated `ru.yaml` [#176](https://github.com/getgrav/grav-plugin-login/pull/176)
+1. [](#bugfix)
+    * Fixed broken remember me functionality
+    * Fixed client side validation in login forms
+    * Fix uppercase and Unicode username handling [#177](https://github.com/getgrav/grav-plugin-login/pull/177)
+
 # v2.7.3
 ## 06/20/2018
 

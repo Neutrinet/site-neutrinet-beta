@@ -1,3 +1,18 @@
+# v2.0.2
+## 12/16/2018
+
+1. [](#bugfix)
+    * Fixed an issue with checker not being initialized on Fatal Error
+
+# v2.0.1
+## 12/07/2018
+
+1. [](#new)
+    * Added support for admin reporting available in Grav 1.6
+1. [](#bugfix)
+    * Fixed issue with twig auto-escaping
+    * Fixed problems plugin potentially breaking CLI command if plugins get initialized
+
 # v2.0.0
 ## 09/30/2018
 
