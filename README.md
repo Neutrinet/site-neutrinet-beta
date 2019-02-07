@@ -26,6 +26,11 @@ Thème Grav…
 
 Nous utilisons actuellement le thème par défaut (Quark) en tant que **thème parent** et nous travaillons sur un **thème enfant** appelé… Neutrinet pour faciliter et permettre les mises à jours.
 
+Catalogue des icones Font Awesome
+---------------------------------
+
+* [Pour la version 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/) - Utilisée par le thème Grav
+
 Multilingue
 -----------
 
@@ -100,7 +105,7 @@ Sans vouloir tomber dans la _plugin mania_ à la WordPress, peut-être quelques 
 ## Sur _l'open source_
 
  * [Awesome Open Source Organization](https://github.com/Mayeu/awesome-open-source-organizations) - une liste de projets sympas
- 
+
 ## Sur « les bonnes pratiques »
 
  * Les [Postures encouragées](https://no-google.frama.wiki/actions:cafenogoogle:cafenogoogle#les_postures_encouragees) de No G00gle.
