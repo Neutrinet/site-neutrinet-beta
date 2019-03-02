@@ -10,8 +10,8 @@ hero_image: header.jpg
 
 With a **Fixed IP**, but it **does not** replace your current provider !
 
-**Sadly it is not possible to order now.<br/>
-Have a look at [[color=orange]another member of the federation[/color]](https://www.ffdn.org/en/members-fdn-federation).**
+[Create your VPN](https://api.neutrinet.be/?classes=btn,btn-error,btn-lg)<br />
+**With this [[color=orange]tutorial[/color]](https://wiki.neutrinet.be/vpn/order)** &  **a [[color=orange]prix libre[/color]](https://wiki.neutrinet.be/contact#bank).**
 
 
 

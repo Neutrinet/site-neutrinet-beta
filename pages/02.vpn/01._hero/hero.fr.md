@@ -10,6 +10,5 @@ hero_image: header.jpg
 
 Avec une **IP Fixe**, mais ça **ne remplace pas** votre actuel fournisseur.
 
-**Malheureusement les commandes sont impossibles pour le moment.<br/>
-N'hésitez pas à chercher auprès d'un [[color=orange]autre membre de la fédération[/color]](https://www.ffdn.org/fr/membres).**
-
+[Créez votre VPN](https://api.neutrinet.be/?classes=btn,btn-error,btn-lg)<br />
+**Avec ce [[color=orange]tutoriel[/color]](https://wiki.neutrinet.be/vpn/commander)** &  **un [[color=orange]prix libre[/color]](https://wiki.neutrinet.be/contact#banque).**

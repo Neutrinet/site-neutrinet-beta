@@ -10,7 +10,7 @@ hero_image: header.jpg
 
 Met een **Fix IP**, maar het vervangt uw huidige leverancier **niet** !
 
-**Helaas zijn bestellingen op dit moment niet mogelijk.<br/>
-Voel je vrij om te zoeken met een [[color=orange]ander lid van de federatie[/color]](https://www.ffdn.org/en/members-fdn-federation).**
+[Maak uw VPN aan](https://api.neutrinet.be/?classes=btn,btn-error,btn-lg)<br />
+**Met deze [[color=orange]tutoriaal[/color]](https://wiki.neutrinet.be/vpn/order) (en)** &  **a [[color=orange]vrij prijs[/color]](https://wiki.neutrinet.be/contact#bank).**
 
 
