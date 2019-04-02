@@ -257,8 +257,8 @@ class Login
                 $config = Grav::instance()['config'];
                 $username_regex = '/' . $config->get('system.username_regex') . '/';
 
-                if (!is_string($value) || !preg_match($username_regex, $value)) {
-                    throw new \RuntimeException('Username should be between 3 and 16 characters, including lowercase letters, numbers, underscores, and hyphens. Uppercase letters, spaces, and special characters are not allowed');
+                if (!\is_string($value) || !preg_match($username_regex, $value)) {
+                    throw new \RuntimeException('Username does not pass the minimum requirements');
                 }
 
                 break;
@@ -268,8 +268,8 @@ class Login
                 $config = Grav::instance()['config'];
                 $pwd_regex = '/' . $config->get('system.pwd_regex') . '/';
 
-                if (!is_string($value) || !preg_match($pwd_regex, $value)) {
-                    throw new \RuntimeException('Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters');
+                if (!\is_string($value) || !preg_match($pwd_regex, $value)) {
+                    throw new \RuntimeException('Password does not pass them minimum requirements');
                 }
 
                 break;
@@ -338,7 +338,7 @@ class Login
             $user->email,
             $this->grav['base_url_absolute'],
         ]);
-        $to = $this->config->get('plugins.email.from');
+        $to = $this->config->get('plugins.email.to');
 
         if (empty($to)) {
             throw new \RuntimeException($this->language->translate('PLUGIN_LOGIN.EMAIL_NOT_CONFIGURED'));
@@ -508,8 +508,8 @@ class Login
                     $interval = $this->grav['config']->get('plugins.login.max_login_interval', 10);
                     break;
                 case 'pw_resets':
-                    $maxCount = $this->grav['config']->get('plugins.login.max_pw_resets_count', 0);
-                    $interval = $this->grav['config']->get('plugins.login.max_pw_resets_interval', 2);
+                    $maxCount = $this->grav['config']->get('plugins.login.max_pw_resets_count', 2);
+                    $interval = $this->grav['config']->get('plugins.login.max_pw_resets_interval', 60);
                     break;
             }
             $this->rateLimiters[$context] = new RateLimiter($context, $maxCount, $interval);

@@ -219,6 +219,23 @@ class GitSync extends Git
             $authorType = 'gituser';
         }
 
+        // @TODO: After 1.6 it should be changed to `$configMessage ?? $message`
+        // get message from config, it any, or stick to the default one
+        $config = $this->getConfig('git', null);
+        $message = isset($config['message']) ? $config['message'] : $message;
+
+        // get Page Title and Route from Post
+        $uri = $this->grav['uri'];
+        $page_title = $uri->post('data.header.title');
+        $page_route = $uri->post('data.route');
+
+        $pageTitle = $page_title ? $page_title : 'NO TITLE FOUND';
+        $pageRoute = $page_route ? $page_route : 'NO ROUTE FOUND';
+
+        // include page title and route in the message, if placeholders exist
+        $message = str_replace('{{pageTitle}}', $pageTitle, $message);
+        $message = str_replace('{{pageRoute}}', $pageRoute, $message);
+
         switch ($authorType) {
             case 'gitsync':
                 $user = $this->getConfig('git', null)['name'];
@@ -338,7 +355,7 @@ class GitSync extends Git
             $command .= ' 2>&1';
 
             if (DIRECTORY_SEPARATOR == '/') {
-                $command = 'LC_ALL=en_US.UTF-8 ' . $command;
+                $command = 'LC_ALL=C ' . $command;
             }
 
             if ($this->getConfig('logging', false)) {
