@@ -6,5 +6,5 @@ routable: false
 
 * `#neutrinet` sur [Freenode](https://webchat.freenode.net/?channels=neutrinet)
 * [Mattermost](https://chat.neutrinet.be)
-* [size=11]info  @  neutrinet  .  be[/size]
+* [size=11]contact  @  neutrinet  .  be[/size]
 
