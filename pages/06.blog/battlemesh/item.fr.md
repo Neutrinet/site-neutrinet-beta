@@ -1,6 +1,6 @@
 ---
 title: 'Douzième édition du Battlemesh'
-date: '30/05/2019 05:34 pm'
+date: '05/30/2019 05:34 pm'
 taxonomy:
     category:
         - blog
