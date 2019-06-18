@@ -1,3 +1,21 @@
+# v1.7.1
+## 05/09/2019
+
+1. [](#bugfix)
+    * Fix issue with Feed Options not showing up in Quark (and other themes) [#46](https://github.com/getgrav/grav-plugin-feed/issues/46)
+
+# v1.7.0
+## 04/15/2019
+
+1. [](#improved)
+    * Use `safe_truncate_html` [#41](https://github.com/getgrav/grav-plugin-feed/pull/41)
+    * Allow full-text feeds [#37](https://github.com/getgrav/grav-plugin-feed/pull/37)
+    * Dynamic json feed header and image file support [#32](https://github.com/getgrav/grav-plugin-feed/pull/32)
+    * Added `json` link example to `README.md`
+1. [](#bugfix)
+    * Changed type `text` to `range` to prevent validation errors [#45](https://github.com/getgrav/grav-plugin-feed/issues/45)
+    * Always show route in url for self-link [#38](https://github.com/getgrav/grav-plugin-feed/pull/38)
+
 # v1.6.2
 ## 06/06/2017
 
@@ -7,10 +25,10 @@
 # v1.6.1
 ## 05/30/2017
 
-1. [](#bugfix)
-    * Optimized logic to disable JSON feeds by default and only set the template when there's a collection
 1. [](#improved)
     * Improved JSON template to `json_encode()` all output
+1. [](#bugfix)
+    * Optimized logic to disable JSON feeds by default and only set the template when there's a collection
 
 # v1.6.0
 ## 05/25/2017
