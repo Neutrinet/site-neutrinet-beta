@@ -157,9 +157,6 @@ class Form implements FormInterface, \ArrayAccess
         if (empty($this->items['id'])) {
             $this->items['id'] = Inflector::hyphenize($this->items['name']);
         }
-        if (empty($this->items['uniqueid'])) {
-            $this->items['uniqueid'] = Utils::generateRandomString(20);
-        }
 
         if (empty($this->items['nonce']['name'])) {
             $this->items['nonce']['name'] = 'form-nonce';
@@ -172,7 +169,12 @@ class Form implements FormInterface, \ArrayAccess
         // Initialize form properties.
         $this->name = $this->items['name'];
         $this->setId($this->items['id']);
-        $this->setUniqueId($this->items['uniqueid']);
+
+        $uniqueid = $this->items['uniqueid'] ?? null;
+        if (null === $uniqueid && !empty($this->items['remember_state'])) {
+            $this->set('remember_redirect', true);
+        }
+        $this->setUniqueId($uniqueid ?? strtolower(Utils::generateRandomString($this->items['uniqueid_len'] ?? 20)));
 
         $this->initialize();
     }
@@ -292,7 +294,7 @@ class Form implements FormInterface, \ArrayAccess
         $this->setError($message);
     }
 
-    public function set($name, $default, $separator = null)
+    public function set($name, $value, $separator = null)
     {
         switch (strtolower($name)) {
             case 'id':
@@ -301,7 +303,7 @@ class Form implements FormInterface, \ArrayAccess
                 return $this->{$method}();
         }
 
-        return $this->traitSet($name, $default, $separator);
+        return $this->traitSet($name, $value, $separator);
     }
 
     /**
@@ -638,7 +640,7 @@ class Form implements FormInterface, \ArrayAccess
 
         // We need to store the file into flash object or it will not be available upon save later on.
         $flash = $this->getFlash();
-        $flash->setUrl($url)->setUser($grav['user']);
+        $flash->setUrl($url)->setUser($grav['user'] ?? null);
 
         if ($task === 'cropupload') {
             $crop = $post['crop'];
@@ -1039,7 +1041,7 @@ class Form implements FormInterface, \ArrayAccess
         $defaults = [
             'name' => $this->items['name'],
             'id' => $this->items['id'],
-            'uniqueid' => $this->items['uniqueid'],
+            'uniqueid' => $this->items['uniqueid'] ?? null,
             'data' => []
         ];
 
@@ -1122,6 +1124,12 @@ class Form implements FormInterface, \ArrayAccess
     {
         // Store updated data into flash.
         $flash = $this->getFlash();
+
+        // Check special case where there are no changes made to the form.
+        if (!$flash->exists() && $data === $this->header_data) {
+            return;
+        }
+
         $this->setAllData($flash->getData() ?? []);
 
         $this->data->merge($data);
