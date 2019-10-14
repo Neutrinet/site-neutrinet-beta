@@ -7,6 +7,6 @@ menu: 'Réunion des membres'
 ## Réunion des membres
 > Réunion de travail, rencontre ou discussion pour les membres de Neutrinet, ouverte à toutes et tous.
 
-81, avenue des Saisons à 1050 Ixelles, [chez les Triplettes](https://osm.org/go/0EoSvJ1MR?way=134413414).
+12, rue Belliard à 1040 Bruxelles, dans les [bureaux d'EDRi](https://osm.org/go/0EoS3yxK5?node=3396312894).
 
 [Tous les 3ème mardi du mois !](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL?classes=btn,btn-primary,btn-lg)
