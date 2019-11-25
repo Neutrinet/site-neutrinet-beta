@@ -9,4 +9,4 @@ menu: 'Censure'
 
 Avec le VPN de Neutrinet, la [censure d'Internet](https://fr.wikipedia.org/wiki/Censure_de_l%27Internet), malheureusement [imposée aux fournisseur belge](https://huit.re/4Ne5ccE6) est contournée.
 
-[En apprendre plus…](https://www.laquadrature.net/en/search/apachesolr_search/censure?classes=btn,btn-error,btn-lg)
+[En apprendre plus…](https://fr.wikipedia.org/wiki/Censure_de_l%27Internet?classes=btn,btn-error,btn-lg)
