@@ -6,6 +6,8 @@ image_align: right
 
 ## Il y a du **code source**
 
-Pour faire _tourner la boîte à VPN_ il y a [ISP-NG](https://github.com/Neutrinet/ISP-ng) _(faudra un jour le remplacer)_ et tout un tas d'autres choses dont les sources ou les contenus sont partagées actuellement [ici sur Github](https://github.com/Neutrinet) _(ça aussi faudrait remplacer_) `^_^`. 
+En 2019, nous avons fait le choix de quitter Github et migrer nos dépôts.
 
-[Contribuez au site…](https://github.com/Neutrinet/site-neutrinet-beta?classes=btn,btn-primary,btn-lg)
+Pour faire _tourner la boîte à VPN_ il y a [ISP-NG](https://git.domainepublic.net/Neutrinet/ISP-ng) et tout un tas d'autres choses dont les sources ou les contenus sont disponible actuellement [dans la forge de Domaine Public](https://git.domainepublic.net/Neutrinet).
+
+[Contribuez au site…](https://git.domainepublic.net/Neutrinet/site-neutrinet-beta?classes=btn,btn-primary,btn-lg)

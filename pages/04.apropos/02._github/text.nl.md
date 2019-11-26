@@ -4,8 +4,10 @@ menu: correspondant
 image_align: right
 ---
 
-## Er is **code source**
+## Er is **source code**
 
-Pour faire _tourner la boîte à VPN_ il y a [ISP-NG](https://github.com/Neutrinet/ISP-ng) _(faudra un jour le remplacer)_ et tout un tas d'autres choses dont les sources ou les contenus sont partagées actuellement [ici sur Github](https://github.com/Neutrinet) _(ça aussi faudrait remplacer_) `^_^`.
+In 2019 hebben we ervoor gekozen om Github te verlaten en onze repositories te migreren.
 
-[Contribuez au site…](https://github.com/Neutrinet/site-neutrinet-beta?classes=btn,btn-primary,btn-lg)
+Om de VPN-magie te draaien is er [ISP-NG](https://git.domainepublic.net/Neutrinet/ISP-ng) en een heleboel andere zaken waarvan de sources of content worden gedeeld [in de forge van Domaine Public](https://git.domainepublic.net/Neutrinet/).
+
+[Aan de site meewerken…](https://git.domainepublic.net/Neutrinet/site-neutrinet-beta?classes=btn,btn-primary,btn-lg)
