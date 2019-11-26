@@ -1,6 +1,6 @@
 ---
-title: De Vereniging
-menu: Over
+title: Our tools
+menu: Tools
 onpage_menu: false
 body_classes: title-h1h2 header-dark header-transparent
 
