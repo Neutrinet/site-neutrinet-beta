@@ -6,7 +6,7 @@ menu: 'Random meeting'
 ---
 
 ## Random meeting
-> Have a drink eat som <s>french</s> ;) belgian fries, tchit-tchat or whatever.
+> Have a drink eat some french fries, tchit-tchat or whatever.
 
 Nothing on scheddule, but from time to time on Thursday's evening we meet at Toone Théatre de marionnette in Brussels.
 
