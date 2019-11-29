@@ -3,4 +3,6 @@ image_align: left
 image_url: https://abelli-asbl.be/
 ---
 
-Structure d’hébergement internet non-marchande, indépendante et gérée collectivement par l’ensemble de ses membres, [Domaine Public](https://www.domainepublic.net/) veut favoriser l’autonomie dans la prise en charge d’outils informatiques de diffusion et de communication, au sein d’un public large et notamment non spécialiste.
+[Abelli](https://abelli-asbl.be) est une asbl formée d’associations motivées par la promotion d’outils numériques qui répondent, selon elles, aux respect de valeurs démocratiques telles que la maîtrise d’une identité numérique et le bénéfice au blus grand nombre des libertés numériques.
+
+L’association est à la base de [Associalibre](http://associalibre.be).
