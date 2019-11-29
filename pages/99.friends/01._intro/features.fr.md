@@ -2,7 +2,24 @@
 title: 'Homepage Highlights'
 menu: Highlights
 features:
-class: offset-box
+class: offset-box small
+features:
+    - header: Hébergement Solidaires
+      text: "Coopératives, associations, particuliers,…"
+      icon: 'fa fa-cloud'
+      url: '#hebergement-solidaire'
+    - header: Auto-hébergement
+      text: "Personnel, familial, associatif,…"
+      icon: 'fa fa-diamond'
+      url: '#auto-hebergement'
+    - header: Information & Action
+      text: "Aspects légaux, actions et information citoyenne,…"
+      icon: 'fa fa-volume-up'
+      url: '#information'
+    - header: Support GNU/Linux
+      text: "Install parties, chiffro fêtes, individuel ou collectif…"
+      icon: 'fa fa-cogs'
+      url: '#support'
 ---
 
 # Nous ne sommes pas seul·e !
