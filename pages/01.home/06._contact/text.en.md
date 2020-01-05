@@ -1,13 +1,13 @@
 ---
-title: 'Random meeting'
-media_order: NeutrinetCrewInverted.jpg
-image_align: right
-menu: 'Random meeting'
+title: 'Contact us !'
+media_order: Neutrinet-Mattermost.png
+image_align: left
+menu: 'Contact'
 ---
 
-## Random meeting
-> Have a drink eat som <s>french</s> ;) belgian fries, tchit-tchat or whatever.
+## Contact us
+> If you have a question, need help or whatever.
 
-Nothing on scheddule, but from time to time on Thursday's evening we meet at Toone Théatre de marionnette in Brussels.
-
-It is sometimes said the same day on [irc #neutrinet](https://webchat.freenode.net/?channels=neutrinet) or our [Mattermost](https://chat.neutrinet.be).
+* [irc #neutrinet](https://webchat.freenode.net/?channels=neutrinet) (chat)
+* [Mattermost](https://chat.neutrinet.be) (chat)
+* contact @ neutrinet . be

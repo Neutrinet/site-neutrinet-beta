@@ -1,15 +1,5 @@
-# v4.0.1
-## 01/02/2020
-
-1. [](#improved)
-    * Improve Grav 1.7 support by not using deprecated `$page->modular()` call
-    * Use form scope if it is defined
-1. [](#bugfix)
-    * Fixed bad HTML in select, radio, key, toggle, checkbox ad textarea when using tabindex attribute
-    * Fixed bad looking `tabs` field with a single tab in admin
-
 # v4.0.0
-## 11/06/2019
+## 10/06/2019
 
 1. [](#new)
     * Added `tabindex` to global attributes of default field
@@ -42,7 +32,7 @@
     * Change form save action location to `user-data://` stream [#353](https://github.com/getgrav/grav-plugin-form/issues/353)
     * Updated `eu`, `fr` and `pl` language
     * Make `Form::initialize()` chainable
-    * Added `folder` option to `save:` action with fallback 
+    * Added `folder` option to `save:` action with fallback
 1. [](#bugfix)
     * Fixed Submit & Redirect not working as expected [#355](https://github.com/getgrav/grav-plugin-form/issues/355)
     * Fixed oversensitive refresh prevention [#354](https://github.com/getgrav/grav-plugin-form/issues/354)
