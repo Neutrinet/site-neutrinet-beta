@@ -1,5 +1,9 @@
 name: Admin Panel
+<<<<<<< HEAD
 version: 1.9.12
+=======
+version: 1.9.11
+>>>>>>> a6eb41fe6d6cd18732675ec8b2ce93f22bf8b824
 testing: false
 description: Adds an advanced administration panel to manage your site
 icon: empire

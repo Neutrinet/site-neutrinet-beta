@@ -42,7 +42,7 @@
     * Change form save action location to `user-data://` stream [#353](https://github.com/getgrav/grav-plugin-form/issues/353)
     * Updated `eu`, `fr` and `pl` language
     * Make `Form::initialize()` chainable
-    * Added `folder` option to `save:` action with fallback 
+    * Added `folder` option to `save:` action with fallback
 1. [](#bugfix)
     * Fixed Submit & Redirect not working as expected [#355](https://github.com/getgrav/grav-plugin-form/issues/355)
     * Fixed oversensitive refresh prevention [#354](https://github.com/getgrav/grav-plugin-form/issues/354)
