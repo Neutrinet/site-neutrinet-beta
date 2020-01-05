@@ -11,6 +11,7 @@ use Grav\Common\Grav;
 use Grav\Common\Inflector;
 use Grav\Common\Language\Language;
 use Grav\Common\Page\Interfaces\PageInterface;
+use Grav\Common\Security;
 use Grav\Common\Uri;
 use Grav\Common\Utils;
 use Grav\Framework\Filesystem\Filesystem;
@@ -133,7 +134,7 @@ class Form implements FormInterface, \ArrayAccess
         }
 
         // If we're on a modular page, find the real page.
-        while ($page && $page->modular()) {
+        while ($page && $page->modularTwig()) {
             $header = $page->header();
             $header->never_cache_twig = true;
             $page = $page->parent();
@@ -651,6 +652,11 @@ class Form implements FormInterface, \ArrayAccess
         $path = $destination . '/' . $filename;
         $upload['file']['name'] = $filename;
         $upload['file']['path'] = $path;
+
+        // Special Sanitization for SVG
+        if (method_exists('Grav\Common\Security', 'sanitizeSVG') && Utils::contains($mime, 'svg', false)) {
+            Security::sanitizeSVG($upload['file']['tmp_name']);
+        }
 
         // We need to store the file into flash object or it will not be available upon save later on.
         $flash = $this->getFlash();
