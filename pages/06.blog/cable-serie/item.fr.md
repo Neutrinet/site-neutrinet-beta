@@ -9,6 +9,7 @@ taxonomy:
         - lime1
         - lime2
         - serial
+        - tutoriel
 subtitle: 'Pour communiquer « directement » avec votre brique.'
 ---
 

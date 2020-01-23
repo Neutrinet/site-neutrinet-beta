@@ -1,14 +1,14 @@
 ---
-title: 'Faire une image de la carte microSD'
+title: 'Faire une image et cloner une carte microSD'
 date: '10/11/2018 12:00 pm'
 taxonomy:
     category:
         - blog
     tag:
-        - lime1
-        - lime2
+        - sauvegarde
         - microsd
-subtitle: 'Pour en faire une copie ou une sauvegarde'
+        - tutoriel
+subtitle: 'Ou pour en faire une sauvegarde'
 ---
 
 Si vous n'utilisez pas de disque dur SATA, la carte microSD contient **toutes vos données**, le démarrage (boot), le système d'exploitation (Debian/Yunohost), vos données personnelles et celles des utilisateurs et utilisatrices que vous hébergez _(mails, fichiers, bases de données, agendas, contacts, etc.)_.

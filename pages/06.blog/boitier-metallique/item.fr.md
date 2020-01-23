@@ -8,19 +8,17 @@ taxonomy:
         - lime1
         - lime2
         - olimex
+        - documentation
+        - problème
 continue_link: true
 subtitle: 'Peut empêcher une brique de démarrer !'
 ---
 
-Si votre brique dispose d'un boitier en métal et qu'elle ne démarre pas, c'est peut-être dû à un truc tout con.
+Si votre brique dispose d'un boitier en métal acheté avant 2020, il se peut qu'elle ne démarre pas à cause des trous pour les boutons. Ce problème n'est plus d'actualité puisque durant l'année 2019, Olimex a agrandi les trous de ces boitiers.
 
 ===
 
 ![](OlimexMetalBoxAndLime2In.jpg)
-
-## Problème
-
-La brique ne s'allume pas quand vous utilisez un boitier métallique Olimex ?
 
 ## Cause
 
@@ -40,4 +38,4 @@ Lorsque vous vissez, il faut pousser la LIME2 le plus loin du bord possible, ça
 
 ## Solution
 
-L'idéal serait d'agrandir les trois trous prévus pour les boutons.
+L'idéal serait d'agrandir les trois trous prévus pour les boutons, ce qu'Olimex fait depuis ±2019 sur ses boiters.

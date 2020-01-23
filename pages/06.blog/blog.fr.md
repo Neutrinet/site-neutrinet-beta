@@ -1,5 +1,5 @@
 ---
-title: Journal
+title: Actualités
 sitemap:
     changefreq: monthly
 body_classes: header-dark
