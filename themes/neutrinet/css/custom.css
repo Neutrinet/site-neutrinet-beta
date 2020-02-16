@@ -27,7 +27,7 @@
 .blog-listing td {
   border: solid black;
   border-width: 0;
-  border-left: 1px;
+  border-left-width: 1px;
   padding: 0;
   padding-left: 0.5em;
 }
@@ -36,7 +36,7 @@
   padding: 0;
   padding-right: 0.5em;
   border-width: 0;
-  border-right: 1px;
+  border-right-width: 1px;
 }
 
 @media all and (min-width:480px) {
