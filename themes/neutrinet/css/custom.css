@@ -20,6 +20,35 @@
     color:rgba(36, 41, 49, 0.8);
 }
 
+.blog-listing table {
+  border-collapse: collapse;
+}
+
+.blog-listing td,
+.blog-listing th {
+  border: solid black;
+  border-width: 0;
+  border-left-width: 1px;
+  padding: 0;
+  padding-left: 0.5em;
+}
+
+.blog-listing td:first-child,
+.blog-listing th:first-child {
+  padding: 0;
+  padding-right: 0.5em;
+  border-width: 0;
+  border-right-width: 1px;
+}
+
+.blog-listing td {
+  padding-top: 1em;
+}
+
+.blog-listing th {
+  white-space: nowrap;
+}
+
 @media all and (min-width:480px) {
     .logo-ami {
       display: block;
