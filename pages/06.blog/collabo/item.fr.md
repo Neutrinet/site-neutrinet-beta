@@ -94,7 +94,7 @@ En fait c'est probablement via la [liste des membres sur le site de la Fédérat
 
 ## Une autre quesiton
 
-On voudrait dire au monde, à vous m'sieurs dames, qu'on existe et qu'on résiste … mais dés qu'on met une liste quelque part *(comme sur le site de la fédé)*, elle est captée et exploitée par ces agences, ces bureaux, ses services de renseignement qui ne veulent que notre sécurité… et qu'en est-il de notre intimité ? 
+On voudrait dire au monde, à vous m'sieurs dames, qu'on existe et qu'on résiste … mais dés qu'on met une liste quelque part *(comme sur le site de la fédé)*, elle est captée et exploitée par ces agences, ces bureaux, ses services de renseignement qui ne veulent que votre sécurité… et qu'en est-il de votre intimité ? 
 
 ## Notre position
 
