@@ -29,6 +29,10 @@
   border-width: 1px 0;
 }
 
+.blog-listing td:first-child {
+  padding-right: 1em;
+}
+
 @media all and (min-width:480px) {
     .logo-ami {
       display: block;
