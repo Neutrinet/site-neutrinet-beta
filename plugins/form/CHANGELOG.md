@@ -1,3 +1,18 @@
+# v4.0.3
+## 02/11/2020
+
+1. [](#new)
+    * Pass phpstan level 1 tests
+
+# v4.0.2
+## 02/03/2020
+
+1. [](#improved)
+    * Allow checkbox field to have custom value, default to 1
+1. [](#bugfix)
+    * Fixed `toggle` field not working with `toggleable: true`
+    * Fixed fatal error when form type is disabled
+    
 # v4.0.1
 ## 01/02/2020
 
@@ -42,7 +57,7 @@
     * Change form save action location to `user-data://` stream [#353](https://github.com/getgrav/grav-plugin-form/issues/353)
     * Updated `eu`, `fr` and `pl` language
     * Make `Form::initialize()` chainable
-    * Added `folder` option to `save:` action with fallback
+    * Added `folder` option to `save:` action with fallback 
 1. [](#bugfix)
     * Fixed Submit & Redirect not working as expected [#355](https://github.com/getgrav/grav-plugin-form/issues/355)
     * Fixed oversensitive refresh prevention [#354](https://github.com/getgrav/grav-plugin-form/issues/354)
