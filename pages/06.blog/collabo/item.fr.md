@@ -22,13 +22,13 @@ Le contenu de cette Nationalle Missive étant le suivant :
 
 > Nous nous permettons de vous contacter afin d'établir un pont de communication avec vos services.
 
-Jusque là, bha!  On si dit que c'est minion, cordial, un contact, un _pont de communication_, toussa toussa.
+Jusque là, bha!  On se dit que c'est mignon, cordial, un contact, un _pont de communication_, toussa toussa.
 
 
 > Nous sommes le Bureau d'Aide à l'Enquête Numérique ( B.A.E.N ) de la Sous-Direction de la Lutte contre la Cybercriminalité ( S.D.L.C ) appartenant à la Direction Centrale de la Police Judiciaire ( D.C.P.J ). Nous sommes les Référents Nationaux des Services de Police en France dans le domaine de la cybercriminalité.
 
 
-Le second paragraphe avec plein d'acronymes nous fait un peu activer douze neuronnes _(4 lettres x 3 accronymes, ça fait bien 12)_ et là comment dire ?  C'est déjà pas mal culoté mais attendez l'analyse du formulaire qui était joint au mail et que vous trouverez un peu plus bas…
+Le second paragraphe avec plein d'acronymes nous fait un peu activer douze neurones _(4 lettres x 3 accronymes, ça fait bien 12)_ et là comment dire ?  C'est déjà pas mal culotté, mais attendez l'analyse du formulaire qui était joint au mail et que vous trouverez un peu plus bas…
 
 Donc déjà, la Surveillance en France c'est bien organisé :
 
@@ -68,9 +68,9 @@ Pour rendre la chose un peu plus parlante, les deux tableaux ci-dessous comparen
 | adresse mail | L'adresse postale devrait suffire. |
 | numéro de téléphone | Votre numéro de téléphone. |
 | journal de logs de connexion (adresse IP et horodatage) | Tenir un journal à chaque fois que vous montez dans un de nos véhicules. |
-| adresse IP de destination | Noter précisèment à quel(s) endroit(s) nous vous avons déposé·e·s. |
+| adresse IP de destination | Noter précisément à quel(s) endroit(s) nous vous avons déposé·e·s. |
 | port source | Également par quelle porte vous êtes sorti·e du véhicule, ou mieux, par quelle porte êtes vous rentré·e dans le bâtiment une fois déposé·e à votre destination. Oui, ça voudrait dire qu'on devrait rester dans la voiture discrètement pour voir par où vous allez une fois que vous êtes descendu·e·s. |
-| données de contenu (message, photo, vidéo) | Là c'est encore plus fort et ça fait de nous des espions parce qu'on devrait s'arranger pour aller garrer la voiture plus loin et revenir avec le petit matériel nécessaire *(micro, appareil photo, caméra, etc)* et aussi prévoir de faire une copie de ce qu'il y aurait dans votre malette ou vos poches. |
+| données de contenu (message, photo, vidéo) | Là c'est encore plus fort et ça fait de nous des espions parce qu'on devrait s'arranger pour aller garer la voiture plus loin et revenir avec le petit matériel nécessaire *(micro, appareil photo, caméra, etc)* et aussi prévoir de faire une copie de ce qu'il y aurait dans votre malette ou vos poches. |
 | informations relatives aux moyens de paiement et aux transactions (CB, chèque, virement) | … et dans votre portefeuil évidemment :/ !  Pour mieux noter qui vous pourriez payer et comment. |
 
 
@@ -100,4 +100,15 @@ On voudrait dire au monde, à vous m'sieurs dames, qu'on existe et qu'on résist
 
 N'étant pas concerné pas la législation française, cette demande ne nous concerne pas.  Il n'empêche que ça pourrait nous tomber dessus un jour en Belgique.
 
+Nos amis [FAI associatifs français](https://www.ffdn.org/fr/membres) ayant reçu le même mail, nous les invitons à ne pas répondre à cette demande.
+
 Avec le Numérique, ce genre d'agence ne se prive pas à pousser les limites de l'espionnage, de la collecte et du traitement de l'information des gens **parce que c'est invisible** aux yeux de chacun·e.
+
+Dés lors, quelques ressources existent pour tantôt vous informer sur la surveillance de masse ou vous aider à vous en détourner.
+
+- Le documentaire [Nothing to hide](https://fr.wikipedia.org/wiki/Nothing_to_Hide)
+- Le catalogue d'outils numériques libres [Prism Break](https://prism-break.org/en/)
+- L'association [La Quadrature du Net](https://www.laquadrature.net/en/)
+- Ou en Belgique [La Nurpa](https://nurpa.be/)
+- Ou pour l'Europe [EDRi](https://edri.org/)
+- Le site informatif sur le « refroidessement social » [Social Cooling](https://socialcooling.fr/)
