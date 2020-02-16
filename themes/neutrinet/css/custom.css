@@ -26,11 +26,17 @@
 
 .blog-listing td {
   border: solid black;
-  border-width: 1px 0;
+  border-width: 0;
+  border-left: 1px;
+  padding: 0;
+  padding-left: 0.5em;
 }
 
 .blog-listing td:first-child {
-  padding-right: 1em;
+  padding: 0;
+  padding-right: 0.5em;
+  border-width: 0;
+  border-right: 1px;
 }
 
 @media all and (min-width:480px) {
