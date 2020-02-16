@@ -24,7 +24,8 @@
   border-collapse: collapse;
 }
 
-.blog-listing td {
+.blog-listing td,
+.blog-listing th {
   border: solid black;
   border-width: 0;
   border-left-width: 1px;
@@ -32,11 +33,16 @@
   padding-left: 0.5em;
 }
 
-.blog-listing td:first-child {
+.blog-listing td:first-child,
+.blog-listing th:first-child {
   padding: 0;
   padding-right: 0.5em;
   border-width: 0;
   border-right-width: 1px;
+}
+
+.blog-listing th {
+  white-space: nowrap;
 }
 
 @media all and (min-width:480px) {
