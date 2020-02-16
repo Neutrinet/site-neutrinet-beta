@@ -20,6 +20,14 @@
     color:rgba(36, 41, 49, 0.8);
 }
 
+.blog-listing table {
+  border-collapse: collapse;
+}
+
+.blog-listing td {
+  border: 1px solid black;
+}
+
 @media all and (min-width:480px) {
     .logo-ami {
       display: block;
