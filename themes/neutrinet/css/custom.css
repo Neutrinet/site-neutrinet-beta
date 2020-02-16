@@ -41,6 +41,10 @@
   border-right-width: 1px;
 }
 
+.blog-listing td {
+  padding-top: 1em;
+}
+
 .blog-listing th {
   white-space: nowrap;
 }
