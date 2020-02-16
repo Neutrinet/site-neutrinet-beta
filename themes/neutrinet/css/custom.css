@@ -25,7 +25,8 @@
 }
 
 .blog-listing td {
-  border: 1px solid black;
+  border: solid black;
+  border-width: 1px 0;
 }
 
 @media all and (min-width:480px) {
