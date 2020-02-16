@@ -15,7 +15,7 @@ Le 5 février 2020 nous avons reçu un mail de DCPJ sdlc-baen <sdlc-baen@interi
 
 ## Le mail reçu
 
-Le contenu de cette Nationalle Missive étant le suivant :
+Le contenu de cette Nationale Missive étant le suivant :
 
 
 > Bonjour,
@@ -38,7 +38,7 @@ Donc déjà, la Surveillance en France c'est bien organisé :
 3. [Sous-Direction de la Lutte contre la Cybercriminalité](https://lannuaire.service-public.fr/gouvernement/administration-centrale-ou-ministere_632496) - le deuxième
 4. [Bureau d'Aide à l'Enquête Numérique](https://lannuaire.service-public.fr/recherche?whoWhat=Bureau+d%27Aide+%C3%A0+l%27Enqu%C3%AAte+Num%C3%A9rique&where=) - le troisième.
 
-Ce sympatique Bureau d'Aide à l'Enquête Numérique nous est décrit dans le mail que nous avons reçu :
+Ce sympathique Bureau d'Aide à l'Enquête Numérique nous est décrit dans le mail que nous avons reçu :
 
 > Notre travail consiste, entre autres, à contacter les entreprises susceptibles de pouvoir contribuer à la résolution d'une enquête judiciaire par le biais de la divulgation, sous contrôle de réquisition judiciaire, de données techniques concernant principalement les utilisateurs.
 
@@ -98,7 +98,7 @@ On voudrait dire au monde, à vous m'sieurs dames, qu'on existe et qu'on résist
 
 ## Notre position
 
-N'étant pas concerné pas la législation française, cette demande ne nous concerne pas.  Il n'empêche que ça pourrait nous tomber dessus un jour en Belgique.
+N'étant pas concernés pas la législation française, cette demande ne nous concerne pas.  Il n'empêche que ça pourrait nous tomber dessus un jour en Belgique.
 
 Nos amis [FAI associatifs français](https://www.ffdn.org/fr/membres) ayant reçu le même mail, nous les invitons à ne pas répondre à cette demande.
 
