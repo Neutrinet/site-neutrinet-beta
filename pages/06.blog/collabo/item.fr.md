@@ -69,9 +69,9 @@ Pour rendre la chose un peu plus parlante, les deux tableaux ci-dessous comparen
 | numéro de téléphone | Votre numéro de téléphone. |
 | journal de logs de connexion (adresse IP et horodatage) | Tenir un journal à chaque fois que vous montez dans un de nos véhicules. |
 | adresse IP de destination | Noter précisèment à quel(s) endroit(s) nous vous avons déposé·e·s. |
-| port source | Également par quelle porte êtes vous sorti du véhicule, ou mieux, par quelle porte êtes vous rentré dans le bâtiment une fois déposé à votre destination. Oui, ça voudrait dire qu'on devrait rester dans la voiture discrètement pour voir par où vous allez une fois que vous êtes descendu·e·s. |
-| données de contenu (message, photo, vidéo) | Là c'est encore plus fort et ça fait de nous des espions parce qu'on devrait s'arranger pour aller garrer la voiture plus loin et revenir avec le petit matériel de l'espion *(micro, appareil photo, caméra, etc)* et aussi s'arranger pour faire une copie de ce qu'il y aurait dans votre malette ou vos poches. |
-| informations relatives aux moyens de paiement et aux transactions (CB, chèque, virement) | … et dans votre portefeuil évidemment :/ !  Pour mieux noter qui vous avez payé et comment. |
+| port source | Également par quelle porte vous êtes sorti·e du véhicule, ou mieux, par quelle porte êtes vous rentré·e dans le bâtiment une fois déposé·e à votre destination. Oui, ça voudrait dire qu'on devrait rester dans la voiture discrètement pour voir par où vous allez une fois que vous êtes descendu·e·s. |
+| données de contenu (message, photo, vidéo) | Là c'est encore plus fort et ça fait de nous des espions parce qu'on devrait s'arranger pour aller garrer la voiture plus loin et revenir avec le petit matériel nécessaire *(micro, appareil photo, caméra, etc)* et aussi prévoir de faire une copie de ce qu'il y aurait dans votre malette ou vos poches. |
+| informations relatives aux moyens de paiement et aux transactions (CB, chèque, virement) | … et dans votre portefeuil évidemment :/ !  Pour mieux noter qui vous pourriez payer et comment. |
 
 
 ### Investigations techniques :
@@ -81,7 +81,7 @@ Pour rendre la chose un peu plus parlante, les deux tableaux ci-dessous comparen
 | interception de flux | En plus nous devrions vous placer des mouchards dans les poches, et tant qu'on y est des caméras dans la maison et des micros un peu partout |
 | interception de mail | Sans oublier de lire votre courrier postal en toute discrétion avant que le facteur ne vous le livre et sans que vous ne sachiez qu'on en a fait une copie |
 | interception VoIP | Et bien entendu, exploiter au maximum les micros qu'on a placé avant un peu partout et évidemment enregistrer ce qui se ranconte entre vous et vos interlocuteurs et interlocutrices. |
-| gel de données | Et pour finir, on garde le plus possible ces informations collectées « pour au cas où » en veillant à ne pas y toucher pour pas les altérer. |
+| gel de données | Et pour finir, on garde le plus possible ces informations collectées « pour au cas où » en veillant à ne pas y toucher au risque de les altérer. |
 
 
 ! À votre bon service m'sieurs dames ! Évidemment, grâce au numérique, tout ça est devenu bien plus simple et il suffit de demander… franchement ?!
