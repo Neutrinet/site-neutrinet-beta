@@ -10,7 +10,7 @@ hero_image: header.jpg
 
 Gebaseerd op de LIME en LIME2 van **Olimex** en operationeel dankzij **Yunohost** !
 
-[Bestel](https://admin.neutrinet.be/order?classes=btn,btn-primary,btn-lg&target=_blank)
+[Bestel](https://admin.neutrinet.be/order?classes=btn,btn-primary,btn-lg&target=_blank) - [Install](https://git.domainepublic.net/Neutrinet/neutrinet_cube_install)
 
 
 
