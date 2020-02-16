@@ -50,7 +50,7 @@ Ce sympathique Bureau d'Aide à l'Enquête Numérique nous est décrit dans le m
 
 > Pour toute question, nous sommes disponibles au numéro figurant en signature de mail.
 
-Allez, soyons sympa, aidons les dans leur travail qui doit être si difficile par les temps qui courrent *(vous savez, terrorisme, pédophilie, toussa toussa)*.  Mais est-ce que le coup de main demandé *(voir le formulaire décrit plus bas)* n'est pas un peu exagéré alors qu'il y a bien d'autres [principales causes de décès et de morbidité](https://drees.solidarites-sante.gouv.fr/IMG/pdf/esp2017_5_principales_causes_de_deces_et_de_morbidite.pdf) en France ?  Oui, même si cela reste dans le cadre d'une enquête judicaire.  Parce qu'une fois que le dispositif est en place, il suffit d'élargir les crimes et les enquêtes suivront... avec tout le confort d'aide que nous pourrons fournir en tant que FAI collabo.
+Allez, soyons sympa, aidons les dans leur travail qui doit être si difficile par les temps qui courent *(vous savez, terrorisme, pédophilie, toussa toussa)*.  Mais est-ce que le coup de main demandé *(voir le formulaire décrit plus bas)* n'est pas un peu exagéré alors qu'il y a bien d'autres [principales causes de décès et de morbidité](https://drees.solidarites-sante.gouv.fr/IMG/pdf/esp2017_5_principales_causes_de_deces_et_de_morbidite.pdf) en France ?  Oui, même si cela reste dans le cadre d'une enquête judiciaire.  Parce qu'une fois que le dispositif est en place, il suffit d'élargir les crimes et les enquêtes suivront... avec tout le confort d'aide que nous pourrons fournir en tant que FAI collabo.
 
 Jetons un coup d'œil à ce qui est demandé …
 
@@ -58,7 +58,7 @@ Jetons un coup d'œil à ce qui est demandé …
 
 ![](formulaire-burau-aide-a-enquete-france.png)
 
-Pour rendre la chose un peu plus parlante, les deux tableaux ci-dessous comparent votre Fournisseur d'Accès Internet *(numérique)* préféré à une entreprise de transport *(physique)* et pour que ce soit un peu plus amusant, imaginez vous en période d'occupation, en pleine guerre froide, ou dans n'importe quelle situtation sous un régime autoritaire *(pour ne pas dire totalitaire)*.  Garanti ! Ce sera chouette !
+Pour rendre la chose un peu plus parlante, les deux tableaux ci-dessous comparent votre Fournisseur d'Accès Internet *(numérique)* préféré à une entreprise de transport *(physique)* et pour que ce soit un peu plus amusant, imaginez vous en période d'occupation, en pleine guerre froide, ou dans n'importe quelle situation sous un régime autoritaire *(pour ne pas dire totalitaire)*.  Garanti ! Ce sera chouette !
 
 ### Données accessibles :
 
@@ -70,8 +70,8 @@ Pour rendre la chose un peu plus parlante, les deux tableaux ci-dessous comparen
 | journal de logs de connexion (adresse IP et horodatage) | Tenir un journal à chaque fois que vous montez dans un de nos véhicules. |
 | adresse IP de destination | Noter précisément à quel(s) endroit(s) nous vous avons déposé·e·s. |
 | port source | Également par quelle porte vous êtes sorti·e du véhicule, ou mieux, par quelle porte êtes vous rentré·e dans le bâtiment une fois déposé·e à votre destination. Oui, ça voudrait dire qu'on devrait rester dans la voiture discrètement pour voir par où vous allez une fois que vous êtes descendu·e·s. |
-| données de contenu (message, photo, vidéo) | Là c'est encore plus fort et ça fait de nous des espions parce qu'on devrait s'arranger pour aller garer la voiture plus loin et revenir avec le petit matériel nécessaire *(micro, appareil photo, caméra, etc)* et aussi prévoir de faire une copie de ce qu'il y aurait dans votre malette ou vos poches. |
-| informations relatives aux moyens de paiement et aux transactions (CB, chèque, virement) | … et dans votre portefeuil évidemment :/ !  Pour mieux noter qui vous pourriez payer et comment. |
+| données de contenu (message, photo, vidéo) | Là c'est encore plus fort et ça fait de nous des espions parce qu'on devrait s'arranger pour aller garer la voiture plus loin et revenir avec le petit matériel nécessaire *(micro, appareil photo, caméra, etc)* et aussi prévoir de faire une copie de ce qu'il y aurait dans votre mallette ou vos poches. |
+| informations relatives aux moyens de paiement et aux transactions (CB, chèque, virement) | … et dans votre portefeuille évidemment :/ !  Pour mieux noter qui vous pourriez payer et comment. |
 
 
 ### Investigations techniques :
@@ -80,7 +80,7 @@ Pour rendre la chose un peu plus parlante, les deux tableaux ci-dessous comparen
 | :------ | :----------- |
 | interception de flux | En plus nous devrions vous placer des mouchards dans les poches, et tant qu'on y est des caméras dans la maison et des micros un peu partout |
 | interception de mail | Sans oublier de lire votre courrier postal en toute discrétion avant que le facteur ne vous le livre et sans que vous ne sachiez qu'on en a fait une copie |
-| interception VoIP | Et bien entendu, exploiter au maximum les micros qu'on a placé avant un peu partout et évidemment enregistrer ce qui se ranconte entre vous et vos interlocuteurs et interlocutrices. |
+| interception VoIP | Et bien entendu, exploiter au maximum les micros qu'on a placé avant un peu partout et évidemment enregistrer ce qui se raconte entre vous et vos interlocuteurs et interlocutrices. |
 | gel de données | Et pour finir, on garde le plus possible ces informations collectées « pour au cas où » en veillant à ne pas y toucher au risque de les altérer. |
 
 
@@ -92,7 +92,7 @@ Mais comment ce mail nous est-il arrivé, à nous Neutrinet, en Belgique ?
 
 En fait c'est probablement via la [liste des membres sur le site de la Fédération FDN](https://www.ffdn.org/fr/membres), et leur travail d'aide à l'enquête est tellement bon, qu'il ou elle ne se sont même pas posé la question de savoir si des FAI autres que français de France étaient dans la liste. LOL comme on dit.
 
-## Une autre quesiton
+## Une autre question
 
 On voudrait dire au monde, à vous m'sieurs dames, qu'on existe et qu'on résiste … mais dés qu'on met une liste quelque part *(comme sur le site de la fédé)*, elle est captée et exploitée par ces agences, ces bureaux, ses services de renseignement qui ne veulent que votre sécurité… et qu'en est-il de votre intimité ? 
 
@@ -106,9 +106,9 @@ Avec le Numérique, ce genre d'agence ne se prive pas à pousser les limites de 
 
 Dés lors, quelques ressources existent pour tantôt vous informer sur la surveillance de masse ou vous aider à vous en détourner.
 
-- Le documentaire [Nothing to hide](https://fr.wikipedia.org/wiki/Nothing_to_Hide)
+- Le docummentaire [Nothing to hide](https://fr.wikipedia.org/wiki/Nothing_to_Hide)
 - Le catalogue d'outils numériques libres [Prism Break](https://prism-break.org/en/)
 - L'association [La Quadrature du Net](https://www.laquadrature.net/en/)
 - Ou en Belgique [La Nurpa](https://nurpa.be/)
 - Ou pour l'Europe [EDRi](https://edri.org/)
-- Le site informatif sur le « refroidessement social » [Social Cooling](https://socialcooling.fr/)
+- Le site informatif sur le « refroidissement social » [Social Cooling](https://socialcooling.fr/)
