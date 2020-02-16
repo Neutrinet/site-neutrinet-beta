@@ -50,7 +50,7 @@ Ce sympatique Bureau d'Aide à l'Enquête Numérique nous est décrit dans le ma
 
 > Pour toute question, nous sommes disponibles au numéro figurant en signature de mail.
 
-Allez, soyons sympa, aidons les dans leur travail qui doit être si difficile par les temps qui courrent *(vous savez, terrorisme, pédophilie, toussa toussa)*.  Mais est-ce que le coup de main demandé *(voir le formulaire décrit plus bas)* n'est pas un peu exagéré alors qu'il y a bien d'autres [principales causes de décès et de morbidité](esp2017_5_principales_causes_de_deces_et_de_morbidite.pdf) en France ?  Oui, même si cela reste dans le cadre d'une enquête judicaire.  Parce qu'une fois que le dispositif est en place, il suffit d'élargir les crimes et les enquêtes suivront... avec tout le confort d'aide que nous pourrons fournir en tant que FAI collabo.
+Allez, soyons sympa, aidons les dans leur travail qui doit être si difficile par les temps qui courrent *(vous savez, terrorisme, pédophilie, toussa toussa)*.  Mais est-ce que le coup de main demandé *(voir le formulaire décrit plus bas)* n'est pas un peu exagéré alors qu'il y a bien d'autres [principales causes de décès et de morbidité](https://drees.solidarites-sante.gouv.fr/IMG/pdf/esp2017_5_principales_causes_de_deces_et_de_morbidite.pdf) en France ?  Oui, même si cela reste dans le cadre d'une enquête judicaire.  Parce qu'une fois que le dispositif est en place, il suffit d'élargir les crimes et les enquêtes suivront... avec tout le confort d'aide que nous pourrons fournir en tant que FAI collabo.
 
 Jetons un coup d'œil à ce qui est demandé …
 
