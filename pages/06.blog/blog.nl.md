@@ -1,5 +1,5 @@
 ---
-title: Nieuws
+title: Blog
 sitemap:
     changefreq: monthly
 body_classes: header-dark
