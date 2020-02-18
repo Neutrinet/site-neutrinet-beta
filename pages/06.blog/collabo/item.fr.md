@@ -64,7 +64,7 @@ Pour rendre la chose un peu plus parlante, les deux tableaux ci-dessous comparen
 
 | Version numérique | Équivalent physique |
 | :------ | :----------- |
-| Renseignements abonnés (nom, prénom, adresse postale, pseudo, etc.) | En tant qu'eFAI taxi & co, il nous faut connaître vos noms, prénoms, surnoms et adresses postales pour bénéficier de nos véhicules.|
+| Renseignements abonnés (nom, prénom, adresse postale, pseudo, etc.) | En tant que FAI taxi & co, il nous faut connaître vos noms, prénoms, surnoms et adresses postales pour bénéficier de nos véhicules.|
 | adresse mail | L'adresse postale devrait suffire. |
 | numéro de téléphone | Votre numéro de téléphone. |
 | journal de logs de connexion (adresse IP et horodatage) | Tenir un journal à chaque fois que vous montez dans un de nos véhicules. |
@@ -80,7 +80,7 @@ Pour rendre la chose un peu plus parlante, les deux tableaux ci-dessous comparen
 | :------ | :----------- |
 | interception de flux | En plus nous devrions vous placer des mouchards dans les poches, et tant qu'on y est des caméras dans la maison et des micros un peu partout |
 | interception de mail | Sans oublier de lire votre courrier postal en toute discrétion avant que le facteur ne vous le livre et sans que vous ne sachiez qu'on en a fait une copie |
-| interception VoIP | Et bien entendu, exploiter au maximum les micros qu'on a placé avant un peu partout et évidemment enregistrer ce qui se raconte entre vous et vos interlocuteurs et interlocutrices. |
+| interception VoIP | Et bien entendu, exploiter au maximum les micros qu'on a placés avant un peu partout et évidemment enregistrer ce qui se raconte entre vous et vos interlocuteurs et interlocutrices. |
 | gel de données | Et pour finir, on garde le plus possible ces informations collectées « pour au cas où » en veillant à ne pas y toucher au risque de les altérer. |
 
 
@@ -90,23 +90,23 @@ Pour rendre la chose un peu plus parlante, les deux tableaux ci-dessous comparen
 
 Mais comment ce mail nous est-il arrivé, à nous Neutrinet, en Belgique ?  
 
-En fait c'est probablement via la [liste des membres sur le site de la Fédération FDN](https://www.ffdn.org/fr/membres), et leur travail d'aide à l'enquête est tellement bon, qu'il ou elle ne se sont même pas posé la question de savoir si des FAI autres que français de France étaient dans la liste. LOL comme on dit.
+En fait c'est probablement via la [liste des membres sur le site de la Fédération FDN](https://www.ffdn.org/fr/membres), et leur travail d'aide à l'enquête est tellement bon, qu'ils ou elles ne se sont même pas posé la question de savoir si des FAI autres que français de France étaient dans la liste. LOL comme on dit.
 
 ## Une autre question
 
-On voudrait dire au monde, à vous m'sieurs dames, qu'on existe et qu'on résiste … mais dés qu'on met une liste quelque part *(comme sur le site de la fédé)*, elle est captée et exploitée par ces agences, ces bureaux, ses services de renseignement qui ne veulent que votre sécurité… et qu'en est-il de votre intimité ? 
+On voudrait dire au monde, à vous m'sieurs dames, qu'on existe et qu'on résiste … mais dès qu'on met une liste quelque part *(comme sur le site de la fédé)*, elle est captée et exploitée par ces agences, ces bureaux, ces services de renseignement qui ne veulent que votre sécurité… et qu'en est-il de votre intimité ? 
 
 ## Notre position
 
-N'étant pas concernés pas la législation française, cette demande ne nous concerne pas.  Il n'empêche que ça pourrait nous tomber dessus un jour en Belgique.
+N'étant pas concerné·e·s pas la législation française, cette demande ne nous concerne pas.  Il n'empêche que ça pourrait nous tomber dessus un jour en Belgique.
 
 Nos amis [FAI associatifs français](https://www.ffdn.org/fr/membres) ayant reçu le même mail, nous les invitons à ne pas répondre à cette demande.
 
 Avec le Numérique, ce genre d'agence ne se prive pas à pousser les limites de l'espionnage, de la collecte et du traitement de l'information des gens **parce que c'est invisible** aux yeux de chacun·e.
 
-Dés lors, quelques ressources existent pour tantôt vous informer sur la surveillance de masse ou vous aider à vous en détourner.
+Dès lors, quelques ressources existent pour tantôt vous informer sur la surveillance de masse ou vous aider à vous en détourner.
 
-- Le docummentaire [Nothing to hide](https://fr.wikipedia.org/wiki/Nothing_to_Hide)
+- Le documentaire [Nothing to hide](https://fr.wikipedia.org/wiki/Nothing_to_Hide)
 - Le catalogue d'outils numériques libres [Prism Break](https://prism-break.org/en/)
 - L'association [La Quadrature du Net](https://www.laquadrature.net/en/)
 - Ou en Belgique [La Nurpa](https://nurpa.be/)
