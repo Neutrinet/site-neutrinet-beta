@@ -112,3 +112,11 @@ Dès lors, quelques ressources existent pour tantôt vous informer sur la survei
 - Ou en Belgique [La Nurpa](https://nurpa.be/)
 - Ou pour l'Europe [EDRi](https://edri.org/)
 - Le site informatif sur le « refroidissement social » [Social Cooling](https://socialcooling.fr/)
+
+## Édition du 6 mars 2020
+
+Suite à ce qui se dit sur Internet et pour clarifier un peu les choses il nous semble important de préciser que le ton donné à cet article est bien le ton de la dénonciation d'une potentielle dérive autoritaire.  Mais cela n'est pas une invitation à l'insurrection *(quoi que)* face au respect de la Loi.
+
+**La réquisition judiciaire, émanant d'un juge, dans le cadre d'une enquête sera toujours pour nous, une situation traitée avec le sérieux qui lui incombe.**
+
+Dans le contexte d'une société qui s'articule de plus en plus autour de l'[économie de la surveillance](https://fr.wikipedia.org/wiki/%C3%89conomie_de_la_surveillance)  très intrusive dans l'intimité de **tout un chacun** victime ou criminel **potentiel**, le fait de faciliter la vie du travail d'enquête en informant par la même occasion un service de police sur les capacités de collecte ou d'interception de **chaque acteur technique** est pour nous, une porte qui s'ouvre sur un problème moral et politique.

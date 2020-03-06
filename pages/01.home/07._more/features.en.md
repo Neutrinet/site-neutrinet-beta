@@ -31,7 +31,7 @@ features:
         icon: 'fa fa-bath'
         header: 'Dive in…'
         text: "Neutrinet's bath"
-        url: 'apropos'
+        url: 'outils'
 
 class: offset-box
 ---

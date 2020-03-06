@@ -31,7 +31,7 @@ features:
         icon: 'fa fa-bath'
         header: 'Plongez dans…'
         text: "le bain de Neutrinet"
-        url: 'apropos'
+        url: 'outils'
 
 class: offset-box
 ---
