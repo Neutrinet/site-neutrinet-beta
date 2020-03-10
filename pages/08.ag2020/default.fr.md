@@ -1,12 +1,12 @@
 ---
-title: AG FFDN 2020
+title: "AG\_FFDN 2020"
 published: true
 visible: false
 ---
 
 ## AG 2020 de la Fédération FDN
 
-Hahaaa ! C'est nous qu'on a fait la connerie d'organiser l'AG c't'année. :D
+Hahaaa ! C'est nous qu'on a fait la connerie d'organiser l'AG c't'année. 😅
 
 ### Les dates
 
