@@ -22,12 +22,13 @@ C'est un ancien couvent avec un beau jardin et de paons pour y travailler dans l
 * Grande salle qui pourra servir pour l'AG formelle
 * Une média room avec un grand écran et un projo en mode cinéma
 * Cave pour y faire un dance floor
-* Des jardins pour y déambuler et papotter
+* Des jardins pour y déambuler et papoter
 * Deux bibliothèques
+* Une buanderie avec une grosse wasserette
 
 Il y a un [texte important](paf) qui décrit un peu comment y arriver, comment l'utiliser et quelques principes de fonctionnement et [quelques photos](http://pa-f.net/image) traînent sur leur site. 
 
-En y arrivant il faut se choisir une chambre en mode auto-organisation, il y a tout ce qu'il faut sur place en terme de draps, de serviettes, de couettes ou de couverture.  Il n'y a **pas la possibilité de planter une tente** mais il y a assez de lits pour tout le monde tant qu'on est moins de 80 à dormir.
+En y arrivant il faut se choisir une chambre en mode auto-organisation, il y a tout ce qu'il faut sur place en terme de draps, d'essuies, de couettes ou de couvertures.  Il n'y a **pas la possibilité de planter une tente** mais il y a assez de lits pour tout le monde tant qu'on est moins de 80 à dormir.
 
 Il faudra aussi signer une décharge de responsabilité, le lieu n'étant qu'un outil à la disposition de ses membres.
 
@@ -46,6 +47,7 @@ tout doux… on a pas encore d'idées pour les ateliers mais on a déjà le nom 
 - [laquemant](https://fr.wikipedia.org/wiki/Lacquemant)
 - [stoemp](https://fr.wikipedia.org/wiki/Stoemp)
 - [cougnou](https://fr.wikipedia.org/wiki/Cougnou)
+- [tarte al d'jote](https://fr.wikipedia.org/wiki/Tarte_al_d%27jote)
 
 
 ## L'AG Formelle
