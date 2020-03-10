@@ -6,7 +6,7 @@ visible: false
 
 ## AG 2020 de la Fédération FDN
 
-Hahaaa ! C'est nous qu'on a fait la connerie d'organiser l'AG c't'année.
+Hahaaa ! C'est nous qu'on a fait la connerie d'organiser l'AG c't'année. :D
 
 ### Les dates
 
@@ -37,7 +37,16 @@ tout doux…
 
 ## Les ateliers
 
-tout doux…
+tout doux… on a pas encore d'idées pour les ateliers mais on a déjà le nom des pièces dans lesquelles vous pourrez vous éclater.
+
+- [waterzooï](https://fr.wikipedia.org/wiki/Waterzoo%C3%AF)
+- [spéculoos](https://fr.wikipedia.org/wiki/Sp%C3%A9culoos)
+- [chicon](https://fr.wikipedia.org/wiki/Endive)
+- [bintje](https://fr.wikipedia.org/wiki/Bintje)
+- [laquemant](https://fr.wikipedia.org/wiki/Lacquemant)
+- [stoemp](https://fr.wikipedia.org/wiki/Stoemp)
+- [cougnou](https://fr.wikipedia.org/wiki/Cougnou)
+
 
 ## L'AG Formelle
 
