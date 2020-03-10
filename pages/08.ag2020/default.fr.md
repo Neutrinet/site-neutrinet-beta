@@ -8,6 +8,8 @@ visible: false
 
 Hahaaa ! C'est nous qu'on a fait la connerie d'organiser l'AG c't'année. 😅
 
+! Lors de notre premier (multiple) envoi de mail concernant l'AG, le **code BIC** de la banque n'était pas bon. C'est **BBRUBEBB**.  Si besoin vous retrouverez nos [coordonnées corrigées sur le wiki](https://wiki.neutrinet.be/contact#banque). Mille excuses de notre part.
+
 ### Les dates
 
 Du **jeudi 4** juin au **lundi 8** juin 2020.
@@ -22,7 +24,7 @@ C'est un ancien couvent avec un beau jardin et de paons pour y travailler dans l
 * Grande salle qui pourra servir pour l'AG formelle
 * Une média room avec un grand écran et un projo en mode cinéma
 * Cave pour y faire un dance floor
-* Des jardins pour y déambuler et papoter
+* Des jardins pour y déambuler et [babeler](https://fr.wiktionary.org/wiki/babeler)
 * Deux bibliothèques
 * Une buanderie avec une grosse wasserette
 
