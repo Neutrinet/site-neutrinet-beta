@@ -1,6 +1,6 @@
 enabled: true
-from:
-from_name:
+from: ag2020@neutrinet.be
+from_name: Neutrinet AG FFDN 2020
 to:
 to_name:
 queue:
