@@ -1,6 +1,6 @@
 enabled: true
 database_route: data/sqlite
-database_name: db.sqlite3
+database_name: ag2020.sqlite3
 extra_security: false
 logging: false
 error_logging: false
