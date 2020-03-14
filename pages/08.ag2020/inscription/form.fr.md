@@ -84,11 +84,11 @@ form:
 
 Ceci est un **test** pour les formulaires…
 
-# Liste des questions à pauser
+## Liste des questions à pauser
 
 Tenant compte du fait que 
 
-## minimum anonyme ?
+### minimum anonyme ?
 
 Le strict mininmum à savoir serait quoi, en imaginant un formulaire anonyme ?
 
@@ -102,26 +102,26 @@ Le strict mininmum à savoir serait quoi, en imaginant un formulaire anonyme ?
 
 ! Et dans les journaux de notre serveur web, traînera une IP, une date, une heure et quelques autres détails sauf si TorBrowser est utilisé.
 
-## minimum identifiable au sein de la fédé ?
+### minimum identifiable au sein de la fédé ?
 
 - pseudo
 - email (que tu aurais créé pour l'évènement mais qui n'est pas ton email « habituel »)
 
 Paiement en cash sur place mais au moins on sait qui tu es ou qui te seras.
 
-# minimum identifiable grand publique ?
+### minimum identifiable grand publique ?
 
 - nom
 - prénom
 - email habituel
 
-## minimum identifiable comptables ?
+### minimum identifiable comptables ?
 
 - adresse postale
 - numéro d'entreprise
 - nom d'organisation
 
-## autres question intime ?
+### autres questions intimes ?
 
 - allergies alimentaires
 - handicap (mobilité, vue, sociabilisation / phobies,… )
