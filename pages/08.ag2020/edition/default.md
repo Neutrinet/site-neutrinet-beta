@@ -1,5 +1,6 @@
 ---
 title: Lecture de la DB
+cache_enable: false
 ---
 [datatables]
 [sql-table]
