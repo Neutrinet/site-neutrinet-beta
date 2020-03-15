@@ -180,25 +180,37 @@ forms:
 
 !! Ce formulaire est une ébauche en cours de développement pour les inscriptions à l'AG FFDN 2020
 
-Ceci est un **test** pour les formulaires…
+!!! Truc bizarre… le 1er formulaire est **automatiquement inclus en bas de bage !!**
 
-### minimum anonyme ?
 
-{% include "forms/form.html.twig" with { form: forms('minimum_anonyme') } %}
 
-Le strict mininmum à savoir serait quoi, en imaginant un formulaire anonyme ?
+### anonyme ?
 
-- date arrivée
-- nombre de nuit 
-- nombre de petits déjeuner
-- nombre de diner
-- nombre de souper
+Dans le respect de l'anonymat, le plus simple pour toi nous avertir de ta présence à l'AG et pour nous pouvoir évaluer les quantités nécessaires pour les repas, il serait bon de nous envoyer un **courrier postal** reprenant les informations suivantes.
 
-Ça veut dire pas d'email, pas d'adresses postale, pas de note de frais possible, et paiement en cash sur place.  C'est un peu chaud.
+- Ton jour prévu d'arrivée (jeudi, vendredi, samedi (jour de l'AG), dimanche)
+- Le nombre de petits déjeuner : de 1 à 4
+  - Vendredi matin
+  - Samedi matin
+  - Dimanche matin
+  - Lundi matin
+- Le nombre de déjeuners (dîner pour les belges) : de 1 à 4
+  - Jeudi midi
+  - Vendredi midi
+  - Samedi midi
+  - Dimanche midi
+- Le nombre de dîners (souper pour les belges) : de 1 à 4
+  - Jeudi soir
+  - Vendredi soir
+  - Samedi soir
+  - Dimanche soir
+- Avec des infos plus intimes comme des allergies ou d'autre détails qui te semblent importants.
+- Tes commentaires, remarques ou un petit mot.
 
-! Et dans les journaux de notre serveur web, traînera une IP, une date, une heure et quelques autres détails sauf si TorBrowser est utilisé.
+**Pour le paiement**, étant à prix libre, merci de prévoir de quoi pouvoir **nous payer durant l'AG** , en fonction de tes moyen et en comptant comme estimation : 12€ pour devenir membre du PAF *(comme expliquer dans [leur document](/ag2020/paf))*, 20€ par nuit, et ce que tu pourrais donner pour la bouffe.
 
-!! Il faudrait proposer un *code d'inscription (d'une liste de mots amusants ?)* pour que lors de l'AG on puisse collecter de l'argent de celles et ceux qui se seraient enregistré anonymenent.
+Notre adresse : Neutrinet, 81 Avenue des Saisons, 1050 Ixelles, Belgique.
+
 
 ### minimum identifiable au sein de la fédé ?
 
@@ -232,3 +244,21 @@ Paiement en cash sur place mais au moins on sait qui tu es ou qui te seras.
 - allergies alimentaires
 - handicap (mobilité, vue, sociabilisation / phobies,… )
 - besoin d'isolement (chambres, espaces quotidiens,… )
+
+### minimum anonyme ?
+
+Le strict mininmum à savoir serait quoi, en imaginant un formulaire anonyme ?
+
+!!!! Concernant l'anonymat, nous avons dans l'idée de proposer de passer par la poste comme expliqué en début de formulaire.
+
+- date arrivée
+- nombre de nuit 
+- nombre de petits déjeuner
+- nombre de diner
+- nombre de souper
+
+Ça veut dire pas d'email, pas d'adresses postale, pas de note de frais possible, et paiement en cash sur place.  C'est un peu chaud.
+
+! Et dans les journaux de notre serveur web, traînera une IP, une date, une heure et quelques autres détails sauf si TorBrowser est utilisé.
+
+!! Il faudrait proposer un *code d'inscription (d'une liste de mots amusants ?)* pour que lors de l'AG on puisse collecter de l'argent de celles et ceux qui se seraient enregistré anonymenent.
