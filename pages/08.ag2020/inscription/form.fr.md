@@ -183,10 +183,13 @@ forms:
 !!! Truc bizarre… le 1er formulaire est **automatiquement inclus en bas de bage !!**
 
 
-
 ### anonyme ?
 
-Dans le respect de l'anonymat, le plus simple pour toi nous avertir de ta présence à l'AG et pour nous pouvoir évaluer les quantités nécessaires pour les repas, il serait bon de nous envoyer un **courrier postal** reprenant les informations suivantes.
+Dans le respect de l'anonymat, le plus simple pour toi nous avertir de ta présence à l'AG et pour nous pouvoir évaluer les quantités nécessaires pour les repas, il serait bon de nous envoyer un **courrier postal**.
+
+Choisi un **mot secret** que tu noteras sur **le dessus** de ta letter.  Ça nous permettra de nous reconnaître lors de l'AG pour le paiment.
+
+Pour toi et tes ami·e·s si vous êtes à plusieurs, merci de nous renseigner sur ce qui suit; 
 
 - Ton jour prévu d'arrivée (jeudi, vendredi, samedi (jour de l'AG), dimanche)
 - Le nombre de petits déjeuner : de 1 à 4
@@ -211,6 +214,7 @@ Dans le respect de l'anonymat, le plus simple pour toi nous avertir de ta prése
 
 Notre adresse : Neutrinet, 81 Avenue des Saisons, 1050 Ixelles, Belgique.
 
+En Belgique, le secret des correspondances et inscrit dans la constitution.
 
 ### minimum identifiable au sein de la fédé ?
 
