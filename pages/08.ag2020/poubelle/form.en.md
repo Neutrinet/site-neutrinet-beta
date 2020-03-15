@@ -47,4 +47,6 @@ form:
 
 !! This form is a work in progress about registrations for FFDN 2020 GA
 
+!! La version française est plus complète !!!
+
 Regular **markdown** content goes here...
