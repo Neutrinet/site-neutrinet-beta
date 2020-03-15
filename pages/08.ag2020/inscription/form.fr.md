@@ -1,81 +1,178 @@
 ---
-title: "Une page d'exemple de formulaire"
-form:
-    name: contact-form
-    fields:
-        - name: pseudo
-          label: Pseudo
-          placeholder: Votre pseudo
-          autofocus: on
-          autocomplete: on
-          type: text
-          validate:
-            required: true
-
-        - name: name
-          label: Nom
-          placeholder: Votre nom de famille
-          autofocus: off
-          autocomplete: off
-          type: text
-          validate:
-            required: false
-
-        - name: first_name
-          label: Prénom
-          placeholder: Votre prènom
-          autofocus: off
-          autocomplete: off
-          type: text
-          validate:
-            required: false
-
-        - name: checkboxes
-          type: checkboxes
-          label: A couple of checkboxes
-          default:
-            20: false
-            10: false
-          options:
-            20: Nuit
-            10: Repas
-
-        - name: combien
-          type: number
-          label: 'How Much?'
-          validate:
-            min: 10
-            max: 360
-            step: 10
-
-    buttons:
-        - type: submit
-          value: Submit
-        - type: reset
-          value: Reset
-
-    process:
-
-        - save:
-            filename: zorglub.txt
-            fileprefix: feedback-
-            dateformat: Ymd-His-u
-            extension: txt
-            body: "{% include 'forms/data.txt.twig' %}"
-            operation: add
-        - message: Thank you for your feedback!
-        - display: ""
-        - type: checkboxes
-          label: PLUGIN_ADMIN.PROCESS
-          help: PLUGIN_ADMIN.PROCESS_HELP
-          default:
-              markdown: true
-              twig: true
-          options:
-              markdown: Markdown
-              twig: Twig
-          use: keys
-
+title: 'Inscription AG 2020'
+process:
+    twig: true
+cache_enable: false
+forms:
+    minimum_anonyme:
+        fields:
+            -
+                name: JourArrivee
+                type: select
+                label: 'Jour d''arrivée prévu'
+                options:
+                    jeudi: jeudi
+                    vendredi: vendredi
+                    samedi: samedi
+                    dimanche: dimanche
+                validate:
+                    required: true
+            -
+                name: NombreNuit
+                type: number
+                label: 'Nombre de nuit(s) prévue(s)'
+                validate:
+                    min: 1
+                    max: 4
+                    step: 1
+            -
+                name: NombrePetitDejeuner
+                type: number
+                label: 'Nombre de petit(s) déjeuner(s)'
+                validate:
+                    min: 1
+                    max: 4
+                    step: 1
+            -
+                name: NombreDejeuner
+                type: number
+                label: 'Nombre de déjeuner(s) (dîner pour les belges)'
+                validate:
+                    min: 1
+                    max: 4
+                    step: 1
+            -
+                name: NombreDiner
+                type: number
+                label: 'Nombre de dîner(s) (souper pour les belges)'
+                validate:
+                    min: 1
+                    max: 4
+                    step: 1
+        process:
+            -
+                sql-insert:
+                    table: inscriptions
+        buttons:
+            -
+                type: reset
+                value: Reset
+            -
+                type: submit
+                value: Minimum
+    minimum_fede:
+        fields:
+            -
+                name: Pseudo
+                label: 'Votre pseudo au sein de la fédé'
+                type: text
+            -
+                name: EmailSpecial
+                type: email
+                label: 'Une adresse mail que vous auriez créé pour l''occasion'
+        process:
+            -
+                sql-insert:
+                    table: inscriptions
+        buttons:
+            -
+                type: reset
+                value: Reset
+            -
+                type: submit
+                value: Fédé
+    minimum_publique:
+        fields:
+            -
+                name: Prenom
+                label: 'Votre prénom'
+                type: text
+            -
+                name: Nom
+                label: 'Votre nom de famille'
+                type: text
+            -
+                name: Email
+                type: email
+                label: 'Votre adresse mail habituelle'
+        process:
+            -
+                sql-insert:
+                    table: inscriptions
+        buttons:
+            -
+                type: reset
+                value: Reset
+            -
+                type: submit
+                value: Publique
+    minimum_comptable:
+        fields:
+            -
+                name: Rue
+                label: Rue
+                type: text
+            -
+                name: NumeroBoite
+                label: 'Numéro / Boîte'
+                type: text
+            -
+                name: ComplementAdresse
+                label: 'Un complément d''adresse'
+                type: text
+            -
+                name: Ville
+                label: Ville
+                type: text
+            -
+                name: Pays
+                type: select
+                label: Pays
+                options:
+                    Belgium: Belgique
+                    France: France
+                    Switzerland: Suisse
+                    Autre: Autre
+            -
+                name: CodePostal
+                label: 'Code Postal'
+                type: text
+            -
+                name: NomAssociation
+                label: 'Nom de l''association / organisation que vous représentez'
+                type: text
+        process:
+            -
+                sql-insert:
+                    table: inscriptions
+        buttons:
+            -
+                type: reset
+                value: Reset
+            -
+                type: submit
+                value: Comptable
+    questions_intimes:
+        fields:
+            -
+                name: Allergies
+                label: 'Si vous avez des allergies'
+                type: text
+            -
+                name: Commentaire
+                label: 'Si vous avez des commentaires ou autre remarque'
+                type: text
+        process:
+            -
+                sql-insert:
+                    table: inscriptions
+        buttons:
+            -
+                type: reset
+                value: Reset
+            -
+                type: submit
+                value: 'Add person to database'
 ---
 
 # Formulaire
@@ -84,11 +181,9 @@ form:
 
 Ceci est un **test** pour les formulaires…
 
-## Liste des questions à pauser
-
-Tenant compte du fait que 
-
 ### minimum anonyme ?
+
+{% include "forms/form.html.twig" with { form: forms('minimum_anonyme') } %}
 
 Le strict mininmum à savoir serait quoi, en imaginant un formulaire anonyme ?
 
@@ -102,7 +197,11 @@ Le strict mininmum à savoir serait quoi, en imaginant un formulaire anonyme ?
 
 ! Et dans les journaux de notre serveur web, traînera une IP, une date, une heure et quelques autres détails sauf si TorBrowser est utilisé.
 
+!! Il faudrait proposer un *code d'inscription (d'une liste de mots amusants ?)* pour que lors de l'AG on puisse collecter de l'argent de celles et ceux qui se seraient enregistré anonymenent.
+
 ### minimum identifiable au sein de la fédé ?
+
+{% include "forms/form.html.twig" with { form: forms('minimum_fede') } %}
 
 - pseudo
 - email (que tu aurais créé pour l'évènement mais qui n'est pas ton email « habituel »)
@@ -111,17 +210,23 @@ Paiement en cash sur place mais au moins on sait qui tu es ou qui te seras.
 
 ### minimum identifiable grand publique ?
 
+{% include "forms/form.html.twig" with { form: forms('minimum_publique') } %}
+
 - nom
 - prénom
 - email habituel
 
 ### minimum identifiable comptables ?
 
+{% include "forms/form.html.twig" with { form: forms('minimum_comptable') } %}
+
 - adresse postale
 - numéro d'entreprise
 - nom d'organisation
 
 ### autres questions intimes ?
+
+{% include "forms/form.html.twig" with { form: forms('questions_intimes') } %}
 
 - allergies alimentaires
 - handicap (mobilité, vue, sociabilisation / phobies,… )
