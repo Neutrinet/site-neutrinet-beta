@@ -1,5 +1,6 @@
 ---
 title: 'Inscription AG 2020'
+cache_enable: false
 process:
     twig: true
 cache_enable: false
