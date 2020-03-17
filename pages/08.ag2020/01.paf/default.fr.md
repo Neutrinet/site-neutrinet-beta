@@ -4,9 +4,15 @@ published: true
 visible: false
 ---
 
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary)
+[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
 
-!!!! Ceci est le texte habituel que le PAF communique à quiconque souhaite venir y travailler.
+* [Introduction](#introduction)
+* [Disposition du lieu](#disposition) 
+* [Mobilité réduite](#mobilite)
+
+### Introdution du PAF <div id="introduction"></div>
+
+!!!! Ceci est le texte habituel que le Performance Art Forum (PAF) communique à quiconque souhaite venir y travailler.
 
 [PAF](http://pa-f.net/) est un lieu de production ; il est également maintenu et entretenu quotidiennement par les personnes qui y séjournent (vous). Le PAF essaie de ne pas exclure, mais plutôt d'encourager toutes sortes de différences de ressources, de capacités, d'intérêts, d'antécédents et de connaissances. Pour éviter les structures hiérarchiques de maintien de l'ordre, le PAF s'efforce d'entretenir un sentiment de sécurité et d'attention de l'intérieur - il s'agit là d'une pratique permanente qui doit être appliquée par toutes et tous.
 
@@ -63,3 +69,23 @@ contactpaf@gmail.com I +33 (0)6 03 43 27 74<br/>
 
 Neutrinet<br/>
 ag2020@neutrinet.be
+
+### La disposition du lieu. <div id="disposition"></div>
+
+Suite au mail du groupe inclusion, voici quelques infos complémetaires pour mener à bien cet évènement.
+
+! Les photos ont été prise avec un vieux mobile à la résolution pourrie… sorry.
+
+![Image link](PAF_0_Ground_Floor.jpg?lightbox&resize=300)
+![Image link](PAF_1_First_Floor.jpg?lightbox&resize=300)
+![Image link](PAF_2_Second_Floor.jpg?lightbox&resize=300)
+
+Notez qu'en plus il y a la grande salle dans laquelle aura probablement lieu l'AG formelle.  Elle se sous l'aile où vous trouverez les chambre 66, 55 et 57 et couvre à peu près toute cette partie en partant des escaliers visible au centre.
+
+Le rez de chaussée est accessible « de plein pied » et il y a des portes, tantôt battantes, tantot avec une poignée, qui séparent différentes partie du bâtiment.
+
+### Mobilité réduite <div id="mobilite"></div>
+
+Il faudrait vérifier auprès du paf que l'ascenceur fonctionne mais il parcours du -1 _(grande salle pas sur les plans)_ au 2 ème.  
+
+Il serait mieux de laisser libres les chambres (05 _(avec une mini salle de bain)_, 55, 57, 62, 64 et 66) pour les personnes à mobilité réduite.
