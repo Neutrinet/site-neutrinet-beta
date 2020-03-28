@@ -176,7 +176,14 @@ forms:
                 value: 'Add person to database'
 ---
 
-# Formulaire
+## Inscription
+
+Si vous avez la possibilité de nous soutenir financièrement, merci de passer par la page [don](don).
+
+!! Les inscriptions ne sont pas encore possible à l'heure actuelle (fin mars 2020) et nous mettons ce que nous pouvons en œuvre pour faire avancer ce travail.
+
+
+## À propos de ce formulaire
 
 !! Ce formulaire est une ébauche en cours de développement pour les inscriptions à l'AG FFDN 2020
 

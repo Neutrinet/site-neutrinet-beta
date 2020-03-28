@@ -1,14 +1,12 @@
 ---
-title: Performance Art Forum
+title: Introduction du PAF
 published: true
 visible: false
 ---
 
+[center]
 [Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
-
-* [Introduction](#introduction)
-* [Disposition du lieu](#disposition) 
-* [Mobilité réduite](#mobilite)
+[/center]
 
 ### Introdution du PAF <div id="introduction"></div>
 
@@ -67,25 +65,4 @@ PAF<br/>
 contactpaf@gmail.com I +33 (0)6 03 43 27 74<br/>
 15 rue haute I 02820 Saint-Erme-Outre-et-Ramecourt
 
-Neutrinet<br/>
-ag2020@neutrinet.be
-
-### La disposition du lieu. <div id="disposition"></div>
-
-Suite au mail du groupe inclusion, voici quelques infos complémetaires pour mener à bien cet évènement.
-
-! Les photos ont été prise avec un vieux mobile à la résolution pourrie… sorry.
-
-![Image link](PAF_0_Ground_Floor.jpg?lightbox&resize=300)
-![Image link](PAF_1_First_Floor.jpg?lightbox&resize=300)
-![Image link](PAF_2_Second_Floor.jpg?lightbox&resize=300)
-
-Notez qu'en plus il y a la grande salle dans laquelle aura probablement lieu l'AG formelle.  Elle se sous l'aile où vous trouverez les chambre 66, 55 et 57 et couvre à peu près toute cette partie en partant des escaliers visible au centre.
-
-Le rez de chaussée est accessible « de plein pied » et il y a des portes, tantôt battantes, tantot avec une poignée, qui séparent différentes partie du bâtiment.
-
-### Mobilité réduite <div id="mobilite"></div>
-
-Il faudrait vérifier auprès du paf que l'ascenceur fonctionne mais il parcours du -1 _(grande salle pas sur les plans)_ au 2 ème.  
-
-Il serait mieux de laisser libres les chambres (05 _(avec une mini salle de bain)_, 55, 57, 62, 64 et 66) pour les personnes à mobilité réduite.
+!!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] PAF introduction&body=Étant passé·e par la page d'introduction du PAF, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]

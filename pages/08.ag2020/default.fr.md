@@ -1,46 +1,41 @@
 ---
-title: "AG\_FFDN 2020"
+title: "AG FFDN 2020"
 published: true
 visible: false
 ---
 
-## AG 2020 de la Fédération FDN
+## AG 2020 de la Fédération FDN (4 au 8 juin 2020)
 
-Hahaaa ! C'est nous qu'on a fait la connerie d'organiser l'AG c't'année. 😅
+L'assemblée générale est prévue du **jeudi 4** juin au **lundi 8** juin 2020 en espérant que la période de confinnement sera terminée et que nous pourrons toutes et tous la considérer comme un souvenir.
 
-! Lors de notre premier (multiple) envoi de mail concernant l'AG, le **code BIC** de la banque n'était pas bon. C'est **BBRUBEBB**.  Si besoin vous retrouverez nos [coordonnées corrigées sur le wiki](https://wiki.neutrinet.be/contact#banque). Mille excuses de notre part.
+Nous avons besoin d'argent pour préparer cette assemblée et nous n'avons que 1000€ pour mettre en place les choses.
 
-### Les dates
+Alors si vous souhaitez nous soutenir il y a au moins deux façons :
 
-Du **jeudi 4** juin au **lundi 8** juin 2020.
+[center]
+[faire un don](don?classes=btn,btn-primary,btn-lg)
+[vous inscrire](inscription?classes=btn,btn-error,disabled,btn-lg) 
 
-### Le lieu
+**Les inscriptions ne sont pas encore prête (mars 2020)**
 
-C'est au PAF à St Erme-Outre-et-Ramecourt… oui… on sait… ça va… c'est en France… [ici sur la carte](https://www.openstreetmap.org/node/4346871489).
+**Le contenus de ces quelques pages évoluera au fil du temps, </br>alors n'hésitez pas à repasser *(pas votre linge, mais ici)*.**
+[/center]
 
-C'est un ancien couvent avec un beau jardin et de paons pour y travailler dans le calme avec,
+### Au Performance Art Forum (PAF)
 
-* Une petite dizaines de pièces pour y mener des ateliers
-* Grande salle qui pourra servir pour l'AG formelle
-* Une média room avec un grand écran et un projo en mode cinéma
-* Cave pour y faire un dance floor
-* Des jardins pour y déambuler et [babeler](https://fr.wiktionary.org/wiki/babeler)
-* Deux bibliothèques
-* Une buanderie avec une grosse wasserette
+* [Introduction](paf/introduction)
+* [Le lieu](paf/lieu)
+* [Venir au paf](paf/venir)
+* [Accessibilité](paf/accessibilite)
 
-Il y a un [texte important](paf) qui décrit un peu comment y arriver, comment l'utiliser et quelques principes de fonctionnement et [quelques photos](http://pa-f.net/image) traînent sur leur site. 
+### Dormir
 
-En y arrivant il faut se choisir une chambre en mode auto-organisation, il y a tout ce qu'il faut sur place en terme de draps, d'essuies, de couettes ou de couvertures.  Il n'y a **pas la possibilité de planter une tente** mais il y a assez de lits pour tout le monde tant qu'on est moins de 80 à dormir.
+* [les chambres](paf/chambres)
+* [le self-checkin](paf/self-checkin)
 
-Il faudra aussi signer une décharge de responsabilité, le lieu n'étant qu'un outil à la disposition de ses membres.
+### Manger
 
-## L'inscription
-
-tout doux…
-
-## Les ateliers
-
-tout doux… on a pas encore d'idées pour les ateliers mais on a déjà le nom des pièces dans lesquelles vous pourrez vous éclater.
+Nous n'avons pas encore suffisemment travaillé sur ce dossier mais en attendant voici quelques trucs belges qui se mangent et qui ne sont pas des frites :
 
 - [waterzooï](https://fr.wikipedia.org/wiki/Waterzoo%C3%AF)
 - [spéculoos](https://fr.wikipedia.org/wiki/Sp%C3%A9culoos)
@@ -51,7 +46,12 @@ tout doux… on a pas encore d'idées pour les ateliers mais on a déjà le nom 
 - [cougnou](https://fr.wikipedia.org/wiki/Cougnou)
 - [tarte al d'jote](https://fr.wikipedia.org/wiki/Tarte_al_d%27jote)
 
+### Faire ensemble
 
-## L'AG Formelle
+Il y a plusieurs pièces, espaces, salons et autres lieux au sein du [paf](paf/lieu) pour y constituer des groupes et se concentrer sur les différents [ateliers](ateliers) qui pourraient prendre place durant ces quelques jours de rassemblement.
 
-tout doux…
+### Assemblée Générale formelle
+
+L'agenda arrivera bientôt et à l'heure actuelle *(fin mars 2020)* bikepunk et korbak se proposent à le préparer.  Si vous souhaitez y participer merci de chercher à prendre contact avec eux sur la liste membre, les salons irc de la fédé ou autre.
+
+!!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Accueil&body=Étant passé par la page d'accueil de l'AG, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
