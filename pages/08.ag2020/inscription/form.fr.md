@@ -189,6 +189,8 @@ Si vous avez la possibilité de nous soutenir financièrement, merci de passer p
 
 !!! Truc bizarre… le 1er formulaire est **automatiquement inclus en bas de bage !!**
 
+TODOS : Commentaire / question du groupe inclusion sur les enfants et les personnes en situation de handicap.
+TODOS : Expliquer que c'est du jeudi « dans la matinée » au lundi « dans la matinée » également.
 
 ### anonyme ?
 

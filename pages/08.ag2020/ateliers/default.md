@@ -44,4 +44,4 @@ Il n'y a pas encore de proposition pour les ateliers, groupes de travail et autr
 
 Inspiré du [diskionnaire brusseleir-français](https://www.humoeurs-bruxelloises-brussels-zwanze.com/diskionnaire-brusseleir-francais.html)
 
-!!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Le lieu et son accessibilité&body=Étant passé par la page décrivant le lieu, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
+!!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Les ateliers&body=Étant passé par la page des ateliers, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
