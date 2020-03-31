@@ -21,3 +21,26 @@ CREATE TABLE "inscriptions" (
     `Allergies` VARCHAR(200),
     `Commentaire` TEXT);
 COMMIT; 
+
+BEGIN TRANSACTION;
+CREATE TABLE "deuxmots" (
+    `DeuxMotsID` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`DeuxMots` TEXT,
+    `JourArrivee` TEXT,
+    `NombreNuit` INTEGER default 0,
+	`NombrePetitDejeuner` INTEGER default 0,
+    `NombreDejeuner` INTEGER default 0,
+    `NombreDiner` INTEGER default 0,
+    `Allergies` TEXT default "sans",
+    `Handicap` TEXT default "sans",
+    `Autre` TEXT,
+	`PayeParDeuxMots` TEXT,
+	`PayeCash` INTEGER default 0,
+	`PayeVirementAvant` INTEGER default 0,
+	`PayeVirementApres` INTEGER default 0,
+	`FaitDon` NUMERIC,
+	`PafProblem` INTEGER default 0,
+	`MontantEspere` NUMERIC,
+	`MontantRecu` NUMERIC,
+	`CommentaireNeutrinet` TEXT);
+COMMIT;
