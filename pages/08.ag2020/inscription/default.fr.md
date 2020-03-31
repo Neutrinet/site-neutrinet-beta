@@ -7,11 +7,11 @@ visible: false
 [Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
 [/center]
 
-L'intimité numérique, voir l'anonymat toussa toussa, c'est probablement un peu dans les questions qu'on se pose voir même les pratiques et outils pour lesquels nous militons. Alors c'est pourquoi on s'est dit que le courrier postal sous enveloppe avait encore sa place pour communiquer avec nous, en plus du courriel et du courriel chiffré.
+On s'est dit qu'en plus du courriel et du courriel chiffré, le courrier postal sous enveloppe avait encore sa place pour communiquer avec nous.
 
-Donc, pour pouvoir suivre les demandes d'inscription el les paiements, il vous **faudra choisir une phrase de passe constituée de 2 mots**. Ces deux mots de votre choix seront **votre référence** auprès de nos services.
+Donc, pour pouvoir suivre les demandes d'inscription et les paiements, on vous propose de **choisir une phrase de passe constituée de 2 mots**. Ces deux mots de votre choix seront **votre référence** auprès de nos services.
 
-Vous trouverez quelques exemples ci-dessous. Merci de ne pas les utiliser puisque ce sont des exemples que tout le monde aura pu lire et qu'en plus ils sont déjà pris par d'autres personnes.
+Vous trouverez quelques exemples ci-dessous. Merci de ne pas les utiliser puisque ce sont des exemples que tout le monde aura pu lire et que si vous êtes plusieurs à les utiliser, ben … ça sera peut-être marrant, mais pas pour nous.
 
 [columns count=3 width=200px gap=30px rule="0px dotted #930"]
 
@@ -41,7 +41,7 @@ Vous trouverez quelques exemples ci-dessous. Merci de ne pas les utiliser puisqu
 > [color=brown]etc…[/color]
 [/columns]
 
-Et ces deux mots, vous pourrez les inscrire sur le document que vous nous adresserez par l'un des cannaux suivants.
+Et ces deux mots, vous pourrez les inscrire sur le document qu'on vous invite à nous adresserez par l'un des cannaux suivants…
 
 [ui-tabs position="top-left" active="0" theme="badges"]
 [ui-tab title="La poste"]
