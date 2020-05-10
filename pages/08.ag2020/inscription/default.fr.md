@@ -5,6 +5,7 @@ visible: false
 ---
 [center]
 [Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
+[Lists des participant·e·s](/ag2020/participations?classes=btn,btn-primary) 
 [/center]
 
 On s'est dit qu'en plus du courriel et du courriel chiffré, le courrier postal sous enveloppe avait encore sa place pour communiquer avec nous.

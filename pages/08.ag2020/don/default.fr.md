@@ -10,7 +10,7 @@ visible: false
 
 N'ayant pas beaucoup de trésorerie, tout don est bienvenu.
 
-Les dons **ne sont pas considérés comme une avance sur votre inscription** alors si vos ressources sont limitées, merci de les réserver pour votre [inscription](../inscription).
+Les dons **ne sont pas considérés comme une avance sur votre inscription** alors si vos ressources sont limitées, merci de les réserver pour votre inscription lorsqu'elle sera  possible.
 
 Si en revanche vos moyens le permettent, c'est avec beaucoup de gratitude que nous recevrons votre contribution.
 
