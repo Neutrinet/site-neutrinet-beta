@@ -26,7 +26,7 @@ features:
         icon: 'fa  fa-eur'
         header: 'Coordonées bancaire'
         text: 'Pour les versements et les dons'
-        url: 'https://wiki.neutrinet.be/contact#bank'
+        url: 'https://wiki.neutrinet.be/fr/administration/banks'
     -
         icon: 'fa fa-bath'
         header: 'Plongez dans…'
