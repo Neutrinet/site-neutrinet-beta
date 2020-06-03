@@ -125,7 +125,7 @@ Les prix fixes et les prix libres conseillés sont également repris dans le doc
 > BIC : BBRUBEBB  
 > Communication : AGFFDN2020 + LES·DEUX·MOTS·QUE·VOUS·AUREZ·CHOISIS
 
-Si vous avez la possibilité de nous soutenir financièrement, merci de passer par la page [don](don).
+Si vous avez la possibilité de nous soutenir financièrement, merci de passer par la page [don](../don).
 [/ui-tab]
 [/ui-tabs]
 
