@@ -33,7 +33,7 @@ Vous trouverez quelques exemples ci-dessous. Merci de ne pas les utiliser puisqu
 > [color=green]chapeau voiture[/color]</br>
 > [color=green]etc…[/color]
 
-**Exemples trop chiant**
+**Exemples trop chiants**
 > [color=brown]xisto ramould[/color]</br>
 > [color=brown]aaaa bbbb[/color]</br>
 > [color=brown]rXsi2 sZwpes[/color]</br>
@@ -47,7 +47,7 @@ Et ces deux mots, vous pourrez les inscrire sur le document qu'on vous invite à
 [ui-tabs position="top-left" active="0" theme="badges"]
 [ui-tab title="La poste"]
 
-1. Téléchargez [le document d'inscription](inscription_ag2020.odt)
+1. Téléchargez le document d'inscription [ODT](inscription_ag2020.odt) ou [PDF](inscription_ag2020.pdf)
 
 2. Au choix :
 
@@ -65,7 +65,7 @@ Et ces deux mots, vous pourrez les inscrire sur le document qu'on vous invite à
 [/ui-tab]
 [ui-tab title="Courriel"]
 
-1. Téléchargez [le document d'inscription](inscription_ag2020.odt)
+1. Téléchargez le document d'inscription [ODT](inscription_ag2020.odt) ou [PDF](inscription_ag2020.pdf)
 
 2. Au choix :
 
@@ -80,7 +80,7 @@ Et ces deux mots, vous pourrez les inscrire sur le document qu'on vous invite à
 [/ui-tab]
 [ui-tab title="Courriel Chiffré"]
 
-1. Téléchargez [le document d'inscription](inscription_ag2020.odt)
+1. Téléchargez le document d'inscription [ODT](inscription_ag2020.odt) ou [PDF](inscription_ag2020.pdf)
 
 2. Au choix :
 
@@ -118,7 +118,7 @@ Vous pouvez calculer par vous-même le montant espéré pour couvrir votre parti
 * Prix fixes : 12€ d'inscription au PAF + 20€ par nuit
 * Prix libres conseillés : 8€ par repas _(petits déjeuner, déjeuner, dîner)_
 
-Les prix fixes et les prix libres conseillés sont également repris dans [le document d'inscription](inscription_ag2020.odt)
+Les prix fixes et les prix libres conseillés sont également repris dans le document d'inscription [ODT](inscription_ag2020.odt) ou [PDF](inscription_ag2020.pdf)
 
 > Banque ING  
 > IBAN : BE52 6528 3497 8409  
