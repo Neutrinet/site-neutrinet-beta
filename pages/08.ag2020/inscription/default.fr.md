@@ -8,7 +8,7 @@ visible: false
 [Lists des participant·e·s](/ag2020/participations?classes=btn,btn-primary)
 [/center]
 
-# En deux mots…
+### En deux mots…
 
 On s'est dit qu'en plus du courriel et du courriel chiffré, le courrier postal sous enveloppe avait encore sa place pour communiquer avec nous.
 
@@ -46,7 +46,7 @@ Vous trouverez quelques exemples ci-dessous. Merci de ne pas les utiliser puisqu
 
 Et ces deux mots, vous pourrez les inscrire sur le document qu'on vous invite à nous adresserez par l'un des cannaux suivants…
 
-# Paperasses
+### Paperasses
 
 [ui-tabs position="top-left" active="0" theme="badges"]
 [ui-tab title="La poste"]
@@ -61,9 +61,9 @@ Et ces deux mots, vous pourrez les inscrire sur le document qu'on vous invite à
 
 3. Envoyez la lettre à l'adresse postale suivante _(timbre européen si vous n'êtes pas belge)_ :
 
-    > Neutrinet asbl
-    > 81 Avenue des Saisons
-    > 1050 Ixelles
+    > Neutrinet asbl  
+    > 81 Avenue des Saisons  
+    > 1050 Ixelles  
     > Belgique
 
 [/ui-tab]
@@ -116,7 +116,7 @@ CuPizb5bKnwBAK6MtycWSduN5gEXxwUE31HhxR+ABruOf+O8+coBokYL
 [/ui-tab]
 [/ui-tabs]
 
-# Informations bancaires
+### Informations bancaires
 
 Vous pouvez calculer par vous-même le montant espéré pour couvrir votre participation à l'AG.
 
@@ -125,9 +125,9 @@ Vous pouvez calculer par vous-même le montant espéré pour couvrir votre parti
 
 Les prix fixes et les prix libres conseillés sont également repris dans le document d'inscription [ODT](inscription_ag2020.odt) ou [PDF](inscription_ag2020.pdf)
 
-> Banque ING
-> IBAN : BE52 6528 3497 8409
-> BIC : BBRUBEBB
+> Banque ING  
+> IBAN : BE52 6528 3497 8409  
+> BIC : BBRUBEBB  
 > Communication : AGFFDN2020 + LES·DEUX·MOTS·QUE·VOUS·AUREZ·CHOISIS
 
 Si vous avez la possibilité de nous soutenir financièrement, merci de passer par la page [don](../don).
