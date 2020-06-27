@@ -44,7 +44,7 @@ Vous trouverez quelques exemples ci-dessous. Merci de ne pas les utiliser puisqu
 > [color=brown]etc…[/color]
 [/columns]
 
-Et ces deux mots, vous pourrez les inscrire sur le document qu'on vous invite à nous adresserez par l'un des cannaux suivants…
+Et ces deux mots, vous pourrez les inscrire sur le document qu'on vous invite à nous adresserez par l'un des canaux suivants…
 
 ### Paperasses
 
