@@ -62,8 +62,8 @@ Et ces deux mots, vous pourrez les inscrire sur le document qu'on vous invite à
 3. Envoyez la lettre à l'adresse postale suivante _(timbre européen si vous n'êtes pas belge)_ :
 
     > Neutrinet asbl  
-    > 81 Avenue des Saisons  
-    > 1050 Ixelles  
+    > 121 rue de Wautier  
+    > 1020 Laeken  
     > Belgique
 
 [/ui-tab]
