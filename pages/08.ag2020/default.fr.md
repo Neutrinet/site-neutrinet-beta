@@ -1,5 +1,5 @@
 ---
-title: "AG FFDN 2020"
+title: 'AG FFDN 2020'
 published: true
 visible: false
 ---
@@ -18,9 +18,7 @@ Alors si vous souhaitez nous soutenir il y a au moins deux façons :
 
 [center]
 [faire un don](don?classes=btn,btn-primary,btn-lg)
-[vous inscrire](inscription?classes=btn,btn-error,disabled,btn-lg) 
-
-**Les inscriptions ne sont pas encore prête (mars 2020)**
+[vous inscrire](inscription?classes=btn,btn-error,btn-lg) 
 
 **Le contenus de ces quelques pages évoluera au fil du temps, </br>alors n'hésitez pas à repasser *(pas votre linge, mais ici)*.**
 [/center]
