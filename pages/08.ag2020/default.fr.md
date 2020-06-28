@@ -4,7 +4,7 @@ published: true
 visible: false
 ---
 
-## AG 2020 de la Fédération FDN en 2020 … après le confinnement :/
+## AG 2020 de la Fédération FDN en octobre 2020
 
 [center]
  ![](logo_ffdn.png?resize=100) ![](logo_ail_network.png?resize=100) ![](logo_aquilenet.png?resize=100) ![](logo_arn.png?resize=100) ![](logo_auvernet.png?resize=100) ![](logo_baionet.png?resize=100) ![](logo_cafai.png?resize=100) ![](logo_faibreizh.png?resize=100) ![](logo_faimaison.png?resize=100) ![](logo_fdn.png?resize=100) ![](logo_franciliens.png?resize=100) ![](logo_grifon.png?resize=100) ![](logo_igwan.png?resize=100) ![](logo_ilico.png?resize=100) ![](logo_illyse.png?resize=100) ![](logo_iloth.png?resize=100) ![](logo_LDN.png?resize=100) ![](logo_midways.png?resize=100) ![](logo_mycelium.png?resize=100) ![](logo_netopi.png?resize=100) ![](logo_neutrinet.png?resize=100) ![](logo_pclight.png?resize=100) ![](logo_rezine.png?resize=100) ![](logo_rhizome.png?resize=100) ![](logo_scani.png?resize=100) ![](logo_stolon.png?resize=100) ![](logo_swissneutral.png?resize=100) ![](logo_tdn.png?resize=100) ![](logo_teleragno.png?resize=100) ![](logo_tetaneutral.png?resize=100) & Chaul'Hertz, Intarnet, SamesWireless, SDN [et d'autres encore](https://www.ffdn.org/fr/membres).
