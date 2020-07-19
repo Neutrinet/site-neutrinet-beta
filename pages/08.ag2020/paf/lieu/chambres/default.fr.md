@@ -15,12 +15,12 @@ visible: false
 
 Il y a une cinquantaine de chambres de 1 à 4 lits. Il y a également un grand dortoir avec une dizaine d'alvéoles contenant un lit chacune.
 
-<p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_title_text_align": "center", "theme_gallery_padding": "10px" }') }}</p>
+<p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_title_text_align": "center" }') }}</p>
 
+Le rez de chaussée étant accessible « de plein pied », nous réservons les chambres de cet étage aux personnes à mobilité réduite.
 
 Notez qu'en plus il y a la grande salle _[(photo floue sans chaises)](http://pa-f.net/node/272)_ dans laquelle aura probablement lieu l'AG formelle.  Elle se situe sous l'aile où vous trouverez les chambre 66, 55 et 57 et couvre à peu près toute cette partie en partant des escaliers visible au centre.
 
-Le rez de chaussée est accessible « de plein pied » et il y a des portes, tantôt battantes, tantot avec une poignée, qui séparent différentes partie du bâtiment.
 
 Vous trouverez quelques autre photos [sur le site du PAF](http://pa-f.net/image).
 
