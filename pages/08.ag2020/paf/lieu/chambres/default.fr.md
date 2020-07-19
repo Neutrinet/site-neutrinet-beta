@@ -11,11 +11,12 @@ visible: false
 [Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
 [/center]
 
-### La disposition du lieu.
+### Les chambres
 
-! Les photos ont été prise avec un vieux mobile à la résolution pourrie… sorry.
+Il y a une cinquantaine de chambres de 1 à 4 lits. Il y a également un grand dortoir avec une dizaine d'alvéoles contenant un lit chacune.
 
 {{ unite_gallery(page.media.images|slice(0,5)|merge(page.media.images|slice(6)), '{ "lightbox_textpanel_title_text_align" : "center" }') }}
+
 
 Notez qu'en plus il y a la grande salle _[(photo floue sans chaises)](http://pa-f.net/node/272)_ dans laquelle aura probablement lieu l'AG formelle.  Elle se situe sous l'aile où vous trouverez les chambre 66, 55 et 57 et couvre à peu près toute cette partie en partant des escaliers visible au centre.
 
