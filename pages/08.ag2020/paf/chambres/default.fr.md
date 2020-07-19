@@ -2,6 +2,9 @@
 title: 'PAF, les chambres'
 media_order: 'PAF_0_Ground_Floor.jpg,PAF_1_First_Floor.jpg,PAF_2_Second_Floor.jpg'
 published: true
+process:
+    markdown: true
+    twig: true
 visible: false
 ---
 
