@@ -8,6 +8,7 @@ visible: false
 [Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Retour à la page Inscription](/ag2020/inscription?classes=btn,btn-primary) 
 
 [/center]
+
 [datatables paging=false ordering=true info=true]
 [ti file="data:tables/participations.csv"]
 [/datatables]
