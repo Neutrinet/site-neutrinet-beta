@@ -1,6 +1,7 @@
 ---
 title: 'Liste des inscriptions'
 published: true
+cache_enable: false
 visible: false
 ---
 
