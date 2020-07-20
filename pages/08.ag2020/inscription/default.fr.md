@@ -10,7 +10,7 @@ visible: false
 
 Le rassemblement des FAI associatifs se déroulera à partir du [size=26]vendredi 16[/size] octobre jusqu'au [size=26]lundi 19[/size] octobre et l'AG formelle se tiendra le [size=26]samedi 17[/size] octobre.
 
-! Nous vérifierons ce dimanche 20 juillet, si il est possible d'arriver le jeudi 15 soir et repartir le mardi 20 au matin pour les plus motivé·e·s d'entre nous en sachant que côté budget ça vous ferait des nuits plus et que les repas, à priori, ne seraient **pas prévus** pour les jeudi soir, vendredi matin et mardi matin.
+!! Il est possible d'arriver le jeudi 15 soir et repartir le mardi 20 au matin pour les plus motivé·e·s d'entre nous en sachant que côté budget ça vous ferait des nuits plus et que les repas, à priori, ne seraient **pas prévus** pour les jeudi soir, vendredi matin et mardi matin.
 
 ### En deux mots…
 
