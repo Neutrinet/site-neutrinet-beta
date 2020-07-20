@@ -13,7 +13,7 @@ visible: false
 
 ### Les chambres
 
-Il y a une cinquantaine de chambres de 1 à 4 lits, ainsi qu'un dortoir commun composé de huit alvéoles contenant un lit chacune.
+Il y a une cinquantaine de chambres de 1 à 4 lits, ainsi qu'un dortoir commun composé de huit alvéoles contenant un lit chacune. Chaque chambre dispose d'un lavabo privatif. Les douches sont individuelles mais font parties des espaces communs.
 
 Le rez de chaussée étant accessible « de plein pied », les chambres de cet étage seront réservées aux personnes à mobilité réduite.
 

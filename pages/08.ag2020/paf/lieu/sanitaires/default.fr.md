@@ -13,7 +13,7 @@ visible: false
 
 ### Les sanitaires
 
-Chaque étage dispose de plusieurs toilettes et douches. En général, les toilettes sont situées près des cages d'escaliers.
+Chaque étage dispose de plusieurs toilettes et douches. En général, les toilettes sont situées près des cages d'escaliers. Les douches sont individuelles mais font parties des espaces communs.
 
 <p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_title_text_align": "center" }') }}</p>
 
