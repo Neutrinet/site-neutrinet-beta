@@ -2,6 +2,9 @@
 title: PAF, le lieu
 published: true
 visible: false
+process:
+    markdown: true
+    twig: true
 ---
 
 [center]
@@ -26,11 +29,7 @@ Il faudra aussi **signer une décharge de responsabilité**, le lieu étant un o
 
 ### La disposition du lieu.
 
-! Les photos ont été prise avec un vieux mobile à la résolution pourrie… sorry.
-
-![Image link](PAF_0_Ground_Floor.jpg?lightbox&resize=300)
-![Image link](PAF_1_First_Floor.jpg?lightbox&resize=300)
-![Image link](PAF_2_Second_Floor.jpg?lightbox&resize=300)
+<p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_title_text_align": "center" }') }}</p>
 
 Notez qu'en plus il y a la grande salle _[(photo floue sans chaises)](http://pa-f.net/node/272)_ dans laquelle aura probablement lieu l'AG formelle.  Elle se situe sous l'aile où vous trouverez les chambre 66, 55 et 57 et couvre à peu près toute cette partie en partant des escaliers visible au centre.
 
