@@ -128,10 +128,10 @@ Vous pouvez calculer par vous-même le montant espéré pour couvrir votre parti
 * Prix libres conseillés : 4€ par petits déjeuner, 8€ par déjeuner ou dîner
 
 Voici une estimation des prix : 
-* Du **jeudi soir** 15/10 (le dîné n'est pas organisé) au **mardi matin** 20/10 (le petit déjeuné n'est pas organisé) le prix libre est de **204€**
-* Du **vendredi matin** 16/10 (sans le petit déjeuné) au **lundi matin** 19/10 (avec le déjeuné) le prix libre est de **142€**
-* Du **vendredi après-midi** 16/10 (avec le dîné) au **lundi après-midi** 19/10 (avec le petit déjeuné) le prix libre est de **144€**
-* Du **samedi matin** 17/10 (sans le petit déjeuné) au **dimanche après-midi** 18/10 (sans le dîné) le prix libre est de **66€**
+* Du **jeudi soir** 15/10 (le dîner n'est pas organisé) au **mardi matin** 20/10 (le petit déjeuner n'est pas organisé) le prix libre est de **204€**
+* Du **vendredi matin** 16/10 (sans le petit déjeuner) au **lundi matin** 19/10 (avec le déjeuner) le prix libre est de **142€**
+* Du **vendredi après-midi** 16/10 (avec le dîner) au **lundi après-midi** 19/10 (avec le petit déjeuner) le prix libre est de **144€**
+* Du **samedi matin** 17/10 (sans le petit déjeuner) au **dimanche après-midi** 18/10 (sans le dîner) le prix libre est de **66€**
 
 Les prix fixes et les prix libres conseillés sont également repris dans le document d'inscription [ODT](inscription_ag2020.odt) ou [PDF](inscription_ag2020.pdf)
 
