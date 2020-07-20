@@ -1,5 +1,5 @@
 ---
-title: 'PAF, le dehors'
+title: 'PAF, les salles'
 published: true
 process:
     markdown: true
@@ -11,10 +11,15 @@ visible: false
 [Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
 [/center]
 
-### Le dehors
+### Les salles
 
-On entre par la cours extérieur, avec possibilité de se garer. Il y a également une cours intérieure, avec de nombreux bancs et la possibilité de faire un barbecue. Un peu en retrait se trouve un potager et un immense jardin.
+Au rez de chaussée se trouvent de nombreux espaces communs : les cuisines, les salles à manger, les bibliothèques, le fumoir, la safe room, la chapelle, et diverses salles de travail. Le rez de chaussée est accessible « de plein pied », et un monte-charge réservé aux PMR permet d'accéder aux autres étages.
 
+Au 1er étage se trouvent la grande salle pour l'AG formelle et la salle multimedia.
+
+Au 2ème étage se trouvent le dortoir commun, quelques salles plus calmes. Les greniers ne sont pas accessibles.
+
+Au sous-sol se trouvent la discothèque, le sauna, et une autre grande salle que l'on utilisera pour les dîners et les soupers.
 
 <p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_title_text_align": "center" }') }}</p>
 

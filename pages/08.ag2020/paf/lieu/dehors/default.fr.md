@@ -13,8 +13,11 @@ visible: false
 
 ### Le dehors
 
-On entre par la cours extérieur, avec possibilité de se garer. Il y a également une cours intérieure, avec de nombreux bancs et la possibilité de faire un barbecue. Un peu en retrait se trouve un potager et un immense jardin.
+On entre par la cours extérieure, avec possibilité de se garer soit dans la cours, soit dans le hangar.
 
+Il y a également une cours intérieure, avec de nombreux bancs et tables de jardin.
+
+Au Sud se trouvent un potager, un poulailler, un verger et un immense jardin.
 
 <p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_title_text_align": "center" }') }}</p>
 
