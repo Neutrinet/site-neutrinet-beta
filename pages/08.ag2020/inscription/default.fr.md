@@ -125,7 +125,7 @@ CuPizb5bKnwBAK6MtycWSduN5gEXxwUE31HhxR+ABruOf+O8+coBokYL
 Vous pouvez calculer par vous-même le montant espéré pour couvrir votre participation à l'AG.
 
 * Prix fixes : 12€ d'inscription au PAF + 20€ par nuit
-* Prix libres conseillés : 4€ par petits déjeuner, 8€ par déjeuner ou dîner
+* Prix libres conseillés : 4€ par petits déjeuner, 10€ par déjeuner ou dîner
 
 Voici une estimation des prix : 
 * Du **jeudi soir** 15/10 (le dîner n'est pas organisé) au **mardi matin** 20/10 (le petit déjeuner n'est pas organisé) le prix libre est de **204€**
