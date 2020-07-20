@@ -13,10 +13,11 @@ process:
 
 C'est à [Saint-Erme-Outre-et-Ramecourt](https://www.saint-erme.fr/) oui… on sait… ça va… c'est en France… [ici sur la carte](https://www.openstreetmap.org/node/4346871489) 😁.
 
-C'est un ancien couvent avec un beau jardin et de paons pour y travailler dans le calme avec,
+C'est un ancien couvent avec un beau jardin et des paons pour y travailler dans le calme, avec:
 
 * Une petite dizaines de pièces pour y mener des ateliers
-* Grande salle qui pourra servir pour l'AG formelle
+* Une grande salle pour l'AG formelle
+* Une autre grande salle pour les repas
 * Une média room avec un grand écran et un projo en mode cinéma
 * Une cave pour y faire un dance floor
 * Des jardins pour y déambuler et babeler
@@ -29,12 +30,25 @@ Il faudra aussi **signer une décharge de responsabilité**, le lieu étant un o
 
 ### La disposition du lieu.
 
+* [Chambres](./chambres)
+* [Cuisines](./cuisines)
+* [Communs](./communs)
+* [Salles](./salles)
+* [Sanitaires](./sanitaires)
+* [Extérieur](./dehors)
+
 <p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_title_text_align": "center" }') }}</p>
 
-Notez qu'en plus il y a la grande salle _[(photo floue sans chaises)](http://pa-f.net/node/272)_ dans laquelle aura probablement lieu l'AG formelle.  Elle se situe sous l'aile où vous trouverez les chambre 66, 55 et 57 et couvre à peu près toute cette partie en partant des escaliers visible au centre.
+L'entrée se fait via la cours extérieure. L'accueil se situe sur l'aile Ouest, entre les deux cuisines.
 
-Le rez de chaussée est accessible « de plein pied » et il y a des portes, tantôt battantes, tantot avec une poignée, qui séparent différentes partie du bâtiment.
+Au rez de chaussée se trouvent de nombreux espaces communs : les cuisines, les salles à manger, les bibliothèques, le fumoir, la safe room, la chapelle, et diverses salles de travail. Le rez de chaussée étant accessible « de plein pied », les chambres situées à cet étage seront réservées aux PMR. Un monte-charge, également réservé aux PMR, permet d'accéder aux autres étages.
 
-Vous trouverez quelques autre photos [sur le site du PAF](http://pa-f.net/image).
+Au 1er étage se trouvent la grande salle pour l'AG formelle et la salle multimedia. Le reste de l'étage est principalement composé de chambres.
+
+Au 2ème étage se trouvent le dortoir commun, quelques salles plus calmes. Les greniers ne sont pas accessibles.
+
+Au sous-sol se trouvent la discothèque, le sauna, et une autre grande salle que l'on utilisera pour les dîners et les soupers.
+
+Enfin, la cours intérieure se compose d'une grande pelouse, avec de beaux arbres et de nombreux bancs et tables de jardin. Au Sud du couvent se trouvent le potager, le poulailler et le verger.
 
 !!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Le lieu et son accessibilité&body=Étant passé par la page décrivant le lieu, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]

@@ -1,5 +1,5 @@
 ---
-title: 'PAF, les communs'
+title: 'PAF, les sanitaires'
 published: true
 process:
     markdown: true
@@ -11,11 +11,9 @@ visible: false
 [Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
 [/center]
 
-### Les communs
+### Les sanitaires
 
-Il y a deux étages, trois cages d'escaliers (une dans chaque aile du bâtiment). Le monte-charge sera réservé aux personnes à mobilité réduite. Ici et là, des fauteuils et chaises sont disposées dans les couloirs en mode « salon de thé ».
-
-Au rez-de-chaussée se trouve la buanderie: c'est là qu'on choisit ses draps et essuies. Juste à côté, il y a un petit atelier, une pièce pour le repassage des vêtements, ainsi que la réserve secrète de PQ, 
+Chaque étage dispose de plusieurs toilettes et douches. En général, les toilettes sont situées près des cages d'escaliers.
 
 <p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_title_text_align": "center" }') }}</p>
 

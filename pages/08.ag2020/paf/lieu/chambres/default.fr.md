@@ -13,15 +13,12 @@ visible: false
 
 ### Les chambres
 
-Il y a une cinquantaine de chambres de 1 à 4 lits. Il y a également un grand dortoir avec une dizaine d'alvéoles contenant un lit chacune.
+Il y a une cinquantaine de chambres de 1 à 4 lits, ainsi qu'un dortoir commun composé de huit alvéoles contenant un lit chacune.
+
+Le rez de chaussée étant accessible « de plein pied », les chambres de cet étage seront réservées aux personnes à mobilité réduite.
+
+Le checking se fait soi-même en mode « do-it-yourself », dans le hall d'entrée.
 
 <p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_title_text_align": "center" }') }}</p>
-
-Le rez de chaussée étant accessible « de plein pied », nous réservons les chambres de cet étage aux personnes à mobilité réduite.
-
-Notez qu'en plus il y a la grande salle _[(photo floue sans chaises)](http://pa-f.net/node/272)_ dans laquelle aura probablement lieu l'AG formelle.  Elle se situe sous l'aile où vous trouverez les chambre 66, 55 et 57 et couvre à peu près toute cette partie en partant des escaliers visible au centre.
-
-
-Vous trouverez quelques autre photos [sur le site du PAF](http://pa-f.net/image).
 
 !!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Le lieu et son accessibilité&body=Étant passé par la page décrivant le lieu, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
