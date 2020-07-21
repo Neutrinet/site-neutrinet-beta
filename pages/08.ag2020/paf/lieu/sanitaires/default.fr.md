@@ -8,7 +8,7 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
+[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Retour au Paf](/ag2020/paf/lieu?classes=btn,btn-error)
 [/center]
 
 ### Les sanitaires

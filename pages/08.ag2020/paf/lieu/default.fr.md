@@ -15,7 +15,7 @@ C'est à [Saint-Erme-Outre-et-Ramecourt](https://www.saint-erme.fr/) oui… on s
 
 C'est un ancien couvent avec un beau jardin et des paons pour y travailler dans le calme, avec:
 
-* Une petite dizaines de pièces pour y mener des ateliers
+* Une bonne dizaine de pièces pour y mener des ateliers
 * Une grande salle pour l'AG formelle
 * Une autre grande salle pour les repas
 * Une média room avec un grand écran et un projo en mode cinéma
@@ -47,7 +47,7 @@ Au 1er étage se trouvent la grande salle pour l'AG formelle et la salle multime
 
 Au 2ème étage se trouvent le dortoir commun, quelques salles plus calmes. Les greniers ne sont pas accessibles.
 
-Au sous-sol se trouvent la discothèque, le sauna, et une autre grande salle que l'on utilisera pour les dîners et les soupers.
+Au sous-sol se trouvent la discothèque, le sauna, et une autre grande salle que l'on utilisera probablement pour les dîners et les soupers.
 
 Enfin, la cours intérieure se compose d'une grande pelouse, avec de beaux arbres et de nombreux bancs et tables de jardin. Au Sud du couvent se trouvent le potager, le poulailler et le verger.
 

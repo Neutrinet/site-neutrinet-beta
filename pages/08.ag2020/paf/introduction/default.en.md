@@ -27,7 +27,9 @@ Look [here](http://pa-f.net/basics/directions) for more info on how to get to PA
 To enhance the Taking Care For Yourself And For The Other, we experiment with a self-check-in. This is displayed in the entrance hall. Please respect the free (green) or occupied (red) sign, even when a room seems to be empty. There might be some planning reasons. You'll find sheets and towel in the laundry room (please respect orderly piles).
  
 PAF wants to be an easily accessible and self-organised space: it has no selection and is relatively cheap, its doors are open and it's guided by four rules:
- 
+
+![](dont_leave_traces.png)
+
 - Don't leave traces
 >Clean behind you in order to leave every square centimeter -that is not your private room- all the time available for everybody when you are not using it.
 >Traces are unwanted or uninvited marks (material or immaterial) left in the space or in others.
