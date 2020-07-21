@@ -26,7 +26,7 @@ Alors si vous souhaitez nous soutenir il y a au moins deux façons :
 ### Au Performance Art Forum (PAF)
 
 * [Introduction](paf/introduction)
-* [Le lieu](paf/lieu)
+* [Le lieu](paf/lieu) _(avec des zolies fotos)_
 * [Venir au paf](paf/venir)
 * [Accessibilité](paf/accessibilite)
 
