@@ -19,7 +19,6 @@ Si la météo est pourrie ou si les espaces dans les jardins ne vous conviendrai
 
 ## Rez de chaussée
 
-
 [ui-callout]
 [ui-callout-item title="Empty Studio" position="25%, 17%, se"]
 ![](/ag2020/paf/lieu/salles/IMG_20200718_204947.jpg)
@@ -63,19 +62,40 @@ Si la météo est pourrie ou si les espaces dans les jardins ne vous conviendrai
 
 ## Premier Étage
 
-! Paspaf fini
-
 [ui-callout]
+[ui-callout-item title="Big Space" position="42%, 22%, se"]
+![](/ag2020/paf/lieu/salles/IMG_20200718_184955.jpg)
+[/ui-callout-item]
+[ui-callout-item title="Media Space" position="78%, 26%, se"]
+![](/ag2020/paf/lieu/salles/IMG_20200718_184049.jpg)
+[/ui-callout-item]
 ![](/ag2020/paf/lieu/1_Premier.png)
 [/ui-callout]
 
+1. Big Space
+2. Media Space
 
 ## Deuxième Étage
 
-! Paspaf fini
-
 [ui-callout]
+[ui-callout-item title="Studio Zen" position="9%, 21%, se"]
+![](/ag2020/paf/lieu/salles/IMG_20200718_185853.jpg)
+[/ui-callout-item]
+[ui-callout-item title="Studio Empty" position="27%, 39%, se"]
+![](/ag2020/paf/lieu/salles/IMG_20200719_124111.jpg)
+[/ui-callout-item]
+[ui-callout-item title="Studio Ultra Zen" position="28%, 55%, se"]
+![](/ag2020/paf/lieu/salles/IMG_20200719_124426.jpg)
+[/ui-callout-item]
+[ui-callout-item title="Studio" position="38%, 26%, se"]
+![](/ag2020/paf/lieu/salles/IMG_20200718_190252.jpg)
+[/ui-callout-item]
 ![](/ag2020/paf/lieu/2_Second.png)
 [/ui-callout]
+
+1. Studio Zen
+2. Studio Empty
+3. Studio Ultra Zen
+4. Studio
 
 !!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Les ateliers&body=Étant passé par la page des ateliers, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
