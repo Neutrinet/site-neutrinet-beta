@@ -14,13 +14,13 @@ Le rassemblement des FAI associatifs se déroulera à partir du [size=26]vendred
 
 Nous avons besoin d'argent pour préparer cette assemblée et nous n'avons que 1000€ pour mettre en place les choses.
 
-Alors si vous souhaitez nous soutenir il y a au moins deux façons :
+Alors si vous souhaitez nous soutenir, il y a au moins deux façons :
 
 [center]
 [faire un don](don?classes=btn,btn-primary,btn-lg)
 [vous inscrire](inscription?classes=btn,btn-error,btn-lg) 
 
-**Le contenus de ces quelques pages évoluera au fil du temps, </br>alors n'hésitez pas à repasser *(pas votre linge, mais par ici)*.**
+**Le contenu de ces quelques pages évoluera au fil du temps, </br>alors n'hésitez pas à repasser *(pas votre linge, mais par ici)*.**
 [/center]
 
 ### Au Performance Art Forum (PAF)
