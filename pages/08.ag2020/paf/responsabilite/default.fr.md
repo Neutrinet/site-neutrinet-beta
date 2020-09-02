@@ -110,4 +110,4 @@ Veuillez garder à l'esprit que ce document de responsabilisation et les procéd
 * Podcast series *(some basics on understanding racism as a white person and some info on ‘patriarchy’)*; [Seeing White](https://www.sceneonradio.org/seeing-white/), [MEN](https://www.sceneonradio.org/men/), [Les couilles sur la table](https://www.radio.fr/p/lescouillessurlatable).
 
 
-!!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Pratiquer la responsabilité.&body=Étant passé par la page sur le self-checkin, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
+!!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Pratiquer la responsabilité.&body=Étant passé par la page pratiquer la responsabilite, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
