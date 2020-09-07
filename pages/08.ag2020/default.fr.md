@@ -23,6 +23,10 @@ Alors si vous souhaitez nous soutenir, il y a au moins deux façons :
 **Le contenu de ces quelques pages évoluera au fil du temps, </br>alors n'hésitez pas à repasser *(pas votre linge, mais par ici)*.**
 [/center]
 
+### Faire ensemble
+
+Il y a plusieurs pièces, espaces, salons et autres lieux pour vous concentrer sur différents [ateliers](ateliers) qui pourraient prendre place durant ces quelques jours de rassemblement. L'organisation des ateliers est libre et le lieu est un outil qui est mis à votre disposition.
+
 ### Au Performance Art Forum (PAF)
 
 * [Introduction](paf/introduction)
@@ -37,15 +41,12 @@ Alors si vous souhaitez nous soutenir, il y a au moins deux façons :
 
 ### Manger
 
-Nous n'avons pas encore suffisemment travaillé sur ce dossier mais en attendant voici quelques trucs belges qui se mangent et qui ne sont pas des frites : [waterzooï](https://fr.wikipedia.org/wiki/Waterzoo%C3%AF), [spéculoos](https://fr.wikipedia.org/wiki/Sp%C3%A9culoos), [chicon](https://fr.wikipedia.org/wiki/Endive), [bintje](https://fr.wikipedia.org/wiki/Bintje), [laquemant](https://fr.wikipedia.org/wiki/Lacquemant), [stoemp](https://fr.wikipedia.org/wiki/Stoemp), [cougnou](https://fr.wikipedia.org/wiki/Cougnou), [tarte al d'jote](https://fr.wikipedia.org/wiki/Tarte_al_d%27jote)
-
-### Faire ensemble
-
-Il y a plusieurs pièces, espaces, salons et autres lieux au sein du [paf](paf/lieu) pour y constituer des groupes et se concentrer sur les différents [ateliers](ateliers) qui pourraient prendre place durant ces quelques jours de rassemblement.
+C'est Martin Persil (vegan) qui cuisinera et le samedi soir il y aura un BBQ si vous avez envie d'amener de la viande ou d'aller en chercher quelque part.
 
 ### Assemblée Générale formelle
 
-L'agenda [arrivera bientôt](https://pads.ffdn.org/p/ag2020-ordre-du-jour-im3w2t8?) et à l'heure actuelle *(mi juillet 2020)* cela se construit dans le cadre des [réunions mensuelles](https://www.ffdn.org/wiki/doku.php?id=compte_rendus#reunions_du_ca) _(ce sont celles du CA qui se veulent plus ouvertes depuis juin 2020)_.
+Elle se tiendra le samedi 17 octobre, un peu au matin, un peu après-midi et l'[ordre du jour est sur le wiki de la fédé](https://www.ffdn.org/wiki/doku.php?id=evenements:ag2020:ag_formelle).
+
 
 !!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Accueil&body=Étant passé par la page d'accueil de l'AG, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
 
