@@ -12,7 +12,7 @@ visible: false
 
 Il y a un ascenceur qui fonctionne et il parcours du -1 au 2 ème.  
 
-Il est préférable de laisser libres [les chambres](../../ateliers) du rez de chaussée (n°05 _(avec une mini salle de bain)_, 55, 57, 62, 64 et 66) pour les personnes à mobilité réduite.
+Il est préférable de laisser libres les chambres du rez de chaussée (n°05 _(avec une mini salle de bain)_, 55, 57, 62, 64 et 66) pour les personnes à mobilité réduite. *(Vous trouverez un plan sur la page [ateliers](../../ateliers))*.
 
 Il y a une marche pour accéder aux toilettes « principales » du rez de chaussées, à notre bon souvenir mais il y en a ailleurs dans les bâtiments.
 
