@@ -30,10 +30,11 @@ Voyez [ici](http://pa-f.net/basics/directions) pour d'autre infos pour vous rend
 Pour améliorer le concept de Prendre Soin de Soi et de lAutre, nous expérimentons l'auto-enregistrement. Celui-ci est affiché dans le hall d'entrée. Veuillez respecter les étiquettes libre (vert) ou occupé (rouge), même lorsqu'une pièce semble vide. Il pourrait y avoir des raisons de planification. Les draps et les serviettes de bain se trouvent dans la buanderie (veuillez respecter les piles ordonnées).
 PAF se veut un espace facilement accessible et auto-organisé : il n'a pas de sélection et est relativement bon marché, ses portes sont ouvertes et il est guidé par quatre règles :
 
+[div id="4rules"][/div]
+
 ![](dont_leave_traces.png)
 
 #### Ne laissez pas de traces
-
 > Nettoyez derrière vous afin de laisser chaque centimètre carré -ce n'est pas votre chambre privée- tout le temps disponible pour tout le monde quand vous ne l'utilisez pas.
 > Les traces sont des marques indésirables ou non désirées (matérielles ou immatérielles) laissées d'un endroit à l'autre.
 
