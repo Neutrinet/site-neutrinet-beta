@@ -45,7 +45,7 @@ C'est Martin Persil (vegan) qui cuisinera et le samedi soir il y aura un BBQ si 
 
 ### Assemblée Générale formelle
 
-Elle se tiendra le samedi 17 octobre, un peu au matin, un peu après-midi et l'[ordre du jour est sur le wiki de la fédé](https://www.ffdn.org/wiki/doku.php?id=evenements:ag2020:ag_formelle).
+Elle se tiendra le samedi 17 octobre, un peu au matin, un peu après-midi et <a href="https://www.ffdn.org/wiki/doku.php?id=evenements:ag2020:ag_formelle">l'ordre du jour est sur le wiki de la fédé</a>.
 
 
 !!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Accueil&body=Étant passé par la page d'accueil de l'AG, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
