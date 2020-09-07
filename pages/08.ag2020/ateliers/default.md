@@ -15,6 +15,8 @@ Le [pad suivant](https://pads.ffdn.org/p/ag2020-activites-yee622v) vous est prop
 
 Si la météo est pourrie ou si les espaces dans les jardins ne vous conviendraient pas il y a plein de salle disponibles.
 
+!!!! Au rez-de-chaussée, la **salle n°2** *(Library Small)* est mise à disposition en tant que **Safe Room**.  Merci de laisser ce local disponible durant le séjour.
+
 ## Rez de chaussée
 
 [ui-callout]
@@ -49,7 +51,7 @@ Si la météo est pourrie ou si les espaces dans les jardins ne vous conviendrai
 [/ui-callout]
 
 1. Empty Studio
-2. Library Small
+2. Library Small [color=green]Safe Room[/color], merci de laisser ce local disponible durant le séjour.
 3. Library
 4. Music Room
 5. Dining Room 1
