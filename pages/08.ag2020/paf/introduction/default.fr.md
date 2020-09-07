@@ -32,24 +32,26 @@ PAF se veut un espace facilement accessible et auto-organisé : il n'a pas de s�
 
 ![](dont_leave_traces.png)
 
-* Ne laissez pas de traces
+#### Ne laissez pas de traces
 
 > Nettoyez derrière vous afin de laisser chaque centimètre carré -ce n'est pas votre chambre privée- tout le temps disponible pour tout le monde quand vous ne l'utilisez pas.
 > Les traces sont des marques indésirables ou non désirées (matérielles ou immatérielles) laissées d'un endroit à l'autre.
 
-- Permettez à d'autres
+#### Permettez à d'autres
 
 > Considérez cela comme une occasion d'ouvrir un espace en montrant une répétition ou un film, en donnant une conférence, en lançant une discussion, en nettoyant un couloir ou en aidant quelqu'un.
 
-- Les faiseurs et faiseuses décident
+#### Les faiseurs et faiseuses décident
 
 > Mais pas seuls ! Les choses sont décidées par ceux et celles qui font, plus que par ceux qui parlent. Toutefois, la possibilité de faire n'est pas sans limites et les actions devraient tenir compte des autres.
 
-- Asymétries mentales
+#### Asymétries mentales
 
-> Le PAF est fait d'asymétries. Les gens viennent d'endroits différents, habitent des corps différents, ont des expériences différentes, sont situés dans des structures de pouvoir différentes et ont des frontières différentes. Tenez-en compte, remettez en question votre propre position et laissez-la être remise en question, tout en respectant les limites des autres.
+> Le PAF est fait d'asymétries. Les gens viennent d'endroits différents, habitent des corps différents, ont des expériences différentes, sont situés dans des structures de pouvoir différentes et ont des frontières différentes. Tenez-en compte, remettez en question votre propre position et laissez-la être remise en question, tout en respectant les limites des autres. 
 
-Considérez ces règles entremèlées.
+> Cette quatrième règle est [décrite plus en détail](/ag2020/paf/responsabilite) parce que c'est probablement la plus difficile.
+
+**Considérez ces règles entremèlées.**
 
 Le PAF aspire à être un espace où les analyses intersectionnelles, antiracistes et féministes conditionnent les pratiques. Le sexisme, racisme, classicisme, les LGBTQ+phobies, le capacitisme, l'âgisme et toutes autres formes de discrimination ou d'agressions ne sont pas tolérées. Le PAF nourrit une pratique de responsabilisation collective et considère qu'elle émane des engagements individuels. Vous trouverez plus d'infos, ainsi que des lignes directrices et d'autres ressources, ici.
  

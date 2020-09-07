@@ -17,7 +17,7 @@ Il y a une cinquantaine de chambres de 1 à 4 lits, ainsi qu'un dortoir commun c
 
 Le rez de chaussée étant accessible « de plein pied », les chambres de cet étage seront réservées aux personnes à mobilité réduite.
 
-Le checking se fait soi-même en mode « do-it-yourself », dans le hall d'entrée.
+Le [self-checking](/ag2020/paf/self-checkin) se fait soi-même en mode « do-it-yourself », dans le hall d'entrée.
 
 <p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_enable_description": true }') }}</p>
 

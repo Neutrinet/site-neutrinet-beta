@@ -29,15 +29,15 @@ Il y a plusieurs pièces, espaces, salons et autres lieux pour vous concentrer s
 
 ### Au Performance Art Forum (PAF)
 
-* [Introduction](paf/introduction)
-* [Le lieu](paf/lieu) _(avec des zolies fotos)_
-* [Venir au paf](paf/venir)
-* [Accessibilité](paf/accessibilite)
+* Son [texte d'introduction](paf/introduction)
+* Le lieu [en images](paf/lieu) 
+* Comment [y venir](paf/venir)
+* À propos [d'accessibilité](paf/accessibilite)
 
 ### Dormir
 
-* [les chambres](paf/lieu/chambres)
-* [le self-checkin](paf/self-checkin)
+* Voir [quelques chambres](paf/lieu/chambres)
+* À propos du [self-checkin](paf/self-checkin)
 
 ### Manger
 
