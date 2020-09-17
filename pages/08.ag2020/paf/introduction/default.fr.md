@@ -1,5 +1,5 @@
 ---
-title: Introduction du PAF
+title: PAF, introduction
 published: true
 visible: false
 ---

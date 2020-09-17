@@ -5,11 +5,10 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
+[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary)
 [/center]
 
-!! Ceci est une traduction du texte original [Practicing Accountability at PaF](https://www.pa-f.net/node/25132 ).
-
+! Ceci est une traduction du texte original [Practicing Accountability at PaF](https://www.pa-f.net/node/25132 ) qui complète le [texte d'introduction](/ag2020/paf/introduction) du Performing Art Forum.
 
 Le PAF aspire à être un espace où l'analyse intersectionnelle, antiraciste et féministe informe la pratique. Le PAF ne tolère aucune forme de sexisme, de racisme, de classisme, de LGBTQI+phobie, de capacitisme, d'âgisme ou toute autre forme de discrimination. Si vous êtes victime d'une agression, de harcèlement ou d'un préjudice pendant votre séjour au PAF, sachez que le PAF vous écoutera et vous offrira son soutien. Vous trouverez ci-dessous des lignes directrices sur ce qu'il est possible de faire et/ou à qui s'adresser.
 

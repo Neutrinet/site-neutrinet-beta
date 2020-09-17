@@ -6,9 +6,15 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Retour à la page Inscription](/ag2020/inscription?classes=btn,btn-primary) 
+[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Vous inscrire](/ag2020/inscription?classes=btn,btn-error) 
 
 [/center]
+
+### Dons reçus
+
+Si vous manquez de moyens, nous avons actuellement reçu **184,00€** de dons, n'hésitez pas à nous contactez *(cf. « Paperasse » sur la [page d'inscription](/ag2020/inscriptions)).*
+
+### Participant·e·s
 
 [datatables paging=false ordering=true info=true]
 [ti file="data:tables/participations.csv"]

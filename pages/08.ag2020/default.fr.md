@@ -12,13 +12,10 @@ visible: false
 
 Le rassemblement des FAI associatifs se déroulera à partir du [size=26]vendredi 16[/size] octobre jusqu'au [size=26]lundi 19[/size] octobre et **l'AG formelle se tiendra le samedi 17** octobre.
 
-Nous avons besoin d'argent pour préparer cette assemblée et nous n'avons que 1000€ pour mettre en place les choses.
-
-Alors si vous souhaitez nous soutenir, il y a au moins deux façons :
-
 [center]
-[faire un don](don?classes=btn,btn-primary,btn-lg)
-[vous inscrire](inscription?classes=btn,btn-error,btn-lg) 
+[Liste des participant·e·s](participations?classes=btn,btn-error,btn-lg)
+[Faire un don](don?classes=btn,btn-primary,btn-lg)
+[Vous inscrire](inscription?classes=btn,btn-error,btn-lg) 
 
 **Le contenu de ces quelques pages évoluera au fil du temps, </br>alors n'hésitez pas à repasser *(pas votre linge, mais par ici)*.**
 [/center]
@@ -27,15 +24,17 @@ Alors si vous souhaitez nous soutenir, il y a au moins deux façons :
 
 Il y a plusieurs pièces, espaces, salons et autres lieux pour vous concentrer sur différents [ateliers](ateliers) qui pourraient prendre place durant ces quelques jours de rassemblement. L'organisation des ateliers est libre et le lieu est un outil qui est mis à votre disposition.
 
+!!!! Merci de bien vouloir participer en organisant l'un ou l'autre [atelier](ateliers) si c'est possible pour vous.
+
 
 ### Au Performance Art Forum (PAF)
 
-* Son [texte d'introduction](paf/introduction).
-* La [responsabilité collective](paf/responsabilite) est recommandée.
-* Le lieu [en images](paf/lieu) et sous forme de [plan](plan).
-* Comment [y venir](paf/venir).
-* À propos [d'accessibilité](paf/accessibilite).
-* À propos du [COVID-19](covid19).
+* Avec un long [texte d'introduction](paf/introduction)
+* Et une [responsabilité collective](paf/responsabilite) recommandée
+* Le lieu [en images](paf/lieu) et sous forme de [plan](paf/plan)
+* Comment [y venir](paf/venir)
+* À propos [d'accessibilité](accessibilite)
+* À propos du [COVID-19](covid19)
 
 ### Dormir
 
