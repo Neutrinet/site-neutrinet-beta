@@ -8,10 +8,21 @@ process:
 ---
 
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
+[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Plan du PAF](/ag2020/plan?classes=btn,btn-error)
 [/center]
 
 C'est à [Saint-Erme-Outre-et-Ramecourt](https://www.saint-erme.fr/) oui… on sait… ça va… c'est en France… [ici sur la carte](https://www.openstreetmap.org/node/4346871489) 😁.
+
+### Photos du lieu.
+
+* [Chambres](./chambres)
+* [Cuisines](./cuisines)
+* [Communs](./communs)
+* [Salles](./salles)
+* [Sanitaires](./sanitaires)
+* [Extérieur](./dehors)
+
+### Description
 
 C'est un ancien couvent avec un beau jardin et des paons pour y travailler dans le calme, avec:
 
@@ -24,21 +35,6 @@ C'est un ancien couvent avec un beau jardin et des paons pour y travailler dans 
 * Deux bibliothèques
 * Une buanderie avec une grosse wasserette
 
-Il y a un [texte important](../introduction) qui décrit un peu comment y arriver, comment l'utiliser et quelques principes de fonctionnement et [quelques photos](http://pa-f.net/image) traînent sur leur site. 
-
-Il faudra aussi **signer une décharge de responsabilité**, le lieu étant un outil qui se propose à la disposition de ses membres.
-
-### La disposition du lieu.
-
-* [Chambres](./chambres)
-* [Cuisines](./cuisines)
-* [Communs](./communs)
-* [Salles](./salles)
-* [Sanitaires](./sanitaires)
-* [Extérieur](./dehors)
-
-<p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_title_text_align": "center" }') }}</p>
-
 L'entrée se fait via la cours extérieure. L'accueil se situe sur l'aile Ouest, entre les deux cuisines.
 
 Au rez de chaussée se trouvent de nombreux espaces communs : les cuisines, les salles à manger, les bibliothèques, le fumoir, la safe room, la chapelle, et diverses salles de travail. Le rez de chaussée étant accessible « de plein pied », les chambres situées à cet étage seront réservées aux PMR. Un monte-charge, également réservé aux PMR, permet d'accéder aux autres étages.
@@ -50,5 +46,10 @@ Au 2ème étage se trouvent le dortoir commun, quelques salles plus calmes. Les 
 Au sous-sol se trouvent la discothèque, le sauna, et une autre grande salle que l'on utilisera probablement pour les dîners et les soupers.
 
 Enfin, la cours intérieure se compose d'une grande pelouse, avec de beaux arbres et de nombreux bancs et tables de jardin. Au Sud du couvent se trouvent le potager, le poulailler et le verger.
+
+Il y a un [texte important](../introduction) qui décrit un peu comment y arriver, comment l'utiliser et quelques principes de fonctionnement et [quelques photos](http://pa-f.net/image) traînent sur leur site. 
+
+Il faudra aussi **signer une décharge de responsabilité**, le lieu étant un outil mis à la disposition de ses membres.
+
 
 !!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Le lieu et son accessibilité&body=Étant passé par la page décrivant le lieu, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
