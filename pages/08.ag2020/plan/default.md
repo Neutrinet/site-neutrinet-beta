@@ -7,7 +7,7 @@ visible: false
 [Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
 [/center]
 
-Que ce soit pour y retrouver les [salles](/ag2020/lieu/salles) en terme d'[organisation d'ateliers](/ag2020/ateliers), les [chambres](/ag2020/paf/lieu/chambres), les espaces [communs](/ag2020/paf/lieu/communs), les [sanitaires](/ag2020/paf/lieu/sanitaires), les [cuisines](/paf/lieu/cuisines) ou pour y retrouver la pièce de refuge *(safe room)* et quelques vues sur l'[extérieur](/ag2020/paf/lieu/defors) ce plan vous sera probalbement utile.
+Que ce soit pour y retrouver les [salles](/ag2020/paf/lieu/salles) en terme d'[organisation d'ateliers](/ag2020/ateliers), les [chambres](/ag2020/paf/lieu/chambres), les espaces [communs](/ag2020/paf/lieu/communs), les [sanitaires](/ag2020/paf/lieu/sanitaires), les [cuisines](/ag2020/paf/lieu/cuisines) ou pour y retrouver la pièce de refuge *(safe room)* et quelques vues sur l'[extérieur](/ag2020/paf/lieu/dehors) ce plan vous sera probalbement utile.
 
 ## Rez de chaussée
 
