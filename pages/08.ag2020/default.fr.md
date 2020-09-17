@@ -27,12 +27,15 @@ Alors si vous souhaitez nous soutenir, il y a au moins deux façons :
 
 Il y a plusieurs pièces, espaces, salons et autres lieux pour vous concentrer sur différents [ateliers](ateliers) qui pourraient prendre place durant ces quelques jours de rassemblement. L'organisation des ateliers est libre et le lieu est un outil qui est mis à votre disposition.
 
+
 ### Au Performance Art Forum (PAF)
 
-* Son [texte d'introduction](paf/introduction)
-* Le lieu [en images](paf/lieu) 
-* Comment [y venir](paf/venir)
-* À propos [d'accessibilité](paf/accessibilite)
+* Son [texte d'introduction](paf/introduction).
+* La [responsabilité collective](paf/responsabilite) est recommandée.
+* Le lieu [en images](paf/lieu) et sous forme de [plan](plan).
+* Comment [y venir](paf/venir).
+* À propos [d'accessibilité](paf/accessibilite).
+* À propos du [COVID-19](covid19).
 
 ### Dormir
 
@@ -42,6 +45,10 @@ Il y a plusieurs pièces, espaces, salons et autres lieux pour vous concentrer s
 ### Manger
 
 C'est Martin Persil (vegan) qui cuisinera et le samedi soir il y aura un BBQ si vous avez envie d'amener de la viande ou d'aller en chercher quelque part.
+
+### Boire
+
+On devrait avoir des bières et une tireuse, mais on aimerait bien trouver aussi une machine qui fait des granita pour avoir autre chose qu'une pompe à bière, du pinard et du café.
 
 ### Assemblée Générale formelle
 
