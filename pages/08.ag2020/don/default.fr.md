@@ -8,13 +8,11 @@ visible: false
 [/center]
 
 
-N'ayant pas beaucoup de trésorerie, tout don est bienvenu.
+N'ayant pas beaucoup de trésorerie, tout don est bienvenu et ils seront utilisés en priorité pour [permettre l'accès](/ag2020/accesibilite) à ceux et celles qui manqueraient de moyens.  Le montant actuel des **dons reçus** est visible sur la page des [participant·e·s](/ag2020/participation).
 
 Les dons **ne sont pas considérés comme une avance sur votre inscription** alors si vos ressources sont limitées, merci de les réserver pour votre inscription lorsqu'elle sera  possible.
 
 Si en revanche vos moyens le permettent, c'est avec beaucoup de gratitude que nous recevrons votre contribution.
-
-L'argent qui nous arrive sera principalement utile pour mener à bien cette assemblée que ce soit en termes logistiques ou en tant que ressources disponibles pour celles et ceux qui disposent, comme nous, de peu de ressources ou de facilités de paiement.
 
 * Banque : ING
 * Nom: Neutrinet ASBL
