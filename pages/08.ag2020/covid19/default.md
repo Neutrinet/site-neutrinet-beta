@@ -24,7 +24,7 @@ Nous tâcherons d'occuper une ou plusieurs pièces suffisamment grande pour cons
 
 ### Se laver les mains
 
-Pensez à vous laver les mains régulièrement, surtout si vous 
+Pensez à vous laver les mains régulièrement.
 
 ### Sanitaires
 
