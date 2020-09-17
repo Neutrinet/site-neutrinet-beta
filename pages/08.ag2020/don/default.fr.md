@@ -8,7 +8,7 @@ visible: false
 [/center]
 
 
-N'ayant pas beaucoup de trésorerie, tout don est bienvenu et ils seront utilisés en priorité pour [permettre l'accès](/ag2020/accesibilite) à ceux et celles qui manqueraient de moyens.  Le montant actuel des **dons reçus** est visible sur la page des [participant·e·s](/ag2020/participation).
+N'ayant pas beaucoup de trésorerie, tout don est bienvenu et ils seront utilisés en priorité pour [permettre l'accès](/ag2020/accessibilite) à ceux et celles qui manqueraient de moyens.  Le montant actuel des **dons reçus** est visible sur la page des [participant·e·s](/ag2020/participations).
 
 Les dons **ne sont pas considérés comme une avance sur votre inscription** alors si vos ressources sont limitées, merci de les réserver pour votre inscription lorsqu'elle sera  possible.
 
