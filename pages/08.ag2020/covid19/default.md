@@ -4,6 +4,8 @@ published: true
 visible: false
 ---
 
+! Vous trouverez des actualités à ce sujet sur le site de l'[Agence Régionale de Santé de Haut-de-France](https://www.hauts-de-france.ars.sante.fr/), Saint-Erme étant situé dans l'Aisne.
+
 ### Être à l'écoute de soi-même
 
 Soyez à l'écoute de vous même en terme de sensation de froid, de douleurs musculaires inattendues, de nez qui coule, de gore qui gratte, de respiration qui change *(rythme, ampleur, obstruction)*, de tête lourde et de fatigue.
