@@ -3,6 +3,9 @@ title: 'COVID-19'
 published: true
 visible: false
 ---
+[center]
+[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
+[/center]
 
 ! Vous trouverez des actualités à ce sujet sur le site de l'[Agence Régionale de Santé de Haut-de-France](https://www.hauts-de-france.ars.sante.fr/), Saint-Erme étant situé dans l'Aisne.
 
