@@ -4,14 +4,12 @@ published: true
 visible: false
 ---
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Description & Photos](/ag2020/paf/lieu?classes=btn,btn-error)
+[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Description & Photos](/ag2020/paf/lieu?classes=btn,btn-error) [Pad Ateliers](https://pads.ffdn.org/p/ag2020-activites-yee622v?classes=btn,btn-error)
 [/center]
 
-Que ce soit pour y retrouver les [salles](/ag2020/paf/lieu/salles) en terme d'[organisation d'ateliers](/ag2020/ateliers), les [chambres](/ag2020/paf/lieu/chambres), les espaces [communs](/ag2020/paf/lieu/communs), les [sanitaires](/ag2020/paf/lieu/sanitaires), les [cuisines](/ag2020/paf/lieu/cuisines) ou pour y retrouver la pièce de refuge *(safe room)* et quelques vues sur l'[extérieur](/ag2020/paf/lieu/dehors) ce plan vous sera probalbement utile.
+Que ce soit pour y retrouver les [salles](/ag2020/paf/lieu/salles) en terme **d'[organisation d'ateliers](/ag2020/ateliers)**, les [chambres](/ag2020/paf/lieu/chambres), les espaces [communs](/ag2020/paf/lieu/communs), les [sanitaires](/ag2020/paf/lieu/sanitaires), les [cuisines](/ag2020/paf/lieu/cuisines) ou pour y retrouver la pièce de refuge *(safe room)* et quelques vues sur l'[extérieur](/ag2020/paf/lieu/dehors) ce plan vous sera probalbement utile.
 
 ## Rez de chaussée
-
-!!!! Au rez-de-chaussée, la **salle n°2** *(Library Small)* est mise à disposition en tant que **Salle de refuge (safe room)**.  Merci de laisser ce local disponible durant le séjour.
 
 [ui-callout]
 [ui-callout-item title="Empty Studio" position="25%, 17%, se"]
@@ -53,6 +51,8 @@ Que ce soit pour y retrouver les [salles](/ag2020/paf/lieu/salles) en terme d'[o
 7. Working Room
 8. Peacock Studio
 9. Dining Room 2
+
+!!!! Au rez-de-chaussée, la **salle n°2** *(Library Small)* est mise à disposition en tant que **Salle de refuge (safe room)**.  Merci de laisser ce local disponible durant le séjour.
 
 ## Premier Étage
 
