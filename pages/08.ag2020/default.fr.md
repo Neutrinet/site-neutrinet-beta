@@ -43,7 +43,7 @@ Il y a plusieurs pièces, espaces, salons et autres lieux pour vous concentrer s
 
 ### Manger
 
-C'est Martin Persil (vegan) qui cuisinera et le samedi soir il y aura un BBQ si vous avez envie d'amener de la viande ou d'aller en chercher quelque part.
+On va devoir se débrouiller pour la cuisine et on fera attention aux besoins de chacun·e… ça fera partie des « [ateliers](https://pads.ffdn.org/p/ag2020-activites-yee622v) » ^_^
 
 ### Boire
 
