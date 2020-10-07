@@ -25,14 +25,15 @@ Paris Gare du Nord – Laon (95 min.), Laon – St. Erme (14 min.)
 
 #### Option 2: 
 
-Paris Gare de L'Est – Reims (50 min.TGV, more expensive), Reims – St. Erme(23 min.) When you have no connection to St Erme, we can't help you out!
+Paris Gare de L'Est – Reims (50 min.TGV, more expensive), Reims – St. Erme(23 min.) Si vous loupez votre correspondance, on ne sait pas faire grand chose :/
 
 #### Option 3: 
 
-Airport CDG (Charles De Gaulle)-Laon. You can take a bus (ligne 41) from Roissy Pôle (CDG Terminal 3 bus station to Crepy-en-Valois. And from Crepy-en-Valois a train to Laon. And from Laon a train to St-Erme.
-You can find the bus timetable here: https://www.oise-mobilite.fr/fr/horaires-de-ligne/6/RouteSchedules/crepy...
-And the train on www.oui.sncf.
-Find the bus (Roissy-Soissons) at the bus station at CDG airport Terminal 3. To get there:Take the CDGVAL, the fast train that connects the Terminals, take direction Terminal 3 (Autocar). You can buy a ticket on the bus, or at a special office for the bus info outside in the bus terminal. Find at the bus station, platform F3, take the bus 41 (Bus to Crépy-en-Valois, the bus sometimes has WIFI, airconditioning and you can pay with creditcard). The bus takes you to Crépy-en-Valois. Stops at the Gare (train station) there. There you buy a train ticket to Laon or to St.Erme, take the train to Laon. The connections are very good between Crepy and Laon. In Laon you take the connection to St.Erme (is the train direction Reims).
+Aéroport CDG (Charles De Gaulle)-Laon. Vous pouvez prendre le bus ([ligne 41](https://www.oise-mobilite.fr/fr/horaires-de-ligne/6/RouteSchedules/searchlines?PartnerId=0&KeywordsLine=41+CREPY+ROISSY&LineId=101723)) depuis Roissy Pôle (CDG Terminal 3 à la station de bus direction Crepy-en-Valois. Depuis Crépy-en-Valois un train vers Laon et depuis Laon, un train pour St-Erme.
+
+* Horaire de la ligne de bus 41 en [PDF](https://www.oise-mobilite.fr/ftp/documents_SNCF/41-ligne-crepy-roissy-a-partir-du-30-03-20.pdf)
+
+Trouvez le bus (Roissy-Soissons) à la gare routière du terminal 3 de l'aéroport CDG. Pour s'y rendre : prendre le CDGVAL, le train rapide qui relie les terminaux, prendre la direction du Terminal 3 (Autocar). Vous pouvez acheter un billet dans le bus, ou dans un bureau spécial pour les informations sur les bus à l'extérieur du terminal de bus. Trouvez à la gare routière, quai F3, le bus 41 (Bus pour Crépy-en-Valois, le bus a parfois le WIFI, la climatisation et vous pouvez payer avec une carte de crédit). Le bus vous emmène à Crépy-en-Valois. Il s'y arrête à la Gare (gare). Là, vous achetez un billet de train pour Laon ou pour St.Erme, vous prenez le train pour Laon. Les liaisons sont très bonnes entre Crepy et Laon. A Laon, vous prenez la correspondance pour St.Erme (c'est le train direction Reims).
 
 #### Option 4 
 
