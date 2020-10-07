@@ -32,9 +32,13 @@ Il y a plusieurs pièces, espaces, salons et autres lieux pour vous concentrer s
 * Avec un long [texte d'introduction](paf/introduction)
 * Et une [responsabilité collective](paf/responsabilite) recommandée
 * Le lieu [en images](paf/lieu) et sous forme de [plan](paf/plan)
-* Comment [y venir](paf/venir)
 * À propos [d'accessibilité](accessibilite)
 * À propos du [COVID-19](covid19)
+
+### Venir
+
+* Pad pour le [covoiturage](https://pads.ffdn.org/p/ag2020-covoiturage-3nc629o?)
+* Comment [y venir](paf/venir) ?
 
 ### Dormir
 
