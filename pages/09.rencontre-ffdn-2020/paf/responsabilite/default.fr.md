@@ -1,11 +1,11 @@
 ---
-title: PAF, pratiquer le responsabilité.
+title: 'PAF, pratiquer le responsabilité.'
 published: true
 visible: false
 ---
 
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary)
+[Retour au sommaire de la rencontre.](/rencontre-ffdn-2020?classes=btn,btn-primary) 
 [/center]
 
 ! Ceci est une traduction du texte original [Practicing Accountability at PaF](https://www.pa-f.net/node/25132 ) qui complète le [texte d'introduction](/ag2020/paf/introduction) du Performing Art Forum.
