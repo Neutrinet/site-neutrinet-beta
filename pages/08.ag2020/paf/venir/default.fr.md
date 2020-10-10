@@ -76,6 +76,5 @@ Inform them when you have a lot of luggage.
 From St Erme station to PAF takes 2200meter. To Paf the way is a bit up.Take the road opposite the station between the Pharmacie and the Tabac (Cap Vert) and follow the line in the middle of the road, till you see the big building. Enter PAF in the corner of the road.
 
 
-
 ### FOOD-Supermarket
 If you want to buy some food. Find the Supermarket, (Supermarché) 'Intermarché' immediately behind the station. There is also an ATM machine. A baker is on your way to PAF in the center of Ramecourt.
