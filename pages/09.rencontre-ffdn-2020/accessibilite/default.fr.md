@@ -5,7 +5,7 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de la rencontre.](/ag2020?classes=btn,btn-primary) 
+[Retour au sommaire de la rencontre.](/rencontre-ffdn-2020?classes=btn,btn-primary) 
 [/center]
 
 N'hésitez pas à utiliser [le plan](/ag2020/plan) pour vous aider à vous repérer dans les différents espaces possibles.
