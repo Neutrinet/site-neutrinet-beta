@@ -6,7 +6,7 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Vous inscrire](/ag2020/inscription?classes=btn,btn-error) 
+[Retour au sommaire de la rencontre.](/rencontre-ffdn-2020?classes=btn,btn-primary) [Vous inscrire](/ag2020/inscription?classes=btn,btn-error) 
 
 [/center]
 
