@@ -1,5 +1,5 @@
 ---
-title: 'AG FFDN 2020'
+title: 'Rencontre FFDN 2020'
 published: true
 visible: false
 ---
