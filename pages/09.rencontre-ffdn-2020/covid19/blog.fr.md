@@ -5,7 +5,7 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de la rencontre.](/rencontre-ffdn-2020?classes=btn,btn-primary) 
+[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) 
 [/center]
 
 ! Vous trouverez des actualités à ce sujet 
