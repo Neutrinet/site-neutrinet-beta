@@ -1,11 +1,11 @@
 ---
-title: Venir au PAF
+title: 'Venir au PAF'
 published: true
 visible: false
 ---
 
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
+[Retour au sommaire de la rencontre.](/rencontre-ffdn-2020?classes=btn,btn-primary) 
 [/center]
 
 !! Traduction en cours…
