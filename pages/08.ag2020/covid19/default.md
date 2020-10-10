@@ -7,7 +7,9 @@ visible: false
 [Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) 
 [/center]
 
-! Vous trouverez des actualités à ce sujet sur le site de l'[Agence Régionale de Santé de Haut-de-France](https://www.hauts-de-france.ars.sante.fr/), Saint-Erme étant situé dans l'Aisne.
+! Vous trouverez des actualités à ce sujet 
+! * sur le site de l'[Agence Régionale de Santé de Haut-de-France](https://www.hauts-de-france.ars.sante.fr/), Saint-Erme étant situé dans l'Aisne.
+! * sur le site de la [préfecture du département (02- Aisne)](https://www.aisne.gouv.fr/Actualites/COVID-19-point-sur-la-situation-dans-l-Aisne).
 
 ### Être à l'écoute de soi-même
 
