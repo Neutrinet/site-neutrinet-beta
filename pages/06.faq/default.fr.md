@@ -1,7 +1,7 @@
 ---
 title: F.A.Q.
 page-toc:
-  active: true
+    active: true
 published: false
 ---
 
