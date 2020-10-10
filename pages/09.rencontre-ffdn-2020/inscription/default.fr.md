@@ -1,10 +1,11 @@
 ---
-title: "Inscription"
+title: Inscription
 published: true
 visible: false
 ---
+
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary)
+[Retour au sommaire de la rencontre.](/rencontre-ffdn-2020?classes=btn,btn-primary) 
 [Liste des participant·e·s](/ag2020/participations?classes=btn,btn-error)
 [/center]
 
