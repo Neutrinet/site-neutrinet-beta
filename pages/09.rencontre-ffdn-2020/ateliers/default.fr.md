@@ -1,10 +1,11 @@
 ---
-title: "Ateliers"
+title: Ateliers
 published: true
 visible: false
 ---
+
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Plan](/ag2020/paf/plan?classes=btn,btn-error) [Pad Ateliers](https://pads.ffdn.org/p/ag2020-activites-yee622v?classes=btn,btn-error)
+[Retour au sommaire de  la rencontre.](/ag2020?classes=btn,btn-primary) [Plan](/ag2020/paf/plan?classes=btn,btn-error) [Pad Ateliers](https://pads.ffdn.org/p/ag2020-activites-yee622v?classes=btn,btn-error)
 [/center]
 
 Sur le wiki de la fédé il y a une [liste des travaux](https://www.ffdn.org/wiki/doku.php?id=travaux) et les quelques jours à vivre ensemble durant l'AG seront l'occasion de s’asseoir autour d'un projet, d'une idée, d'un groupe de travail, d'un sujet ou d'un truc à faire.
