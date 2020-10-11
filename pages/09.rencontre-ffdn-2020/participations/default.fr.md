@@ -12,7 +12,7 @@ visible: false
 
 ### Dons reçus
 
-Si vous manquez de moyens, nous avons actuellement reçu **204,00€** de dons, n'hésitez pas à nous contactez *(cf. « Paperasse » sur la [page d'inscription](/ag2020/inscription)).*
+Si vous manquez de moyens, nous avons actuellement reçu **402,00€** de dons, n'hésitez pas à nous contactez *(cf. « Paperasse » sur la [page d'inscription](/ag2020/inscription)).*
 
 ### Participant·e·s
 
