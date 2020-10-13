@@ -8,13 +8,13 @@ visible: false
 [Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) 
 [/center]
 
-N'hésitez pas à utiliser [le plan](/rencontre-ffdn-2020/plan) pour vous aider à vous repérer dans les différents espaces possibles.
+N'hésitez pas à utiliser [le plan](/rencontre-ffdn-2020/paf/plan) pour vous aider à vous repérer dans les différents espaces possibles.
 
 ### Mobilité réduite
 
 Il y a un ascenceur qui fonctionne et il parcours du -1 au 2 ème.  
 
-Il est préférable de laisser libres les chambres du rez de chaussée (n°05 _(avec une mini salle de bain)_, 55, 57, 62, 64 et 66) pour les personnes à mobilité réduite. *(voir [plan](/rencontre-ffdn-2020/plan))*.
+Il est préférable de laisser libres les chambres du rez de chaussée (n°05 _(avec une mini salle de bain)_, 55, 57, 62, 64 et 66) pour les personnes à mobilité réduite. *(voir [plan](/rencontre-ffdn-2020/paf/plan))*.
 
 Il y a une marche pour accéder aux toilettes « principales » du rez de chaussées, à notre bon souvenir mais il y en a ailleurs dans les bâtiments.
 
