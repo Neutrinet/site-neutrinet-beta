@@ -5,42 +5,42 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) [Description & Photos](/ag2020/paf/lieu?classes=btn,btn-error) [Pad Ateliers](https://pads.ffdn.org/p/ag2020-activites-yee622v?classes=btn,btn-error)
+[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) [Description & Photos](/rencontre-ffdn-2020/paf/lieu?classes=btn,btn-error) [Pad Ateliers](https://pads.ffdn.org/p/rencontre-ffdn-2020-activites-yee622v?classes=btn,btn-error)
 [/center]
 
-Que ce soit pour y retrouver les [salles](/ag2020/paf/lieu/salles) en terme **d'[organisation d'ateliers](/ag2020/ateliers)**, les [chambres](/ag2020/paf/lieu/chambres), les espaces [communs](/ag2020/paf/lieu/communs), les [sanitaires](/ag2020/paf/lieu/sanitaires), les [cuisines](/ag2020/paf/lieu/cuisines) ou pour y retrouver la pièce de refuge *(safe room)* et quelques vues sur l'[extérieur](/ag2020/paf/lieu/dehors) ce plan vous sera probalbement utile.
+Que ce soit pour y retrouver les [salles](/rencontre-ffdn-2020/paf/lieu/salles) en terme **d'[organisation d'ateliers](/rencontre-ffdn-2020/ateliers)**, les [chambres](/rencontre-ffdn-2020/paf/lieu/chambres), les espaces [communs](/rencontre-ffdn-2020/paf/lieu/communs), les [sanitaires](/rencontre-ffdn-2020/paf/lieu/sanitaires), les [cuisines](/rencontre-ffdn-2020/paf/lieu/cuisines) ou pour y retrouver la pièce de refuge *(safe room)* et quelques vues sur l'[extérieur](/rencontre-ffdn-2020/paf/lieu/dehors) ce plan vous sera probalbement utile.
 
 ## Rez de chaussée
 
 [ui-callout]
 [ui-callout-item title="Empty Studio" position="25%, 17%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_204947.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_204947.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Library Small" position="35%, 26%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_204828.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_204828.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Library" position="42%, 17%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_204645.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_204645.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Music Room" position="46%, 26%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200719_123614.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200719_123614.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Dining Room" position="78%, 26%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_193345.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_193345.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Studio not Empty" position="82%, 45%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_180800.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_180800.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Working Room" position="82%, 55%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_180712.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_180712.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Peacock Studio" position="88%, 63%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_180622.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_180622.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Dining Room 2" position="93%, 45%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_180436.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_180436.jpg)
 [/ui-callout-item]
-![](/ag2020/paf/lieu/0_Rez.png)
+![](/rencontre-ffdn-2020/paf/lieu/0_Rez.png)
 [/ui-callout]
 
 1. Empty Studio
@@ -59,12 +59,12 @@ Que ce soit pour y retrouver les [salles](/ag2020/paf/lieu/salles) en terme **d'
 
 [ui-callout]
 [ui-callout-item title="Big Space" position="42%, 22%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_184955.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_184955.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Media Space" position="78%, 26%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_184049.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_184049.jpg)
 [/ui-callout-item]
-![](/ag2020/paf/lieu/1_Premier.png)
+![](/rencontre-ffdn-2020/paf/lieu/1_Premier.png)
 [/ui-callout]
 
 1. Big Space
@@ -74,18 +74,18 @@ Que ce soit pour y retrouver les [salles](/ag2020/paf/lieu/salles) en terme **d'
 
 [ui-callout]
 [ui-callout-item title="Studio Zen" position="9%, 21%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_185853.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_185853.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Studio Empty" position="27%, 39%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200719_124111.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200719_124111.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Studio Ultra Zen" position="28%, 55%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200719_124426.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200719_124426.jpg)
 [/ui-callout-item]
 [ui-callout-item title="Studio" position="38%, 26%, se"]
-![](/ag2020/paf/lieu/salles/IMG_20200718_190252.jpg)
+![](/rencontre-ffdn-2020/paf/lieu/salles/IMG_20200718_190252.jpg)
 [/ui-callout-item]
-![](/ag2020/paf/lieu/2_Second.png)
+![](/rencontre-ffdn-2020/paf/lieu/2_Second.png)
 [/ui-callout]
 
 1. Studio Zen
@@ -93,4 +93,4 @@ Que ce soit pour y retrouver les [salles](/ag2020/paf/lieu/salles) en terme **d'
 3. Studio Ultra Zen
 4. Studio
 
-!!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Les ateliers&body=Étant passé par la page des ateliers, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]
+!!!! [center]Si vous avez des questions, nous tâcherons d'y répondre.</br>Neutrinet asbl ♥ <a href="mailto:rencontre-ffdn-2020@neutrinet.be?subject=[AGFFDN2020] Les ateliers&body=Étant passé par la page des ateliers, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">rencontre-ffdn-2020@neutrinet.be</a> [/center]
