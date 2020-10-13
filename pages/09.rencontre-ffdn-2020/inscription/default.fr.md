@@ -6,7 +6,7 @@ visible: false
 
 [center]
 [Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) 
-[Liste des participant·e·s](/ag2020/participations?classes=btn,btn-error)
+[Liste des participant·e·s](/rencontre-ffdn-2020/participations?classes=btn,btn-error)
 [/center]
 
 Le rassemblement des FAI associatifs se déroulera à partir du [size=26]vendredi 16[/size] octobre jusqu'au [size=26]lundi 19[/size] octobre et l'AG formelle se tiendra le samedi 17 octobre.
@@ -141,6 +141,6 @@ Les prix fixes et les prix libres conseillés sont également repris dans le doc
 > BIC : BBRUBEBB  
 > Communication : AGFFDN2020 + LES·DEUX·MOTS·QUE·VOUS·AUREZ·CHOISIS
 
-Si vous avez la possibilité de nous soutenir financièrement, merci de passer par la page [don](/ag2020/don).
+Si vous avez la possibilité de nous soutenir financièrement, merci de passer par la page [don](/rencontre-ffdn-2020/don).
 
 !!!! [center]Merci aussi pour votre confiance.</br>Neutrinet asbl ♥ <a href="mailto:ag2020@neutrinet.be?subject=[AGFFDN2020] Inscription&body=Étant passé par la page concernant les inscriptions, j'ai l'une ou l'autre question remarque ou commentaire.%0D%0A%0D%0A%0D%0A">ag2020@neutrinet.be</a> [/center]

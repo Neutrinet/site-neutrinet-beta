@@ -47,7 +47,7 @@ Pensez à vous laver les mains régulièrement.
 
 ### Sanitaires
 
-N'oubliez pas qu'une des [quatre règles](/ag2020/paf/introduction#4rules) du PAF est « ne laissez pas de traces », alors merci de prendre soin des toilettes, éviers, douches et autres espaces sanitaire, le plus propre possible.
+N'oubliez pas qu'une des [quatre règles](/rencontre-ffdn-2020/paf/introduction#4rules) du PAF est « ne laissez pas de traces », alors merci de prendre soin des toilettes, éviers, douches et autres espaces sanitaire, le plus propre possible.
 
 ### Utiliser du gel hydroalcoolique
 

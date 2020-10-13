@@ -5,7 +5,7 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) [Description & Photos](/ag2020/paf/lieu?classes=btn,btn-error) [Plan](/ag2020/plan?classes=btn,btn-error) 
+[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) [Description & Photos](/rencontre-ffdn-2020/paf/lieu?classes=btn,btn-error) [Plan](/rencontre-ffdn-2020/plan?classes=btn,btn-error) 
 [/center]
 
 ### Introdution du PAF <div id="introduction"></div>
@@ -50,7 +50,7 @@ PAF se veut un espace facilement accessible et auto-organisé : il n'a pas de s�
 
 > Le PAF est fait d'asymétries. Les gens viennent d'endroits différents, habitent des corps différents, ont des expériences différentes, sont situés dans des structures de pouvoir différentes et ont des frontières différentes. Tenez-en compte, remettez en question votre propre position et laissez-la être remise en question, tout en respectant les limites des autres. 
 
-> Cette quatrième règle est [décrite plus en détail](/ag2020/paf/responsabilite) parce que c'est probablement la plus difficile.
+> Cette quatrième règle est [décrite plus en détail](/rencontre-ffdn-2020/paf/responsabilite) parce que c'est probablement la plus difficile.
 
 **Considérez ces règles entremèlées.**
 

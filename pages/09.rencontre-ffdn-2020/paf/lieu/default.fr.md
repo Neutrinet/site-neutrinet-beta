@@ -8,7 +8,7 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) [Plan du PAF](/ag2020/paf/plan?classes=btn,btn-error) [Pad Ateliers](https://pads.ffdn.org/p/ag2020-activites-yee622v?classes=btn,btn-error)
+[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) [Plan du PAF](/rencontre-ffdn-2020/paf/plan?classes=btn,btn-error) [Pad Ateliers](https://pads.ffdn.org/p/ag2020-activites-yee622v?classes=btn,btn-error)
 [/center]
 
 C'est à [Saint-Erme-Outre-et-Ramecourt](https://www.saint-erme.fr/) oui… on sait… ça va… c'est en France… [ici sur la carte](https://www.openstreetmap.org/node/4346871489) 😁.

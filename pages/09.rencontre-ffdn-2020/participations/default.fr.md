@@ -6,13 +6,13 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) [Vous inscrire](/ag2020/inscription?classes=btn,btn-error) 
+[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) [Vous inscrire](/rencontre-ffdn-2020/inscription?classes=btn,btn-error) 
 
 [/center]
 
 ### Dons reçus
 
-Si vous manquez de moyens, nous avons actuellement reçu **452,00€** de dons, n'hésitez pas à nous contactez *(cf. « Paperasse » sur la [page d'inscription](/ag2020/inscription)).*
+Si vous manquez de moyens, nous avons actuellement reçu **452,00€** de dons, n'hésitez pas à nous contactez *(cf. « Paperasse » sur la [page d'inscription](/rencontre-ffdn-2020/inscription)).*
 
 ### Participant·e·s
 

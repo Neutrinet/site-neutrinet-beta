@@ -8,7 +8,7 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Description & Photos](/ag2020/paf/lieu?classes=btn,btn-error) [Plan](/ag2020/paf/plan?classes=btn,btn-error) 
+[Retour au sommaire de l'AG.](/ag2020?classes=btn,btn-primary) [Description & Photos](/rencontre-ffdn-2020/paf/lieu?classes=btn,btn-error) [Plan](/rencontre-ffdn-2020/paf/plan?classes=btn,btn-error) 
 [/center]
 
 ### Les chambres
@@ -17,7 +17,7 @@ Il y a une cinquantaine de chambres de 1 à 4 lits, ainsi qu'un dortoir commun c
 
 Le rez de chaussée étant accessible « de plein pied », les chambres de cet étage seront réservées aux personnes à mobilité réduite.
 
-Le [self-checking](/ag2020/paf/self-checkin) se fait soi-même en mode « do-it-yourself », dans le hall d'entrée.
+Le [self-checking](/rencontre-ffdn-2020/paf/self-checkin) se fait soi-même en mode « do-it-yourself », dans le hall d'entrée.
 
 <p>{{ unite_gallery(page.media.images, '{ "lightbox_textpanel_enable_description": true }') }}</p>
 
