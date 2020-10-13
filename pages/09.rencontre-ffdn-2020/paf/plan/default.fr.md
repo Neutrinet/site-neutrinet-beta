@@ -5,7 +5,7 @@ visible: false
 ---
 
 [center]
-[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) [Description & Photos](/rencontre-ffdn-2020/paf/lieu?classes=btn,btn-error) [Pad Ateliers](https://pads.ffdn.org/p/rencontre-ffdn-2020-activites-yee622v?classes=btn,btn-error)
+[Retour au sommaire de la rencontre](/rencontre-ffdn-2020?classes=btn,btn-primary) [Description & Photos](/rencontre-ffdn-2020/paf/lieu?classes=btn,btn-error) [Pad Ateliers](https://pads.ffdn.org/p/ag2020-activites-yee622v?classes=btn,btn-error)
 [/center]
 
 Que ce soit pour y retrouver les [salles](/rencontre-ffdn-2020/paf/lieu/salles) en terme **d'[organisation d'ateliers](/rencontre-ffdn-2020/ateliers)**, les [chambres](/rencontre-ffdn-2020/paf/lieu/chambres), les espaces [communs](/rencontre-ffdn-2020/paf/lieu/communs), les [sanitaires](/rencontre-ffdn-2020/paf/lieu/sanitaires), les [cuisines](/rencontre-ffdn-2020/paf/lieu/cuisines) ou pour y retrouver la pièce de refuge *(safe room)* et quelques vues sur l'[extérieur](/rencontre-ffdn-2020/paf/lieu/dehors) ce plan vous sera probalbement utile.
