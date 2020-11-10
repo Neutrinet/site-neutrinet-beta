@@ -12,7 +12,7 @@ visible: false
 
 ### Dons reçus
 
-Si vous manquez de moyens, nous avons actuellement reçu **452,00€** de dons, n'hésitez pas à nous contactez *(cf. « Paperasse » sur la [page d'inscription](/rencontre-ffdn-2020/inscription)).*
+Si vous manquez de moyens, nous avons actuellement reçu **482,00€** de dons, n'hésitez pas à nous contactez *(cf. « Paperasse » sur la [page d'inscription](/rencontre-ffdn-2020/inscription)).*
 
 ### Participant·e·s
 
