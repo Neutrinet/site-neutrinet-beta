@@ -20,7 +20,7 @@ Si vous n'utilisez pas de disque dur SATA, la [carte microSD](../microsd) contie
 
 * Un ordinateur équipé d'un système d'exploitation [GNU/Linux](https://fr.wikipedia.org/wiki/Linux_ou_GNU/Linux).
 * Une Olimex LIME1 ou LIME2
-* Une carte [microSD performante](https://wiki.neutrinet.be/cube/microsd#class-et-vitesse)
+* Une carte [microSD performante](https://wiki.neutrinet.be/fr/cube/microsd#class_et_vitesse)
 
 ## VPN
 

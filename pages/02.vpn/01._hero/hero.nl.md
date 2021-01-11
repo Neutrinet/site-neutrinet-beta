@@ -11,6 +11,6 @@ hero_image: header.jpg
 Met een **Fix IP**, maar het vervangt uw huidige leverancier **niet** !
 
 [Maak uw VPN aan](https://api.neutrinet.be/?classes=btn,btn-error,btn-lg)<br />
-**Met deze [[color=orange]tutoriaal[/color]](https://wiki.neutrinet.be/vpn/order) (en)** &  **a [[color=orange]vrij prijs[/color]](https://wiki.neutrinet.be/contact#bank).**
+**Met deze [[color=orange]tutoriaal[/color]](https://wiki.neutrinet.be/en/vpn/vpn-order) (en)** &  **a [[color=orange]vrij prijs[/color]](https://wiki.neutrinet.be/en/administration/banks).**
 
 

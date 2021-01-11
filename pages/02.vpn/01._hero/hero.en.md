@@ -11,7 +11,7 @@ hero_image: header.jpg
 With a **Fixed IP**, but it **does not** replace your current provider !
 
 [Create your VPN](https://api.neutrinet.be/?classes=btn,btn-error,btn-lg)<br />
-**With this [[color=orange]tutorial[/color]](https://wiki.neutrinet.be/vpn/order)** &  **a [[color=orange]prix libre[/color]](https://wiki.neutrinet.be/contact#bank).**
+**With this [[color=orange]tutorial[/color]](https://wiki.neutrinet.be/en/vpn/vpn-order)** &  **a [[color=orange]prix libre[/color]](https://wiki.neutrinet.be/en/administration/banks).**
 
 
 
