@@ -27,4 +27,4 @@ Il est bon de noter que quoi que nous fassions nous n'avons que 256 adresses IPv
 En 2021, Neutrinet asbl fêtera ses 10 ans en tant qu'association.
 
 ---
->Selon moi, en terme de réseau ça change rien que ce soit une **boxe** ou un **vpn** mais pour les « client·e·s » ça nourrira le sentiment d'indépendance vis à vis de l'opérateur historique belge et c'est en partie pour cela que je milite pour du VPN avec IP fixes et de l'auto-hébergement.
+>Selon moi (tierce), en terme de réseau ça change rien que ce soit une **boxe** ou un **vpn** mais pour les « client·e·s » ça nourrira le sentiment d'indépendance vis à vis de l'opérateur historique belge et c'est en partie pour cela que je milite pour du VPN avec IP fixes et de l'auto-hébergement.
