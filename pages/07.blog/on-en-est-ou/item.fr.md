@@ -1,5 +1,6 @@
 ---
 title: 'Bientôt 10 ans'
+published: false
 date: '02/17/2021 11:07 pm'
 taxonomy:
     category:
@@ -8,8 +9,11 @@ taxonomy:
         - réseau
         - 10ans
 continue_link: true
+feed:
+    limit: 10
 subtitle: 'Et la route vers la collecte continue…'
 ---
+
 À l'aube de l'adsl (début des années 2000), le [réseau citoyen](https://web.archive.org/web/20020928084752/http://www.reseaucitoyen.be/) était déjà une tentative.  *(je mets le lien vers `archive.org` parce qu'entre temps le nom de domaine a été repris par quelqu'un d'autre qui n'a rien à voir avec le projet d'origine.  Je ne sais pas trop ce qu'il en reste aujourd'hui.)*.
 
 [Neutrinet asbl](https://wiki.neutrinet.be) en est en partie, l'héritage. 
