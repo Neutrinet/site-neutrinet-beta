@@ -50,7 +50,7 @@ En résumé, sur une connexion Internet à usage personnel existante *(et donc u
 
 Sur un ordinateur **personnel** fonctionnant avec GNU/Linux, nous allons créer un dossier local au nom de votre compte Neutrinet qui rassemblera les fichiers dont que nous allons créer et télécharger depuis votre compte Neutrinet, à savoir `auth, client.key, CSR.csr, client.crt, ca.crt, neutrinet.ovpn, neutrinet.cube`. Les fichiers qui se trouveront dans ce dossier sont **des données précieuses et personnelles**, tâchez d'en prendre soin, d'en conserver une copie et d'en limiter l'accès ou la diffusion à vous seul ou des personnes de confiance.
 
-Ouvrez un [terminal]() et rendez vous, par exemple, dans votre dossier personnel `/home/vous` ou votre dossier Documents `/home/vous/Documents`.
+Ouvrez un [terminal *(shell)*](https://fr.wikipedia.org/wiki/Shell_Unix) et rendez vous, par exemple, dans votre dossier personnel `/home/vous` ou votre dossier Documents `/home/vous/Documents`.
 
 ```
 cd ~             # ou bien cd ~/Documents à votre convenance
@@ -120,7 +120,7 @@ Pour qu'un `client vpn` Neutrinet soit complet, il faut télécharger un ensembl
   * avoir un certificat personnel signé par Neutrinet `client.crt` dans le dossier `neutrinet` de votre ordinateur personnel
   * avoir un certificat authentifiant le serveur de Neutrinet `ca.crt` dans le dossier `neutrinet` de votre ordinateur personnel
   * avoir un fichier de configuration OpenVPN fonctionnel `neutrinet.ovpn` dans le dossier `neutrinet` de votre ordinateur personnel
-  * avoir un fichier .cube pour faciliter la configuration du [VPN Client]() de [Yunohost]() neutrinet.cube  dans le dossier `neutrinet` de votre ordinateur personnel
+  * avoir un fichier .cube pour faciliter la configuration du [VPN Client](https://github.com/labriqueinternet/vpnclient_ynh) de [Yunohost](https://yunohost.org/#/) neutrinet.cube  dans le dossier `neutrinet` de votre ordinateur personnel
 
 Il faut se connecter avec le login / pass définis dans le fichier `auth` sur le [serveur de Neutrinet](https://user.neutrinet.be) pour y télécharger le paquet de configuration *(Download config package)*.  C'est un fichiers `zip` qui contient des fichiers que vous pourrez extraire dans votre dossier `neutrinet` *(cf plus haut; créer un fichier auth)*.
 
@@ -138,7 +138,7 @@ Pour pouvoir « faciliter » la configuration de l'application `VPN Client` de 
 
 #### Objectif
 
-  * avoir un fichier .cube pour faciliter la configuration du [VPN Client]() de [Yunohost]() neutrinet.cube  dans le dossier `neutrinet` de votre ordinateur personnel
+  * avoir un fichier .cube pour faciliter la configuration du [VPN Client](https://github.com/labriqueinternet/vpnclient_ynh) de [Yunohost](https://yunohost.org/#/) neutrinet.cube  dans le dossier `neutrinet` de votre ordinateur personnel
 
 Depuis le dossier `neutrinet` de votre ordinateur personnel, dossier qui devrait maintenant contenir les fichiers suivants `auth, client.key, client.crt, ca.crt` *(accessoirement `neutrinet.ovpn`)* et peut-être d'autres, il faut télécharger un script :
 
