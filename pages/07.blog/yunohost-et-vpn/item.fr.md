@@ -509,6 +509,23 @@ Votre installation étant à priori fonctionnelle, le bouton *Installer un certi
 
 L'installation de ce certificat se fait automatiquement sans devoir configurer autre choses et lorsque cela sera fait, `https://votre-choix.etc` ou `https://serveur.votre-choix.etc` seront joignables sans avoir de message d'erreur de la part de votre navigateur.
 
+## Application Neutrinet
+
+Pour terminer l'installation de ce serveur il faut aussi installer l'[application Neutrinet](https://gitlab.domainepublic.net/Neutrinet/neutrinet_ynh) qui va prendre en charge le renouvellement du certificat de votre VPN parce qu'il a une durée de vie de 1 an.  Sans cette application il faudrait [renouveler manuellement le certificat](https://wiki.neutrinet.be/fr/vpn/renew-cert).
+
+Cela se fait dans l'interface d'administration de votre Yunohost, comme lors de l'installation du *Client VPN*.
+
+![](yunohost-vpn-application-installee.png)
+
+En cherchant après `neutrinet` vous trouverez l'application.
+
+![](yunohost-neutrinet-app.png)
+
+Et vous pourrez l'installer, comme pour le *Client VPN*, sur le domaine `serveur.votre-choix.etc`.
+
+![](yunohost-neutrinet-installation.png)
+
+
 ## Remerciements
 
   * À vous, d'avoir parcourus ce tutoriel jusqu'ici et de vous lancer dans la grande aventure de l'auto-hébergement.
