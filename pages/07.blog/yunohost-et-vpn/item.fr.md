@@ -35,7 +35,7 @@ Faire l'[auto-hébergement](https://fr.wikipedia.org/wiki/Auto-h%C3%A9bergement)
 
 Avec un FAI, autre que Neutrinet asbl, vous pourrez obtenir l'ouverture de ce port 25 et l'obtention d'adresses IP fixes avec une **connexion à usage professionnel** et donc d'une personne morale *(asbl, sprl, indépendant·e, etc)*.  Nous n'avons pas testé les conditions de tout les FAI et il existe peut-être un FAI qui propose ces possibilités à des particuliers.
 
-Le VPN de Neutrinet asbl, en plus de fournir un [tunnel VPN](https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel) qui chiffrera la communication aux yeux de votre FAI existant, vous fournira ces précieuses adresses IP *(v4 et v6)* en ouvrant tout les ports [TCP]](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol) et [UDP](https://fr.wikipedia.org/wiki/User_Datagram_Protocol) y compris les ports dont le [SMTP](https://fr.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) à besoin pour founctionner correctement.
+Le VPN de Neutrinet asbl, en plus de fournir un [tunnel VPN](https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel) qui chiffrera la communication aux yeux de votre FAI existant, vous fournira ces précieuses adresses IP *(v4 et v6)* en ouvrant tout les ports [TCP](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol) et [UDP](https://fr.wikipedia.org/wiki/User_Datagram_Protocol) y compris les ports dont le [SMTP](https://fr.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) à besoin pour founctionner correctement.
 
 En résumé, sur une connexion Internet à usage personnel existante *(et donc un peu moins onéreuse qu'une connexion à usage professionnel)*, votre serveur  disposera d'une sorte de « seconde connexion » qui l'exposera sur Internet avec une adresse IPv4 et un range IPv6 *(/64)* et dont tous les ports seront accessibles et non filtrés dans le respect de la [neutralité du net](https://fr.wikipedia.org/wiki/Neutralit%C3%A9_du_r%C3%A9seau) que nous défendons.
 
@@ -46,7 +46,7 @@ En résumé, sur une connexion Internet à usage personnel existante *(et donc u
 
   * avoir un fichier `auth` dans votre dossier `neutrinet` sur votre ordinateur personnel.
 
-> Bien qu'il soit possible de réaliser une partie des tâches décrites ci-dessous avec un ordinateur non libre *(Microsoft® ou Apple®)), nous recommandons l'utilisation d'un ordinateur fonctionnant avec un [système d'exploitation](GNU/Linux).
+> Bien qu'il soit possible de réaliser une partie des tâches décrites ci-dessous avec un ordinateur non libre *(Microsoft® ou Apple®)*, nous recommandons l'utilisation d'un ordinateur fonctionnant avec un [système d'exploitation](GNU/Linux).
 
 Sur un ordinateur **personnel** fonctionnant avec GNU/Linux, nous allons créer un dossier local au nom de votre compte Neutrinet qui rassemblera les fichiers dont que nous allons créer et télécharger depuis votre compte Neutrinet, à savoir `auth, client.key, CSR.csr, client.crt, ca.crt, neutrinet.ovpn, neutrinet.cube`. Les fichiers qui se trouveront dans ce dossier sont **des données précieuses et personnelles**, tâchez d'en prendre soin, d'en conserver une copie et d'en limiter l'accès ou la diffusion à vous seul ou des personnes de confiance.
 
