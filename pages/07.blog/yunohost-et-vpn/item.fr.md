@@ -24,9 +24,9 @@ Lors de son installation Yunohost demandera « quel est votre domaine ? ».  Si 
 
 Mais si vous préférez avoir un nom de domaine ```votre-choix.be, votre-choix.com, votre-choix.ninja, etc``` alors il vous faudra enregistrer un nom de domaine auprès d'un [registrar](https://fr.wikipedia.org/wiki/Registraire_de_nom_de_domaine) et payer la redevance annuelle. Vous en serez alors le ou la contact·e *propriétaire, technique, administratif, facturation*.  Si vous oubliez de renouveler votre nom de domaine ```votre-choix.etc```, il sera mis en quarantaine pendant 40 jours avant d'être remis sur le marché. 
 
-Neutrinet asbl peut enregistrer pour vous, chez [Gandi](https://gandi.net), un nom de domaine de ```votre-choix.etc``` et en être le contact *propriétaire, administratif,technique et facturation*. Nous faisons cela par facilité et par paresse mais si vous tenez à être *propriétaire* de ```votre-choix.etc``` et laisser Neutrinet asbl en être le contact *administratif, technique et facturation*, il va de soi que nous feront les démarches avec vous pour vous désigner en tant que contact *prorpiétaire*.
+Neutrinet asbl peut enregistrer pour vous, chez [Gandi](https://gandi.net), un nom de domaine de ```votre-choix.etc``` et en être le contact *propriétaire, administratif,technique et facturation*. Nous faisons cela par facilité et par paresse mais si vous tenez à être *propriétaire* de ```votre-choix.etc``` et laisser Neutrinet asbl en être le contact *administratif, technique et facturation*, il va de soi que nous feront les démarches avec vous pour vous désigner en tant que contact *propriétaire*.
 
-Pour éviter un travail ultérieur de *transfert* du contcat *propriétaire*, lors de l'enregistrement nous auront besoin de vos coordonées complètes telles que le type d'organisation *(particulier, association,…)* et numéro d'entrerpise le car échéant, nom, prénom, adresse, pays, ville, numéro de téléphone et email.
+Pour éviter un travail ultérieur de *transfert* du contcat *propriétaire*, lors de l'enregistrement nous auront besoin de vos coordonées complètes telles que le type d'organisation *(particulier, association,…)* et numéro d'entrerpise le cas échéant, nom, prénom, adresse, pays, ville, numéro de téléphone et email.
 
 
 ## VPN
