@@ -11,22 +11,27 @@ taxonomy:
 subtitle: "Toutes les étapes pour installer un Yunohost avec une IP de Neutrinet."
 ---
 
-## Objectifs
-
-  * Enregistrer un [Nom de domaine](https://fr.wikipedia.org/wiki/Nom_de_domaine) de `votre-choix.etc` ou de `votre-choix.noho.st` ou de `votre-choix.nohost.me`
-  * Obtenir un [VPN](/vpn) de Neutrinet asbl avec une adresse IPv4 et un */64* IPv6.
-  * Installer [Yunohost](https://yunohost.org) sur un ordinateur de récupération.
-  * Installer le [VPN Client](https://github.com/labriqueinternet/vpnclient_ynh) sur votre Yunohost.
+!!!! **Objectifs**
+!!!!
+!!!!  * avoir un [Nom de domaine](https://fr.wikipedia.org/wiki/Nom_de_domaine)
+!!!!  * avoir un [VPN](/vpn) de Neutrinet asbl avec une adresse IPv4 et un */64* IPv6.
+!!!!  * avoir un [Yunohost](https://yunohost.org) installé sur un ordinateur de récupération.
+!!!!  * avoir le [VPN Client](https://github.com/labriqueinternet/vpnclient_ynh) sur votre Yunohost.
+!!!!  * avoir l'[application Neutrinet](https://gitlab.domainepublic.net/Neutrinet/neutrinet_ynh) sur votre Yunohost.
 
 ## Nom de domaine
 
-Lors de son installation Yunohost demandera « quel est votre domaine ? ».  Si vous n'en avez pas Yunohost vous proposera d'en créer un nouveau au format ```votre-choix.noho.st, votre-choix.nohost.me, etc```.
+### nohost.me ou noho.st
+
+Lors de l'installation de Yunohost l'assistant vous demandera « quel est votre domaine ? ».  Si vous n'en avez pas l'assistant d'installation vous proposera d'en créer un nouveau au format ```votre-choix.noho.st, votre-choix.nohost.me, etc```.
+
+### votre-choix.etc
 
 Mais si vous préférez avoir un nom de domaine ```votre-choix.be, votre-choix.com, votre-choix.ninja, etc``` alors il vous faudra enregistrer un nom de domaine auprès d'un [registrar](https://fr.wikipedia.org/wiki/Registraire_de_nom_de_domaine) et payer la redevance annuelle. Vous en serez alors le ou la contact·e *propriétaire, technique, administratif, facturation*.  Si vous oubliez de renouveler votre nom de domaine ```votre-choix.etc```, il sera mis en quarantaine pendant 40 jours avant d'être remis sur le marché. 
 
 Neutrinet asbl peut enregistrer pour vous, chez [Gandi](https://gandi.net), un nom de domaine de ```votre-choix.etc``` et en être le contact *propriétaire, administratif,technique et facturation*. Nous faisons cela par facilité et par paresse mais si vous tenez à être *propriétaire* de ```votre-choix.etc``` et laisser Neutrinet asbl en être le contact *administratif, technique et facturation*, il va de soi que nous feront les démarches avec vous pour vous désigner en tant que contact *propriétaire*.
 
-Pour éviter un travail ultérieur de *transfert* du contcat *propriétaire*, lors de l'enregistrement nous auront besoin de vos coordonées complètes telles que le type d'organisation *(particulier, association,…)* et numéro d'entrerpise le cas échéant, nom, prénom, adresse, pays, ville, numéro de téléphone et email.
+Pour éviter un travail ultérieur de *transfert* du contact *propriétaire*, lors de l'enregistrement nous auront besoin de vos coordonées complètes telles que le type d'organisation *(particulier, association,…)* et numéro d'entrerpise le cas échéant, nom, prénom, adresse, pays, ville, numéro de téléphone et email.
 
 
 ## VPN
@@ -42,13 +47,13 @@ En résumé, sur une connexion Internet à usage personnel existante *(et donc u
 
 ### Créer un fichier `auth`
 
-#### Objectif
+!!!! **Objectif**
+!!!! 
+!!!!   * avoir un fichier `auth` dans votre dossier `neutrinet` sur votre ordinateur personnel.
+!!!! 
+!!!! Bien qu'il soit possible de réaliser une partie des tâches décrites ci-dessous avec un ordinateur non libre, nous recommandons l'utilisation d'un ordinateur fonctionnant avec un système d'exploitation [GNU/Linux](https://fr.wikipedia.org/wiki/Distribution_Linux).
 
-  * avoir un fichier `auth` dans votre dossier `neutrinet` sur votre ordinateur personnel.
-
-> Bien qu'il soit possible de réaliser une partie des tâches décrites ci-dessous avec un ordinateur non libre *(Microsoft® ou Apple®)*, nous recommandons l'utilisation d'un ordinateur fonctionnant avec un [système d'exploitation](GNU/Linux).
-
-Sur un ordinateur **personnel** fonctionnant avec GNU/Linux, nous allons créer un dossier local au nom de votre compte Neutrinet qui rassemblera les fichiers dont que nous allons créer et télécharger depuis votre compte Neutrinet, à savoir `auth, client.key, CSR.csr, client.crt, ca.crt, neutrinet.ovpn, neutrinet.cube`. Les fichiers qui se trouveront dans ce dossier sont **des données précieuses et personnelles**, tâchez d'en prendre soin, d'en conserver une copie et d'en limiter l'accès ou la diffusion à vous seul ou des personnes de confiance.
+Sur votre ordinateur **personnel**, vous allez créer un dossier local au nom de votre compte Neutrinet.  Ce dossier rassemblera les fichiers `auth, client.key, CSR.csr, client.crt, ca.crt, neutrinet.ovpn, neutrinet.cube` qui seront nécessaires pour la suite. Ces fichiers seront **des données précieuses et personnelles**, tâchez d'en prendre soin, d'en conserver une copie et d'en limiter l'accès ou la diffusion à vous seul ou des personnes de confiance.
 
 Ouvrez un [terminal *(shell)*](https://fr.wikipedia.org/wiki/Shell_Unix) et rendez vous, par exemple, dans votre dossier personnel `/home/vous` ou votre dossier Documents `/home/vous/Documents`.
 
@@ -79,13 +84,13 @@ Pour quitter `nano` et enregistrer votre nouveau fichier `auth` utilisez les tou
 !!!!
 !!!!  * le mot de passe de votre compte neutrinet, qui est en même temps le mot de passe de votre VPN
 !!!!  * le fichier `client.key` qui est votre clé de chiffrement **privée**
-
-#### Objectif
-
-  * avoir un compte chez Neutrinet
-  * avoir votre clé privée `client.key` et générer une demande de certification `CSR.csr` dans le dossier `neutrinet` de votre ordinateur personnel
-  * avoir un client VPN chez Neutrinet
-  * avoir une adresse IPv4 *(/32)*
+!!!!
+!!!! **Objectif**
+!!!! 
+!!!!   * avoir un compte chez Neutrinet
+!!!!   * avoir votre clé privée `client.key` et générer une demande de certification `CSR.csr` dans le dossier `neutrinet` de votre ordinateur personnel
+!!!!   * avoir un client VPN chez Neutrinet
+!!!!   * avoir une adresse IPv4 *(/32)*
 
 Suivre les explications [Créer / commander un VPN de Neutrinet](https://wiki.neutrinet.be/fr/vpn/vpn-order) et lors de la création du compte, **ne jamais revenir en arrière** parce que l'outil d'enregistrement est un peu capricieux.
 
@@ -93,11 +98,13 @@ Au terme de l'enregistrement, si aucune IP n'apparaît, attendre 5 ou 6 secondes
 
 ### Adresses IPv6
 
+!!!! **Objectif**
+!!!!
+!!!! * avoir un range IPv6 *(/64)*
+ 
+
 Lors de l'étape précédente, il est fort probable que le `client vpn` qui aura été créé en même temps que votre `compte neutrinet` dispose d'une IPv4 *(/32)*, une IPv6 *(/128)* mais pas de *(/64)* IPv6.
 
-#### Objectif
-
-  * avoir un range IPv6 *(/64)*
 
 Il faut se rendre sur [l'outil de gestion de compte de Neutrinet](https://user.neutrinet.be), se connecter en utilisant le contenu du fichier `auth` précédemment créé.
 
@@ -115,12 +122,12 @@ Retourner sur *Overview*, cliquer à nouveau sur le nom de votre client de confi
 
 Pour qu'un `client vpn` Neutrinet soit complet, il faut télécharger un ensemble de fichiers que le seurveur de Neutrinet génèrera pour vous.
 
-#### Objectif
-
-  * avoir un certificat personnel signé par Neutrinet `client.crt` dans le dossier `neutrinet` de votre ordinateur personnel
-  * avoir un certificat authentifiant le serveur de Neutrinet `ca.crt` dans le dossier `neutrinet` de votre ordinateur personnel
-  * avoir un fichier de configuration OpenVPN fonctionnel `neutrinet.ovpn` dans le dossier `neutrinet` de votre ordinateur personnel
-  * avoir un fichier .cube pour faciliter la configuration du [VPN Client](https://github.com/labriqueinternet/vpnclient_ynh) de [Yunohost](https://yunohost.org/#/) neutrinet.cube  dans le dossier `neutrinet` de votre ordinateur personnel
+!!!! **Objectif**
+!!!! 
+!!!!   * avoir un certificat personnel signé par Neutrinet `client.crt` dans le dossier `neutrinet` de votre ordinateur personnel
+!!!!   * avoir un certificat authentifiant le serveur de Neutrinet `ca.crt` dans le dossier `neutrinet` de votre ordinateur personnel
+!!!!   * avoir un fichier de configuration OpenVPN fonctionnel `neutrinet.ovpn` dans le dossier `neutrinet` de votre ordinateur personnel
+!!!!   * avoir un fichier .cube pour faciliter la configuration du [VPN Client](https://github.com/labriqueinternet/vpnclient_ynh) de [Yunohost](https://yunohost.org/#/) neutrinet.cube  dans le dossier `neutrinet` de votre ordinateur personnel
 
 Il faut se connecter avec le login / pass définis dans le fichier `auth` sur le [serveur de Neutrinet](https://user.neutrinet.be) pour y télécharger le paquet de configuration *(Download config package)*.  C'est un fichiers `zip` qui contient des fichiers que vous pourrez extraire dans votre dossier `neutrinet` *(cf plus haut; créer un fichier auth)*.
 
@@ -136,9 +143,9 @@ auth SHA256
 
 Pour pouvoir « faciliter » la configuration de l'application `VPN Client` de votre futur Yunohost, il sera plus simple d'utiliser un fichier `neutrinet.cube` qui contiendra l'ensemble des fichiers et même que le contenu du fichier `auth` créé au début de ce document.
 
-#### Objectif
-
-  * avoir un fichier .cube pour faciliter la configuration du [VPN Client](https://github.com/labriqueinternet/vpnclient_ynh) de [Yunohost](https://yunohost.org/#/) neutrinet.cube  dans le dossier `neutrinet` de votre ordinateur personnel
+!!!! **Objectif**
+!!!! 
+!!!!   * avoir un fichier .cube pour faciliter la configuration du [VPN Client](https://github.com/labriqueinternet/vpnclient_ynh) de [Yunohost](https://yunohost.org/#/) neutrinet.cube  dans le dossier `neutrinet` de votre ordinateur personnel
 
 Depuis le dossier `neutrinet` de votre ordinateur personnel, dossier qui devrait maintenant contenir les fichiers suivants `auth, client.key, client.crt, ca.crt` *(accessoirement `neutrinet.ovpn`)* et peut-être d'autres, il faut télécharger un script :
 
@@ -178,12 +185,13 @@ Nous allons installer Yunohost sur un ordinateur, comme par exemple,
 !!!!
 !!!!  * le mot de passe `root`
 !!!!  * un compte utilisateur `bidon` pour avoir un·e premier·ière utilisateur·ice sur votre debian et son mot de passe.
+!!!!
+!!!! **Objetif**
+!!!!
+!!!!  * avoir un ordinateur qui fonctionne avec Debian 10 *(Buster)*
+
 
 Lors de l'installation, vous pouvez donner un nom de machine temporaire, comme par exemple `buster` et ne pas mettre de nom de domaine.  Cela se fera par Yunohost lors de la « post install », une étape qui aura lieu plus loin.
-
-#### Objetif
-
-  * avoir un ordinateur qui fonctionne avec Debian 10 *(Buster)*
 
 ### Installation de Debian 10
 
@@ -205,10 +213,10 @@ En gros, ma revient à télécharger une image `iso` de Debian 10, d'en faire un
 !!!!
 !!!!  * le mot de passe `admin` de votre Yunohost
 !!!!  * votre premier compte utilisateur·ice sur votre Yunohost et son mot de passe.
-
-#### Objectif
-
-  * avoir un Yunohost installé **sans** faire la post-installation
+!!!!
+!!!! **Objectif**
+!!!!
+!!!!  * avoir un Yunohost installé **sans** faire la post-installation
 
 ### Installation de Yunohost 4.x
 
@@ -241,11 +249,11 @@ apt install curl
 
 La post installation de Yunohost va vous permettre de configurer votre premier domaine.
 
-#### Objectif
-
-  * avoir un domaine par défaut configuré sur le Yunohost
-  * avoir un mot de passe d'administration *(admin)* pour le Yunohost
-  * avoir un premier compte utilisateur·ice et son mot de passe sur le Yunohost
+!!!! **Objectif**
+!!!! 
+!!!!   * avoir un domaine par défaut configuré sur le Yunohost
+!!!!   * avoir un mot de passe d'administration *(admin)* pour le Yunohost
+!!!!   * avoir un premier compte utilisateur·ice et son mot de passe sur le Yunohost
 
 Maintenant que votre serveur Debian 10 a été enrichi par Yunohost, il nous faut maintenant faire la *post installation*.  Cela se fait dans votre navigateur Internet, comme par exemple [Firefox](https://firefox.com) en vous rendant à l'adresse renseignée lors de la fin de l'installation.  Dans notre cas c'était `https://192.168.12.160`.
 
