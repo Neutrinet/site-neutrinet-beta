@@ -9,7 +9,6 @@ taxonomy:
         - tutoriel
         - vpn
 subtitle: "Toutes les étapes pour installer un Yunohost avec une IP de Neutrinet."
-published: false
 ---
 
 !!!! **Objectifs**
