@@ -22,4 +22,5 @@ class: offset-box
 
 # Tu fais quoi ce soir ?
 
-#### [color=#d60ea4]-! Nouvelle adresse pour les Install Parties !-[/color]
+#### [color=#f99f20]oO 21 mars 2021 Oo[/color]
+#### [color=#f99f20]autre adresse pour l'Install Party de l'Équinox[/color]

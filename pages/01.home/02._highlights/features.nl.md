@@ -22,4 +22,5 @@ class: offset-box
 
 # Wat doe je vanavond ?
 
-#### [color=#d60ea4]-! Nieuw adres voor Install Parties !-[/color]
+#### [color=#f99f20]oO 21 maart 2021 Oo[/color]
+#### [color=#f99f20]andere adres voor Equinox Install Party[/color]
