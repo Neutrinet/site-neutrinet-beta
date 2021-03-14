@@ -21,3 +21,5 @@ class: offset-box
 ---
 
 # What are you doing tonight?
+
+#### [color=#d60ea4]-! New location for the Install Parties !-[/color]

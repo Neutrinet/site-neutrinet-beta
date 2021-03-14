@@ -21,3 +21,5 @@ class: offset-box
 ---
 
 # Tu fais quoi ce soir ?
+
+#### [color=#d60ea4]-! Nouvelle adresse pour les Install Parties !-[/color]

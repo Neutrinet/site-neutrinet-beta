@@ -7,7 +7,6 @@ menu: 'Install Party'
 ## Install Party
 > Install party, rencontres, ouvert à toutes et tous, venez avec vos ordis, briques, ami·es...
 
-46, Avenue Princesse Elisabeth, 1030 Schaerbeek, @ [hacklab](https://ps.zoethical.com/t/welcome-to-the-hacklab-bxl/1600).
-Juste devant l'arrêt [Princess Elisabeth](https://www.openstreetmap.org/#map=19/50.87286/4.37672) du tram 92.
+121, rue de Wautier, 1020 Laeken, au [Caldarium](https://caldarium.be/en:contact).
 
 [Tous les 3ème dimanche du mois !](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL?classes=btn,btn-primary,btn-lg)

@@ -21,3 +21,5 @@ class: offset-box
 ---
 
 # Wat doe je vanavond ?
+
+#### [color=#d60ea4]-! Nieuw adres voor Install Parties !-[/color]
