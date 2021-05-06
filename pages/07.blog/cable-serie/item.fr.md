@@ -13,7 +13,7 @@ taxonomy:
 subtitle: 'Pour communiquer « directement » avec votre brique.'
 ---
 
-Si vous disposez d'un [câble série](https://www.olimex.com/Products/Components/Cables/USB-Serial-Cable/USB-Serial-Cable-F/) _(USB to serial cable (female))_ ous pouvez l'utiliser pour vous connecter aux cartes Lime1 et Lime2.
+Si vous disposez d'un [câble série](https://www.olimex.com/Products/Components/Cables/USB-Serial-Cable/USB-SERIAL-F/) _(USB to serial cable (female))_ ous pouvez l'utiliser pour vous connecter aux cartes Lime1 et Lime2.
 
 ===
 
@@ -23,7 +23,7 @@ Si vous disposez d'un [câble série](https://www.olimex.com/Products/Components
 
 ### Sur la carte (lime1 ou lime2)
 
-Si vous disposez d'un [câble série](https://www.olimex.com/Products/Components/Cables/USB-Serial-Cable/USB-Serial-Cable-F/) _(USB to serial cable (female))_ ous pouvez l'utiliser pour vous connecter aux cartes Lime1 et Lime2.
+Si vous disposez d'un [câble série](https://www.olimex.com/Products/Components/Cables/USB-Serial-Cable/USB-SERIAL-F/) _(USB to serial cable (female))_ ous pouvez l'utiliser pour vous connecter aux cartes Lime1 et Lime2.
 
 À brancher sur les connecteurs UART0 (À côté de la prise ethernet)
 
