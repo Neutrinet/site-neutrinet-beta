@@ -21,6 +21,3 @@ class: offset-box
 ---
 
 # What are you doing tonight?
-
-#### [color=#f99f20]oO 21 march 2021 Oo[/color]
-#### [color=#f99f20]other location for the Equinox Install Party[/color]

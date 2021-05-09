@@ -21,6 +21,3 @@ class: offset-box
 ---
 
 # Tu fais quoi ce soir ?
-
-#### [color=#f99f20]oO 21 mars 2021 Oo[/color]
-#### [color=#f99f20]autre adresse pour l'Install Party de l'Équinox[/color]
