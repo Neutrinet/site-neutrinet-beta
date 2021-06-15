@@ -10,4 +10,4 @@ menu: 'Random meeting'
 
 Nothing on scheddule, but from time to time on Thursday's evening we meet at Toone Théatre de marionnette in Brussels.
 
-It is sometimes said the same day on [irc #neutrinet](https://webchat.freenode.net/?channels=neutrinet) or our [Mattermost](https://chat.neutrinet.be).
+It is sometimes said the same day on our [Mattermost](https://chat.neutrinet.be).

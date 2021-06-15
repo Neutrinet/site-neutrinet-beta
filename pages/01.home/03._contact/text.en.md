@@ -8,6 +8,5 @@ menu: 'Contact'
 ## Contact us
 > If you have a question, need help or whatever.
 
-* [irc #neutrinet](https://webchat.freenode.net/?channels=neutrinet) (chat)
 * [Mattermost](https://chat.neutrinet.be) (chat)
 * contact @ neutrinet . be
