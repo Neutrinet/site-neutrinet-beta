@@ -171,6 +171,11 @@ class Email
             throw new \RuntimeException($language->translate('PLUGIN_EMAIL.PLEASE_CONFIGURE_A_FROM_ADDRESS'));
         }
 
+        // make email configuration available to templates
+        $vars += [
+            'email' => $params,
+        ];
+
         // Process parameters.
         foreach ($params as $key => $value) {
             switch ($key) {
@@ -414,12 +419,11 @@ class Email
 
         $config = $grav['config']->get('plugins.email.queue');
 
-        $queue = static::getQueue();
-        $spool = $queue->getSpool();
-        $spool->setMessageLimit($config['flush_msg_limit']);
-        $spool->setTimeLimit($config['flush_time_limit']);
-
         try {
+            $queue = static::getQueue();
+            $spool = $queue->getSpool();
+            $spool->setMessageLimit($config['flush_msg_limit']);
+            $spool->setTimeLimit($config['flush_time_limit']);
             $failures = [];
             $result = $spool->flushQueue(static::getTransport(), $failures);
             return $result . ' messages flushed from queue...';
@@ -503,6 +507,7 @@ class Email
         $clean->setSender($message->getSender());
         $clean->setSubject($message->getSubject());
         $clean->setTo($message->getTo());
+        $clean->setAuthMode($message->getAuthMode());
 
         return $clean;
 
@@ -535,6 +540,9 @@ class Email
                 }
                 if (!empty($options['password'])) {
                     $transport->setPassword($options['password']);
+                }
+                if (!empty($options['auth_mode'])) {
+                    $transport->setAuthMode($options['auth_mode']);
                 }
                 break;
             case 'sendmail':

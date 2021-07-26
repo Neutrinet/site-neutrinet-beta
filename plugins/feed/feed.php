@@ -1,11 +1,12 @@
 <?php
 namespace Grav\Plugin;
 
+use Composer\Autoload\ClassLoader;
 use Grav\Common\Data;
 use Grav\Common\Page\Collection;
+use Grav\Common\Page\Interfaces\PageInterface;
 use Grav\Common\Plugin;
 use Grav\Common\Uri;
-use Grav\Common\Page\Page;
 use RocketTheme\Toolbox\Event\Event;
 
 class FeedPlugin extends Plugin
@@ -36,9 +37,22 @@ class FeedPlugin extends Plugin
     public static function getSubscribedEvents()
     {
         return [
-            'onPluginsInitialized' => ['onPluginsInitialized', 0],
+            'onPluginsInitialized' => [
+                ['autoload', 100000],
+                ['onPluginsInitialized', 0],
+            ],
             'onBlueprintCreated' => ['onBlueprintCreated', 0]
         ];
+    }
+
+    /**
+     * [onPluginsInitialized:100000] Composer autoload.
+     *
+     * @return ClassLoader
+     */
+    public function autoload()
+    {
+        return require __DIR__ . '/vendor/autoload.php';
     }
 
     /**
@@ -49,7 +63,6 @@ class FeedPlugin extends Plugin
     public function onPluginsInitialized()
     {
         if ($this->isAdmin()) {
-            $this->active = false;
             return;
         }
 
@@ -64,13 +77,10 @@ class FeedPlugin extends Plugin
         $this->type = $uri->extension();
 
         if ($this->type && in_array($this->type, $this->valid_types)) {
-            $this->active = true;
 
             $this->enable([
                 'onPageInitialized' => ['onPageInitialized', 0],
-                'onCollectionProcessed' => ['onCollectionProcessed', 0],
                 'onTwigTemplatePaths' => ['onTwigTemplatePaths', 0],
-                'onTwigSiteVariables' => ['onTwigSiteVariables', 0]
             ]);
         }
     }
@@ -80,16 +90,23 @@ class FeedPlugin extends Plugin
      */
     public function onPageInitialized()
     {
-        /** @var Page $page */
         $page = $this->grav['page'];
-        if (isset($page->header()->feed)) {
-            $this->feed_config = array_merge($this->feed_config, $page->header()->feed);
-        }
 
         // Overwrite regular content with feed config, so you can influence the collection processing with feed config
         if (property_exists($page->header(), 'content')) {
+            if (isset($page->header()->feed)) {
+                $this->feed_config = array_merge($this->feed_config, $page->header()->feed);
+            }
+
             $page->header()->content = array_merge($page->header()->content, $this->feed_config);
+
+            $this->grav['twig']->template = 'feed.' . $this->type . '.twig';
+
+            $this->enable([
+                'onCollectionProcessed' => ['onCollectionProcessed', 0],
+            ]);
         }
+
     }
 
     /**
@@ -100,7 +117,7 @@ class FeedPlugin extends Plugin
     public function onCollectionProcessed(Event $event)
     {
         /** @var Collection $collection */
-        $collection = $event['collection'];
+        $collection = $event['collection']->nonModular();
 
         foreach ($collection as $slug => $page) {
             $header = $page->header();
@@ -108,14 +125,6 @@ class FeedPlugin extends Plugin
                 $collection->remove($page);
             }
         }
-    }
-
-    /**
-     * Set feed template as current twig template
-     */
-    public function onTwigSiteVariables()
-    {
-        $this->grav['twig']->template = 'feed.' . $this->type . '.twig';
     }
 
     /**
