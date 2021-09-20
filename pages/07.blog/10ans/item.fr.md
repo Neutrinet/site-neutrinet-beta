@@ -12,7 +12,7 @@ subtitle: "On a plein de choses à fêter !"
 
 C'est la fête au village Neutrinet
 
-[![](Happy-birthday-with-chocolate-cake-by-liftarn.svg)]
+[!](Happy-birthday-with-chocolate-cake-by-liftarn.svg)
 
 Comme pour beaucoup de collectifs, ces derniers mois n'étaient pas propices pour nous rencontrer et faire des activités ensemble. Malgré tout, chez Neutrinet, il s’est passé quelques événements importants qui méritent d'être célébrés !
 
