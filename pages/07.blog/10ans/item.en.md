@@ -11,7 +11,7 @@ subtitle: "We have many things to celebrate !"
 ---
 It's party time at Neutrinet's town.
 
-[!](Happy-birthday-with-chocolate-cake-by-liftarn.svg)
+![](Happy-birthday-with-chocolate-cake-by-liftarn.svg)
 
 As for many collectives, the last few months were not suitable for meeting and doing activities together. Nevertheless, at Neutrinet, there have been some important events that deserve to be celebrated!
 
