@@ -70,18 +70,18 @@ Ces demandes viennent d'enquêteur·ice·s mandaté·e·s par le parquet.
 
 Nous devons donc conserver des informations sur l'utilisation des VPN pour pouvoir y répondre.
 
-#### 3.11 Obligation de collaboration pour avoir accès aux communications 16
+##### 3.11 Obligation de collaboration pour avoir accès aux communications 16
 
 Un opérateur ou fournisseur de services doit, si l’on lui demande, apporter sa collaboration afin de pouvoir avoir accès aux communications électroniques.
 
-#### 3.12 Fourniture de données d’identification et de données concernant les services fournis
+##### 3.12 Fourniture de données d’identification et de données concernant les services fournis
 
 L’opérateur doit fournir à l’autorité requérante les informations concernant :
 - L’identification des abonnés ou des utilisateurs de leurs services (données à caractère personnel, adresse, adresse de facturation, contrat...)
 - L’identification du moyen de communications électroniques utilisé (par ex. IMEI, IMSI, IP, MAC...)
 - L'identification des services auxquels une personne est abonnée ou qui sont habituellement utilisés par une personne
 
-#### 3.13 Fourniture de données de trafic et de localisation
+##### 3.13 Fourniture de données de trafic et de localisation
 
 L’opérateur doit fournir à l’autorité requérante les informations concernant :
 
@@ -89,7 +89,7 @@ L’opérateur doit fournir à l’autorité requérante les informations concer
 - L’identification du moyen de communications électroniques utilisé (par ex. IMEI, IMSI, IP, MAC...)
 - L'identification des services auxquels une personne est abonnée ou qui sont habituellement utilisés par une personne
 
-#### 3.14 Obligation d’interception et de fourniture des données interceptées
+##### 3.14 Obligation d’interception et de fourniture des données interceptées
 
 Un opérateur ou fournisseur de services doit pouvoir transmettre en temps réel les données d’un service de communications électroniques donné dans un langage clair au système central d’interception du NTSU CTIF.
 
@@ -99,13 +99,13 @@ La même procédure doit être suivie à chaque fois que des modifications sont 
 
 L’opérateur reçoit de la permanence du NTSU CTIF les demandes des autorités compétentes accompagnées d’une fiche récapitulative des mesures demandées. Celles-ci doivent être exécutées immédiatement. En cas d’imprécisions ou de problème concernant l’exécution de la requête, l’opérateur est tenu de contacter DSU.NTSU.CTIF.PERM@police.belgium.eu ou de téléphoner au +32 2 642 77 11.
 
-#### 3.15 Synchronisation et précision des heures communiquées
+##### 3.15 Synchronisation et précision des heures communiquées
 
 Étant donné que le temps joue un rôle crucial dans les communications électroniques, il est absolument nécessaire que la configuration horaire de tous les systèmes impliqués se synchronise en permanence avec un signal fiable tel qu’une horloge atomique ou le signal GPS.
 
 Si des heures doivent être communiquées pour les données de trafic, celles-ci seront exprimées jusqu’à la seconde.
 
-#### 3.16 Obligation de secret
+##### 3.16 Obligation de secret
 
 Toute personne chez un opérateur requis qui prend connaissance de la demande et des données qui constituent la réponse est soumise au secret professionnel.
 
