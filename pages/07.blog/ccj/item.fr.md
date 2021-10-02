@@ -32,8 +32,8 @@ Nous en avons pris conscience tardivement parce que leur(s) premier(s) mail(s) s
 
 Nous en avons parlé lors de deux réunions
 
-- https://wiki.neutrinet.be/fr/rapports/2021/09-21#ccj
-- https://wiki.neutrinet.be/fr/rapports/2021/09-29
+- [Réunion des membres du 21/09/2021](https://wiki.neutrinet.be/fr/rapports/2021/09-21#ccj)
+- [Réunion hub-admin du 29/0//2021](https://wiki.neutrinet.be/fr/rapports/2021/09-29)
 
 Vous devez comprendre que quelqu'un·e chez Neutrinet asbl devra être disponible 24h/24, 7j/7 et 365 jours par an et on ne voit pas comment faire ça.
 
