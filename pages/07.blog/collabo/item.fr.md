@@ -9,6 +9,8 @@ taxonomy:
 subtitle: 'Ce serait sympa de collaborer…'
 ---
 
+Mise à jour (02/10/2021) : On a ce genre de chose [En Belgique, mais c'est pire](/fr/blog/ccj).
+
 Le 5 février 2020 nous avons reçu un mail de DCPJ sdlc-baen <sdlc-baen@interieur.gouv.fr> avec un adorable sujet **Prise de contact - Modalités d'envoi des Réquisitions judiciaires - Direction Centrale de la Police Judiciaire / Sous-Direction de la Lutte contre la Cybercriminalité**.
 
 ===
