@@ -33,7 +33,7 @@ Nous en avons pris conscience tardivement parce que leur(s) premier(s) mail(s) s
 Nous en avons parlé lors de deux réunions
 
 - [Réunion des membres du 21/09/2021](https://wiki.neutrinet.be/fr/rapports/2021/09-21#ccj)
-- [Réunion hub-admin du 29/0//2021](https://wiki.neutrinet.be/fr/rapports/2021/09-29)
+- [Réunion hub-admin du 29/09/2021](https://wiki.neutrinet.be/fr/rapports/2021/09-29)
 
 Vous devez comprendre que quelqu'un·e chez Neutrinet asbl devra être disponible 24h/24, 7j/7 et 365 jours par an et on ne voit pas comment faire ça.
 
@@ -56,7 +56,7 @@ Sachant qu'à l'heure actuelle Neutrinet ne dispose pas d'un·e permanent·e pou
 
 ## Nous avons besoin d'aide
 
-Si vous êtes juriste ou avez des contacts avec des juristes, nous en avons urgemment besoin. 
+! Si vous êtes juriste ou avez des contacts avec des juristes, nous en avons urgemment besoin. 
 
 ---
 
