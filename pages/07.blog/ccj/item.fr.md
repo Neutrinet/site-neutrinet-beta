@@ -60,17 +60,15 @@ Si vous êtes juriste ou avez des contacts avec des juristes, nous en avons urge
 
 ---
 
-## Cellule de Collaboration ~~Coordination~~ avec la Justice
+Ci-dessous un extrait de ce qu'on peut nous demander…
 
-L'IBPT nous demande de devenir un outil de collaboration avec la justice [[1](https://www.ibpt.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/4cda9d352da1912b728c4517c70ce9c2de5815c2/Brochure_Informative_Obligations_Collaboration_Autorites_Judiciaires.pdf)].
+Dans le cadre des activités de la Cellule de Collaboration ~~Coordination~~ avec la Justice, l'IBPT nous demande de devenir un outil de collaboration avec la justice [[1](https://www.ibpt.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/4cda9d352da1912b728c4517c70ce9c2de5815c2/Brochure_Informative_Obligations_Collaboration_Autorites_Judiciaires.pdf)].
 
 Nous devons répondre 24h/24h et 365 jours par an au demandes d'information qu'on nous adresserait dans le cadre d'une enquête.
 
 Ces demandes viennent d'enquêteur·ice·s mandaté·e·s par le parquet.
 
 Nous devons donc conserver des informations sur l'utilisation des VPN pour pouvoir y répondre.
-
-Quelques extraits…
 
 ### 3.11 Obligation de collaboration pour avoir accès aux communications 16
 
