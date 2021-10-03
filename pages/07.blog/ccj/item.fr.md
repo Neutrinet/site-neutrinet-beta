@@ -60,7 +60,7 @@ Sachant qu'à l'heure actuelle Neutrinet ne dispose pas d'un·e permanent·e pou
 
 !! Si vous êtes juriste/avocat·e ou avez des contacts avec des juristes/avocats·es spécialisé dans les télécom, nous en avons urgemment besoin. 
 !! N'hésitez pas à nous rejoindre sur notre [Mattermost](https://chat.neutrinet.be/) ou à nous envoyer un mail à contact @ neutrinet . be.
-
+!! Et si vous préférez nous [soutenir financièrement](https://wiki.neutrinet.be/fr/administration/banks) nous en comprendrons vos encouragements.
 ---
 
 Ci-dessous un extrait de [la brochure informative de l'IBPT](https://www.ibpt.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/4cda9d352da1912b728c4517c70ce9c2de5815c2/Brochure_Informative_Obligations_Collaboration_Autorites_Judiciaires.pdf) qui reprend ce qu'un·e enquêteur·ice peut nous demander.
