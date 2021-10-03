@@ -60,19 +60,9 @@ Sachant qu'à l'heure actuelle Neutrinet ne dispose pas d'un·e permanent·e pou
 
 ---
 
-Ci-dessous un extrait de ce qu'on peut nous demander…
+Ci-dessous un extrait de ce qu'on peut nous demander… et ça ressemble à ce qu'on décrivait dans un [autre article](/blog/collabo) dans lequel il y a un tableau comparatif entre un FAI *(Neutrinet asbl)* et une société de taxi.
 
-Dans le cadre des activités de la Cellule de Collaboration ~~Coordination~~ avec la Justice, l'IBPT nous demande de devenir un outil de collaboration avec la justice ([source](https://www.ibpt.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/4cda9d352da1912b728c4517c70ce9c2de5815c2/Brochure_Informative_Obligations_Collaboration_Autorites_Judiciaires.pdf)).
-
-Nous devons répondre 24h/24h et 365 jours par an au demandes d'information qu'on nous adresserait dans le cadre d'une enquête.
-
-Ces demandes viennent d'enquêteur·ice·s mandaté·e·s par le parquet.
-
-Nous devons donc conserver des informations sur l'utilisation des VPN pour pouvoir y répondre.
-
-##### 3.11 Obligation de collaboration pour avoir accès aux communications 16
-
-Un opérateur ou fournisseur de services doit, si l’on lui demande, apporter sa collaboration afin de pouvoir avoir accès aux communications électroniques.
+Les différent point proviennent de [la brochure informative de l'IBPT](https://www.ibpt.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/4cda9d352da1912b728c4517c70ce9c2de5815c2/Brochure_Informative_Obligations_Collaboration_Autorites_Judiciaires.pdf).
 
 ##### 3.12 Fourniture de données d’identification et de données concernant les services fournis
 
