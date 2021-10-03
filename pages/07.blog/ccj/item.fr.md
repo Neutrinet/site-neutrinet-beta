@@ -56,7 +56,8 @@ Sachant qu'à l'heure actuelle Neutrinet ne dispose pas d'un·e permanent·e pou
 
 ## Nous avons besoin d'aide
 
-! Si vous êtes juriste ou avez des contacts avec des juristes, nous en avons urgemment besoin. 
+!! Si vous êtes juriste ou avez des contacts avec des juristes, nous en avons urgemment besoin. 
+!! N'hésitez pas à nous rejoindre sur notre [Mattermost](https://chat.neutrinet.be) ou à nous envoyer un mail à contact @ neutrinet . be.
 
 ---
 
@@ -103,4 +104,4 @@ S’il est fait appel à des techniciens pour pouvoir satisfaire à la demande, 
 
 Ces techniciens sont également tenus de respecter l’obligation de secret.
 
-!! Ça ressemble à ce qu'on décrivait dans un [autre article](/blog/collabo) dans lequel il y a un tableau comparatif entre un FAI *(Neutrinet asbl)* et une société de taxi.
+!!! Ça ressemble à ce qu'on décrivait dans un [autre article](/blog/collabo) dans lequel il y a un tableau comparatif entre un FAI *(Neutrinet asbl)* et une société de taxi.
