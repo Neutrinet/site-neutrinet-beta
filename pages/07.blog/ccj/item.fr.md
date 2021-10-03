@@ -1,5 +1,5 @@
 ---
-title: CCJ ou on dissout Neutrinet ?
+title: CCJ ou c'est la fin de Neutrinet ?
 date: '10/02/2021 18:15 pm'
 taxonomy:
     category:
