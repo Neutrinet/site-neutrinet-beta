@@ -58,7 +58,7 @@ Sachant qu'à l'heure actuelle Neutrinet ne dispose pas d'un·e permanent·e pou
 
 ## Nous avons besoin d'aide
 
-!! Si vous êtes juriste/avocat·e ou avez des contacts avec des juristes/avocats·es spécialisé dans les télécom, nous en avons urgemment besoin.<br /> 
+!! Si vous êtes juriste/avocat·e ou avez des contacts avec des juristes/avocats·es spécialisé·es dans les télécom, nous en avons urgemment besoin.<br /> 
 !! N'hésitez pas à nous rejoindre sur notre [Mattermost](https://chat.neutrinet.be/) ou à nous envoyer un mail à contact @ neutrinet . be.<br />
 !! Et si vous préférez nous [soutenir financièrement](https://wiki.neutrinet.be/fr/administration/banks) nous en comprendrons vos encouragements.
 ---
