@@ -24,6 +24,8 @@ Nous avons jusqu'au 15 octobre 2021 pour constituer une Cellule de Coordination 
 >
 >Nous vous prions d'agréer, Madame, Monsieur, l’expression de notre considération distinguée.
 
+![drapeau belge avec l'union fait la force, les logos de l'IBPT et la Police qui chassent celui de Neutrinet avec un spray à main](baniere.png)
+
 ## Neutrinet
 
 Pour rappel, Neutrinet asbl est, pour ainsi dire, le seul Fournisseur d'Accès Internet Associatif en Belgique ([source](https://www.bipt.be/operators/publication/list-of-telecom-operators)).
