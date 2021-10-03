@@ -107,3 +107,12 @@ S’il est fait appel à des techniciens pour pouvoir satisfaire à la demande, 
 Ces techniciens sont également tenus de respecter l’obligation de secret.
 
 !!! Ça ressemble à ce qu'on décrivait dans un [autre article](/blog/collabo) dans lequel il y a un tableau comparatif entre un FAI *(Neutrinet asbl)* et une société de taxi.
+
+---
+
+Les images sont issues de
+
+* L'union fait la force de [sticker express](https://www.stickers-express.fr/belgique/2497-l-union-fait-la-force.html)
+* logo IBPT depuis le [site de l'IBPT]()
+* logo police nationnale depuis le site de [Wikipedia](https://upload.wikimedia.org/wikipedia/uk/thumb/e/ee/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%97_%D0%BF%D0%BE%D0%BB%D1%96%D1%86%D1%96%D1%97_%D0%91%D0%B5%D0%BB%D1%8C%D0%B3%D1%96%D1%97.png/250px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%97_%D0%BF%D0%BE%D0%BB%D1%96%D1%86%D1%96%D1%97_%D0%91%D0%B5%D0%BB%D1%8C%D0%B3%D1%96%D1%97.png)
+* spray de [Openclipart](https://openclipart.org/detail/324448/hand-spray-paint)
