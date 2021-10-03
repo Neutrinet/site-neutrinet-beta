@@ -60,9 +60,7 @@ Sachant qu'à l'heure actuelle Neutrinet ne dispose pas d'un·e permanent·e pou
 
 ---
 
-Ci-dessous un extrait de ce qu'on peut nous demander… et ça ressemble à ce qu'on décrivait dans un [autre article](/blog/collabo) dans lequel il y a un tableau comparatif entre un FAI *(Neutrinet asbl)* et une société de taxi.
-
-Les différent point proviennent de [la brochure informative de l'IBPT](https://www.ibpt.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/4cda9d352da1912b728c4517c70ce9c2de5815c2/Brochure_Informative_Obligations_Collaboration_Autorites_Judiciaires.pdf).
+Ci-dessous un extrait de [la brochure informative de l'IBPT](https://www.ibpt.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/4cda9d352da1912b728c4517c70ce9c2de5815c2/Brochure_Informative_Obligations_Collaboration_Autorites_Judiciaires.pdf) qui reprend ce qu'un·e enquêteur·ice peut nous demander.
 
 ##### 3.12 Fourniture de données d’identification et de données concernant les services fournis
 
@@ -104,3 +102,5 @@ Cela signifie qu’elle ne peut communiquer aucune information concernant la req
 S’il est fait appel à des techniciens pour pouvoir satisfaire à la demande, cela a lieu sous la responsabilité de la CCJ et seules les informations strictement nécessaires sont communiquées aux techniciens en question.
 
 Ces techniciens sont également tenus de respecter l’obligation de secret.
+
+!! Ça ressemble à ce qu'on décrivait dans un [autre article](/blog/collabo) dans lequel il y a un tableau comparatif entre un FAI *(Neutrinet asbl)* et une société de taxi.
