@@ -5,7 +5,7 @@ taxonomy:
     category:
         - blog
     tag:
-        - Surveillance
+        - surveillance
 subtitle: 'Ce serait sympa de collaborer…'
 ---
 
