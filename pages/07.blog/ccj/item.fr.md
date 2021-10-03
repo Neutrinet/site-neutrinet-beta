@@ -57,7 +57,7 @@ Sachant qu'à l'heure actuelle Neutrinet ne dispose pas d'un·e permanent·e pou
 ## Nous avons besoin d'aide
 
 !! Si vous êtes juriste ou avez des contacts avec des juristes, nous en avons urgemment besoin. 
-!! N'hésitez pas à nous rejoindre sur notre [Mattermost](https://chat.neutrinet.be) ou à nous envoyer un mail à contact @ neutrinet . be.
+!! N'hésitez pas à nous rejoindre sur notre [Mattermost](https://chat.neutrinet.be/signup_user_complete/?id=3cfzfw6jb7nrmftjrwryaztogy) ou à nous envoyer un mail à contact @ neutrinet . be.
 
 ---
 
