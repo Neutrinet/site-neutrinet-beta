@@ -23,12 +23,62 @@ Neutrinet asbl poursuit un objectif décrit dans [l'article 4](https://wiki.neut
 ! Nos statuts devront être réécris, au plus tard pour 2024, pour nous conformer à la législation entrée en vigueur en 2019.  Cette légilsation tend à ramener le monde associatif dans le giron du **secteur marchand**. 
 
 
+- Dons
+-- sous les 100 000€, pas besoin d'autorisation
+-- de la main à la main
+-- par virement bancaire
+- Comptabilité simplifiée
+-- pas 5 salarié·e·s
+-- pas de bénéfice extraordinaire de 334700€ sur une année
+-- pas d'actifs ou de dette d'une valeur de 1 117 000€
+- Publicité
+-- compte
+-- pv
+-- CA
+-- AG mensuelle
+- Membre
+-- adhérent·e·s
+-- effectif·ve·s
+--- cotisation maximum de 5000€ / an
+--- doivent être validé·e·s par le CA
+-- sympatisant·e
+-- consultant·e·s bénévoles
+-- tout le reste du monde
+-- dans les faits, les personnes qui s'impliquent
+- Vote
+-- concensus mou
+- Responsabilité
+-- individuelle
+-- administrateur·ice
+- Obligations
+-- Registe des membres effectif·ve·s = CA à la BCE
+-- Bilan aux Greffes
+-- Registre UBO
+- Émission de documents comptables ?
+-- pas de facture parce que pas assujeti à la TVA
+-- donc… reçus ?
+-- déduction fiscale ?
+--- il faut demander au SPF finance -> devraient être assujeti à la TVA ?
+- CCJ ?
+-- la question de ce jour
+- Refaire nos statuts pour 2014
+-- but et objet séparés
+-- notion de membre / AG
+- Organes
+-- CA
+-- AG
+-- Délégation à la gestion journalière
+- clients ??
+-- devoir lever l'identité en cas d'enquête (sms (burner?) - coordonées postale - email)
+-- devoir fournir des informations en cas d'enquête, allant jusqu'à un service de collecte et d'analyse (PCAP?)
+-- devoir s'assurer de la validité légale de la demande (mandat, article de loi, etc)
+
 Actuellement, nous mettons à disposition de nos membres, une seule solution technique; le VPN. Cela nous permet de mettre en avant le projet de Labriqueinter.net qui se repose sur du matérielle ouvert (Olimex Lime 1 & 2) et des logiciels libres (YunoHost) pour encourager l'auto-hébergement, la décentralisation et la participation au réseau Internet. Nous sensibilisons nos membres sur la neutralité des réseaux et sommes membres de la Fédération FDN qui se repose sur une charte nous obligeant de garantir cette neutralité des réseaux.
 
 En plus de cela, nous avons dans nos projets en cours de réalisation, la location de machines virtuelles (VPS) et l'accès internet via le câble (vdsl, coax, ...).
 
 ## Fonctionnement de Neutrinet
-Actuellement, nos membres sont principalement des personnes physiques, mais nous avons aussi quelques collectifs ou associations parmis lesquelles il n'est pas toujours possible de disposer des informations d'identité, par choix ou par nécessité (personnes politiques, sans papier, ...).
+Actuellement, nos <s>membres</s> clients (dans le cadre de la nouvelle législation?) sont principalement des personnes physiques, mais nous avons aussi quelques collectifs ou associations parmis lesquelles il n'est pas toujours possible de disposer des informations d'identité, par choix ou par nécessité (personnes politiques, sans papier, ...).
 
 Dans nos usages, nous supposons la bonne foi de nos membres, c'est-à-dire que nous ne procédons pas à la validation d'identité par le biai des informations renseignées. De ce fait, un membre pourrait créer un compte VPN au nom d'Alexander De Croo, de Bugs Bunny, Thomas Edison ou de n'importe qui d'autre.
 
