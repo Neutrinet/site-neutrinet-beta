@@ -184,6 +184,10 @@ Bien que cette possibilité existe, nous ne l'envisageons pas, car nous désiron
 
 - https://neutrinet.be/fr/blog/ccj
 
+## Chat
+
+- https://chat.neutrinet.be/neutrinet/pl/tft8g4q6h7gjtmm7k9quig7a3o
+
 ---
 
 ## TODO
