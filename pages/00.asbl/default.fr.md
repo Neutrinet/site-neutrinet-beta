@@ -6,7 +6,7 @@ visible: false
 
 ## Association sans but lucratif Neutrinet ASBL
 
-Pour rédiger cette page, en plus des us et coutumes de l'association, nous avons utilisé le document [L'ASBL](http://justice.belgium.be/sites/default/files/lasbl.pdf), issu du site du Service Public Fédéral Justice.  Nous avons pris la liberté d'en conserver une [copie locale](lasbl.pdf).
+Pour rédiger cette page, en plus des us et coutumes de l'association, nous avons utilisé le document [L'ASBL](http://justice.belgium.be/sites/badges/files/lasbl.pdf), issu du site du Service Public Fédéral Justice.  Nous avons pris la liberté d'en conserver une [copie locale](lasbl.pdf).
 
 Neutrinet asbl poursuit un objectif décrit dans [l'article 4](https://wiki.neutrinet.be/fr/administration/statuts#article_4) de ses status.
 
@@ -22,7 +22,7 @@ Neutrinet asbl poursuit un objectif décrit dans [l'article 4](https://wiki.neut
 
 Les [rapports de réunion](https://wiki.neutrinet.be/fr/rapports/start) sont publiques.
 
-[ui-tabs position="top-left" active="0" theme="default"]
+[ui-tabs position="top-left" active="0" theme="badges"]
 [ui-tab title="Assemblée générale (AG)"]
 
 Le nombre minimum de membres *(effectif·ve·s)* est fixé à 3 selon [l'article 3](https://wiki.neutrinet.be/fr/administration/statuts#article_3) de ses statuts. Le nombre minimum prévu par la Loi est de 2.
@@ -64,7 +64,7 @@ C'est tout le boulot à faire pour que l'association existe par ses activités.
 
 Les [comptes de l'association](http://accounting.neutrinet.be/) sont publiques.
 
-[ui-tabs position="top-left" active="0" theme="default"]
+[ui-tabs position="top-left" active="0" theme="badges"]
 [ui-tab title="Dons"]
 
 Nous pouvons recevoir des **dons** de la main à la main ou par virement bancaire tant que les montants individuels sont sous les 100 000€.
@@ -107,7 +107,7 @@ Seules les asbl agréées par décision ministérielle ou arrêté royal peuvent
 
 Le [registre des membres effectif·ve·s](https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012) est publique puisque ce sont les administrateur·ice·s.
 
-[ui-tabs position="top-left" active="0" theme="default"]
+[ui-tabs position="top-left" active="0" theme="badges"]
 [ui-tab title="effectif·ve"]
 
 En Belgique, le cadre légal est fait pour donner des droits et des obligations à des membres *(personne physique ou morale)* effectif·ve·s qui constituent l'Assemblée Générale d'une association. Autrement dit, devenir membre donnerait des privilèges comme;
@@ -143,7 +143,7 @@ Les status de Neutrinet asbl ne définissent rien concernant le reste du monde e
 
 ## Obligations
 
-[ui-tabs position="top-left" active="0" theme="default"]
+[ui-tabs position="top-left" active="0" theme="badges"]
 [ui-tab title="Satuts"]
 
 Nous devons respecter les [statuts](https://wiki.neutrinet.be/fr/administration/statuts#article_4) de l'association.
