@@ -4,151 +4,6 @@ published: true
 visible: false
 ---
 
-## Association sans but lucratif Neutrinet ASBL
-
-> Article 27 de la [Constitution Belge](https://www.senate.be/doc/const_fr.html).
->
-> *« Les Belges ont le droit de s'associer; ce droit ne peut être soumis à aucune mesure préventive. »*
-
-Neutrinet asbl poursuit un objectif décrit dans [l'article 4](https://wiki.neutrinet.be/fr/administration/statuts#article_4) de ses status.
-
-> *« L'association a pour objet le maintien, le développement et la promotion de l'usage des réseaux d'échange d'information, dans le respect du principe de neutralité du réseau et la défense des droits fondamentaux incluant notamment les droits à la libre expression, à l'accès à l'information et au respect de la vie privée, avec les objectifs de développement humain et d'autonomisation des utilisateurs des réseaux. »*
-
-! Les statuts devront être réécris, au plus tard pour le 23 décembre 2023, pour se conformer à la législation entrée en vigueur en 2019.  Cette légilsation tend à ramener le monde associatif dans le giron du secteur marchand. 
-
-## Organes
-
-- Assemblée générale (AG)
-  - Le nombre minimum de membres *(effectif·ve·s)* est fixé à 3 selon [l'article 3](https://wiki.neutrinet.be/fr/administration/statuts#article_3) de ses statuts. Le nombre minimum prévu par la Loi est de 2.
-- Organe d'administration (CA)
-  - Le nombre minimum d'administrateur·ice prévu par la Loi est de 3 sauf si l'association n'est composée que de 2 membres *(effectif·ve·s)*.
-- Gestion journalière
-  - C'est tout le boulot à faire pour que l'association existe.
-
-
-
-### Argent
-[ui-tabs position="top-left" active="0" theme="default"]
-[ui-tab title="Dons"]
-
-Nous pouvons recevoir des **dons** de la main à la main ou par virement bancaire tant que les montants individuels sont sous les 100 000€.
-
-Au delà de 100 000€, nous devons demander l'autorisation au Ministre de tutelle (Finance) et si nous n'avons pas de réponse dans les 3 mois, c'est considéré comme étant acceptable.
-
-!!!! Nous pouvons recevoir des dons mais ils ne sont pas déductibles *(cf onglet Déduction fiscale)*.
-
-[/ui-tab]
-[ui-tab title="Comptabilité simplifiée"]
-
-Tant que qu'au moins **deux** des citères suivants ne sont pas remplis, nous pouvons faire une comptabilité simplifiée *(par besoin de comptabilité en partie double)*.
-
-- Avoir l'équivalent de 5 salarié·e·s temps plein.
-- Avoir des recettes non récurentes de 334 500€ sur une année.
-- Des avoirs de 1 337 000€.
-- Des dettes de 1 337 000€.
-
-!!!! Nous pouvons pratiquer une comptabilité simplifiée et nous devons déposer notre bilan au greffe une fois par an.
-
-[/ui-tab]
-[ui-tab title="Émettre des reçus"]
-
-- Nous ne pouvons pas émettre de facture *(pas de TVA déductible)*
-- Nous pouvons émettre des reçus, mais les entreprises, associations et indépendant·e·s n'aiment pas parce qu'iels ne peuvent pas déduire de leur TVA ou de leur frais.
-
-!!!! Nous pouvons émettre des reçus, même si cela n'arrange pas les professionnels.
-
-[/ui-tab]
-[ui-tab title="Déduction fiscale"]
-
-Seules les asbl agréées par décision ministérielle ou arrêté royal peuvent délivrer une attestation fiscale à un donateur. Celui-ci peut déduire de sa déclaration fiscale le montant de la donation à l’asbl.
-
-!! Nous n'avons pas fait cette demande et nous ne savons pas si cela nous obligerait à nous déclarer à la TVA, à avoir le droit d'émettre des factures et à pratiquer une comptabilité en partie double.
-
-[/ui-tab]
-[/ui-tabs]
-
-
-## Membres
-
-Lorsque la Loi parle de membre, elle parle de **membres effectifs**.
-
-Les personnes *(physiques ou morales)* listées dans [registre de la Banque-Carrefour des Entreprises, pour Neutrinet ASBL](https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012) représentent les organes de l'association suivants:
-
-- le registre des membres effectif·ve·s
-- l'assemblée générale (A.G.)
-- le conseil d'administration (C.A.)
-- les délégué·e·s à la gestion journalière
-
-En Belgique, le cadre légal est fait pour donner des droits et des obligations à des **membres effectifs** qui constitueraient l'Assemblée Générale d'une association. Autrement dit, **devenir membre** donnerait des privilèges comme;
-
-- avoir le droit de vote *(cf. point suivant)*,
-- avoir accès aux [rapports de réunion](https://wiki.neutrinet.be/fr/rapports/start),
-- consulter les [comptes de l'association](http://accounting.neutrinet.be/),
-- prendre part à la vie de l'associaton, …
-
-**Chez Neutrinet, ces droits ou ses privilèges sont publiques.**  Cela offre également l'avantage de **ne pas devoir consigner dans un registre** la liste de ces soi-disant·e·s membres.
-
-## Le droit de vote
-
-Le droit de vote est accordé aux membres *(effectif·ve·s)* s'il était question de devoir voter quelque chose, ce que Neutrinet asbl ne fait jamais.
-
-Cependant, [l'article 7](https://wiki.neutrinet.be/fr/administration/statuts#article_7) de ses statuts mentionne ceci:
-
-> *« Sont exclus des votes : les votes blancs, nuls, ainsi que les abstentions. »*
-
-La Loi prévoit que la **modification des statuts** de l'association se repose sur le vote et défini aussi la notion de **quorum**.
-
-## Modification des statuts
-
-Lorsqu’une asbl désire modifier ses statuts, elle doit
-respecter certaines règles et formalités.
-Seule l’assemblée générale peut modifier les statuts
-d’une asbl. L’organe d’administration peut seulement
-proposer des modifications que l’assemblée générale
-approuvera ou non.
-
-
-Quorums de présences et de votes
-
-Quorum de présences
-Pour qu’une assemblée générale puisse valablement statuer sur une modification de statuts, il importe qu’elle réunisse au moins deux tiers de ses membres effectifs présents ou représentés. Les statuts peuvent
-prévoir un quorum plus strict. Si ce quorum n’est pas atteint, une deuxième convocation est nécessaire. La nouvelle assemblée délibère et statue quel que soit le nombre de membres présents ou représentés. Il doit
-au moins s’écouler 15 jours entre les deux réunions.
-
-
-Quorum de votes
-Le nombre de votes à atteindre est au minimum de
-deux tiers pour qu’une modification de statuts puisse
-être adoptée. S’il s’agit d’une modification qui porte
-sur le but désintéressé de l’asbl, le quorum de votes à
-atteindre est de quatre cinquièmes. Le même nombre
-est requis en cas de dissolution. Dans tous les cas, les
-statuts peuvent prévoir un quorum plus strict.
-
-Cela permet de faire usage de l'outil « voter » si besoin, en 
-
-lorsqu'il est question de voter des points lors des assemblées.  Des points comme la déchage des administrateur·ice·s, le budget pour l'année à venir, les exclusions, le bilan, ou tout autre décision nécessitant un vote.
-
-Neutrinet étant **publique** et ses réunions mensuelles *(qu'on pourrait nommer Assemblée Générale Permanente Des Consultant·e·s Bénévoles)*  
-
-**Chez Neutrinet, les décisions sont prises au concensus approximatif ou à l'applaudimètre, extrèmement rarement 
-
-
-## Organe d'administration
-
-Composition
-L’organe d’administration est composé d’au minimum
-trois personnes. Ces personnes peuvent être des
-personnes physiques ou morales, membres ou non
-de l’association. Si et tant que l’association comporte
-moins de trois membres, l’organe d’administration
-peut être composé de deux personnes. Tant que
-l’organe d’administration est composé de deux
-personnes, expire de plein droit toute disposition
-accordant une voix délibérative à un membre de
-l’organe d’administration.
-
-
 ## Mise en contexte
 
 En Belgique (et pas que), la société est de plus en plus <s>digitalisée</s> numérique, hiérachique et dominée par l'idéologie néo-libérale comme en témoignera, en 2019 pour la Belgique, de l'entrée en vigueur du [nouveau code des sociétés et associations](https://www.lecho.be/dossiers/code-des-societes/les-asbl-auront-davantage-la-possibilite-de-faire-du-profit/10121921.html).
@@ -157,55 +12,6 @@ En Belgique (et pas que), la société est de plus en plus <s>digitalisée</s> n
 
 ![À l'attention de la Direction](courrier-banque.png?class=float-center) effectif·ve·s sont censé·e·s être admis·e par le Conseil d'Administration et avoir payé leur cotisation *([art. 5](https://wiki.neutrinet.be/fr/administration/statuts#article_5) de nos status)*.
 
-
-- Publicité
--- compte
--- pv
--- CA
--- AG mensuelle
-
-- Membre
--- adhérent·e·s
--- effectif·ve·s
---- cotisation maximum de 5000€ / an
---- doivent être validé·e·s par le CA
--- sympatisant·e
--- consultant·e·s bénévoles
--- tout le reste du monde
--- dans les faits, les personnes qui s'impliquent
-- Vote
--- concensus mou
-- Responsabilité
--- individuelle
--- administrateur·ice
-- Obligations
--- Registe des membres effectif·ve·s = CA à la BCE
--- Bilan aux Greffes
--- Registre UBO
-- CCJ ?
--- la question de ce jour
-- Refaire nos statuts pour 23/12/2023
--- but et objet séparés
--- notion de membre / AG
-- Organes
--- CA
--- AG
--- Délégation à la gestion journalière
-- clients ??
--- devoir lever l'identité en cas d'enquête (sms (burner?) - coordonées postale - email)
--- devoir fournir des informations en cas d'enquête, allant jusqu'à un service de collecte et d'analyse (PCAP?)
--- devoir s'assurer de la validité légale de la demande (mandat, article de loi, etc)
-
-Actuellement, nous mettons à disposition de nos membres, une seule solution technique; le VPN. Cela nous permet de mettre en avant le projet de Labriqueinter.net qui se repose sur du matérielle ouvert (Olimex Lime 1 & 2) et des logiciels libres (YunoHost) pour encourager l'auto-hébergement, la décentralisation et la participation au réseau Internet. Nous sensibilisons nos membres sur la neutralité des réseaux et sommes membres de la Fédération FDN qui se repose sur une charte nous obligeant de garantir cette neutralité des réseaux.
-
-En plus de cela, nous avons dans nos projets en cours de réalisation, la location de machines virtuelles (VPS) et l'accès internet via le câble (vdsl, coax, ...).
-
-## Fonctionnement de Neutrinet
-Actuellement, nos <s>membres</s> clients (dans le cadre de la nouvelle législation?) sont principalement des personnes physiques, mais nous avons aussi quelques collectifs ou associations parmis lesquelles il n'est pas toujours possible de disposer des informations d'identité, par choix ou par nécessité (personnes politiques, sans papier, ...).
-
-Dans nos usages, nous supposons la bonne foi de nos membres, c'est-à-dire que nous ne procédons pas à la validation d'identité par le biai des informations renseignées. De ce fait, un membre pourrait créer un compte VPN au nom d'Alexander De Croo, de Bugs Bunny, Thomas Edison ou de n'importe qui d'autre.
-
-Nous considérons toute personne ayant effectué un versement dans l'année courante, sur le compte de l'association, comme étant membre de Neutrinet.
 
 ## Cellule de Coordination avec la Justice
 
@@ -312,6 +118,15 @@ Bien que cette possibilité existe, nous ne l'envisageons pas, car nous désiron
 - https://chat.neutrinet.be/neutrinet/pl/tft8g4q6h7gjtmm7k9quig7a3o
 
 ---
+
+- clients ??
+-- devoir lever l'identité en cas d'enquête (sms (burner?) - coordonées postale - email)
+-- devoir fournir des informations en cas d'enquête, allant jusqu'à un service de collecte et d'analyse (PCAP?)
+-- devoir s'assurer de la validité légale de la demande (mandat, article de loi, etc)
+
+Actuellement, nous mettons à disposition de nos membres, une seule solution technique; le VPN. Cela nous permet de mettre en avant le projet de Labriqueinter.net qui se repose sur du matérielle ouvert (Olimex Lime 1 & 2) et des logiciels libres (YunoHost) pour encourager l'auto-hébergement, la décentralisation et la participation au réseau Internet. Nous sensibilisons nos membres sur la neutralité des réseaux et sommes membres de la Fédération FDN qui se repose sur une charte nous obligeant de garantir cette neutralité des réseaux.
+
+En plus de cela, nous avons dans nos projets en cours de réalisation, la location de machines virtuelles (VPS) et l'accès internet via le câble (vdsl, coax, ...).
 
 ## TODO
 ### Question IBPT
