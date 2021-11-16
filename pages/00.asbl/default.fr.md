@@ -103,6 +103,8 @@ Seules les asbl agréées par décision ministérielle ou arrêté royal peuvent
 [/ui-tab]
 [/ui-tabs]
 
+<a id="membres"></a>
+
 ## Membre
 
 Le [registre des membres effectif·ve·s](https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012) est publique puisque ce sont les administrateur·ice·s.
@@ -180,3 +182,12 @@ L'association étant un fournisseur d'accès Interenet enregistré à l'IBPT, el
 [/ui-tabs]
 
 
+## Direction
+
+En Belgique (et pas que), la société est de plus en plus <s>digitalisée</s> numérique, hiérachique et dominée par l'idéologie néo-libérale comme en témoignera, en 2019 pour la Belgique, de l'entrée en vigueur du [nouveau code des sociétés et associations](https://www.lecho.be/dossiers/code-des-societes/les-asbl-auront-davantage-la-possibilite-de-faire-du-profit/10121921.html).
+
+!!! Lorsque nous recevons un courrier *officiel*, il est souvent adressé « à l'attention de la direction ».
+
+![À l'attention de la Direction](courrier-banque.png?class=float-center)
+
+!!!! Chez Neutrinet, la « direction » est prise par toutes celles et ceux qui s'investissent bénévolement dans l'association. Si vous souhaitez partager les risques et les responsabilités, devenez administrateur ou administratrice et devenez [membre](#membres ).
