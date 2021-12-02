@@ -6,8 +6,10 @@ menu: 'Random meeting'
 ---
 
 ## Random meeting
-> Have a drink eat some french fries, tchit-tchat or whatever.
+From time to time on Thursday's evening. Have a drink eat some french fries, tchit-tchat or whatever.
 
-Nothing on scheddule, but from time to time on Thursday's evening we meet at Toone Théatre de marionnette in Brussels.
+We meet at [Toone Théatre de marionnette in Brussels](http://www.toone.be)
 
-It is sometimes said the same day on our [Mattermost](https://chat.neutrinet.be).
+Keep in touch through our chat rooms on [Mattermost](https://chat.neutrinet.be).
+
+[Have a look at our calendar](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL?classes=btn,btn-primary,btn-lg)

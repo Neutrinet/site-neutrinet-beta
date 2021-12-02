@@ -5,8 +5,9 @@ menu: 'Members meeting'
 ---
 
 ## Members meeting
-> Work meeting about Neutrinet as an association and its members. Open to all.
+Every **3rd Tuesday** of the month, 7:30PM.
+Work meeting about Neutrinet as an association. Open to all.
 
 121, rue de Wautier, 1020 Laeken, in [Caldarium](https://caldarium.be/en:contact).
 
-[Every 3rd Tuesday of the month!](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL?classes=btn,btn-primary,btn-lg)
+[Have a look at our calendar](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL?classes=btn,btn-primary,btn-lg)

@@ -6,8 +6,8 @@ menu: 'Rencontre aléatoire'
 ---
 
 ## Rencontre aléatoire
-> Pour boire un verre, manger une frite, faire autre chose et papoter.
+Parfois le jeudi soir. Pour boire un verre, manger une frite, faire autre chose et papoter.
 
-Rien de prévu, mais parfois le jeudi soir, au Toone Théatre de marionnette à Bruxelles.
+On se retrouve au [Toone Théatre de marionnette à Bruxelles](http://www.toone.be).
 
-On le dit parfois le jour même sur notre [tchat](https://chat.neutrinet.be).
+Restez en contact dans les salons de notre [Mattermost](https://chat.neutrinet.be).

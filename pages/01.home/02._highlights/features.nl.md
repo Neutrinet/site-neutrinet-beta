@@ -1,6 +1,6 @@
 ---
-title: 'Homepage Highlights'
-menu: Highlights
+title: Vergaderingen
+menu: vergadering
 features:
     -
         icon: 'fa fa-cogs'
@@ -20,4 +20,4 @@ features:
 class: offset-box
 ---
 
-# Wat doe je vanavond ?
+# Vergaderingen en bijeenkomsten

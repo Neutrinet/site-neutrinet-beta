@@ -1,6 +1,6 @@
 ---
-title: 'Homepage Highlights'
-menu: Highlights
+title: Meetings
+menu: meetings
 features:
     -
         icon: 'fa fa-cogs'
@@ -20,4 +20,4 @@ features:
 class: offset-box
 ---
 
-# What are you doing tonight?
+# Meetings and gatherings

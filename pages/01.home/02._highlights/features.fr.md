@@ -1,6 +1,6 @@
 ---
-title: 'Homepage Highlights'
-menu: Highlights
+title: Rencontres
+menu: rencontres
 features:
     -
         icon: 'fa fa-cogs'
@@ -20,4 +20,4 @@ features:
 class: offset-box
 ---
 
-# Tu fais quoi ce soir ?
+# Rencontres et réunions
