@@ -20,7 +20,7 @@ Neutrinet asbl poursuit un objectif décrit dans [l'article 4](https://wiki.neut
 
 ## Organes
 
-Les [rapports de réunion](https://wiki.neutrinet.be/fr/rapports/start) sont publiques.
+Les [rapports de réunion](https://wiki.neutrinet.be/fr/rapports/start) sont publics.
 
 [ui-tabs position="top-left" active="0" theme="badges"]
 [ui-tab title="Assemblée générale (AG)"]
@@ -62,7 +62,7 @@ C'est tout le boulot à faire pour que l'association existe par ses activités.
 
 ## Argent
 
-Les [comptes de l'association](http://accounting.neutrinet.be/) sont publiques.
+Les [comptes de l'association](http://accounting.neutrinet.be/) sont publics.
 
 [ui-tabs position="top-left" active="0" theme="badges"]
 [ui-tab title="Dons"]
@@ -107,7 +107,7 @@ Seules les asbl agréées par décision ministérielle ou arrêté royal peuvent
 
 ## Membre
 
-Le [registre des membres effectif·ve·s](https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012) est publique puisque ce sont les administrateur·ice·s.
+Le [registre des membres effectif·ve·s](https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012) est public puisque ce sont les administrateur·ice·s.
 
 [ui-tabs position="top-left" active="0" theme="badges"]
 [ui-tab title="effectif·ve"]
@@ -120,11 +120,11 @@ Bien qu'il en soit fait mention dans [l'article 7](https://wiki.neutrinet.be/fr/
 
 **Avoir accès à des documents**
 
-Les [rapports de réunion](https://wiki.neutrinet.be/fr/rapports/start) sont publiques.
+Les [rapports de réunion](https://wiki.neutrinet.be/fr/rapports/start) sont publics.
 
 **Consulter les comptes**
 
-Les [comptes de l'association](http://accounting.neutrinet.be/) sont publiques.
+Les [comptes de l'association](http://accounting.neutrinet.be/) sont publics.
 
 !!!! Dans les status [l'article 5](https://wiki.neutrinet.be/fr/administration/statuts#article_5) dit « Est membre toute personne physique ou morale admise en cette qualité par le conseil d'administration et s'étant acquittée du montant de la cotisation. ».
 
@@ -138,7 +138,7 @@ Les status de Neutrinet asbl ne définissent rien concernant les membres adhére
 
 Les status de Neutrinet asbl ne définissent rien concernant le reste du monde et donc, selon la loi, ce ne sont pas des membres effectif·ve·s.
 
-!!!! Chez Neutrinet asbl, tout le monde est bienvenu puisque les privilèges accordés aux membres effectifs sont rendus publique.
+!!!! Chez Neutrinet asbl, tout le monde est bienvenu·e puisque les privilèges accordés aux membres effectif·ve·s sont rendus public.
 
 [/ui-tab]
 [/ui-tabs]
@@ -153,7 +153,7 @@ Nous devons respecter les [statuts](https://wiki.neutrinet.be/fr/administration/
 [/ui-tab]
 [ui-tab title="Registre des membres"]
 
-Nous devons tenir un registre des membres effectifs à disposition au siège social de l'association.  Le [registre des membres effectifs est publique](https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012) puisque ce sont les administrateur·ice·s.
+Nous devons tenir un registre des membres effectifs à disposition au siège social de l'association.  Le [registre des membres effectifs est public](https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012) puisque ce sont les administrateur·ice·s.
 
 [/ui-tab]
 [ui-tab title="Comptes annuels"]
