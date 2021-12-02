@@ -6,7 +6,7 @@ visible: false
 
 ## Association sans but lucratif Neutrinet ASBL
 
-Pour rédiger cette page, en plus des us et coutumes de l'association, nous avons utilisé le document [L'ASBL](http://justice.belgium.be/sites/badges/files/lasbl.pdf), issu du site du Service Public Fédéral Justice.  Nous avons pris la liberté d'en conserver une [copie locale](lasbl.pdf).
+Pour rédiger cette page, en plus des us et coutumes de l'association, nous avons utilisé le document L'ASBL disponible sur [le site du Service Public Fédéral Justice](http://justice.belgium.be/sites/badges/files/lasbl.pdf) ou une [copie locale](lasbl.pdf) et le livre [500 réponses aux ASBL](https://www.edipro.eu/produit/559/500-reponses-aux-asbl-manuel-pratique-2eme-edition/fr).
 
 Neutrinet asbl poursuit un objectif décrit dans [l'article 4](https://wiki.neutrinet.be/fr/administration/statuts#article_4) de ses status.
 
