@@ -5,6 +5,12 @@ visible: false
 slug: Cellule de Coordination avec la Justice
 ---
 
+## Cellule de Coordination avec la Justice
+
+En septembre 2021, l'[IBPT](http://ibpt.be/) (Institut belge des services postaux et des télécommunications) via un email nous a averti de l'obligation de constituer une CCJ(Cellule de Coordination avec la Justice) comme expliqué dans [la Brochure Informative - Obligations Collaboration Autorités Judiciaires](https://www.ibpt.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/4cda9d352da1912b728c4517c70ce9c2de5815c2/Brochure_Informative_Obligations_Collaboration_Autorites_Judiciaires.pdf).
+
+Nous voici devant un nouveau vollet, juridique et technique, de la vie d'un opérateur télécom en Belgique, et parmis les 413 entités morales enregistrées à l'IBPT, il n'y a qu'une VZW ([thelastmile.be](http://www.thelastmile.be)) et … une ASBL, Neutrinet.
+
 ## Contexte
 
 Actuellement *(novembre 2021)*, Neutrinet asbl met à disposition de chacun·e, une seule solution technique; le [VPN](/vpn).
@@ -14,13 +20,6 @@ Cela nous permet de mettre en avant le projet de [Labriqueinter.net](/cube) qui 
 Depuis 2018, plusieur·e·s d'entre nous œuvrent pour mettre en place d'autres solutions techniques telles que la location de machines virtuelles (VPS), peut-être le partage d'une armoire dans un centre de données et bien entendu, poursuivre le projet [Backhaul (collecte](https://mediawiki.neutrinet.be/Project:Backhaul_(collecte).html) commencé en 2010 pour arriver à proposer de l'accès internet via le câble (vdsl, coax, ...) et nous y sommes presque.
 
 Depuis 2019, nous payons un abonnement Proximus pour une occupation de *sans-droits*, mais récemment d'autres associations sont venues nous voir concernant d'autres occupations pour donner un coup de main technique avec un autre opérateur, Edpnet.
-
-## Cellule de Coordination avec la Justice
-
-En septembre 2021, l'[IBPT](http://ibpt.be/) (Institut belge des services postaux et des télécommunications) via un email nous a averti de l'obligation de constituer une CCJ(Cellule de Coordination avec la Justice) comme expliqué dans [la Brochure Informative - Obligations Collaboration Autorités Judiciaires](https://www.ibpt.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/4cda9d352da1912b728c4517c70ce9c2de5815c2/Brochure_Informative_Obligations_Collaboration_Autorites_Judiciaires.pdf).
-
-Nous voici devant un nouveau vollet, juridique et technique, de la vie d'un opérateur télécom en Belgique, et parmis les 413 entités morales enregistrées à l'IBPT, il n'y a qu'une VZW ([thelastmile.be](http://www.thelastmile.be)) et … une ASBL, Neutrinet.
-
 
 ### Obligations légales
 
