@@ -32,6 +32,16 @@ features:
         header: 'Blog'
         text: 'Read the news'
         url: 'blog'
+    -
+        icon: 'fa fa-users'
+        header: A.S.B.L. (fr)
+        text: 'Association sans but lucratif'
+        url: 'asbl'
+    -
+        icon: 'fa fa-balance-scale'
+        header: C.C.J. (fr)
+        text: "Cellule de Coopération <br/>avec la Justice"
+        url: 'ccj'
 
 class: offset-box
 ---
