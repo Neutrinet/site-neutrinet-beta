@@ -12,7 +12,7 @@ visible: false
 > - Heure de fin : 15h
 > - Adresse : au Dk, 70b rue de Danemark à 1060 Saint-Gilles
 > - Localisation : [https://www.openstreetmap.org/node/6789715631](https://www.openstreetmap.org/node/6789715631)
-> - Contenu : [https://neutrinet.be/fr/asbl/ccj](https://neutrinet.be/fr/asbl/ccj)
+> - Contenu : [https://neutrinet.be/fr/ccj](https://neutrinet.be/fr/ccj)
 > - Online : [https://conf.domainepublic.net/neutrinet](https://conf.domainepublic.net/neutrinet)
 
 Chères ami·e·s de Neutrinet,
