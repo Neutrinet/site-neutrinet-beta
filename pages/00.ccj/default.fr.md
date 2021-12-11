@@ -175,4 +175,13 @@ Bien que cette possibilité existe, nous ne l'envisageons pas, car nous désiron
 - [retour suite à une rencontre avec un juriste](https://chat.neutrinet.be/neutrinet/pl/tft8g4q6h7gjtmm7k9quig7a3o) - accès limité aux personnes qui sont dans le hub-admin.
 
 [/ui-tab]
+
+[/ui-tab]
+[ui-tab title="Cloud"]
+
+- [résumé compte rendu enquête pour CCJ](https://sans-nuage.fr/file/s/YQjTtiAKJ7KwJ7P)
+
+[/ui-tab]
+
+
 [/ui-tabs]
