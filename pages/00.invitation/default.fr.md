@@ -2,6 +2,8 @@
 title: 'invitation'
 published: true
 visible: false
+page-toc:
+  active: false
 ---
 
 ### Invitation à l'assemblée générale du 26 mars 2022
