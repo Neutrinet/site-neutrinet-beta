@@ -1,3 +1,52 @@
+# v1.10.28
+## 01/24/2022
+
+1. [](#bugfix)
+  * Clean file names before displaying errors/metadata modals
+  * Recompiled JS for production [#2225](https://github.com/getgrav/grav-plugin-admin/issues/2225)
+
+# v1.10.27
+## 01/12/2022
+
+1. [](#new)
+   * Support for `YubiKey OTP` 2-Factor authenticator
+   * New `elements` container field that shows/hides children fields based on boolean trigger value
+   * Requires Grav `v1.7.27` and Login `v3.6.2`
+2. [](#improved)
+   * Added new asset language strings
+
+# v1.10.26.1
+## 01/03/2022
+
+3. [](#bugfix)
+   * Fixed an issue with missing files reference by cached autoloader
+
+# v1.10.26
+## 01/03/2022
+
+2. [](#improved)
+   * Updated SCSS compiler to v1.9 and other vendor libraries
+   * Fixed various deprecation warnings
+   * Localized dialog buttons and icons [#2207](https://github.com/getgrav/grav-plugin-admin/pull/2207)
+   * Updated copyright year
+
+# v1.10.25
+## 11/16/2021
+
+3. [](#bugfix)
+   * Fixed unescaped messages in JSON responses
+
+# v1.10.24
+## 10/26/2021
+
+1. [](#new)
+   * Require **Grav 1.7.24**
+2. [](#improved)
+   * Use new `Http\Response` rather than deprecated `GPM\Response`
+3. [](#bugfix)
+   * Fixed an issue with invalid HTML throwing errors on HTML security scanning
+   * Clear cache when installing plugins
+
 # v1.10.23
 ## 09/29/2021
 

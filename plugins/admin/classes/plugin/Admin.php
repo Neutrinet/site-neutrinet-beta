@@ -10,9 +10,9 @@ use Grav\Common\File\CompiledYamlFile;
 use Grav\Common\Flex\Types\Users\UserObject;
 use Grav\Common\GPM\GPM;
 use Grav\Common\GPM\Licenses;
-use Grav\Common\GPM\Response;
 use Grav\Common\Grav;
 use Grav\Common\Helpers\YamlLinter;
+use Grav\Common\HTTP\Response;
 use Grav\Common\Language\Language;
 use Grav\Common\Language\LanguageCodes;
 use Grav\Common\Page\Collection;
@@ -2407,7 +2407,7 @@ class Admin
     /**
      * Get changelog for a given GPM package based on slug
      *
-     * @param null $slug
+     * @param string|null $slug
      * @return array
      */
     public function getChangelog($slug = null)

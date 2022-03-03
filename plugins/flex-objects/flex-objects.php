@@ -203,6 +203,9 @@ class FlexObjectsPlugin extends Plugin
                 'onTwigTemplatePaths' => [
                     ['onTwigTemplatePaths', 0]
                 ],
+                'onPagesInitialized' => [
+                    ['onPagesInitialized', -10000]
+                ],
                 'onPageInitialized' => [
                     ['authorizePage', 10000]
                 ],
@@ -211,9 +214,6 @@ class FlexObjectsPlugin extends Plugin
                 ],
                 'onPageTask' => [
                     ['onPageTask', -10]
-                ],
-                'onPageNotFound' => [
-                    ['onPageNotFound', 10]
                 ],
             ]);
         }
@@ -242,7 +242,6 @@ class FlexObjectsPlugin extends Plugin
         $types = (array)$this->config->get('plugins.flex-objects.directories', []);
         $this->registerDirectories($flex, $types, true);
 
-        /** @var AdminController controller */
         $this->controller = new AdminController();
 
         /** @var Debugger $debugger */
@@ -271,30 +270,39 @@ class FlexObjectsPlugin extends Plugin
     }
 
     /**
-     * [onPageNotFound:10] Router for 404 pages.
+     * [onPagesInitialized:-10000] Default router for flex pages.
      *
      * @param Event $event
      */
-    public function onPageNotFound(Event $event): void
+    public function onPagesInitialized(Event $event): void
     {
-        /** @var Route $route */
-        $route = $event['route'];
+        /** @var Route|null $route */
+        $route = $event['route'] ?? null;
+        if (null === $route) {
+            // Stop if in CLI.
+            return;
+        }
 
-        /** @var Pages $pages */
-        $pages = $this->grav['pages'];
+        /** @var PageInterface|null $page */
+        $page = $this->grav['page'] ?? null;
 
-        // Find first existing and routable parent page.
-        $parts = explode('/', $route->getRoute());
-        array_shift($parts);
-        $page = null;
         $base = '';
         $path = [];
-        while (!$page && $parts) {
-            $path[] = array_pop($parts);
-            $base = '/' . implode('/', $parts);
-            $page = $pages->find($base);
-            if ($page && !$page->routable()) {
-                $page = null;
+        if (!$page->routable() || $page->template() === 'notfound') {
+            /** @var Pages $pages */
+            $pages = $this->grav['pages'];
+
+            // Find first existing and routable parent page.
+            $parts = explode('/', $route->getRoute());
+            array_shift($parts);
+            $page = null;
+            while (!$page && $parts) {
+                $path[] = array_pop($parts);
+                $base = '/' . implode('/', $parts);
+                $page = $pages->find($base);
+                if ($page && !$page->routable()) {
+                    $page = null;
+                }
             }
         }
 
@@ -305,8 +313,9 @@ class FlexObjectsPlugin extends Plugin
             if (\is_string($router)) {
                 $path = implode('/', array_reverse($path));
                 $flexEvent = new Event([
+                    'flex' => $this->grav['flex'],
                     'parent' => $page,
-                    'page' => null,
+                    'page' => $page,
                     'base' => $base,
                     'path' => $path,
                     'route' => $route,
@@ -314,9 +323,15 @@ class FlexObjectsPlugin extends Plugin
                     'request' => $event['request']
                 ]);
                 $flexEvent = $this->grav->fireEvent("flex.router.{$router}", $flexEvent);
+                /** @var PageInterface|null $routedPage */
                 $routedPage = $flexEvent['page'];
                 if ($routedPage) {
-                    $event->page = $routedPage;
+                    /** @var Debugger $debugger */
+                    $debugger = Grav::instance()['debugger'];
+                    $debugger->addMessage(sprintf('Flex uses page %s', $routedPage->route()));
+
+                    unset($this->grav['page']);
+                    $this->grav['page'] = $routedPage;
                     $event->stopPropagation();
                 }
             }
@@ -344,6 +359,7 @@ class FlexObjectsPlugin extends Plugin
         }
 
         // Make sure the page contains flex.
+        /** @var array $config <- phpstan 1 workaround */
         $config = $header->flex ?? [];
         if (!$config && !$form) {
             return;
@@ -405,10 +421,21 @@ class FlexObjectsPlugin extends Plugin
             }
         }
 
-        if ($hasAccess) {
+        if (!$hasAccess) {
+            // Hide the page (404).
+            $page->routable(false);
+            $page->visible(false);
+
+            $login = $this->grav['login'] ?? null;
+            $unauthorized = $login ? $login->addPage('unauthorized') : null;
+            if ($unauthorized) {
+                // Replace page with unauthorized page.
+                unset($this->grav['page']);
+                $this->grav['page'] = $unauthorized;
+            }
+        } elseif ($config['access']['override'] ?? false) {
+            // Override page access settings (allow).
             $page->modifyHeader('access', []);
-        } else {
-            $page->modifyHeader('access', ['admin.flex.no_access' => true]);
         }
     }
 

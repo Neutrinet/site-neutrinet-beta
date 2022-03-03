@@ -1,3 +1,26 @@
+# v5.1.5
+## 01/24/2022
+
+1. [](#bugfix)
+    * Fixed case in selectize field where custom new entries would not be stored in non `multiple` lists
+
+# v5.1.4
+## 11/16/2021
+
+1. [](#bugfix)
+    * Fixed buttons no longer rendered [#537](https://github.com/getgrav/grav-plugin-form/issues/537) 
+    * Allow `select` field to customize `autocomplete` attribute
+
+# v5.1.3
+## 10/26/2021
+
+1. [](#new)
+    * Require **Grav 1.7.24**
+    * Added support to disable a form, making it readonly
+    * Added `|value_and_label` Twig filter to convert options to value/label pairs
+1. [](#improved)
+    * Improved Twig function `include_form_field()` to allow the second parameter to be an array of layouts
+
 # v5.1.2
 ## 09/29/2021
 
