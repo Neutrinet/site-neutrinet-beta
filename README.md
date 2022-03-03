@@ -109,3 +109,10 @@ Sans vouloir tomber dans la _plugin mania_ à la WordPress, peut-être quelques 
 ## Sur « les bonnes pratiques »
 
  * Les [Postures encouragées](https://no-google.frama.wiki/actions:cafenogoogle:cafenogoogle#les_postures_encouragees) de No G00gle.
+
+Accessibilité
+-------------
+
+89/100 en février 2022
+
+* https://accessibilitytest.org/results/bPjtih3F-Rln
