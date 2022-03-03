@@ -1,3 +1,23 @@
+# v3.6.2
+## 01/12/2022
+
+1. [](#new)
+   * Support for `YubiKey OTP` 2-Factor authenticator
+   * Requires Grav `v1.7.27`
+
+# v3.6.1
+## 01/03/2022
+
+1. [](#bugfix)
+   * Fixed issue with forgot password error message translation [#285](https://github.com/getgrav/grav-plugin-login/pull/285)
+   * 
+# v3.6.0
+## 10/26/2021
+
+1. [](#new)
+    * Create a new "invite users" feature
+    * Add CLI option for language [#277](https://github.com/getgrav/grav-plugin-login/issues/277)
+
 # v3.5.3
 ## 09/29/2021
 

@@ -1,3 +1,52 @@
+# v1.1.7
+## 01/03/2022
+
+1. [](#new)
+    * Allow intercepting object `create`, `update` and `delete` tasks by using `FlexTaskEvent` event
+2. [](#improved)
+    * Added optional `$scope` parameter to `ObjectController::checkAuthorization()`
+3. [](#bugfix)
+    * Fixed continue task with `PageInterface` types
+    
+# v1.1.6
+## 11/29/2021
+
+1. [](#bugfix)
+    * Fixed regression `Call to a member function getRoute() on null` when using CLI [#151](https://github.com/trilbymedia/grav-plugin-flex-objects/issues/151)
+
+# v1.1.5
+## 11/24/2021
+
+1. [](#new)
+    * Added method `ObjectController::checkAuthorizations()` to check if one of the actions is true
+2. [](#bugfix)
+    * Fixed regression when calling flex router with a path
+
+# v1.1.4
+## 11/16/2021
+
+1. [](#new)
+    * Require **Grav 1.7.25**
+1. [](#improved)
+    * Changed flex router not to trigger `onPageNotFound` event
+    * Changed flex router to be called also with empty path
+    * If ACL check for the object fails, display unauthorized page instead of 404
+1. [](#bugfix)
+    * Fixed unescaped messages in JSON responses
+    * Fixed `Call to a member function getName() on null` when using file field [#149](https://github.com/trilbymedia/grav-plugin-flex-objects/issues/149)
+
+# v1.1.3
+## 10/26/2021
+
+1. [](#improved)
+    * Updated JS dependencies to latest
+    * Optimized import of certain JS dependencies
+    * Dev: Moved away from deprecated UglifyJsPlugin in favor of TerserPlugin
+    * Use active form from the Form plugin to get page metadata
+    * Added page header `flex.access.override: true`, which allows flex to replace page `access` when user is allowed to perform action in flex
+1. [](#bugfix)
+    * Fixed flex object page access for super users when permission was denied
+
 # v1.1.2
 ## 09/14/2021
 

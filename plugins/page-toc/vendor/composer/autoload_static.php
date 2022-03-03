@@ -7,17 +7,13 @@ namespace Composer\Autoload;
 class ComposerStaticInit88b09b7fda3e99f2e22346b58205e375
 {
     public static $prefixLengthsPsr4 = array (
-        'T' => 
-        array (
-            'TOC\\' => 4,
-        ),
-        'M' => 
-        array (
-            'Masterminds\\' => 12,
-        ),
         'K' => 
         array (
             'Knp\\Menu\\' => 9,
+        ),
+        'G' => 
+        array (
+            'Grav\\Plugin\\PageToc\\' => 20,
         ),
         'C' => 
         array (
@@ -26,18 +22,13 @@ class ComposerStaticInit88b09b7fda3e99f2e22346b58205e375
     );
 
     public static $prefixDirsPsr4 = array (
-        'TOC\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/caseyamcl/toc/src',
-            1 => __DIR__ . '/..' . '/caseyamcl/toc/tests',
-        ),
-        'Masterminds\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/masterminds/html5/src',
-        ),
         'Knp\\Menu\\' => 
         array (
             0 => __DIR__ . '/..' . '/knplabs/knp-menu/src/Knp/Menu',
+        ),
+        'Grav\\Plugin\\PageToc\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/classes',
         ),
         'Cocur\\Slugify\\' => 
         array (
@@ -47,6 +38,7 @@ class ComposerStaticInit88b09b7fda3e99f2e22346b58205e375
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Grav\\Plugin\\PageTOCPlugin' => __DIR__ . '/../..' . '/page-toc.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
