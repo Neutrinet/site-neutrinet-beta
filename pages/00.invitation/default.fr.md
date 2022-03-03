@@ -3,6 +3,7 @@ title: 'invitation'
 published: true
 visible: false
 ---
+
 ### Invitation à l'assemblée générale du 26 mars 2022
 
 > TL;DR:
