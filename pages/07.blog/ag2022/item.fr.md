@@ -1,12 +1,15 @@
 ---
-title: 'invitation'
+title: 'Invitation A.G. 2022'
+subtitle: "Et aussi des tables rondes sur différents sujets !"
+date: '06/03/2022 22:00 pm'
 published: true
-visible: false
-page-toc:
-  active: false
+taxonomy:
+    category:
+        - blog
+    tag:
+        - evenement
+        - neutrinet
 ---
-
-### Invitation à l'assemblée générale du 26 mars 2022
 
 > TL;DR:
 >
@@ -55,7 +58,7 @@ L'ordre du jour est disponible à cette adresse : [https://doc.neutrinet.be/ag20
 
 C'est en même temps le bloc-notes collaboratif que nous utiliserons durant cette A.G., dés lors, si vous souhaitez y ajouter l'un ou l'autre point, vous pouvez le faire dirrectement à l'adresse mentionnée ci-dessus, en cliquant sur l'icône en forme de crayon.
 
-N'hésitez pas à y apporter des modifications, mais faites le **avant le 15 mars à 23h42** et ne modifier l'ordre du jour jusqu'au 26, pour éviter d'avoir des points de dernière minute qui sont toujours chiants à placer dans une AG.
+N'hésitez pas à y apporter des modifications, mais faites le **avant le 15 mars à 23h42** et ne le modifiez plus entre le 15 et le 26 mars, jour de l'assemblée.  Cela évitera d'avoir des points de dernière minute qui sont toujours chiants à placer dans une AG.
 
 
 ### Administrateur·ice·s
@@ -64,6 +67,7 @@ Si vous souhaitez devenir administrateur·ice de neutrinet et apparaître sur le
 
 Devenir administrateur·ice apporte l'avantage de signer des papiers au nom de Neutrinet et de payer des factures mais aussi de faire grossir les rangs des personnes publiquement membres de l'association et offrir une plus grande importance à l'ASBL aux yeux du monde !
 
+<div id="tables_rondes"></div>
 
 ### Tables rondes, carrées, ovales, triangulaires ou multi-dimensionnelles
 
@@ -74,8 +78,7 @@ Devenir administrateur·ice apporte l'avantage de signer des papiers au nom de N
 - [zapatisme](https://doc.neutrinet.be/ag2022-zapatisme)
 - Ou autre en créant un pad de genre [https://doc.neutrinet.be/ag2022-REMPLACEZ-MOI-PAR-VOTRE-THEME](https://doc.neutrinet.be/ag2022-REMPLACEZ-MOI-PAR-VOTRE-THEME)
 
-
-Si vous avez des questions ou remarques n'hésitez pas à nous le faire savoir en réponse à ce mail sur notre mattermost[2].
+Si vous avez des questions ou remarques n'hésitez pas à nous le faire savoir sur `contact @ neutrinet . be` ou sur notre [Mattermost](https://chat.neutrinet.be).
 
 Au plaisir de vous rencontrer lors de l'ag,
 
