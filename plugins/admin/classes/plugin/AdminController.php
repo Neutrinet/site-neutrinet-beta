@@ -22,7 +22,6 @@ use Grav\Common\Page\Medium\Medium;
 use Grav\Common\Page\Page;
 use Grav\Common\Page\Pages;
 use Grav\Common\Page\Collection;
-use Grav\Common\Plugins;
 use Grav\Common\Security;
 use Grav\Common\User\Interfaces\UserCollectionInterface;
 use Grav\Common\User\Interfaces\UserInterface;
@@ -36,7 +35,6 @@ use PicoFeed\Parser\MalformedXmlException;
 use Psr\Http\Message\ResponseInterface;
 use RocketTheme\Toolbox\Event\Event;
 use RocketTheme\Toolbox\File\File;
-use RocketTheme\Toolbox\File\YamlFile;
 use RocketTheme\Toolbox\ResourceLocator\UniformResourceLocator;
 use Twig\Loader\FilesystemLoader;
 
@@ -523,7 +521,7 @@ class AdminController extends AdminBaseController
 
         try {
             if ($download) {
-                $filename = Utils::basename(base64_decode(urldecode($download)));
+                $filename = basename(base64_decode(urldecode($download)));
                 $file = $this->grav['locator']->findResource("backup://{$filename}", true);
                 if (!$file || !Utils::endsWith($filename, '.zip', false)) {
                     header('HTTP/1.1 401 Unauthorized');
@@ -586,7 +584,7 @@ class AdminController extends AdminBaseController
         $backup = $this->grav['uri']->param('backup', null);
 
         if (null !== $backup) {
-            $filename = Utils::basename(base64_decode(urldecode($backup)));
+            $filename = basename(base64_decode(urldecode($backup)));
             $file = $this->grav['locator']->findResource("backup://{$filename}", true);
 
             if ($file && Utils::endsWith($filename, '.zip', false)) {
@@ -631,8 +629,10 @@ class AdminController extends AdminBaseController
             return false;
         }
 
-        $type = $this->getDataType();
-        $this->updatePluginState($type, ['enabled' => true]);
+        // Filter value and save it.
+        $this->post = ['enabled' => true];
+        $obj        = $this->prepareData($this->post);
+        $obj->save();
 
         $this->post = ['_redirect' => 'plugins'];
         if ($this->grav['uri']->param('redirect')) {
@@ -662,8 +662,10 @@ class AdminController extends AdminBaseController
             return false;
         }
 
-        $type = $this->getDataType();
-        $this->updatePluginState($type, ['enabled' => false]);
+        // Filter value and save it.
+        $this->post = ['enabled' => false];
+        $obj        = $this->prepareData($this->post);
+        $obj->save();
 
         $this->post = ['_redirect' => 'plugins'];
         $this->admin->setMessage($this->admin::translate('PLUGIN_ADMIN.SUCCESSFULLY_DISABLED_PLUGIN'), 'info');
@@ -671,30 +673,6 @@ class AdminController extends AdminBaseController
         Cache::clearCache('invalidate');
 
         return true;
-    }
-
-    /**
-     * @param string $type
-     * @param array $value
-     * @return void
-     */
-    protected function updatePluginState(string $type, array $value): void
-    {
-        $obj = Plugins::get(preg_replace('|plugins/|', '', $type));
-        if (null === $obj) {
-            throw new \RuntimeException("Plugin '{$type}' doesn't exist!");
-        }
-
-        /** @var UniformResourceLocator $locator */
-        $locator = $this->grav['locator'];
-
-        // Configuration file will be saved to the existing config stream.
-        $filename = $locator->findResource('config://') . "/{$type}.yaml";
-
-        $file = YamlFile::instance($filename);
-        $contents = $value + $file->content();
-
-        $file->save($contents);
     }
 
     /**
@@ -2266,7 +2244,7 @@ class AdminController extends AdminBaseController
 
 
         // Check extension
-        $extension = strtolower(Utils::pathinfo($filename, PATHINFO_EXTENSION));
+        $extension = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
 
         // If not a supported type, return
         if (!$extension || !$config->get("media.types.{$extension}")) {
@@ -2315,7 +2293,7 @@ class AdminController extends AdminBaseController
 
         // Add metadata if needed
         $include_metadata = Grav::instance()['config']->get('system.media.auto_metadata_exif', false);
-        $basename = str_replace(['@3x', '@2x'], '', Utils::pathinfo($filename, PATHINFO_BASENAME));
+        $basename = str_replace(['@3x', '@2x'], '', pathinfo($filename, PATHINFO_BASENAME));
 
         $metadata = [];
 
@@ -2445,7 +2423,7 @@ class AdminController extends AdminBaseController
             return false;
         }
 
-        $filename = !empty($this->post['filename']) ? Utils::basename($this->post['filename']) : null;
+        $filename = !empty($this->post['filename']) ? basename($this->post['filename']) : null;
 
         // Handle bad filenames.
         if (!$filename || !Utils::checkFilename($filename)) {
@@ -2464,7 +2442,7 @@ class AdminController extends AdminBaseController
         if ($locator->isStream($targetPath)) {
             $targetPath = $locator->findResource($targetPath, true, true);
         }
-        $fileParts  = Utils::pathinfo($filename);
+        $fileParts  = pathinfo($filename);
 
         $found = false;
 
@@ -2648,7 +2626,7 @@ class AdminController extends AdminBaseController
                     $payload = [
                         'name' => $file_page ? $file_page->title() : $fileName,
                         'value' => $file_page ? $file_page->rawRoute() : $file_path,
-                        'item-key' => Utils::basename($file_page ? $file_page->route() : $file_path),
+                        'item-key' => basename($file_page ? $file_page->route() : $file_path),
                         'filename' => $fileName,
                         'extension' => $type === 'dir' ? '' : $fileInfo->getExtension(),
                         'type' => $type,

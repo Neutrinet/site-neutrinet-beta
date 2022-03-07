@@ -10,12 +10,10 @@ class AnchorShortcode extends Shortcode
 {
   public function init()
   {
-    $this->shortcode->getRawHandlers()->add('anchor', function(ProcessedShortcode $sc) {
-
-      $id = $this->cleanParam($sc->getParameter('id', $sc->getBbCode()));
-      $tag = $this->cleanParam($sc->getParameter('tag'));
-      $prefix = $this->cleanParam($sc->getParameter('prefix', PageTOCPlugin::configVar('anchors.slug_prefix')));
-      $class = $this->cleanParam($sc->getParameter('class', 'inline-anchor'));
+    $this->shortcode->getHandlers()->add('anchor', function(ProcessedShortcode $sc) {
+      $id = $sc->getParameter('id', $sc->getBbCode());
+      $prefix = $sc->getParameter('prefix', PageTOCPlugin::configVar('anchors.slug_prefix'));
+      $class = $sc->getParameter('class', 'inline-anchor');
       $aria = PageTOCPlugin::configVar('anchors.aria');
       $content = $sc->getContent();
 
@@ -29,23 +27,8 @@ class AnchorShortcode extends Shortcode
           $id = $prefix . $id;
       }
 
-      if ($tag) {
-        $output = "<$tag id=\"$id\" class=\"$class\">$content</$tag>";
-      } else {
-        $output = "<a id=\"$id\" href=\"#$id\" class=\"$class\" aria-label=\"$aria\">$content</a>";
-      }
-
-      return $output;
+      return "<a id=\"$id\" href=\"#$id\" class=\"$class\" aria-label=\"$aria\">$content</a>";
     });
-    $this->shortcode->getRawHandlers()->addAlias('#', 'anchor');
-  }
-
-  /**
-   * @param $param
-   * @return string
-   */
-  protected function cleanParam($param)
-  {
-    return trim(html_entity_decode($param), '"');
+    $this->shortcode->getHandlers()->addAlias('#', 'anchor');
   }
 }

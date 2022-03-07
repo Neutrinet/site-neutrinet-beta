@@ -65,7 +65,7 @@ class Flex implements FlexInterface
             // Backwards compatibility to v1.0.0-rc.3
             $blueprint = $legacy[$blueprint] ?? $blueprint;
 
-            $type = Utils::basename((string)$blueprint, '.yaml');
+            $type = basename((string)$blueprint, '.yaml');
             if ($type) {
                 $this->managed[] = $type;
             }
@@ -238,7 +238,7 @@ class Flex implements FlexInterface
         $directories = [];
         $all = Folder::all('blueprints://flex-objects', $params);
         foreach ($all as $url) {
-            $type = Utils::basename($url, '.yaml');
+            $type = basename($url, '.yaml');
             $directory = new FlexDirectory($type, $url);
             if ($directory->getConfig('hidden') !== true) {
                 $directories[$type] = $directory;

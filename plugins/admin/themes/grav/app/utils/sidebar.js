@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import Map from 'es6-map';
 import Cookies from '../utils/cookies';
 
 const MOBILE_BREAKPOINT = 48 - 0.062;
@@ -8,7 +9,7 @@ const TARGETS = '[data-sidebar-mobile-toggle], #overlay';
 const MOBILE_QUERY = `(max-width: ${MOBILE_BREAKPOINT}em)`;
 const DESKTOP_QUERY = `(min-width: ${DESKTOP_BREAKPOINT}em)`;
 
-let map = new global.Map();
+let map = new Map();
 
 export default class Sidebar {
     constructor() {

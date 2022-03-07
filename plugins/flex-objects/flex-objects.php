@@ -9,7 +9,6 @@ use Grav\Common\Page\Pages;
 use Grav\Common\Page\Types;
 use Grav\Common\Plugin;
 use Grav\Common\User\Interfaces\UserInterface;
-use Grav\Common\Utils;
 use Grav\Events\FlexRegisterEvent;
 use Grav\Events\PermissionsRegisterEvent;
 use Grav\Events\PluginsLoadedEvent;
@@ -480,7 +479,7 @@ class FlexObjectsPlugin extends Plugin
         foreach ($types as $blueprint) {
             // Backwards compatibility to v1.0.0-rc.3
             $blueprint = $map[$blueprint] ?? $blueprint;
-            $type = Utils::basename((string)$blueprint, '.yaml');
+            $type = basename((string)$blueprint, '.yaml');
             if (!$type) {
                 continue;
             }

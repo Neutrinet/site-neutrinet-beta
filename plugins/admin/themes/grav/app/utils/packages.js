@@ -2,12 +2,12 @@ import $ from 'jquery';
 import { config, translations } from 'grav-config';
 import request from '../utils/request';
 import { Instance as gpm } from '../utils/gpm';
+import { Promise } from 'es6-promise';
 
 class Sorter {
     getElements(elements, container) {
-        this.elements = elements || document.querySelectorAll('[data-gpm-plugin], [data-gpm-theme]');
-        this.container = container || document.querySelector('.gpm-plugins > table > tbody, .gpm-themes > .themes.card-row');
-
+        this.elements = elements || $('[data-gpm-plugin], [data-gpm-theme]');
+        this.container = container || $('.gpm-plugins > table > tbody, .gpm-themes > .themes.card-row');
         return this.elements;
     }
 
@@ -19,77 +19,49 @@ class Sorter {
     }
 
     byCommon(direction = 'asc', data = '') {
-        const elements = this.getElements();
-        this.removeGumroad();
-
-        Array.from(elements).sort((a, b) => {
-            let A = a.dataset[data].toString().toLowerCase();
-            let B = b.dataset[data].toString().toLowerCase();
+        let elements = this.getElements().sort((a, b) => {
+            let A = $(a).data(data).toString().toLowerCase();
+            let B = $(b).data(data).toString().toLowerCase();
 
             return Sorter.sort(A, B, direction);
-        }).forEach((element) => {
-          this.container.appendChild(element);
         });
 
-        this.addGumroad();
-        return this.container;
+        return elements.appendTo(this.container);
     }
 
-    byName(direction = 'asc', data = 'gpmName') {
+    byName(direction = 'asc', data = 'gpm-name') {
         return this.byCommon(direction, data);
     }
 
-    byAuthor(direction = 'asc', data = 'gpmAuthor') {
+    byAuthor(direction = 'asc', data = 'gpm-author') {
         return this.byCommon(direction, data);
     }
 
-    byOfficial(direction = 'asc', data = 'gpmOfficial') {
-      return this.byCommon(direction, data);
+    byOfficial(direction = 'asc', data = 'gpm-official') {
+        return this.byCommon(direction, data);
     }
 
-    byPremium(direction = 'asc', data = 'gpmPremium') {
-      return this.byCommon(direction, data);
-    }
-
-    byReleaseDate(direction = 'asc', data = 'gpmReleaseDate') {
-        const elements = this.getElements();
-
-        this.removeGumroad();
-        Array.from(elements).sort((a, b) => {
-            let A = new Date(a.dataset[data]).getTime();
-            let B = new Date(b.dataset[data]).getTime();
+    byReleaseDate(direction = 'asc', data = 'gpm-release-date') {
+        let elements = this.getElements().sort((a, b) => {
+            let A = new Date($(a).data(data)).getTime();
+            let B = new Date($(b).data(data)).getTime();
 
             return Sorter.sort(A, B, direction === 'asc' ? 'desc' : 'asc');
-        }).forEach((element) => {
-          this.container.appendChild(element);
         });
 
-      this.addGumroad();
-      return this.container;
+        elements.appendTo(this.container);
     }
 
-    byUpdatable(direction = 'asc', data = 'gpmUpdatable') {
+    byUpdatable(direction = 'asc', data = 'gpm-updatable') {
         return this.byCommon(direction, data);
     }
 
-    byEnabled(direction = 'asc', data = 'gpmEnabled') {
+    byEnabled(direction = 'asc', data = 'gpm-enabled') {
         return this.byCommon(direction, data);
     }
 
-    byTesting(direction = 'asc', data = 'gpmTesting') {
+    byTesting(direction = 'asc', data = 'gpm-testing') {
         return this.byCommon(direction, data);
-    }
-
-    addGumroad() {
-      if (window.GumroadOverlay) {
-        window.GumroadOverlay.startNodeAdditionObserver();
-      }
-    }
-
-    removeGumroad() {
-      if (window.GumroadOverlay) {
-        window.GumroadOverlay.nodeAdditionObserver.disconnect();
-      }
     }
 }
 
@@ -307,8 +279,8 @@ class Packages {
     installPackages(type, slugs, callbackSuccess) {
         let url = Packages.getInstallPackageUrl(type);
 
-        global.Promise.all(slugs.map((slug) => {
-            return new global.Promise((resolve, reject) => {
+        Promise.all(slugs.map((slug) => {
+            return new Promise((resolve, reject) => {
                 request(url, {
                     method: 'post',
                     body: {

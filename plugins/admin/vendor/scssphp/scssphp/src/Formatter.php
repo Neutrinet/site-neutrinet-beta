@@ -25,7 +25,7 @@ use ScssPhp\ScssPhp\SourceMap\SourceMapGenerator;
 abstract class Formatter
 {
     /**
-     * @var int
+     * @var integer
      */
     public $indentLevel;
 
@@ -60,7 +60,7 @@ abstract class Formatter
     public $assignSeparator;
 
     /**
-     * @var bool
+     * @var boolean
      */
     public $keepSemicolons;
 
@@ -70,12 +70,12 @@ abstract class Formatter
     protected $currentBlock;
 
     /**
-     * @var int
+     * @var integer
      */
     protected $currentLine;
 
     /**
-     * @var int
+     * @var integer
      */
     protected $currentColumn;
 
@@ -239,7 +239,7 @@ abstract class Formatter
      *
      * @param \ScssPhp\ScssPhp\Formatter\OutputBlock $block
      *
-     * @return bool
+     * @return boolean
      */
     protected function testEmptyChildren($block)
     {

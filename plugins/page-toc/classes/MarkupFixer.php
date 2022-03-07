@@ -49,10 +49,9 @@ class MarkupFixer
         /** @var DOMElement $node */
         foreach ($this->traverseHeaderTags($domDocument, $start, $depth) as $node) {
             if ($node->getAttribute('id')) {
-                $slug = $node->getAttribute('id');
-            } else {
-              $slug = $slugger->slugify($node->getAttribute('title') ?: $node->textContent, $options);
+                continue;
             }
+            $slug = $slugger->slugify($node->getAttribute('title') ?: $node->textContent, $options);
 
             $node->setAttribute('id', $slug);
 
