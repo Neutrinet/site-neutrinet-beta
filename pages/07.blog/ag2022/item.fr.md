@@ -15,7 +15,7 @@ taxonomy:
 >
 > - Date : 26 mars 2022
 > - Heure de début : 10h
-> - Adresse : École ISFSC, 111 rue de la Poste, 1030 Schaerbeeck
+> - Adresse : École ISFSC, 111 rue de la Poste, 1030 Schaerbeek
 > - Localisation : [https://www.openstreetmap.org/node/7156760585](https://www.openstreetmap.org/node/7156760585)
 > - Contenu : [https://doc.neutrinet.be/ag2022](https://doc.neutrinet.be/ag2022)
 > - Online : non, c'est en présentiel.
@@ -41,7 +41,7 @@ L'A.G. aura lieu le samedi 26 mars 2022.
 
 École ISFSC<br />
 111 rue de la Poste<br />
-1030 Schaerbeeck<br />
+1030 Schaerbeek<br />
 Ou sur [une carte](https://www.openstreetmap.org/node/7156760585#map=19/50.85946/4.36780)
 
 ### Nourriture et boissons
