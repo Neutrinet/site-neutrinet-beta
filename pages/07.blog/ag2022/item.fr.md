@@ -1,7 +1,7 @@
 ---
 title: 'Invitation A.G. 2022'
 subtitle: "Et aussi des tables rondes sur différents sujets !"
-date: '06/03/2022 22:00 pm'
+date: '03/06/2022 10:00 pm'
 published: true
 taxonomy:
     category:
