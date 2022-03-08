@@ -1,14 +1,16 @@
 ---
 title: 'Invitation A.G. 2022'
-subtitle: "Et aussi des tables rondes sur différents sujets !"
+subtitle: 'Et aussi des tables rondes sur différents sujets !'
 date: '03/06/2022 10:00 pm'
 published: true
 taxonomy:
     category:
         - blog
     tag:
-        - evenement
         - neutrinet
+        - evenement
+feed:
+    limit: 10
 ---
 
 > TL;DR:
