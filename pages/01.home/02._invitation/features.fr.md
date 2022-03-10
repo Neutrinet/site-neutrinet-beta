@@ -1,26 +1,27 @@
 ---
 title: Invitation
 menu: invitation
-published: false
+published: true
 features:
     -
         icon: 'fa fa-users'
         header: A.S.B.L.
-        text: 'Association sans but lucratif'
+        text: 'Pour rappel'
         url: 'asbl'
     -
-        icon: 'fa fa-info'
-        header: 'Information'
-        text: "À propos de l'assemblée"
-        url: 'invitation'
+        icon: 'fa fa-euro'
+        header: 'Les comptes'
+        text: "En long et en large"
+        url: 'https://accounting.neutrinet.be'
     -
-        icon: 'fa fa-balance-scale'
-        header: C.C.J.
-        text: "Cellule de Coopération <br/>avec la Justice"
-        url: 'ccj'
+        icon: 'fa fa-comments-o'
+        header: Tables Rondes
+        text: "Sur différents thèmes"
+        url: '/blog/ag2022/#tables_rondes'
 class: offset-box
 ---
 
-# [color=red]Assemblée sur la CCJ[/color]
+# [color=red]Prochaines dates spéciales[/color]
 
-#### Dimanche 11 décembre 2021 de 11h00 à 15h00 </br> au [Dk, 70b rue de Danemark à 1060 Saint-Gilles](https://www.openstreetmap.org/node/6789715631). <br/>Bienvenue à toutes et tous !
+### 20 mars Install Party Party @[caldarium](https://caldarium.be/fr:contact) de 13h à 31h ;)
+### 26 mars Assemblée et tables rondes @[ici pour les détails](/blog/ag2022)
