@@ -23,5 +23,4 @@ class: offset-box
 
 # [color=red]Next special events[/color]
 
-### 20 mars Install Party Party @[caldarium](https://caldarium.be/fr:contact) from 1PM to 31PM ;)
 ### 26 mars Assembly and round tables @[here for the details (fr)](/blog/ag2022)

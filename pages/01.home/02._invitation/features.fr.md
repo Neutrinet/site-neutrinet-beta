@@ -23,5 +23,4 @@ class: offset-box
 
 # [color=red]Prochaines dates spéciales[/color]
 
-### 20 mars Install Party Party @[caldarium](https://caldarium.be/fr:contact) de 13h à 31h ;)
 ### 26 mars Assemblée et tables rondes @[ici pour les détails](/blog/ag2022)
