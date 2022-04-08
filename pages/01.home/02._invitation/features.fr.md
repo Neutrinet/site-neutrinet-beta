@@ -1,7 +1,7 @@
 ---
 title: Invitation
 menu: invitation
-published: true
+published: false
 features:
     -
         icon: 'fa fa-users'
