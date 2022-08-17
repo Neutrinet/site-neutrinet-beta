@@ -5,7 +5,7 @@
         'type' => 'grav-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9317a497fbe62505ab8159be67cc6d365d21201f',
+        'reference' => '0a5b51b9e2c2eb9626b17c8b164dcfc3296ccf3c',
         'name' => 'getgrav/grav-plugin-admin',
         'dev' => false,
     ),
@@ -16,7 +16,7 @@
             'type' => 'grav-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9317a497fbe62505ab8159be67cc6d365d21201f',
+            'reference' => '0a5b51b9e2c2eb9626b17c8b164dcfc3296ccf3c',
             'dev_requirement' => false,
         ),
         'laminas/laminas-xml' => array(
@@ -53,12 +53,12 @@
             'dev_requirement' => false,
         ),
         'scssphp/scssphp' => array(
-            'pretty_version' => 'v1.10.0',
-            'version' => '1.10.0.0',
+            'pretty_version' => 'v1.10.3',
+            'version' => '1.10.3.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../scssphp/scssphp',
             'aliases' => array(),
-            'reference' => '9699a52a862da4efb43985943afa17150155dd3d',
+            'reference' => '0f1e1516ed2412ad43e42a6a319e77624ba1f713',
             'dev_requirement' => false,
         ),
         'symfony/polyfill-php72' => array(
