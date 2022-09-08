@@ -1,9 +1,9 @@
 {
-  "name": "getgrav/breadcrumbs","name": "getgrav/breadcrumbs",
+  "name": "grav-plugin-pagination",
   "type": "grav-plugin",
-  "description": "Breadcrumbs plugin for Grav CMS",
-  "keywords": ["breadcrumbs"],
-  "homepage": "https://github.com/getgrav/grav-plugin-breadcrumbs/",
+  "description": "Pagination plugin for Grav CMS",
+  "keywords": ["pagination"],
+  "homepage": "https://github.com/getgrav/grav-plugin-pagination/",
   "license": "MIT",
   "authors": [
     {
@@ -20,9 +20,9 @@
   },
   "autoload": {
     "psr-4": {
-      "Grav\\Plugin\\Breadcrumbs\\": "classes/plugin"
+      "Grav\\Plugin\\Pagination\\": "classes/plugin"
     },
-    "classmap":  ["breadcrumbs.php"]
+    "classmap":  ["pagination.php"]
   },
   "config": {
     "platform": {
