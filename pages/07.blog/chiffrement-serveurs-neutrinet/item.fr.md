@@ -153,4 +153,4 @@ Mais à l'issue de ces manipulations :
 
 Durant le week-end, nous avons également changé un SSD d'un serveur de Chez-Mémé.
 
-Le détail des manipulations techniques peuvent être retrouvé [ici]([2022/06/11 (dc) - HedgeDoc](https://doc.neutrinet.be/hib-dc-2022-06-11?view#)).
+Le détail des manipulations techniques peuvent être retrouvé [sur notre wiki]([2022/06/11 (dc) - HedgeDoc](https://doc.neutrinet.be/hib-dc-2022-06-11?view#)).
