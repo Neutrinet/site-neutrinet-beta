@@ -8,6 +8,9 @@ taxonomy:
         - evenement
         - 'atelier dk'
 subtitle: 'Présentation/débat avec Davigge et l''asbl Neutrinet'
+media_order: 8523010778_1ee799dfd9_k.jpg
+feed:
+    limit: 10
 ---
 
 Bob a tout juste commandé une nouvelle machine à laver que les pages internet qu'il consulte sont déjà remplies de publicités présentant des modèles similaires ou d'autres objets ménagers. A quelques rues de là, Alice, militante écologiste, vient tout juste d'être arrêtée pour avoir participé à des activités considérées comme "terroristes". Pourtant, elle a toujours utilisé un pseudonyme pour ses activités sur internet et n'a jamais parlé de ses engagements politiques dans la ville qu'elle habite...
