@@ -10,7 +10,7 @@ subtitle: 'Présentation/débat avec Davigge et l''asbl Neutrinet'
 media_order: 2803226982_9a246fde6b_b.jpg
 feed:
     limit: 10
-published: false
+published: true
 ---
 
 Il y a un peu plus d'un an, nous vous annoncions que Neutrinet s'engageait dans de nouveaux projets. Aujourd'hui, Neutrinet a besoin de votre aide !
