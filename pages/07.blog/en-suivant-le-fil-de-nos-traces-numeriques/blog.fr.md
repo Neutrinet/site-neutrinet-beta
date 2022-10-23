@@ -11,6 +11,10 @@ content:
     url_taxonomy_filters: true
 feed:
     limit: 10
+taxonomy:
+    tag:
+        - evenement
+        - 'atelier dk'
 ---
 
 Présentation/débat avec Davigge et l'asbl Neutrinet
