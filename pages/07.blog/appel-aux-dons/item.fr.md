@@ -8,6 +8,8 @@ taxonomy:
         - neutrinet
 media_order: 2803226982_9a246fde6b_b.jpg
 published: true
+feed:
+    limit: 10
 ---
 
 Il y a un peu plus d'un an, nous vous annoncions que Neutrinet s'engageait dans de nouveaux projets. Aujourd'hui, Neutrinet a besoin de votre aide !
@@ -28,7 +30,7 @@ C'est pourquoi nous venons à vous aujourd'hui avec cet appel aux dons, dans l'e
 
 Si nous voulons voir l'avenir sereinement, nous estimons qu'il nous faudrait trouver 600 €/mois. Concrètement, si 30 personnes décidaient de faire un don récurrent de 10€/mois, cela permettrait à Neutrinet de respirer un peu. Si 50 personnes décidaient de nous soutenir, cela permettrait à Neutrinet de continuer ces projets dans la sérénité. N'hésitez donc pas à diffuser cet appel aux dons autour de vous !
 
-Nos informations bancaires se trouvent sur notre wiki : https://wiki.neutrinet.be/fr/administration/banks
+Nos informations bancaires se trouvent sur notre wiki : [https://wiki.neutrinet.be/fr/administration/banks](https://wiki.neutrinet.be/fr/administration/banks)
 
 Vous êtes intéressé·e par la location d'une machine virtuelle chez Neutrinet ? Faites-nous signe [par e-mail](mailto:contact@neutrinet.be) ou sur [notre salon Mattermost](https://chat.neutrinet.be/neutrinet/channels/hub-chez-meme) en indiquant combien de machines vous auriez besoin, et le nombre de ressources pour chaque machine (vCPU, RAM, espace disque, etc.). Cela nous permettra de mieux savoir combien de personnes sont intéressées par ce projet. Mais gardez en tête que les machines virtuelles ne seront pas prêtes avant plusieurs mois !
 
