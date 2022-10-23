@@ -22,7 +22,6 @@ Durant cette rencontre, nous rebobinnerons le fil d'Ariane de nos périgrination
 **Informations pratiques**
 
 **Date** : Lundi 14 novembre, 17h : Accueil/Permanence | 18h30 : Présentation suivie d’une discussion.
-
 **Lieu** : Le DK, Rue de Danemark 70b à Saint Gilles (proximité place Bethléem)
 
 **Ateliers du DK**
