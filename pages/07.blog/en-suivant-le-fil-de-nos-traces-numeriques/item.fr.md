@@ -12,6 +12,8 @@ content:
 feed:
     limit: 10
 taxonomy:
+    category:
+        - blog
     tag:
         - evenement
         - 'atelier dk'
