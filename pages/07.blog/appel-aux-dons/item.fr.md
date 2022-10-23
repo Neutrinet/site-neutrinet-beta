@@ -10,6 +10,7 @@ media_order: 2803226982_9a246fde6b_b.jpg
 published: true
 feed:
     limit: 10
+header_image: '0'
 ---
 
 ![2803226982_9a246fde6b_b](2803226982_9a246fde6b_b.jpg "Donation Box - CC BY SA Jrwooley6")
