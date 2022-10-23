@@ -6,6 +6,7 @@ taxonomy:
         - blog
     tag:
         - evenement
+        - 'atelier dk'
 subtitle: 'Présentation/débat avec Davigge et l''asbl Neutrinet'
 ---
 
