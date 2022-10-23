@@ -38,3 +38,5 @@ Vous êtes intéressé·e par la location d'une machine virtuelle chez Neutrinet
 À votre bon cœur !
 
 Neutrinet asbl
+
+**Crédit photo :** « Donation Box » par Jrwooley6  (CC BY-SA 2.0) 
