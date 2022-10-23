@@ -6,7 +6,6 @@ taxonomy:
         - blog
     tag:
         - surveillance
-        - 'atelier dk'
 subtitle: 'Ce serait sympa de collaborer…'
 ---
 
