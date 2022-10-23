@@ -1,25 +1,14 @@
 ---
 title: 'En suivant le fil de nos traces numériques'
-content:
-    items:
-        - '@self.children'
-    limit: 5
-    order:
-        by: date
-        dir: desc
-    pagination: true
-    url_taxonomy_filters: true
-feed:
-    limit: 10
+date: '10/23/2022 12:00 pm'
 taxonomy:
     category:
         - blog
     tag:
         - evenement
         - 'atelier dk'
+subtitle: 'Présentation/débat avec Davigge et l''asbl Neutrinet'
 ---
-
-Présentation/débat avec Davigge et l'asbl Neutrinet
 
 Bob a tout juste commandé une nouvelle machine à laver que les pages internet qu'il consulte sont déjà remplies de publicités présentant des modèles similaires ou d'autres objets ménagers. A quelques rues de là, Alice, militante écologiste, vient tout juste d'être arrêtée pour avoir participé à des activités considérées comme "terroristes". Pourtant, elle a toujours utilisé un pseudonyme pour ses activités sur internet et n'a jamais parlé de ses engagements politiques dans la ville qu'elle habite...
 
