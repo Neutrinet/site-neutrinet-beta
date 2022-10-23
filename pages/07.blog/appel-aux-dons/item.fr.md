@@ -6,10 +6,7 @@ taxonomy:
         - blog
     tag:
         - neutrinet
-subtitle: 'Présentation/débat avec Davigge et l''asbl Neutrinet'
 media_order: 2803226982_9a246fde6b_b.jpg
-feed:
-    limit: 10
 published: true
 ---
 
