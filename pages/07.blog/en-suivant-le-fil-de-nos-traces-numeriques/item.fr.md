@@ -29,7 +29,6 @@ Durant cette rencontre, nous rebobinnerons le fil d'Ariane de nos périgrination
 Chaque 2e lundi du mois, les ateliers de réflexion et d'action critiques sur le numérique au DK, se proposent d’aborder des sujets en lien avec le numérique (par exemple, sur les algorithmes, le capitalisme de surveillance, les impacts écologiques, etc.) et d’explorer des manières de faire alternatives (découverte d’outils libres et éthiques, dégooglisation de smartphones, protection des communications, etc.)
 
 Ces soirées se dérouleront en deux parties : 
-    
+
 - Dès 17h, accueil, bar, permanence et moment de rencontres 'libres" et informelles. Venez poser vos questions, discuter de vos idées et proposer vos projets. Ce moment pourra être l'opportunité de partager des ateliers en petits groupes, de découvrir des logiciels et de rencontrer différentes associations qui s'engagent pour un numérique émancipateur.
-    
 - A 18h30, présentation suivie d'une discussion ou atelier thématique.
