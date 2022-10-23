@@ -12,6 +12,8 @@ feed:
     limit: 10
 ---
 
+![2803226982_9a246fde6b_b](2803226982_9a246fde6b_b.jpg "Donation Box - CC BY SA Jrwooley6")
+
 Il y a un peu plus d'un an, nous vous annoncions que Neutrinet s'engageait dans de nouveaux projets. Aujourd'hui, Neutrinet a besoin de votre aide !
 
 Comme annoncé l'année passée, nous poursuivons le développement d'une infrastructure de location de machines virtuelles (VPS) hébergées sur les serveurs de Neutrinet, avec nos propres IPs ! Ce projet s'inscrit dans le cadre d'un projet plus vaste de colocation de notre armoire en datacenter, le projet « Chez Mémé ».
