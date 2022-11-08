@@ -7,7 +7,7 @@ taxonomy:
     tag:
         - evenement
         - 'atelier dk'
-subtitle: 'Présentation/débat avec Davigge (Abelli) et Célo (Neutrinet)'
+subtitle: 'Présentation/débat<br/>avec Davigge (Abelli) et Célo (Neutrinet)'
 media_order: 8523010778_1ee799dfd9_k.jpg
 feed:
     limit: 10
