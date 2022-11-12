@@ -1,3 +1,27 @@
+# v7.0.2
+## 10/05/2022
+
+1. [](#bugfix)
+   * Fix for modular form definitions at root-level (useful for storing shared forms)
+
+# v7.0.1
+## 09/20/2022
+
+1. [](#improved)
+   * Provided some basic CSS styling for new captcha field
+
+# v7.0.0
+## 09/20/2022
+
+1. [](#new)
+   * Added a new custom `basic-captcha` option with **character** and **math** puzzles.  No 3rd-part service required.
+
+# v6.0.4
+## 08/08/2022
+
+1. [](#improved)
+    * Added `attributes` to field [#573](https://github.com/getgrav/grav-plugin-form/pull/573)
+
 # v6.0.3
 ## 05/05/2022
 

@@ -1,3 +1,22 @@
+# v1.10.37.1
+## 10/08/2022
+
+1. [](#bugfix)
+   * Removed new GumRoad cart icon + new button styling [getgrav/grav#3631](https://github.com/getgrav/grav/issues/3631)
+
+# v1.10.37
+## 10/05/2022
+
+1. [](#improved)
+   * Updated vendor libraries to latest versions
+   * Removed a reference to `SwiftMailer` library to support new **Email** plugin v4.0
+
+# v1.10.36
+## 09/08/2022
+
+1. [](#bugfix)
+   * Fixed `fieldset.html.twig` not rendering with `markdown: false` [#2313](https://github.com/getgrav/grav-plugin-admin/pull/2313)
+
 # v1.10.35
 ## 08/04/2022
 
