@@ -1,3 +1,18 @@
+# v1.3.3
+## 01/04/2023
+
+1. [](#improved)
+   * Save `post-save` action to session
+   * Set default `post-save` action to `edit` for create and edit 
+
+# v1.3.2
+## 12/02/2022
+
+1. [](#improved)
+   * Various translation enhancements
+1. [](#bugfix)
+   * Fixed frontend editing objects with urlencoded ids
+
 # v1.3.1
 ## 09/08/2022
 
