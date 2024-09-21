@@ -1,3 +1,15 @@
+# v1.10.43
+## 10/02/2023
+
+1. [](#improved)
+   * Updated vendor libraries
+
+# v1.10.42
+## 06/14/2023
+
+1. [](#new)
+   * Added a couple of string translations
+
 # v1.10.41.2
 ## 05/11/2023
 
