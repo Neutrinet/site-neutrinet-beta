@@ -1,9 +1,10 @@
 ---
-title: 'Rencontres'
-menu: 'Rencontres'
+title: Rencontres
+menu: Rencontres
+image_align: left
 ---
 
-# Rencontres
+# Prochaine rencontres
 
 - **Lundi 9 septembre** aura lieu l'atelier numérique au [DK](https://www.aadtp.be/le-dk/). L'occasion de rencontrer l'équipe derrière le journal *[Curseurs](https://curseurs.be)*. En deuxième partie de soirée, deux courts-métrages seront projetés : *Les Yeux Carrés* de Louison Assié et Laure Massiet du Biest, et *Comment les chatons mignons vont détruire l’humanité* de Hack Sim. Les projections seront suivies d'une discussion avec les réalisateurices. Toutes les infos ici : https://ateliers-dk.be/evenements/rencontre-avec-curseurs-et-cine-debat
 - **Dimanche 15 septembre**, à partir de 13h, aura lieu notre install party mensuelle au [Caldarium](https://caldarium.be/fr:contact) *(c'est un moment de support et plus largement de découverte de Neutrinet)*.
