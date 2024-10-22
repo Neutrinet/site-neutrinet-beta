@@ -1,8 +1,8 @@
 # Table Importer Plugin
 
-The **Table Importer** Plugin is for [Grav CMS](http://github.com/getgrav/grav). It imports tables from JSON, YAML, and CSV formats into a page.
+The **Table Importer** Plugin is for [Grav CMS](http://github.com/getgrav/grav). It imports tables from JSON, YAML, and CSV formats into an HTML table.
 
-For a demo, [visit my blog](https://perlkonig.com/demos/table-importer).
+Demo: http://demo.robbins.ws/
 
 ## Installation
 
@@ -18,7 +18,7 @@ This will install the Table Importer plugin into your `/user/plugins` directory 
 
 ### Manual Installation
 
-To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `table-importer`. You can find these files on [GitHub](https://github.com/Perlkonig/grav-plugin-table-importer) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
+To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `table-importer`. You can find these files on [GitHub](https://github.com/jwrobb/grav-plugin-table-importer) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
 
 You should now have all the plugin files under
 
@@ -81,41 +81,38 @@ Val4,Val5,Val6
 Val7,Val8,Val9
 ```
 
-### Inserting a Table
+## Inserting a Table
 
 This plugin uses the [Shortcode Core](https://github.com/getgrav/grav-plugin-shortcode-core) infrastructure. Read those docs for the nitty gritty of how shortcodes work.
 
-The Table Importer shortcode is a self-closing `[ti option1="value1" option2="value2" ... /]`, and it accepts the following options:
+The Table Importer shortcode is a self-closing `[ti option1="value1" option2="value2" ... /]`
 
-* `file` is the only required parameter. It points to the datafile you wish to load. By default, the plugin looks in the same folder as the page file. This is adequate for most usage. You can also load files from the `user/data` folder by prefixing your file name with `data:` (e.g., `file=data:tables/mytable.yaml`). 
+By default, the content of each cell is escaped using PHP's `htmlspecialchars` function. If the `raw` option is set to anything at all, the escaping will be disabled. **Only do this if you trust the incoming data!**
 
-  If all you're passing is the file name, then you can shorten the code to the form `[ti=mytable.yaml/]`.
+### Parameters
 
-* `type` is usually unnecessary. It tells the plugin what format the data file is in. The only acceptable values are `yaml`, `json`, and `csv`. However, the plugin looks at the file name extension first. If it's `yaml`, `yml`, `json`, or `csv`, then there's no need to use the `type` option. 
+| Parameter | Usage |
+|:---|:---|
+|`file` |The only required parameter. It points to the datafile you wish to load. By default, the plugin looks in the same folder as the page file. This is adequate for most usage. You can also load files from the `user/data` folder by prefixing your file name with `data:` (e.g., `file=data:tables/mytable.yaml`). Broken : ~~If all you're passing is the file name, then you can shorten the code to the form `[ti=mytable.yaml/]`~~.
+|`type` |Usually unnecessary. It tells the plugin what format the data file is in. The only acceptable values are `yaml`, `json`, and `csv`. However, the plugin looks at the file name extension first. If it's `yaml`, `yml`, `json`, or `csv`, then there's no need to use the `type` option. 
+|`class` |Lets you assign class definitions to the table itself. Whatever you put here will be escaped (via PHP's `htmlspecialchars`) and placed into the opening `<table>` tag.
+|`id` |Lets you specify the table tag's `id` attribute (e.g. `[ti file="mytable.yaml" id="my-custom-table-id"]` yields `<table id="my-custom-table-id">...</table>`).
+|`caption` |Will insert a `<caption>` tag containing the value of this option after being run through PHP's `htmlspecialchars`.
+|`header` |Takes first row in the data and renders a `<thead>` section in the table. Enable by using [any value that evaluates to TRUE](https://www.php.net/manual/en/filter.constants.php#constant.filter-validate-boolean)
+|`footer` |Takes last row in the data and renders a `<tfoot>` section in the table. Enable by using [any value that evaluates to TRUE](https://www.php.net/manual/en/filter.constants.php#constant.filter-validate-boolean)
+|`raw` |Disable all cell contents escaping. Enable by using [any value that evaluates to TRUE](https://www.php.net/manual/en/filter.constants.php#constant.filter-validate-boolean)
 
-* `caption` will insert a `<caption>` tag containing the value of this option after being run through PHP's `htmlspecialchars`.
 
-* `header` tells the plugin whether you want a header row or not. By default, the first row is rendered as a header. Passing *any* value to `header` will disable the header row.
-
-* `class` lets you assign class definitions to the table itself. Whatever you put here will be escaped (via PHP's `htmlspecialchars`) and placed into the opening `<table>` tag.
-
-* `id` lets you specify the table tag's `id` attribute (e.g. `[ti file="mytable.yaml" id="my-custom-table-id"]` yields `<table id="my-custom-table-id">...</table>`).
-
-* By default, the content of each cell is escaped using PHP's `htmlspecialchars` function. If the `raw` option is set to anything at all, the escaping will be disabled. **Only do this if you trust the incoming data!**
-
-* Finally, for CSV files only, you can customize how it will be parsed using any of the following three options:
-
-  * `delimiter` defines how columns are separated. By default, the value is a comma (`,`).
-
-  * `enclosure` defines how cells with special characters are contained. By default, the value is a double quotation mark (`"`).
-
-  * `escape` defines how special characters can be escaped. By default, the value is a backslash (`\`).
+### Parameters (CSV Only)
+| Parameter | Usage |
+|:---|:---|
+|`delimiter` |Defines how columns are separated. By default, the value is a comma (`,`).
+|`enclosure` |Defines how cells with special characters are contained. By default, the value is a double quotation mark (`"`).
+|`escape` |Defines how special characters can be escaped. By default, the value is a backslash (`\`).
 
 ### Example Codes
 
-* `[ti=test.json]` (basic import of json table in the same folder as the page itself)
-
-* `[ti=data:test.yaml]` (basic import of yaml table in the `user/data` folder)
+* `[ti file=test.json]` (basic import of json table in the same folder as the page itself)
 
 * `[ti file=json-as-yaml.json type=yaml]` (parse a file as yaml regardless of extension)
 
@@ -123,6 +120,10 @@ The Table Importer shortcode is a self-closing `[ti option1="value1" option2="va
 
 * `[ti file=file.yaml header="false" class="imported"]` (basic yaml table with no header and a class of `imported`)
 
+* `[ti file="file.csv" header="yes" footer="no" caption="Just some data" class="tableClass" id="tableID"]` Lots of params, showing usage of other boolean values
+
 ## Credits
 
 Because PHP's builtin CSV support is...let's just say inelegant, this plugin incorporates the most excellent [PHPLeague CSV library](http://csv.thephpleague.com/).
+
+Forked from the original project and maintainer due to abandonment [Perlkonig/grav-plugin-table-importer](https://github.com/Perlkonig/grav-plugin-table-importer)

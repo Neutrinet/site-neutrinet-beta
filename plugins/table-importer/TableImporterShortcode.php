@@ -2,12 +2,16 @@
 
 namespace Grav\Plugin\Shortcodes;
 
+use DOMDocument;
+use DOMElement;
+use Exception;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 use Grav\Common\Utils;
 use Symfony\Component\Yaml\Yaml;
-use RocketTheme\Toolbox\File\File;
-// use RocketTheme\Toolbox\ResourceLocator\UniformResourceLocator;
 use League\Csv\Reader;
+use League\Csv\Statement;
+
+ 
 
 class TableImporterShortcode extends Shortcode
 {
@@ -20,33 +24,34 @@ class TableImporterShortcode extends Shortcode
 
     public function process(ShortcodeInterface $sc) {
         $fn = $sc->getParameter('file', null);
+
+        //Process the file in the shortcode if no "file" param set
         if ($fn === null) {
             $fn = $sc->getShortcodeText();
             $fn = str_replace('[ti=', '', $fn);
             $fn = str_replace('/]', '', $fn);
             $fn = trim($fn);
         }
+
         if ( ($fn === null) && ($fn === '') ) {
             return "<p>Table Importer: Malformed shortcode (<tt>".htmlspecialchars($sc->getShortcodeText())."</tt>).</p>";
         }
-        $raw = $sc->getParameter('raw', null);
-        if ($raw === null) {
-            $raw = false;
-        } else {
-            $raw = true;
-        }
+
+        //Grab all the shortcode params
         $type = $sc->getParameter('type', null);
         $delim = $sc->getParameter('delimiter', ',');
         $encl = $sc->getParameter('enclosure', '"');
         $esc = $sc->getParameter('escape', '\\');
         $class = $sc->getParameter('class', null);
-        $caption = $sc->getParameter('caption', null);
-        $header = $sc->getParameter('header', null);
-        if ($header === null) {
-            $header = true;
-        } else {
-            $header = false;
-        }
+        $id = $sc->getParameter('id', null);
+        $sc->getParameter('caption', null);
+
+        $raw = filter_var(
+            $sc->getParameter('raw', null), FILTER_VALIDATE_BOOLEAN);
+        $header = filter_var(
+            $sc->getParameter('header', null), FILTER_VALIDATE_BOOLEAN);
+        $footer = filter_var(
+            $sc->getParameter('footer', null), FILTER_VALIDATE_BOOLEAN);
 
         // Get absolute file name
         $abspath = null;
@@ -60,105 +65,94 @@ class TableImporterShortcode extends Shortcode
             return "<p>Table Importer: Could not find the requested data file '$fn'.</p>";
         }
 
-        // Determine what type of file it is
+        $data = null;
         if ($type === null) {
-            if ( (Utils::endswith(strtolower($fn), '.yaml')) || ((Utils::endswith(strtolower($fn), '.yml'))) ) {
-                $type = 'yaml';
-            } elseif (Utils::endswith(strtolower($fn), '.json')) {
-                $type = 'json';
-            } elseif (Utils::endswith(strtolower($fn), '.csv')) {
-                $type = 'csv';
-            } else {
-                return "<p>Table Importer: Could not determine the type of the requested data file '$fn'. This plugin only supports YAML, JSON, and CSV.</p>";
+            $type = pathinfo($fn, PATHINFO_EXTENSION);
+
+            switch($type){
+
+                case 'yml':
+                case 'yaml':
+                    $data = Yaml::parse(file_get_contents($abspath));
+                    break;
+            
+                case 'json':
+                    $data = json_decode(file_get_contents($abspath));
+                    break;
+                
+                case 'csv':
+                    $reader = Reader::createFromPath($abspath, 'r');
+                    $reader->setDelimiter($delim);
+                    $reader->setEnclosure($encl);
+                    $this->outerEscape = $esc;
+                    $reader->setEscape($esc);
+    
+                    $resultSet = Statement::create()->process($reader);
+                    $data = iterator_to_array($resultSet,true);
+                    break;
+
+                default:
+                    return "<p>Table Importer: Could not determine the type of the requested data file '$fn'. This plugin only supports YAML, JSON, and CSV.</p>";
             }
         }
 
-        // Load the data
-        $data = null;
-        switch ($type) {
-            case 'yaml':
-                $data = Yaml::parse(file_get_contents($abspath));
-                break;
-            
-            case 'json':
-                $data = json_decode(file_get_contents($abspath));
-                break;
-
-            case 'csv':
-                $reader = Reader::createFromPath($abspath, 'r');
-                $reader->setDelimiter($delim);
-                $reader->setEnclosure($encl);
-                $this->outerEscape = $esc;
-                $reader->setEscape($esc);
-                // This func is to compensate for a bug in PHP's `SplFileObject` class.
-                // https://bugs.php.net/bug.php?id=55413
-                // This func strips out the extraneous escape character.
-                $func = function ($row) {
-                    $e = preg_quote($this->outerEscape);
-                    foreach ($row as &$cell) {
-                        $cell = preg_replace("/$e(?!$e)/", '', $cell);
-                    }
-                    unset($cell);
-                    return $row;
-                };
-                $data = $reader->fetchAll($func);
-                break;
-        }
 
         try {
-            // Build the table
             if ($data === null) {
-                return "<p>Table Importer: Something went wrong loading '$type' data from the requested file '$fn'.</p>";
-            }
-            $output = '';
-
-            // Table's id can be specified by adding an `id` attribute to the shortcode
-            $id = $sc->getParameter('id', null);
-            if ($id === null)
-                $id = $this->shortcode->getId($sc);
-
-            $output .= '<table id="'.$id.'"';
-            if ($class !== null) {
-                $output .= ' class="'.htmlspecialchars($class).'"';
-            }
-            $output .= '>';
-
-            // Insert caption if given
-            if ( ($caption !== null) && (strlen($caption) > 0) ) {
-                $output .= '<caption>'.htmlspecialchars($caption).'</caption>';
+                throw new Exception("Table Importer: Something went wrong loading '$type' data from the requested file '$fn'.");
             }
 
-            if ($header) {
-                $row = array_shift($data);
-                $output .= '<thead><tr>';
-                foreach ($row as $cell) {
-                    $output .= '<th>'.$cell.'</th>';
-                }
-                $output .= '</tr></thead>';
-            }
+            if($header) $headerData = array_shift($data);
+            if($footer) $footerData = array_pop($data);
 
-            $output .= '<tbody>';
+            $doc = new DOMDocument('1.0');
+            $table = $doc->createElement('table');
+
+            if(!empty($id))
+                $table->setAttribute('id', $id);
+
+            if(!empty($class)) 
+                $table->setAttribute('class', htmlspecialchars($class));
+
+            if(!empty($caption))
+                $table->appendChild(
+                    $doc->createElement('caption', htmlspecialchars($caption)));
+            
+            if($header)
+                $table->appendChild(
+                    $this->createNested($doc, $headerData, 'thead', 'tr', 'th'));
+
+            $tbody = $table->appendChild($doc->createElement('tbody'));
+            
             foreach ($data as $row) {
-                $output .= '<tr>';
+                $tr = $tbody->appendChild($doc->createElement("tr"));
                 foreach ($row as $cell) {
                     if ($raw) {
-                        $output .= '<td>'.$cell.'</td>';
+                        $tr->appendChild($doc->createElement("td", $cell));
                     } else {
-                        $output .= '<td>'.htmlspecialchars($cell).'</td>';
+                        $tr->appendChild($doc->createElement("td", htmlspecialchars($cell)));
                     }
                 }
-                $output .= '</tr>';
             }
-            $output .= '</tbody>';
+            
+            if($footer)
+                $table->appendChild(
+                    $this->createNested($doc, $footerData, 'tfoot', 'tr', 'td'));
 
-            $output .= '</table>';
-            return $output;
+            $doc->formatOutput = true;
+            $doc->appendChild($table);
+            $content = $doc->saveHTML();
+
+            return $content;
+
+            //TODO: Smarten this response formatting to assist with errors
         } catch (\Exception $e) {
-            return '<p>The data in "'.$fn.'" appears to be malformed. Please review the documentation.';
+            return '<p>The data in "'.$fn.'" appears to be malformed. Please review the documentation.</p><p>'. $e->getTraceAsString() .'</p>';
         }
     }
 
-    private function getPath($fn) {
+    private function getPath($fn) 
+    {
         if (Utils::startswith($fn, 'data:')) {
             $path = $this->grav['locator']->findResource('user://data', true);
             $fn = str_replace('data:', '', $fn);
@@ -176,11 +170,24 @@ class TableImporterShortcode extends Shortcode
         return null;
     }
 
-    private static function sanitize($fn) {
+    private static function sanitize($fn) 
+    {
         $fn = trim($fn);
         $fn = str_replace('..', '', $fn);
         $fn = ltrim($fn, DS);
         $fn = str_replace(DS.DS, DS, $fn);
         return $fn;
+    }
+    
+    private function createNested(DOMDocument $dom, array $data, string $pNode, string $rNode, string $cNode): DOMElement
+    {
+        $retElement = $dom->createElement($pNode);
+        $rowNode = $retElement->appendChild($dom->createElement($rNode));
+        
+        foreach($data as $cell) {
+            $rowNode->appendChild($dom->createElement($cNode, $cell));
+        }
+
+        return $retElement;
     }
 }
