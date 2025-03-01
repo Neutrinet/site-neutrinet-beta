@@ -100,8 +100,7 @@ By default, the content of each cell is escaped using PHP's `htmlspecialchars` f
 |`caption` |Will insert a `<caption>` tag containing the value of this option after being run through PHP's `htmlspecialchars`.
 |`header` |Takes first row in the data and renders a `<thead>` section in the table. Enable by using [any value that evaluates to TRUE](https://www.php.net/manual/en/filter.constants.php#constant.filter-validate-boolean)
 |`footer` |Takes last row in the data and renders a `<tfoot>` section in the table. Enable by using [any value that evaluates to TRUE](https://www.php.net/manual/en/filter.constants.php#constant.filter-validate-boolean)
-|`raw` |Disable all cell contents escaping. Enable by using [any value that evaluates to TRUE](https://www.php.net/manual/en/filter.constants.php#constant.filter-validate-boolean)
-
+|`raw` |Toggles cell HTML escaping, enable if you want HTML rendered. Be cautious when enabling this, as all markup and scripts will be interpreted in the all the cells of your table. Enable by using [any value that evaluates to TRUE](https://www.php.net/manual/en/filter.constants.php#constant.filter-validate-boolean)
 
 ### Parameters (CSV Only)
 | Parameter | Usage |
