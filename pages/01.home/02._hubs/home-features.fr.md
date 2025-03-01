@@ -14,6 +14,7 @@ features:
         text: 'Avant de faire de l’Internet, Neutrinet est un collectif existant légalement sous la forme de l’ASBL et fonctionnant en différents groupes de travail actifs sur différentes thématiques. La prise de décision se fait collectivement, et les réunions, comme nos AG, sont ouvertes à tous·tes.'
     -
         header: Laboratoire
+        icon: 'fa fa-flask'
         text: 'Neutrinet est un espace d''expérimentation et de partage de connaissances, où chacun·e peut venir apprendre à son rythme. Neutrinet organise des ateliers pour permettre à ses membres de comprendre les rouages d''internet, d''expérimenter la gestion d''un serveur, ou encore de maîtriser l''infrastructure de l''association.'
 sitemap:
     lastmod: '03/01/2025 04:27 pm'
