@@ -16,4 +16,4 @@ features:
     - header: 'laboratorium'
       icon: 'fa fa-flask'
       text: 'Neutrinet is een ruimte voor experiment en kennisdeling, waar iedereen in zijn eigen tempo kan komen leren. Neutrinet organiseert workshops om haar leden in staat te stellen de werking van het internet te begrijpen, te experimenteren met serverbeheer en de infrastructuur van de vereniging onder de knie te krijgen.'
-  ---
+---
