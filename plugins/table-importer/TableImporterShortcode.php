@@ -44,7 +44,7 @@ class TableImporterShortcode extends Shortcode
         $esc = $sc->getParameter('escape', '\\');
         $class = $sc->getParameter('class', null);
         $id = $sc->getParameter('id', null);
-        $sc->getParameter('caption', null);
+        $caption = $sc->getParameter('caption', null);
 
         $raw = filter_var(
             $sc->getParameter('raw', null), FILTER_VALIDATE_BOOLEAN);
@@ -128,7 +128,8 @@ class TableImporterShortcode extends Shortcode
                 $tr = $tbody->appendChild($doc->createElement("tr"));
                 foreach ($row as $cell) {
                     if ($raw) {
-                        $tr->appendChild($doc->createElement("td", $cell));
+                        $td = $tr->appendChild($doc->createElement("td"));
+                        $td->appendChild($doc->createCDATASection($cell));
                     } else {
                         $tr->appendChild($doc->createElement("td", htmlspecialchars($cell)));
                     }

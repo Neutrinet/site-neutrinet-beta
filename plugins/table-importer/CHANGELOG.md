@@ -1,3 +1,10 @@
+# v3.0.1
+## 12/30/2024
+
+1. [](#bugfix)
+    * Fixed issue with raw cell data being escaped
+    * Fixed issue with captions param not enabling table caption rendering
+
 # v3.0.0
 ## 09/07/2024
 
