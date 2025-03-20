@@ -9,5 +9,5 @@ hero_image: header.jpg
 # Local Internet Producer
 
 <p class="text-justify text-strong">
-Neutrinet is committed to a neutral, free and decentralized internet, by offering the necessary tools to those who want to reclaim their data and lay the foundations for an internet in line with their values.
+Neutrinet is committed to a neutral, open and decentralized internet, by offering the necessary tools to those who want to reclaim their data and lay the foundations for an internet in line with their values.
 </p>
