@@ -1,6 +1,7 @@
 ---
 title: Rencontres
 menu: Rencontres
+image_align: left
 ---
 
 # Prochaines rencontres
