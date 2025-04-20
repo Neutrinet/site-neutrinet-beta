@@ -1,6 +1,6 @@
 ---
 title: Hub
-menu: 'Install Party'
+menu: Hubs
 class: offset-box
 features:
     -
