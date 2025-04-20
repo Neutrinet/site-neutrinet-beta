@@ -1,6 +1,6 @@
 ---
-title: Hub
-menu: Hubs
+title: Merguez
+menu: Merguez
 class: offset-box
 features:
     -
