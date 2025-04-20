@@ -15,7 +15,7 @@ features:
         url: internet
     -
         header: 'Vie associative'
-        icon: 'fa fa-people-group'
+        icon: 'fa fa-users'
         text: 'Avant de faire de l’Internet, Neutrinet est un collectif existant légalement sous la forme de l’ASBL et fonctionnant en différents groupes de travail actifs sur différentes thématiques. La prise de décision se fait collectivement, et les réunions, comme nos AG, sont ouvertes à tous·tes.'
         url: vie-associative
     -
