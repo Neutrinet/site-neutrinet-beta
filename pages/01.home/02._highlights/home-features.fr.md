@@ -6,7 +6,7 @@ features:
     -
         header: Auto-hébergement
         text: 'Envie d’avoir ton petit bout d’internet chez toi ? D’héberger ton propre mail ou ton cloud maison dans la cave ou dans le salon ? Sur un petit boitier faible consommation (brique internet) ou sur un ordinateur de récupération (parpaing internet), c’est possible avec le VPN de Neutrinet.'
-        url: auto-hebergement
+        url: auto-hébergement
     -
         header: Internet
         text: 'Neutrinet installe des connexions fixes pour ses membres ou des personnes sans papiers et propose un VPN avec une IP fixe pour permettre à chacun·e de s''auto-héberger. Acteur à part entière du réseau, Neutrinet est aussi présent dans des points d''interconnexion en Belgique et aux Pays-Bas.'
