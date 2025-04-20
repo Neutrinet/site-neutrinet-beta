@@ -1,0 +1,19 @@
+{% set columns = page.header.class == 'small' ? 'col-4 col-md-4 col-sm-6' : 'col-6 col-md-6 col-sm-12'  %}
+<section class="section modular-features {{ page.header.class}}">
+        <section class="container col-6">
+            <div class="frame-box">
+                {{ content|raw }}
+                <div class="columns">
+                {% for event in page.header.events %}
+                    <div class="column {{ columns }}">
+                        <div class="event-title">{{ event.title }}</div>
+                        <div class="event-description">{{ event.description }}</div>
+                        
+                        <time class="event-date" datetime="{{ event.date }}">{{ event.date }}</time>
+                        <div class="event-address">{{ event.address }}</div>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+        </section>
+</section>
