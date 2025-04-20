@@ -1,0 +1,38 @@
+title: Events
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        events:
+          type: tab
+          title: Events
+          fields:
+            class:
+              type: select
+              label: Layout
+              default: small
+              size: medium
+              options:
+                small: Small   = 4 / 3 / 2 columns
+                standard: Standard  = 3 / 2 / 1 columns
+
+            header.events:
+              name: events
+              type: list
+              label: Events
+
+              fields:
+                .date:
+                  type: datetime
+                  label: Date
+                .address:
+                  type: text
+                  label: Address
+                .title:
+                  type: text
+                  label: Title
+                .description:
+                  type: text
+                  label: Description
