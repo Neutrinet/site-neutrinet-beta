@@ -1,6 +1,6 @@
 ---
-title: Merguez
-menu: Merguez
+title: Highlights
+menu: Highlights
 class: offset-box
 features:
     -
