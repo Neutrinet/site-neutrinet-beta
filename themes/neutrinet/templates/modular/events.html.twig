@@ -6,11 +6,13 @@
                 <div class="columns">
                 {% for event in page.header.events %}
                     <div class="column {{ columns }}">
-                        <div class="event-title">{{ event.title }}</div>
-                        <div class="event-description">{{ event.description }}</div>
+                        <div class="event-title">{{ event.title | raw }}</div>
+                        <div class="event-description">{{ event.description | raw }}</div>
                         
-                        <time class="event-date" datetime="{{ event.date }}">{{ event.date }}</time>
-                        <div class="event-address">{{ event.address }}</div>
+                        <div class="event-metadata">
+                            <time class="event-date" datetime="{{ event.date }}">{{ event.date | date('d/m/Y H:i') }}</time>
+                            <div class="event-address">{% if event.venue.url %}<a href="{{ event.venue.url }}>{% endif %}{{ event.venue.name }}{% if event.venue.name and event.venue.address %}, {% endif %}{{ event.venue.address }}{% if event.venue.url %}</a>{% endif %}</div>
+                        </div>
                     </div>
                 {% endfor %}
                 </div>

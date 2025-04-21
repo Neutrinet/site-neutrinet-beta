@@ -27,9 +27,9 @@ form:
                 .date:
                   type: datetime
                   label: Date
-                .address:
+                .venue:
                   type: text
-                  label: Address
+                  label: Venue
                 .title:
                   type: text
                   label: Title
