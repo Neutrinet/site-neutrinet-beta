@@ -27,9 +27,15 @@ form:
                 .date:
                   type: datetime
                   label: Date
-                .venue:
+                .venue_name:
                   type: text
-                  label: Venue
+                  label: Venue Name
+                .venue_address:
+                  type: text
+                  label: Venue Address
+                .venue_url:
+                  type: text
+                  label: Venue URL
                 .title:
                   type: text
                   label: Title
