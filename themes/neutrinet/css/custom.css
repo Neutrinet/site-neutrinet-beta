@@ -62,3 +62,45 @@
 .modular-features .feature-content {
   color: black;
 }
+
+
+.event-item {
+  box-shadow: 0 0 75px 0 rgba(69, 77, 93, 0.1);
+}
+
+.event-title {
+  border-bottom: solid 4px black;
+  padding: 0.5rem 0.5rem;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.event-description {
+  padding: 0.5rem 0.5rem;
+}
+
+.event-description p {
+  margin: 0;
+  padding: 0;
+}
+
+.event-metadata {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: solid 4px black;
+}
+
+.event-date {
+  border-right: solid 2px black;
+  padding: 0.5rem 0.5rem;
+  flex: 1 1 50%;
+  align-content: center;
+}
+
+.event-address {
+  border-left: solid 2px black;
+  padding: 0.5rem 0.5rem;
+  flex: 1 1 50%;
+  align-content: center;
+}

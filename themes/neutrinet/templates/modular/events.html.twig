@@ -6,12 +6,13 @@
                 <div class="columns">
                 {% for event in page.header.events %}
                     <div class="column {{ columns }}">
-                        <div class="event-title">{{ event.title | raw }}</div>
-                        <div class="event-description">{{ event.description | raw }}</div>
-                        
-                        <div class="event-metadata">
-                            <time class="event-date" datetime="{{ event.date }}">{{ event.date | date('d/m/Y, H:i') }}</time>
-                            <div class="event-address">{% if event.venue_name %}{% if event.venue_url %}<a href="{{ event.venue_url }}">{% endif %}{{ event.venue_name }}{% if event.venue_url %}</a>{% endif %}{% if event.venue_address %}, {% endif %}{% endif %}{{ event.venue_address }}</div>
+                        <div class="event-item">
+                            <div class="event-title">{{ event.title | raw }}</div>
+                            <div class="event-metadata">
+                                <time class="event-date" datetime="{{ event.date }}">{{ event.date | date('d/m/Y, H:i') }}</time>
+                                <div class="event-address">{% if event.venue_name %}{% if event.venue_url %}<a href="{{ event.venue_url }}">{% endif %}{{ event.venue_name }}{% if event.venue_url %}</a>{% endif %}{% if event.venue_address %}, {% endif %}{% endif %}{{ event.venue_address }}</div>
+                            </div>
+                            <div class="event-description">{{ event.description | markdown }}</div>
                         </div>
                     </div>
                 {% endfor %}
