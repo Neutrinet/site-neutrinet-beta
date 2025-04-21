@@ -10,7 +10,7 @@
                         <div class="event-description">{{ event.description | raw }}</div>
                         
                         <div class="event-metadata">
-                            <time class="event-date" datetime="{{ event.date }}">{{ event.date | date('d/m/Y H:i') }}</time>
+                            <time class="event-date" datetime="{{ event.date }}">{{ event.date }}</time>
                             <div class="event-address">{% if event.venue.url %}<a href="{{ event.venue.url }}>{% endif %}{{ event.venue.name }}{% if event.venue.name and event.venue.address %}, {% endif %}{{ event.venue.address }}{% if event.venue.url %}</a>{% endif %}</div>
                         </div>
                     </div>
