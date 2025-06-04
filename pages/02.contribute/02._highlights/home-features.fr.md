@@ -10,7 +10,7 @@ features:
         url: auto-hébergement
     -
         header: Evènement
-        icon: 'fa fa-globe'
+        icon: 'fa fa-sun-o'
         text: 'Neutrinet installe des connexions fixes pour ses membres ou des personnes sans papiers et propose un VPN avec une IP fixe pour permettre à chacun·e de s''auto-héberger. Acteur à part entière du réseau, Neutrinet est aussi présent dans des points d''interconnexion en Belgique et aux Pays-Bas.'
         url: internet
     -
