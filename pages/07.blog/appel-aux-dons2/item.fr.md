@@ -7,10 +7,12 @@ taxonomy:
     tag:
         - neutrinet
 media_order: 2803226982_9a246fde6b_b.jpg
-published: true
+published: false
 feed:
     limit: 10
 header_image: '0'
+sitemap:
+    lastmod: '11/16/2025 06:06 pm'
 ---
 
 Il y a un peu plus d'un an, nous vous annoncions que Neutrinet s'engageait dans de nouveaux projets. Aujourd'hui, Neutrinet a besoin de votre aide !
