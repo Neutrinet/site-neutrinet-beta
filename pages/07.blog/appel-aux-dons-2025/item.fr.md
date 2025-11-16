@@ -6,7 +6,6 @@ taxonomy:
         - blog
     tag:
         - neutrinet
-media_order: 2803226982_9a246fde6b_b.jpg
 published: false
 feed:
     limit: 10
@@ -15,30 +14,29 @@ sitemap:
     lastmod: '11/16/2025 06:06 pm'
 ---
 
-Il y a un peu plus d'un an, nous vous annoncions que Neutrinet s'engageait dans de nouveaux projets. Aujourd'hui, Neutrinet a besoin de votre aide !
+Vous ne le savez sans doute pas, mais depuis le début de cette année, Neutrinet est officiellement un fournisseur d'accès à internet ! Au bout de 15 ans d'existence, nous avons enfin pu réaliser l'utopie d'avoir un véritable fournisseur d'accès à internet associatif et non-marchand en Belgique. C'est une belle victoire que l'on aimerait pouvoir fêter avec vous dans le courant de l'année.
 
-Comme annoncé l'année passée, nous poursuivons le développement d'une infrastructure de location de machines virtuelles (VPS) hébergées sur les serveurs de Neutrinet, avec nos propres IPs ! Ce projet s'inscrit dans le cadre d'un projet plus vaste de colocation de notre armoire en datacenter, le projet « Chez Mémé ».
+Cependant, nous faisons face à deux obstacles. D'une part, cela fait plusieurs années que nous terminons l'année en déficit, réduisant de ce fait notre trésorerie au fil du temps. Ce manque d'argent nous contraint d'autre part à proposer nos lignes internet à un prix assez élevé par rapport à ce qui se fait ailleurs en Belgique.
 
-D'autre part, Neutrinet est en phase de devenir un véritable fournisseur d'accès internet associatif pouvant proposer de vraies connexions internet (ce qu'on appelle « la collecte » dans le jargon), à la manière d'un Proximus ou d'un VOO mais avec nos propres équipements et nos IPs !
+Actuellement, Neutrinet fonctionne principalement grâce aux dons (4500 € par an) et aux cotisations (5500 € par an) et à l'énergie de quelques bénévoles. Néanmoins, nos revenus ne sont pas suffisants pour couvrir les frais de fonctionnement de l'association (12000 € par an, ce qui comprend les frais d'hébergement de nos serveurs à Bruxelles, l'électricité et la bande passante, la location de salle pour nos install party, etc.)
 
-Ces nouveaux développements ont impliqué pour nous de nouveaux frais, qu'ils soient fixes (1000 € d'achat de matériel) ou récurrents (750 €/mois de frais d'hébergement de nos serveurs, incluant l'électricité, le transit réseau, la location d'espace en datacenter, le monitoring, les backups, etc.) 
+C'est pourquoi nous lançons à nouveau un appel aux dons avec plusieurs objectifs :
 
-Ces frais supplémentaires ne sont pas encore couverts par nos nouveaux projets, car ceux-ci sont encore en phase de test. Ce sont donc pour le moment les revenus de notre service actuel qu'est le VPN (350 €/mois), ainsi que les dons (300 €/mois), qui nous permettaient de couvrir ces coûts... Permettaient, car depuis le début de cette année, nos revenus ne nous permettent plus de faire face à nos dépenses.
+1. Maintenir l'existant (7000 €) : Vos dons nous permettrons de terminer l'année 2026 à l'équilibre.
+2. Prévoir les coups durs (10000 €) : Nous aurions un peu de réserve et nous serions plus tranquille en cas d'imprévu (par ex. rachat de matériel).
+3. De nouveaux projets (15000 €) : Nous pourrons nous lancer dans de nouveaux projets sans inquiétude (serveur de backups pour nos membres, machines virtuelles, etc.)
 
-Le VPN que nous proposons se fait à prix libre. Nous ne regardons pas qui paie quoi. Neutrinet n'a jamais coupé de service par manque de paiement. 
+Plus important peut-être, nous aimerions mettre en place des pré-commandes pour nos lignes internet, ce qui nous permettrait de rendre plus pérenne l'association :
 
-Néanmoins, le maintient de ce service et de notre infrastructure a un coût, qui est aujourd'hui de l'ordre de 1000 €/mois tout compris. Or, à l'heure actuelle, Neutrinet perd chaque mois environ 300 €. De plus, une bonne partie des dépenses est déjà prise en charge par quelques membres actifs. Il est donc clair que cette situation ne peut pas continuer comme ça.
+1. 10 lignes internet supplémentaires : Cela nous permettrait de terminer l'année 2026 à l'équilibre.
+2. 20 lignes internet et plus : Nous pourrions commencer à diminuer le prix de l'abonnement (voir le tableau ci-dessous).
 
-C'est pourquoi nous venons à vous aujourd'hui avec cet appel aux dons, dans l'espoir de renflouer les caisses en ce moment crucial pour le développement futur de Neutrinet, mais aussi pour rappeler qu'une infrastructure comme celle de Neutrinet suppose des coûts récurrents, et ainsi l'importance de versements réguliers, mensuels et pérennes.
+| À partir de…       | VDSL 100/40 mbps | Fibre 50/10 mbps | Fibre 150/50 mbps | Fibre 500/100 mbps | Fibre 1000/500 mbps |
+| ------------------ | :--: | :--------------: | :---------------: | :----------: | :-----------------: |
+|                    | **50 €** | **50 €** | **60 €** | **75 €** | **90 €** |
+| 20 lignes internet | 47 € | 47 € | 55 € | 70 € | 88 € |
+| 30 lignes internet | 45 € | 45 € | 52 € | 65 € | 82 € |
+| 40 lignes internet | 42 € | 42 € | 50 € | 62 € | 78 € |
+| 50 lignes internet | 40 € | 40 € | 50 € | 60 € | 75 € |
 
-Si nous voulons voir l'avenir sereinement, nous estimons qu'il nous faudrait trouver 600 €/mois. Concrètement, si 30 personnes décidaient de faire un don récurrent de 10 €/mois, cela permettrait à Neutrinet de respirer un peu. Si 50 personnes décidaient de nous soutenir, cela permettrait à Neutrinet de continuer ces projets dans la sérénité. N'hésitez donc pas à diffuser cet appel aux dons autour de vous !
-
-Nos informations bancaires se trouvent sur notre wiki : [https://wiki.neutrinet.be/fr/administration/banks](https://wiki.neutrinet.be/fr/administration/banks)
-
-Vous êtes intéressé·e par la location d'une machine virtuelle chez Neutrinet ? Faites-nous signe [par e-mail](mailto:contact@neutrinet.be) ou sur [notre salon Mattermost](https://chat.neutrinet.be/neutrinet/channels/hub-chez-meme) en indiquant combien de machines vous auriez besoin, et le nombre de ressources pour chaque machine (vCPU, RAM, espace disque, etc.). Cela nous permettra de mieux savoir combien de personnes sont intéressées par ce projet. Mais gardez en tête que les machines virtuelles ne seront pas prêtes avant plusieurs mois !
-
-À votre bon cœur !
-
-Neutrinet asbl
-
-**Crédit photo :** « Donation Box » par Jordan Wooley  (CC BY-SA 2.0) 
+Si vous n'avez pas la possibilité de prendre une ligne internet pour le moment, parlez-en autour de vous, à vos ami·es ou à votre famille ! Nous pouvons également faire un prix solidaire pour les personnes précaires (contactez-nous si vous êtes dans cette situation).
