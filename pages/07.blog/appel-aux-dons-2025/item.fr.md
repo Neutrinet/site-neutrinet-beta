@@ -1,6 +1,6 @@
 ---
 title: 'Appel aux dons 2025'
-date: '10/23/2022 12:00 pm'
+date: '12/07/2025 06:07 pm'
 taxonomy:
     category:
         - blog
