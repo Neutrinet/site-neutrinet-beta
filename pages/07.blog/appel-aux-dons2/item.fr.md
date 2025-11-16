@@ -1,5 +1,5 @@
 ---
-title: 'Appel aux dons'
+title: 'Appel aux dons 2025'
 date: '10/23/2022 12:00 pm'
 taxonomy:
     category:
