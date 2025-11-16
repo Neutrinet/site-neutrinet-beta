@@ -10,19 +10,24 @@ use Grav\Common\Utils;
 use Symfony\Component\Yaml\Yaml;
 use League\Csv\Reader;
 use League\Csv\Statement;
+use Grav\Common\Grav;
 
  
 
 class TableImporterShortcode extends Shortcode
 {
     protected $outerEscape = null;
+    protected $defaults = null;
 
     public function init()
     {
         $this->shortcode->getHandlers()->add('ti', array($this, 'process'));
+        $this->defaults = $this->config->get('plugins.table-importer.default');
     }
 
     public function process(ShortcodeInterface $sc) {
+        $errordiv = '<div class="notices red">';
+        $errorclose = '</div>';
         $fn = $sc->getParameter('file', null);
 
         //Process the file in the shortcode if no "file" param set
@@ -34,24 +39,35 @@ class TableImporterShortcode extends Shortcode
         }
 
         if ( ($fn === null) && ($fn === '') ) {
-            return "<p>Table Importer: Malformed shortcode (<tt>".htmlspecialchars($sc->getShortcodeText())."</tt>).</p>";
+            return $errordiv."<p>Table Importer: Malformed shortcode (<tt>".
+            htmlspecialchars($sc->getShortcodeText())."</tt>).</p>".$errorclose;
         }
 
-        //Grab all the shortcode params
-        $type = $sc->getParameter('type', null);
-        $delim = $sc->getParameter('delimiter', ',');
-        $encl = $sc->getParameter('enclosure', '"');
-        $esc = $sc->getParameter('escape', '\\');
-        $class = $sc->getParameter('class', null);
-        $id = $sc->getParameter('id', null);
-        $caption = $sc->getParameter('caption', null);
+        //Grab all the shortcode params with the plugin's settings defaults if any
+
+        $type = $sc->getParameter('type',  $this->defaults['type']??null);
+        $delim = $sc->getParameter('delimiter', $this->defaults['csv']['delimiter']??',');
+        if(strlen($delim) >1){
+            return $errordiv."<p>Table Importer: delimiter should be a single char! '$delim' given.</p>".$errorclose;
+        }
+        $encl = $sc->getParameter('enclosure', $this->defaults['csv']['enclosure']??'"');
+        if($encl != null && strlen($encl) >1){
+            return $errordiv."<p>Table Importer: Enclosure should be a single char or none! '$encl' given.</p>".$errorclose;
+        }
+        $esc = $sc->getParameter('escape', $this->defaults['csv']['escape']??'\\');
+        if($encl != null && strlen($esc) >1){
+            return $errordiv."<p>Table Importer: Escape should be a single char or none! '$esc' given.</p>".$errorclose;
+        }
+        $class = $sc->getParameter('class', $this->defaults['class']??null);
+        $id = $sc->getParameter('id', $this->defaults['id']??null);
+        $caption = $sc->getParameter('caption', $this->defaults['caption']??null);
 
         $raw = filter_var(
-            $sc->getParameter('raw', null), FILTER_VALIDATE_BOOLEAN);
+            $sc->getParameter('raw', $this->defaults['raw']??null), FILTER_VALIDATE_BOOLEAN);
         $header = filter_var(
-            $sc->getParameter('header', null), FILTER_VALIDATE_BOOLEAN);
+            $sc->getParameter('header', $this->defaults['header']??null), FILTER_VALIDATE_BOOLEAN);
         $footer = filter_var(
-            $sc->getParameter('footer', null), FILTER_VALIDATE_BOOLEAN);
+            $sc->getParameter('footer', $this->defaults['footer']??null), FILTER_VALIDATE_BOOLEAN);
 
         // Get absolute file name
         $abspath = null;
@@ -59,45 +75,41 @@ class TableImporterShortcode extends Shortcode
             $abspath = $this->getPath(static::sanitize($fn));
         }
         if ($abspath === null) {
-            return "<p>Table Importer: Could not resolve file name '$fn'.</p>";
+            return $errordiv."<p>Table Importer: Could not resolve file name '$fn'.</p>".$errorclose;
         }
         if (! file_exists($abspath)) {
-            return "<p>Table Importer: Could not find the requested data file '$fn'.</p>";
+            return $errordiv."<p>Table Importer: Could not find the requested data file '$fn'.</p>".$errorclose;
         }
-
-        $data = null;
-        if ($type === null) {
-            $type = pathinfo($fn, PATHINFO_EXTENSION);
-
-            switch($type){
-
-                case 'yml':
-                case 'yaml':
-                    $data = Yaml::parse(file_get_contents($abspath));
-                    break;
-            
-                case 'json':
-                    $data = json_decode(file_get_contents($abspath));
-                    break;
-                
-                case 'csv':
-                    $reader = Reader::createFromPath($abspath, 'r');
-                    $reader->setDelimiter($delim);
-                    $reader->setEnclosure($encl);
-                    $this->outerEscape = $esc;
-                    $reader->setEscape($esc);
-    
-                    $resultSet = Statement::create()->process($reader);
-                    $data = iterator_to_array($resultSet,true);
-                    break;
-
-                default:
-                    return "<p>Table Importer: Could not determine the type of the requested data file '$fn'. This plugin only supports YAML, JSON, and CSV.</p>";
-            }
-        }
-
-
         try {
+                $data = null;
+                if ($type === null) {
+                    $type = pathinfo($fn, PATHINFO_EXTENSION);
+                }
+                switch($type){
+                    case 'yml':
+                    case 'yaml':
+                        $data = Yaml::parse(file_get_contents($abspath));
+                        break;
+                
+                    case 'json':
+                        $data = json_decode(file_get_contents($abspath));
+                        break;
+                    
+                    case 'csv':
+                        $reader = Reader::createFromPath($abspath, 'r');
+                        $reader->setDelimiter($delim);
+                        $reader->setEnclosure($encl);
+                        $this->outerEscape = $esc;
+                        $reader->setEscape($esc);
+            
+                        $resultSet = Statement::create()->process($reader);
+                        $data = iterator_to_array($resultSet,true);
+                        break;
+
+                    default:
+                        return $errordiv.
+                        "<p>Table Importer: Could not determine the type of the requested data file '$fn'. This plugin only supports YAML, JSON, and CSV.</p>".$errorclose;
+                }
             if ($data === null) {
                 throw new Exception("Table Importer: Something went wrong loading '$type' data from the requested file '$fn'.");
             }
@@ -148,7 +160,10 @@ class TableImporterShortcode extends Shortcode
 
             //TODO: Smarten this response formatting to assist with errors
         } catch (\Exception $e) {
-            return '<p>The data in "'.$fn.'" appears to be malformed. Please review the documentation.</p><p>'. $e->getTraceAsString() .'</p>';
+             Grav::instance()['debugger']->addMessage($e->getMessage());
+            return $errordiv.
+            '<p>The data in "'.$fn.'" appears to be malformed. Please review the documentation.</p><p>'. 
+            $e->getTraceAsString() .'</p>'.$errorclose;
         }
     }
 

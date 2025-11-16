@@ -1,3 +1,9 @@
+# v2.1.2
+## 8/25/2025
+
+1. [](#new)
+    * Added `comments.html.twig` for native Comments Pro support
+
 # v2.1.1
 ## 03/14/2025
 

@@ -1,5 +1,5 @@
 name: Table Importer
-version: 3.0.1
+version: 3.1.0
 description: Imports tables from JSON, YAML, and CSV formats into HTML tables within a page
 icon: table
 author:
@@ -27,3 +27,108 @@ form:
         0: Disabled
       validate:
         type: bool
+    default:
+      type: section
+      title: Default Settings
+      fields:
+        default.type:
+          type: select
+          label: Type
+          default: ''
+          size: small
+          options:
+            '': '-- Select Type --'
+            csv: CSV
+            json: JSON
+            yaml: YAML
+
+        default.class:
+          type: text
+          label: Class
+          help: Lets you assign class definitions to the tables.
+          size: small
+        default.id:
+          type: text
+          label: Id
+          help: Lets you specify the table tag's id attribute.
+          size: small
+
+        default.caption:
+          type: textarea
+          label: Caption
+          help: Will insert a <caption> tag containing the value of this option after being run through PHP's htmlspecialchars.
+          rows: 3
+   
+
+        default.header:
+          type: toggle
+          label: Header
+          help: First row rendered as <thead>
+          highlight: 1
+          default: 0
+          options:
+            1: Yes
+            0: No
+          validate:
+            type: bool
+
+        default.footer:
+          type: toggle
+          label: Footer
+          help: Last row <tfoot> 
+          highlight: 1
+          default: 0
+          options:
+            1: Yes
+            0: No
+          validate:
+            type: bool
+        default.raw:
+          type: toggle
+          label: Toggles cell HTML escaping.
+          help: Enable this if you want HTML inside cells to be rendered instead of escaped.
+          highlight: 1
+          default: 0
+          options:
+            1: Yes
+            0: No
+          validate:
+            type: bool
+
+        csv_section:
+          type: section
+          title: CSV Settings
+          underline: true
+          fields:
+            default.csv.delimiter:
+              type: text
+              label: Delimiter.
+              help: Defines how columns are separated (single char, default is ",").
+              default: ','
+              size: small
+              validate:
+                required: true
+                pattern: '^$|^[^\s]$'
+                message: 'Please enter only one character or leave it empty.'
+
+            default.csv.enclosure:
+              type: text
+              label: Enclosure.
+              help: Defines how cells with special characters are contained (single char default is ").
+              default: '"'
+              size: small
+              validate:
+                required: false
+                pattern: '^$|^.{1}$'
+                message: 'Please enter only one character or leave it empty.'
+
+            default.csv.escape:
+              type: text
+              label: Escape.
+              help: "Defines how special characters can be escaped (single char default is \\)."
+              default: '\'
+              size: small
+              validate:
+                required: false
+                pattern: '^$|^.{1}$'
+                message: 'Please enter only one character or leave it empty.'            

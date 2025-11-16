@@ -30,7 +30,8 @@ You should now have all the plugin files under
 
 To edit the configuratino, first copy `table-importer.yaml` from the `user/plugins/table-importer` folder to your `user/config/plugins` folder and only edit that copy. 
 
-The only configuration setting is `enabled`, which turns the plugin off and on.
+The first configuration setting is `enabled`, which turns the plugin off and on.
+Then you can also set `default` values for the whole site if needed see detail below.
 
 This plugin extends the [Shortcode Core](https://github.com/getgrav/grav-plugin-shortcode-core) infrastructure. See that documentation to learn how to disable/enable shortcode processing on a page-by-page basis.
 
@@ -108,6 +109,20 @@ By default, the content of each cell is escaped using PHP's `htmlspecialchars` f
 |`delimiter` |Defines how columns are separated. By default, the value is a comma (`,`).
 |`enclosure` |Defines how cells with special characters are contained. By default, the value is a double quotation mark (`"`).
 |`escape` |Defines how special characters can be escaped. By default, the value is a backslash (`\`).
+
+### Config defaults for parameters
+Escept for the `file` param indeed, you can set defaults.
+Expl:
+
+```yaml
+enabled: true
+default:
+  type: csv
+  header: true
+  footer: false
+  csv:
+    delimiter: ";"
+```
 
 ### Example Codes
 
