@@ -31,7 +31,7 @@ Plus important peut-être, nous aimerions mettre en place des pré-commandes pou
 1. 10 lignes internet supplémentaires : Cela nous permettrait de terminer l'année 2026 à l'équilibre.
 2. 20 lignes internet et plus : Nous pourrions commencer à diminuer le prix de l'abonnement (voir le tableau ci-dessous).
 
-| À partir de…       | VDSL 100/40 mbps | Fibre 50/10 mbps | Fibre 150/50 mbps | Fibre 500/100 mbps | Fibre 1000/500 mbps |
+| À partir de…       | VDSL<br />100/40 mbps | Fibre 50/10 mbps | Fibre 150/50 mbps | Fibre 500/100 mbps | Fibre 1000/500 mbps |
 | ------------------ | :--: | :--------------: | :---------------: | :----------: | :-----------------: |
 |                    | **50 €** | **50 €** | **60 €** | **75 €** | **90 €** |
 | 20 lignes internet | 47 € | 47 € | 55 € | 70 € | 88 € |
