@@ -22,6 +22,7 @@
 
 .blog-listing table {
   border-collapse: collapse;
+  margin-bottom: 1em;
 }
 
 .blog-listing td,
@@ -29,25 +30,22 @@
   border: solid black;
   border-width: 0;
   border-left-width: 1px;
-  padding: 0;
-  padding-left: 0.5em;
-  vertical-align: top;
+  padding: 0.5em;
+  vertical-align: middle;
 }
 
 .blog-listing td:first-child,
 .blog-listing th:first-child {
-  padding-left: 0;
-  padding-right: 0.5em;
   border-width: 0;
   border-right-width: 1px;
 }
 
-.blog-listing td {
-  padding-top: 1em;
+.blog-listing tr:nth-child(even) {
+  background-color: lightgray;
 }
 
 .blog-listing th {
-  white-space: nowrap;
+  white-space: wrap;
 }
 
 @media all and (min-width:480px) {
