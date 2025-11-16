@@ -1,0 +1,36 @@
+name: Draft Preview
+slug: draft-preview
+type: plugin
+version: 1.0.5
+description: Preview Pages that are not published yet
+icon: eye
+author:
+  name: Sebastian Laube
+  email: hello@sebastianlaube.de
+homepage: https://github.com/bitstarr/grav-plugin-draft-preview
+keywords: grav, plugin, admin, edeiting, preview, publish, blog, news
+bugs: https://github.com/bitstarr/grav-plugin-draft-preview/issues
+docs: https://github.com/bitstarr/grav-plugin-draft-preview/blob/main/README.md
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.6.0' }
+  - { name: admin, version: '>=1.8.0' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    route:
+      type: text
+      label: PLUGIN_DRAFT_PREVIEW.ROUTE
+      help: PLUGIN_DRAFT_PREVIEW.ROUTE_HELP

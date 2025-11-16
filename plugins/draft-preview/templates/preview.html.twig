@@ -1,0 +1,11 @@
+{% set slug = uri.query('slug')%}
+{% set preview = page.collection( { items: { '@page.page': slug }, filter: { 'published': false } } ) %}
+{# do we have a page and are we logged in? #}
+{% if preview|first and authorize(['admin.login', 'admin.pages']) %}
+    {% set preview = preview|first %}
+    {% include 'partials/extend.html.twig' with { page: preview } %}
+{% elseif preview|length == 0 %}
+    {{ 'PLUGIN_DRAFT_PREVIEW.ROUTE_ERROR'|t }}
+{% else %}
+    {{ 'PLUGIN_DRAFT_PREVIEW.SESSION_WARNING'|t }}
+{% endif %}
