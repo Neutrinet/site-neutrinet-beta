@@ -34,9 +34,9 @@ Plus important peut-être, nous aimerions mettre en place des pré-commandes pou
 | À partir de…       | VDSL 100/40 mbps | Fibre 50/10 mbps | Fibre 150/50 mbps | Fibre 500/100 mbps | Fibre 1000/500 mbps |
 | ------------------ | :--: | :--------------: | :---------------: | :----------: | :-----------------: |
 |                    | **50 €** | **50 €** | **60 €** | **75 €** | **90 €** |
-| 20 lignes internet | 47 € | 47 € | 55 € | 70 € | 88 € |
-| 30 lignes internet | 45 € | 45 € | 52 € | 65 € | 82 € |
-| 40 lignes internet | 42 € | 42 € | 50 € | 62 € | 78 € |
-| 50 lignes internet | 40 € | 40 € | 50 € | 60 € | 75 € |
+| 20 lignes internet | 47 € | 47 € | 55 € | 70 € | 88 € |
+| 30 lignes internet | 45 € | 45 € | 52 € | 65 € | 82 € |
+| 40 lignes internet | 42 € | 42 € | 50 € | 62 € | 78 € |
+| 50 lignes internet | 40 € | 40 € | 50 € | 60 € | 75 € |
 
 Si vous n'avez pas la possibilité de prendre une ligne internet pour le moment, parlez-en autour de vous, à vos ami·es ou à votre famille ! Nous pouvons également faire un prix solidaire pour les personnes précaires (contactez-nous si vous êtes dans cette situation).
