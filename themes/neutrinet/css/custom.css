@@ -41,7 +41,7 @@
 }
 
 .blog-listing tr:nth-child(even) {
-  background-color: lightgray;
+  background-color: #eee;
 }
 
 .blog-listing th {
