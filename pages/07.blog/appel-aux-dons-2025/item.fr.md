@@ -40,3 +40,114 @@ Plus important peut-être, nous aimerions mettre en place des pré-commandes pou
 | 50 lignes internet | 40 € | 40 € | 50 € | 60 € | 75 € |
 
 Si vous n'avez pas la possibilité de prendre une ligne internet pour le moment, parlez-en autour de vous, à vos ami·es ou à votre famille ! Nous pouvons également faire un prix solidaire pour les personnes précaires (contactez-nous si vous êtes dans cette situation).
+
+### Progression de la collecte de dons
+
+{assets:inline_js}
+const ctx = document.getElementById('progress-bar');
+
+const labels = ["", ""];
+const data = {
+  labels: labels,
+  datasets: [{
+    label: '1. Maintenir l\'existant',
+    data: [7000],
+    fill: false,
+    borderWidth: 1,
+    categoryPercentage: 1.5,
+    barPercentage: 1.0
+  },
+  {
+    label: '2. Prévoir les coups durs',
+    data: [3000],
+    fill: false,
+    borderWidth: 1,
+    categoryPercentage: 1.5,
+    barPercentage: 1.0
+  },
+  {
+    label: '3. De nouveaux projets',
+    data: [5000],
+    fill: false,
+    borderWidth: 1,
+    categoryPercentage: 1.5,
+    barPercentage: 1.0
+  },
+  {
+    label: 'Progression de la collecte',
+    data: [0, 2268],
+    fill: false,
+    borderWidth: 1,
+    categoryPercentage: 0.5,
+    barPercentage: 1.0,
+  }]
+};
+
+const config = {
+  type: 'bar',
+  data,
+  plugins: [ChartDataLabels],
+  options: {
+    plugins: {
+      datalabels: {
+        font: {
+          size: 16,
+          weight: 'bold',
+        },
+        padding: {
+          top: 5,
+        },
+        formatter: function(value, ctx) {
+          if (value > 0 && ctx.dataIndex == 1) {
+            return (value / 15000 * 100).toFixed(0) + '%';
+          }
+          return null;
+        }
+      },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) {
+            let label = ctx.dataset.label || '';
+            if (label) {
+              label += ': ';
+            }
+            if (ctx.parsed.x !== null) {
+              label += new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR', minimumFractionDigits: 0 }).format(ctx.parsed.x);
+            }
+            return label;
+          } 
+        }
+      },
+      legend: {
+        onClick: null
+      }
+    },
+    indexAxis: 'y',
+    maintainAspectRatio: false,
+    responsive: true,
+    scales: {
+      xAxis: {
+        stacked: true,
+        ticks: {
+          stepSize: 2500,
+        },
+        beginAtZero: true,
+        min: 0,
+        max: 15000,
+      },
+      yAxis: {
+        display: false,
+        stacked: true,
+      },
+      x: {
+        display: false,
+      },
+      y: {
+        display: false,
+      }
+    }
+  }
+};
+
+new Chart(ctx, config);
+{/assets}
