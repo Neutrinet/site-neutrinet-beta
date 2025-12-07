@@ -19,7 +19,7 @@ const DONATION_GOAL = DONATION_TIERS.reduce((acc, tier) => acc + tier.amount, 0)
 const DONATION_CURRENT = 2268;
 
 let datasets = []
-DONATION_TIERS.forEach((tier => {
+DONATION_TIERS.forEach((tier) => {
   datasets.push({
     label: tier.label,
     data: [tier.amount],
@@ -27,6 +27,7 @@ DONATION_TIERS.forEach((tier => {
     borderWidth: 1,
     categoryPercentage: 1.5,
     barPercentage: 1.0
+  })
 });
 datasets.push({
   label: 'Progression de la collecte',
@@ -90,7 +91,7 @@ const config = {
       xAxis: {
         stacked: true,
         ticks: {
-          stepSize: DOANTION_GOAL / 6,
+          stepSize: DONATION_GOAL / 6,
         },
         min: 0,
         max: DONATION_GOAL,
