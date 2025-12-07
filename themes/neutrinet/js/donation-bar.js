@@ -3,15 +3,19 @@ const ctx = document.getElementById('donation-bar');
 const DONATION_TIERS = [
   {
     label: '1. Maintenir l\'existant',
-    amount: 7000
+    amount: 7000,
+    backgroundColor: 'blue',
   },
   {
     label: '2. Prévoir les coups dur',
-    amount: 3000
+    amount: 3000,
+    backgroundColor: 'red',
   },
   {
     label: '3. De nouveaux projets',
-    amount: 5000
+    amount: 5000,
+    borderColor: 
+    backgroundColor: 'orange',
   },
 ]
 
@@ -26,7 +30,8 @@ DONATION_TIERS.forEach((tier) => {
     fill: false,
     borderWidth: 1,
     categoryPercentage: 1.5,
-    barPercentage: 1.0
+    barPercentage: 1.0,
+	  //    backgroundColor: tier.backgroundColor
   })
 });
 datasets.push({
@@ -36,6 +41,7 @@ datasets.push({
   borderWidth: 1,
   categoryPercentage: 0.5,
   barPercentage: 1.0,
+	//  backgroundColor: 'black'
 });
 
 const labels = ["", ""];
