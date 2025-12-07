@@ -1,6 +1,6 @@
 {% do assets.addJs('theme://js/chart.umd.min.js') %}
 {% do assets.addJs('theme://js/chartjs-plugin-datalabels.min.js') %}
-{% do assets.addJs('theme://js/donation-bar.js') %}
+{% do assets.addJs('theme://js/donation-bar.js', {group:'bottom'}) %}
 <div class="content-item h-entry">
 
 {% if not hero_image_name %}

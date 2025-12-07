@@ -95,6 +95,7 @@ const config = {
         },
         min: 0,
         max: DONATION_GOAL,
+	display: false
       },
       yAxis: {
         display: false,
