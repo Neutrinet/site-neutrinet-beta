@@ -43,4 +43,4 @@ Si vous n'avez pas la possibilité de prendre une ligne internet pour le moment,
 
 ### Progression de la collecte de dons
 
-<canvas id="donation-bar"></canvas>
+<div><canvas id="donation-bar"></canvas></div>
