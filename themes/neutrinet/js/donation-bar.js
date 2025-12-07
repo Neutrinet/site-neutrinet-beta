@@ -61,8 +61,8 @@ const config = {
   options: {
     plugins: {
       datalabels: {
+        color: '#F1F0F0',
         font: {
-          color: 'white',
           size: 16,
           weight: 'bold',
         },
