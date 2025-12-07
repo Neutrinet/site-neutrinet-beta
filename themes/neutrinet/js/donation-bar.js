@@ -4,18 +4,20 @@ const DONATION_TIERS = [
   {
     label: '1. Maintenir l\'existant',
     amount: 7000,
-    backgroundColor: 'blue',
+    borderColor: '#36A2EB',
+    backgroundColor: '#9AD0F5',
   },
   {
     label: '2. Prévoir les coups dur',
     amount: 3000,
-    backgroundColor: 'red',
+    borderColor: '#FF6384',
+    backgroundColor: '#FFB1C1',
   },
   {
     label: '3. De nouveaux projets',
     amount: 5000,
-    borderColor: 
-    backgroundColor: 'orange',
+    borderColor: '#FF9F40',
+    backgroundColor: '#FFCF9F',
   },
 ]
 
@@ -31,7 +33,8 @@ DONATION_TIERS.forEach((tier) => {
     borderWidth: 1,
     categoryPercentage: 1.5,
     barPercentage: 1.0,
-	  //    backgroundColor: tier.backgroundColor
+    borderColor: tier.borderColor,
+    backgroundColor: tier.backgroundColor,
   })
 });
 datasets.push({
@@ -41,7 +44,8 @@ datasets.push({
   borderWidth: 1,
   categoryPercentage: 0.5,
   barPercentage: 1.0,
-	//  backgroundColor: 'black'
+  borderColor: 'black',
+  backgroundColor: 'black',
 });
 
 const labels = ["", ""];
@@ -58,6 +62,7 @@ const config = {
     plugins: {
       datalabels: {
         font: {
+          color: 'white',
           size: 16,
           weight: 'bold',
         },
