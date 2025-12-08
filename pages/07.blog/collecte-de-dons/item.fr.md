@@ -54,9 +54,9 @@ Neutrinet est un fournisseur d'accès internet associatif et non-marchand. Toute
 
 Le but de l'association est d'expérimenter, décentraliser et autonomiser Internet en respectant la neutralité du réseau, et en utilisant du matériel et des logiciels libres et open source.
 
-Nous avons rédigé des statuts simplifiés pour mieux expliquer le fonctionnement et les pratiques de l'association : https://wiki.neutrinet.be/fr/administration/statuts-simplifies
+Nous avons rédigé des [statuts simplifiés](https://wiki.neutrinet.be/fr/administration/statuts-simplifies) pour mieux expliquer le fonctionnement et les pratiques de l'association.
 
-En prenant une ligne internet chez Neutrinet, vous soutenez la cause des sans-papiers. En effet, depuis plusieurs années, Neutrinet met en place des lignes internet et des équipements réseaux dans les occupations de sans-papiers à Bruxelles. Ceci est rendu possible grâce au soutien financier de l'asbl 100PAP, qui lutte pour le droit au logement des personnes sans-papiers. Nous avons écrit un article dans le journal *Curseurs* sur ce sujet : https://www.curseurs.be/numeros/numero-4/article/internet-au-croisement-des-luttes-equiper-les-sans-papiers-en-region
+En prenant une ligne internet chez Neutrinet, vous soutenez la cause des sans-papiers. En effet, depuis plusieurs années, Neutrinet met en place des lignes internet et des équipements réseaux dans les occupations de sans-papiers à Bruxelles. Ceci est rendu possible grâce au soutien financier de l'asbl 100PAP, qui lutte pour le droit au logement des personnes sans-papiers. Nous avons écrit un [article dans le journal *Curseurs* sur ce sujet](https://www.curseurs.be/numeros/numero-4/article/internet-au-croisement-des-luttes-equiper-les-sans-papiers-en-region)
 
 Enfin, une ligne internet chez Neutrinet vous facilitera l'auto-hébergement (c'est-à-dire avoir un serveur pour héberger son mail, cloud, etc. à la maison). Par exemple, nous fournissons une adresse IP fixe ce qui permet d'héberger votre mail sans problème.
 
@@ -66,7 +66,7 @@ Cela dépend du type de ligne internet qui est disponible. Pour la VDSL, les fra
 
 ### Comment puis-je commander ma ligne internet ?
 
-Il vous suffit de nous contacter par mail sur contact@neutrinet.be en indiquant votre adresse, ainsi que la bande passante souhaitée. Nous ferons ensuite un test d'éligibilité pour savoir si la fibre ou la VDSL est disponible à cette addresse.
+Il vous suffit de nous contacter par mail sur [contact@neutrinet.be](contact@neutrinet.be) en indiquant votre adresse, ainsi que la bande passante souhaitée. Nous ferons ensuite un test d'éligibilité pour savoir si la fibre ou la VDSL est disponible à cette addresse.
 
 Si la fibre a déjà été installée chez vous, indiquez-nous le numéro de ligne si vous l'avez. Dites-nous également si vous souhaitez faire un easy switch et on vous expliquera comment la faire.
 
@@ -92,6 +92,6 @@ Non, les dons ne sont pas défiscalisables. Neutrinet n'est pas une association 
 
 Neutrinet fonctionne sur du bénévolat, il n'y a pas de salarié·es dans l'assocation. Chacun·e peut participer à la vie de l'association, que ce soit pour les aspects techniques, les tâches administratives, le support, etc.
 
-Vous pouvez nous rejoindre lors de nos install party ou de nos réunions mensuelles. Consultez notre agenda pour plus d'informations: https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL
+Vous pouvez nous rejoindre lors de nos install party ou de nos réunions mensuelles. [Consultez notre agenda](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL) pour plus d'informations.
 
-Vous pouvez nous contacter par mail sur contact@neutrinet.be ou via notre Mattermost (https://chat.neutrinet.be)
+Vous pouvez nous contacter par mail sur contact@neutrinet.be ou via [notre Mattermost](https://chat.neutrinet.be)
