@@ -4,20 +4,23 @@ const DONATION_TIERS = [
   {
     label: '1. Maintenir l\'existant',
     amount: 7000,
-    borderColor: '#36A2EB',
-    backgroundColor: '#9AD0F5',
+    borderColor: '#73B9E8',
+    backgroundColor: '#A1D2F0',
+    hoverBackgroundColor: '#C2E1F5',
   },
   {
     label: '2. Prévoir les coups dur',
     amount: 3000,
-    borderColor: '#FF6384',
-    backgroundColor: '#FFB1C1',
+    borderColor: '#E8A273',
+    backgroundColor: '#F0BFA1',
+    hoverBackgroundColor: '#F5D6C2',
   },
   {
     label: '3. De nouveaux projets',
     amount: 5000,
-    borderColor: '#FF9F40',
-    backgroundColor: '#FFCF9F',
+    borderColor: '#B9E873',
+    backgroundColor: '#D2F0A1',
+    hoverBackgroundColor: '#E1F5C2',
   },
 ]
 
@@ -35,6 +38,8 @@ DONATION_TIERS.forEach((tier) => {
     barPercentage: 1.0,
     borderColor: tier.borderColor,
     backgroundColor: tier.backgroundColor,
+    hoverBorderColor: tier.backgroundColor,
+    hoverBackgroundColor: tier.hoverBackgroundColor,
   })
 });
 datasets.push({
@@ -44,8 +49,10 @@ datasets.push({
   borderWidth: 1,
   categoryPercentage: 0.5,
   barPercentage: 1.0,
-  borderColor: 'black',
-  backgroundColor: 'black',
+  borderColor: '#A273E8',
+  backgroundColor: '#BFA1F0',
+  hoverBorderColor: '#BFA1F0',
+  hoverBackgroundColor: '#D6C2F5',
 });
 
 const labels = ["", ""];
@@ -59,15 +66,18 @@ const config = {
   data,
   plugins: [ChartDataLabels],
   options: {
+    animation: {
+      duration: 0,
+    },
     plugins: {
+      colorschemes: {
+        scheme: 'brewer.Paired12'
+      },
       datalabels: {
-        color: '#F1F0F0',
+//        color: '#F1F0F0',
         font: {
           size: 16,
           weight: 'bold',
-        },
-        padding: {
-          top: 5,
         },
         formatter: function(value, ctx) {
           if (value > 0 && ctx.dataIndex == 1) {
