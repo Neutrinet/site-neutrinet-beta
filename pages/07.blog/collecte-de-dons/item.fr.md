@@ -18,13 +18,13 @@ Vous ne le savez sans doute pas, mais depuis le début de cette année, Neutrine
 
 Cependant, nous faisons face à deux obstacles. D'une part, cela fait plusieurs années que nous terminons l'année en déficit, réduisant de ce fait notre trésorerie au fil du temps. Ce manque d'argent nous contraint d'autre part à proposer nos lignes internet à un prix assez élevé par rapport à ce qui se fait ailleurs en Belgique.
 
-Actuellement, Neutrinet fonctionne principalement grâce aux dons (2500 € de dons récurrents par an et 2000 € de dons ponctuels) et aux cotisations (5500 € par an) et à l'énergie de quelques bénévoles. Néanmoins, nos revenus ne sont pas suffisants pour couvrir les frais de fonctionnement de l'association (12000 € par an, ce qui comprend les frais d'hébergement de nos serveurs à Bruxelles, l'électricité et la bande passante, la location de salle pour nos install party, etc.)
+Actuellement, Neutrinet fonctionne principalement grâce aux dons (2 500 € de dons récurrents par an et 2 000 € de dons ponctuels) et aux cotisations (5 500 € par an) et à l'énergie de quelques bénévoles. Néanmoins, nos revenus ne sont pas suffisants pour couvrir les frais de fonctionnement de l'association (12 000 € par an, ce qui comprend les frais d'hébergement de nos serveurs à Bruxelles, l'électricité et la bande passante, la location de salle pour nos install party, etc.)
 
 C'est pourquoi nous lançons à nouveau un appel aux dons avec plusieurs objectifs : 
 
 1. Maintenir l'existant (<span class="donation-tier tier1">7000 €</span>) : Vos dons nous permettrons d'envisager l'année 2026 de manière seraine avec la certitude d'être à l'équilibre.
 2. Prévoir les coups durs (<span class="donation-tier tier2">10 000 €</span>) : Nous aurions un peu de réserve et nous serions plus tranquille en cas d'imprévu (par ex. achat de matériel).
-3. De nouveaux projets (<span class="donation-tier tier3">15000 €</span>) : Nous pourrons nous lancer dans de nouveaux projets sans inquiétude (serveur de backups pour nos membres, machines virtuelles, etc.)
+3. De nouveaux projets (<span class="donation-tier tier3">15 000 €</span>) : Nous pourrons nous lancer dans de nouveaux projets sans inquiétude (serveur de backups pour nos membres, machines virtuelles, etc.)
 
 Plus important peut-être, nous aimerions mettre en place des pré-commandes pour nos lignes internet, ce qui nous permettrait de rendre plus pérenne l'association :
 
