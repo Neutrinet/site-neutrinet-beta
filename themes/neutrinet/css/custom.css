@@ -53,13 +53,13 @@
   padding: 0 3px;
 }
 
-.tier1 {
+.donation-tier.tier1 {
   background-color: #A1D2F0;
 }
-.tier2 {
+.donation-tier.tier2 {
   background-color: #F0BFA1;
 }
-.tier3 {
+.donation-tier.tier3 {
   background-color: #D2F0A1;
 }
 
