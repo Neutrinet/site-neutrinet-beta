@@ -22,7 +22,7 @@ Actuellement, Neutrinet fonctionne principalement grâce aux dons (2 500 € 
 
 C'est pourquoi nous lançons à nouveau un appel aux dons avec plusieurs objectifs : 
 
-1. Maintenir l'existant (<span class="donation-tier tier1">7000 €</span>) : Vos dons nous permettrons d'envisager l'année 2026 de manière seraine avec la certitude d'être à l'équilibre.
+1. Maintenir l'existant (<span class="donation-tier tier1">7 000 €</span>) : Vos dons nous permettrons d'envisager l'année 2026 de manière seraine avec la certitude d'être à l'équilibre.
 2. Prévoir les coups durs (<span class="donation-tier tier2">10 000 €</span>) : Nous aurions un peu de réserve et nous serions plus tranquille en cas d'imprévu (par ex. achat de matériel).
 3. De nouveaux projets (<span class="donation-tier tier3">15 000 €</span>) : Nous pourrons nous lancer dans de nouveaux projets sans inquiétude (serveur de backups pour nos membres, machines virtuelles, etc.)
 
