@@ -41,14 +41,14 @@ Plus important peut-être, nous aimerions mettre en place des pré-commandes pou
 
 Si vous n'avez pas la possibilité de prendre une ligne internet pour le moment, parlez-en autour de vous, à vos ami·es ou à votre famille ! Nous pouvons également faire un prix solidaire pour les personnes précaires (contactez-nous si vous êtes dans cette situation).
 
-### Progression de la collecte de dons
+## Progression de la collecte de dons
 
 <div><canvas id="donation-bar"></canvas></div>
 
 
-### FAQ
+## FAQ
 
-#### Pourquoi choisir Neutrinet comme fournisseur d'accès internet ?
+### Pourquoi choisir Neutrinet comme fournisseur d'accès internet ?
 
 Neutrinet est un fournisseur d'accès internet associatif et non-marchand. Toutes nos décisions sont prises en réunions, lesquelles sont publiques et ouvertes à toutes et tous
 
@@ -60,11 +60,11 @@ En prenant une ligne internet chez Neutrinet, vous soutenez la cause des sans-pa
 
 Enfin, une ligne internet chez Neutrinet vous facilitera l'auto-hébergement (c'est-à-dire avoir un serveur pour héberger son mail, cloud, etc. à la maison). Par exemple, nous fournissons une adresse IP fixe ce qui permet d'héberger votre mail sans problème.
 
-#### Y a-t-il des frais d'activation pour la ligne internet ?
+### Y a-t-il des frais d'activation pour la ligne internet ?
 
 Cela dépend du type de ligne internet qui est disponible. Pour la VDSL, les frais d'activation sont assez élevés malheureusement (180€). Par contre, il n'y a pas de frais d'activation pour la fibre.
 
-#### Comment puis-je commander ma ligne internet ?
+### Comment puis-je commander ma ligne internet ?
 
 Il vous suffit de nous contacter par mail sur contact@neutrinet.be en indiquant votre adresse, ainsi que la bande passante souhaitée. Nous ferons ensuite un test d'éligibilité pour savoir si la fibre ou la VDSL est disponible à cette addresse.
 
@@ -72,11 +72,11 @@ Si la fibre a déjà été installée chez vous, indiquez-nous le numéro de lig
 
 Il faut parfois compter un délais d'un mois pour que la ligne internet soit installée. Un test d'éligibilité positif ne signifie pas que la ligne pourra être installée, cela dépend de beaucoup de facteurs malheureusement. Soyons donc patient·e !
 
-#### Est-ce que le modem est fourni lors de l'installation ?
+### Est-ce que le modem est fourni lors de l'installation ?
 
 Le modem n'est pas compris dans l'abonnement internet. Nous proposons un modem à prix coûtant à 75€. Vous pouvez également utiliser votre propre modem si vous le souhaitez.
 
-#### Est-ce que je peux utiliser ma FritzBox / autre modem ?
+### Est-ce que je peux utiliser ma FritzBox / autre modem ?
 
 Oui, vous pouvez utiliser une FritzBox ou tout autre modem compatible sur le réseau belge. Contactez-nous pour vérifier que votre modem est bien compatible et pour qu'on puisse vous aider à la configuration de celui-ci.
 
@@ -88,7 +88,7 @@ Non, nous ne pouvons fournir des lignes internet que pour la Belgique.
 
 Non, les dons ne sont pas défiscalisables. Neutrinet n'est pas une association agréée par le SPF Finances.
 
-#### J'aimerais contribuer à Neutrinet, comment puis-je faire ?
+### J'aimerais contribuer à Neutrinet, comment puis-je faire ?
 
 Neutrinet fonctionne sur du bénévolat, il n'y a pas de salarié·es dans l'assocation. Chacun·e peut participer à la vie de l'association, que ce soit pour les aspects techniques, les tâches administratives, le support, etc.
 
