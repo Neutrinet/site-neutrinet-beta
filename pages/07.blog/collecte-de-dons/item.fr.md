@@ -47,7 +47,7 @@ Nom : Neutrinet ASBL<br />
 IBAN : **BE52 6528 3497 8409**<br />
 BIC : BBRUBEBB
 
-## FAQ
+## Foire aux questions
 
 ### Pourquoi choisir Neutrinet comme fournisseur d'accès internet ?
 
