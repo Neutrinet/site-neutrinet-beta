@@ -51,13 +51,11 @@ BIC : BBRUBEBB
 
 ### Pourquoi choisir Neutrinet comme fournisseur d'accès internet ?
 
-Neutrinet est un fournisseur d'accès internet associatif et non-marchand. Toutes nos décisions sont prises en réunions, lesquelles sont publiques et ouvertes à toutes et tous
+Neutrinet est un fournisseur d'accès à internet associatif et non-marchand. Toutes nos décisions sont prises en réunions, lesquelles sont publiques et ouvertes à toutes et tous.
 
-Le but de l'association est d'expérimenter, décentraliser et autonomiser Internet en respectant la neutralité du réseau, et en utilisant du matériel et des logiciels libres et open source.
+Le but de l'association est d'expérimenter, décentraliser et autonomiser Internet en respectant la neutralité du réseau, et en utilisant du matériel et des logiciels libres et open source. Nous avons rédigé des [statuts simplifiés](https://wiki.neutrinet.be/fr/administration/statuts-simplifies) pour mieux expliquer le fonctionnement et les pratiques de l'association.
 
-Nous avons rédigé des [statuts simplifiés](https://wiki.neutrinet.be/fr/administration/statuts-simplifies) pour mieux expliquer le fonctionnement et les pratiques de l'association.
-
-En prenant une ligne internet chez Neutrinet, vous soutenez la cause des sans-papiers. En effet, depuis plusieurs années, Neutrinet met en place des lignes internet et des équipements réseaux dans les occupations de sans-papiers à Bruxelles. Ceci est rendu possible grâce au soutien financier de l'asbl 100PAP, qui lutte pour le droit au logement des personnes sans-papiers. Nous avons écrit un [article dans le journal *Curseurs* sur ce sujet](https://www.curseurs.be/numeros/numero-4/article/internet-au-croisement-des-luttes-equiper-les-sans-papiers-en-region)
+En prenant une ligne internet chez Neutrinet, vous soutenez la cause des sans-papiers. En effet, depuis plusieurs années, Neutrinet met en place des lignes internet et des équipements réseaux dans les occupations de sans-papiers à Bruxelles. Ceci est rendu possible grâce au soutien financier de l'asbl 100PAP, qui lutte pour le droit au logement des personnes sans-papiers. Nous avons écrit un [article dans le journal *Curseurs* sur ce sujet](https://www.curseurs.be/numeros/numero-4/article/internet-au-croisement-des-luttes-equiper-les-sans-papiers-en-region).
 
 Enfin, une ligne internet chez Neutrinet vous facilitera l'auto-hébergement (c'est-à-dire avoir un serveur pour héberger son mail, cloud, etc. à la maison). Par exemple, nous fournissons une adresse IP fixe ce qui permet d'héberger votre mail sans problème.
 
@@ -73,7 +71,7 @@ Si la fibre a déjà été installée chez vous, indiquez-nous le numéro de lig
 
 Il faut parfois compter un délais d'un mois pour que la ligne internet soit installée. Un test d'éligibilité positif ne signifie pas que la ligne pourra être installée, cela dépend de beaucoup de facteurs malheureusement. Soyons donc patient·e !
 
-### Est-ce que le modem est fourni lors de l'installation ?
+### Le modem est-il fourni lors de l'installation ?
 
 Le modem n'est pas compris dans l'abonnement internet. Nous proposons un modem à prix coûtant à 75€. Vous pouvez également utiliser votre propre modem si vous le souhaitez.
 
@@ -95,4 +93,4 @@ Neutrinet fonctionne sur du bénévolat, il n'y a pas de salarié·es dans l'ass
 
 Vous pouvez nous rejoindre lors de nos install party ou de nos réunions mensuelles. [Consultez notre agenda](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL) pour plus d'informations.
 
-Vous pouvez nous contacter par mail sur [contact@neutrinet.be](mailto:contact@neutrinet.be) ou via [notre Mattermost](https://chat.neutrinet.be)
+Vous pouvez nous contacter par mail sur [contact@neutrinet.be](mailto:contact@neutrinet.be) ou via [notre Mattermost](https://chat.neutrinet.be).
