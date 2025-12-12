@@ -45,7 +45,7 @@ Vous pouvez nous envoyer vos dons par virement sur notre compte bancaire :
 
 <center>
 Nom : Neutrinet ASBL<br />
-IBAN : **BE52 6528 3497 8409**<br />
+IBAN : <b>BE52 6528 3497 8409**</b>
 BIC : BBRUBEBB
 </center>
 
