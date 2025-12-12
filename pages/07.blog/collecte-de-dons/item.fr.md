@@ -41,7 +41,7 @@ Plus important peut-être, nous aimerions mettre en place des pré-commandes pou
 
 Si vous n'avez pas la possibilité de prendre une ligne internet pour le moment, parlez-en autour de vous, à vos ami·es ou à votre famille ! Nous pouvons également faire un prix solidaire pour les personnes précaires (contactez-nous si vous êtes dans cette situation).
 
-Vous pouvez nous envoyer vos dons par virement sur notre compte bancaire **BE52 6528 3497 8409** au nom de Neutrinet ASBL.
+Vous pouvez nous envoyer vos dons par virement sur notre compte bancaire **BE52 6528 3497 8409** au nom de Neutrinet ASBL.
 
 ## FAQ
 
