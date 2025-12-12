@@ -6,7 +6,7 @@ taxonomy:
         - blog
     tag:
         - neutrinet
-published: true
+published: false
 feed:
     limit: 10
 header_image: '0'
