@@ -1,12 +1,12 @@
 ---
 title: 'Collecte de dons'
-date: '12/07/2025 05:07 pm'
+date: '12/13/2025 08:30 am'
 taxonomy:
     category:
         - blog
     tag:
         - neutrinet
-published: false
+published: true
 feed:
     limit: 10
 header_image: '0'
