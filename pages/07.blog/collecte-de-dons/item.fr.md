@@ -28,7 +28,7 @@ C'est pourquoi nous lançons à nouveau un appel aux dons avec plusieurs objecti
 
 Plus important peut-être, nous aimerions mettre en place des pré-commandes pour nos lignes internet, ce qui nous permettrait de rendre plus pérenne l'association :
 
-1. 10 lignes internet supplémentaires : Cela nous permettrait de terminer l'année 2026 à l'équilibre.
+1. 10 lignes internet supplémentaires : Cela nous permettrait de terminer chaque année à l'équilibre.
 2. 20 lignes internet et plus : Nous pourrions commencer à diminuer le prix de l'abonnement (voir le tableau ci-dessous).
 
 | À partir de…       | VDSL 100/40 mbps | Fibre 50/10 mbps | Fibre 150/50 mbps | Fibre 500/100 mbps |
@@ -41,10 +41,11 @@ Plus important peut-être, nous aimerions mettre en place des pré-commandes pou
 
 Si vous n'avez pas la possibilité de prendre une ligne internet pour le moment, parlez-en autour de vous, à vos ami·es ou à votre famille ! Nous pouvons également faire un prix solidaire pour les personnes précaires (contactez-nous si vous êtes dans cette situation).
 
-## Progression de la collecte de dons
+Vous pouvez nous envoyer vos dons par virement sur notre compte bancaire :
 
-<div><canvas id="donation-bar"></canvas></div>
-
+Nom : Neutrinet ASBL<br />
+IBAN : BE52 6528 3497 8409<br />
+BIC : BBRUBEBB
 
 ## FAQ
 
