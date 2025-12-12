@@ -12,6 +12,7 @@ header_image: '0'
 sitemap:
     lastmod: '11/16/2025 05:06 pm'
 publish_date: '12/13/2025 08:30 am'
+media_order: 2803226786_4fca0ef839_o.jpg
 ---
 
 Vous ne le savez sans doute pas, mais depuis le début de cette année, Neutrinet fournit des lignes internet ! Au bout de 15 ans d'existence, nous avons enfin pu réaliser l'utopie d'avoir un véritable fournisseur d'accès à internet associatif et non-marchand en Belgique. C'est une belle victoire que l'on aimerait pouvoir fêter avec vous dans le courant de l'année 2026.
