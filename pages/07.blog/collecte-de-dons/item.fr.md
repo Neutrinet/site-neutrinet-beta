@@ -50,7 +50,7 @@ BIC : BBRUBEBB
 
 ## Progression de la collecte
 
-<canvas id="donation-bar"></canvas>
+<div style="width:100%;"><canvas id="donation-bar"></canvas></div>
 
 ## Foire aux questions
 
