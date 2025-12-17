@@ -75,3 +75,32 @@
 .modular-features .feature-content {
   color: black;
 }
+
+#donation {
+  display: flex;
+  padding: 4rem 0 0;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+#donation .container {
+  background-color: #F4DFC2;
+  padding: 0.5rem 0;
+  color: black;
+}
+
+#donation p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#donation a {
+  color: #19427E;
+}
+
+#donation a:hover {
+  color: #365795;
+}
