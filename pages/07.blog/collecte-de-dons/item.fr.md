@@ -50,7 +50,7 @@ BIC : BBRUBEBB
 
 ## Progression de la collecte
 
-En date du 16 décembre, nous avons récolté 2 428 €.
+En date du 16 décembre, nous avons récolté 2 488 €.
 
 <div style="width:100%;"><canvas id="donation-bar"></canvas></div>
 
