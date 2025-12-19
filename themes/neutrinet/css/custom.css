@@ -104,3 +104,7 @@
 #donation a:hover {
   color: #365795;
 }
+
+#donation .nowrap-box {
+  display: inline-block;
+}
