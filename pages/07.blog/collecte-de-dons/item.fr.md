@@ -23,7 +23,7 @@ Actuellement, Neutrinet fonctionne principalement grâce aux dons (2 500 € 
 
 C'est pourquoi nous lançons à nouveau un appel aux dons avec plusieurs objectifs : 
 
-1. Maintenir l'existant (<span class="donation-tier tier1">7 000 €</span>) : Vos dons nous permettrons d'envisager l'année 2026 de manière seraine avec la certitude d'être à l'équilibre.
+1. Maintenir l'existant (<span class="donation-tier tier1">7 000 €</span>) : Vos dons nous permettrons d'envisager l'année 2026 de manière sereine avec la certitude d'être à l'équilibre.
 2. Prévoir les coups durs (<span class="donation-tier tier2">10 000 €</span>) : Nous aurions un peu de réserve et nous serions plus tranquille en cas d'imprévu (par ex. achat de matériel).
 3. De nouveaux projets (<span class="donation-tier tier3">15 000 €</span>) : Nous pourrons nous lancer dans de nouveaux projets sans inquiétude (serveur de backups pour nos membres, machines virtuelles, etc.)
 
@@ -72,7 +72,7 @@ Cela dépend du type de ligne internet qui est disponible. Pour la VDSL, les fra
 
 ### Comment puis-je commander ma ligne internet ?
 
-Il vous suffit de nous contacter par mail sur [contact@neutrinet.be](mailto:contact@neutrinet.be) en indiquant votre adresse, ainsi que la bande passante souhaitée. Nous ferons ensuite un test d'éligibilité pour savoir si la fibre ou la VDSL est disponible à cette addresse.
+Il vous suffit de nous contacter par mail sur [contact@neutrinet.be](mailto:contact@neutrinet.be) en indiquant votre adresse, ainsi que la bande passante souhaitée. Nous ferons ensuite un test d'éligibilité pour savoir si la fibre ou la VDSL est disponible à cette adresse.
 
 Si la fibre a déjà été installée chez vous, indiquez-nous le numéro de ligne si vous l'avez. Dites-nous également si vous souhaitez faire un easy switch et on vous expliquera comment la faire.
 
@@ -96,7 +96,7 @@ Non, les dons ne sont pas défiscalisables. Neutrinet n'est pas une association 
 
 ### J'aimerais contribuer à Neutrinet, comment puis-je faire ?
 
-Neutrinet fonctionne sur du bénévolat, il n'y a pas de salarié·es dans l'assocation. Chacun·e peut participer à la vie de l'association, que ce soit pour les aspects techniques, les tâches administratives, le support, etc.
+Neutrinet fonctionne sur du bénévolat, il n'y a pas de salarié·es dans l'association. Chacun·e peut participer à la vie de l'association, que ce soit pour les aspects techniques, les tâches administratives, le support, etc.
 
 Vous pouvez nous rejoindre lors de nos install party ou de nos réunions mensuelles. [Consultez notre agenda](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL) pour plus d'informations.
 
