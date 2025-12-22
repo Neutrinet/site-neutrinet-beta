@@ -105,24 +105,24 @@
   color: #365795;
 }
 
-div.custom-banner-container {
-	position: fixed;
-	width: 100%;
-	z-index: 10000;
-	-webkit-transition: all 0.2s ease-in-out 0s;
-	-moz-transition: all 0.2s ease-in-out 0s;
-	-ms-transition: all 0.2s ease-in-out 0s;
-	transition: all 0.2s ease-in-out 0s;
-	opacity: 0;
-	visibility: hidden;
-	bottom: 1rem;
-	right: 1rem;
-}
-
-div.custom-banner-body {
-	display: flex;
-	justify-content: space-between;
-	margin: 0 0 0 auto;
-	padding: 1rem 1.5rem;
-	border-radius: 4px;
-}
+// div.custom-banner-container {
+// 	position: fixed;
+// 	width: 100%;
+// 	z-index: 10000;
+// 	-webkit-transition: all 0.2s ease-in-out 0s;
+// 	-moz-transition: all 0.2s ease-in-out 0s;
+// 	-ms-transition: all 0.2s ease-in-out 0s;
+// 	transition: all 0.2s ease-in-out 0s;
+// 	opacity: 0;
+// 	visibility: hidden;
+// 	bottom: 1rem;
+// 	right: 1rem;
+// }
+// 
+// div.custom-banner-body {
+// 	display: flex;
+// 	justify-content: space-between;
+// 	margin: 0 0 0 auto;
+// 	padding: 1rem 1.5rem;
+// 	border-radius: 4px;
+// }
