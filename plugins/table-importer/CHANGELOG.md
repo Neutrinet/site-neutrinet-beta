@@ -1,3 +1,11 @@
+# v3.1.0
+## 06/21/2025
+
+1. [](#bugfix)
+    * Fixed issue with when type was set in the shortcode
+1. [](#improved)
+    * Now, except for the file path indeed, a site wide default value can be set for all params. (fixes breaking change where the header was previously set to true)
+
 # v3.0.1
 ## 12/30/2024
 

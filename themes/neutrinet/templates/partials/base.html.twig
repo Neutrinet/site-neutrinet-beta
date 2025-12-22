@@ -15,6 +15,7 @@
 
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
+    <link rel="me" href="https://tchafia.be/@neutrinet" />
 {% endblock head %}
 
 {% block stylesheets %}
@@ -69,6 +70,11 @@
                 <span class="bottom"></span>
             </div>
         </div>
+{% if page.home %}
+        <section id="donation" class="section">
+            <section class="container"><p>Neutrinet a besoin de votre aide ! <a href="blog/collecte-de-dons">Participez &agrave; notre collecte de dons</a><br /></p></section>
+        </section>
+{% endif %}
     {% endblock %}
 
     {% block hero %}{% endblock %}
@@ -91,7 +97,7 @@
 {% block footer %}
     <section id="footer" class="section bg-gray">
         <section class="container {{ grid_size }}">
-            <p>Neutrinet ASBL - <a href="https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012">BE0835.033.012</a> - IBAN : BE52 6528 3497 8409</br>
+            <p>Neutrinet ASBL - <a href="https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012">BE0835.033.012</a> - IBAN : BE52 6528 3497 8409<br/>
             <a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart-o pulse "></i> by <a href="https://trilby.media">Trilby Media</a>.</p>
         </section>
     </section>
