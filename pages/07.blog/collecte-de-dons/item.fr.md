@@ -51,7 +51,7 @@ BIC : BBRUBEBB
 
 ## Progression de la collecte
 
-En date du 22 décembre, nous avons récolté 2 593 €.
+En date du 23 décembre, nous avons récolté 2 623 €.
 
 <div style="width:100%;"><canvas id="donation-bar"></canvas></div>
 
