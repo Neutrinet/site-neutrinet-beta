@@ -44,8 +44,8 @@ Si vous n'avez pas la possibilité de prendre une ligne internet pour le moment,
 
 Vous pouvez nous envoyer vos dons par virement sur notre compte bancaire :
 
-Nom : Neutrinet ASBL<br />
-IBAN : **BE52 6528 3497 8409**<br />
+IBAN : <b class="copyable">BE52 6528 3497 8409</b><br />
+Titulaire : Neutrinet ASBL<br />
 BIC : BBRUBEBB
 
 ## Progression de la collecte

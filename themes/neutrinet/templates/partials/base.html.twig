@@ -40,6 +40,23 @@
 {% endblock %}
 </head>
 <body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}">
+    <div class="custom-banner-container shown">
+      <div class="custom-banner-body">
+        <div class="custom-banner-content">
+            <h1>
+              Neutrinet a besoin de votre aide&nbsp;!<br />
+              <a href="/blog/collecte-de-dons">Participez &agrave; notre collecte de dons</a>
+            </h1>
+            IBAN&nbsp;: <b class="copyable" title="Cliquer pour copier">BE52 6528 3497 8409</b><br />
+            Titulaire&nbsp;: Neutrinet<br />
+            Communation&nbsp;: Don <em>ou</em> Don mensuel<br>
+        </div>
+        <div class="custom-banner-actions">
+            <a class="button custom-banner-dismiss" href="javascript:void(0)" onclick="custom_button_dismiss();" style="display: none;/*! bottom: 1rem !important; */">X</a>
+        </div>
+      </div>
+    </div>
+
     <div id="page-wrapper">
     {% block header %}
         <section id="header" class="section">
@@ -70,11 +87,13 @@
                 <span class="bottom"></span>
             </div>
         </div>
+{# Donation banner replaced with custom banner on every page 
 {% if page.home %}
         <section id="donation" class="section">
             <section class="container"><p><span class="nowrap-box">Neutrinet a besoin de votre aide !</span> <span class="nowrap-box"><a href="blog/collecte-de-dons">Participez &agrave; notre collecte de dons</a></span></p></section>
         </section>
 {% endif %}
+#}
     {% endblock %}
 
     {% block hero %}{% endblock %}

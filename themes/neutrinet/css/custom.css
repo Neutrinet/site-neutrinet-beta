@@ -108,3 +108,83 @@
 #donation .nowrap-box {
   display: inline-block;
 }
+
+div.custom-banner-container {
+  /* Invisible: fixes banner on page above page content */
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+
+  /* Animate show/hide */
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+ 
+  bottom: 1rem;
+  right: 1rem;
+ 
+  /* Hidden by default */
+  opacity: 0;
+  visibility: hidden;
+}
+
+div.custom-banner-container.shown {
+  opacity: 1;
+  visibility: visible;
+}
+
+div.custom-banner-body {
+  /* Visible: visible banner background */
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  min-width: 350px;
+  margin: 0 0 0 auto;
+  padding: 1rem ;
+  border-radius: 10px;
+  box-shadow: 5px 5px 1rem gray; 
+  background-color: #f4dfc2;
+  color: black;
+}
+
+div.custom-banner-content {
+  /* Visible: content of banner */
+  margin: 0 auto;
+  overflow-wrap: anywhere;
+}
+
+.custom-banner-body h1 {
+  color: black;
+  font-size: 120%;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.custom-banner-body a {
+  color: #19427E;
+}
+
+.custom-banner-body a:hover {
+  color: #365795;
+}
+
+
+@media all and (max-width:480px) {
+  div.custom-banner-container {
+    right: 0;
+  }
+      
+  div.custom-banner-body {
+    width: 80%;
+    min-width: 0;
+    margin: 0 auto;
+  }
+}
+
+.copyable {
+    user-select: all;
+    cursor: pointer;
+}
