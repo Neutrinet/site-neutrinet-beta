@@ -40,7 +40,7 @@ Plus important peut-être, nous aimerions mettre en place des pré-commandes pou
 | 40 lignes internet | 42 € | 42 € | 50 € | 62 € |
 | 50 lignes internet | 40 € | 40 € | 50 € | 60 € |
 
-\* *Il s'agit du débit en download et upload respectivement. Il n'y a pas de quota de téléchargement.*
+*\* Il s'agit du débit en download et upload respectivement. Il n'y a pas de quota de téléchargement.*
 
 Si vous n'avez pas la possibilité de prendre une ligne internet pour le moment, parlez-en autour de vous, à vos ami·es ou à votre famille ! Nous pouvons également faire un prix solidaire pour les personnes précaires (contactez-nous si vous êtes dans cette situation).
 
