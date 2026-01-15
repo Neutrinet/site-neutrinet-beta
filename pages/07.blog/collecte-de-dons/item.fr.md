@@ -32,13 +32,15 @@ Plus important peut-être, nous aimerions mettre en place des pré-commandes pou
 1. 10 lignes internet supplémentaires : Cela nous permettrait de terminer chaque année à l'équilibre.
 2. 20 lignes internet et plus : Nous pourrions commencer à diminuer le prix de l'abonnement (voir le tableau ci-dessous).
 
-| À partir de…       | VDSL 100/40 mbps | Fibre 50/10 mbps | Fibre 150/50 mbps | Fibre 500/100 mbps |
+| À partir de…       | VDSL 100/40 mbps* | Fibre 50/10 mbps* | Fibre 150/50 mbps* | Fibre 500/100 mbps* |
 | ------------------ | :--: | :--------------: | :---------------: | :----------: |
-|                    | **50 €** | **50 €** | **60 €** | **75 €** |
+| **Tarif actuel** | **50 €** | **50 €** | **60 €** | **75 €** |
 | 20 lignes internet | 47 € | 47 € | 55 € | 70 € |
 | 30 lignes internet | 45 € | 45 € | 52 € | 65 € |
 | 40 lignes internet | 42 € | 42 € | 50 € | 62 € |
 | 50 lignes internet | 40 € | 40 € | 50 € | 60 € |
+
+\* *Il s'agit du débit en download et upload respectivement. Il n'y a pas de quota de téléchargement.*
 
 Si vous n'avez pas la possibilité de prendre une ligne internet pour le moment, parlez-en autour de vous, à vos ami·es ou à votre famille ! Nous pouvons également faire un prix solidaire pour les personnes précaires (contactez-nous si vous êtes dans cette situation).
 
