@@ -25,7 +25,7 @@ const DONATION_TIERS = [
 ]
 
 const DONATION_GOAL = DONATION_TIERS.reduce((acc, tier) => acc + tier.amount, 0);
-const DONATION_CURRENT = 5165;
+const DONATION_CURRENT = 5195;
 
 let datasets = []
 DONATION_TIERS.forEach((tier) => {
