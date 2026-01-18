@@ -53,7 +53,7 @@ BIC : BBRUBEBB
 
 ## Progression de la collecte
 
-En date du 17 janvier, nous avons récolté 5 065 €.
+En date du 18 janvier, nous avons récolté 5 165 €.
 
 <div style="width:100%;"><canvas id="donation-bar"></canvas></div>
 
