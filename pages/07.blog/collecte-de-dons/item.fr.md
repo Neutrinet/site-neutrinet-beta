@@ -71,7 +71,7 @@ Enfin, une ligne internet chez Neutrinet vous facilitera l'auto-hébergement (c'
 
 ### Y a-t-il des frais d'activation pour la ligne internet ?
 
-Cela dépend du type de ligne internet qui est disponible. Pour la VDSL, les frais d'activation sont assez élevés malheureusement (180€). Par contre, il n'y a pas de frais d'activation pour la fibre.
+Les frais d'activation sont assez élevés malheureusement (180€).
 
 ### Comment puis-je commander ma ligne internet ?
 
