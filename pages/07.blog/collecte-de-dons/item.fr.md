@@ -71,7 +71,7 @@ Enfin, une ligne internet chez Neutrinet vous facilitera l'auto-hébergement (c'
 
 ### Y a-t-il des frais d'activation pour la ligne internet ?
 
-Les frais d'activation sont assez élevés malheureusement (180€).
+Oui, il y a des frais d'activation et ceux-ci sont assez élevés malheureusement (180€ TTC).
 
 ### Comment puis-je commander ma ligne internet ?
 
