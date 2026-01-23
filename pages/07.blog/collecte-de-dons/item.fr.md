@@ -91,7 +91,7 @@ Il faut parfois compter un délais d'un mois pour que la ligne internet soit ins
 
 ### Le routeur est-il fourni lors de l'installation ?
 
-Le routeur n'est pas compris dans l'abonnement internet. Nous proposons un routeur Mikrotik hap ac² à 75€ TTC. Vous pouvez également utiliser votre propre routeur si vous le souhaitez.
+Le routeur n'est pas compris dans l'abonnement internet. Nous proposons un routeur Mikrotik hap ac² avec OpenWrt installé à 75€ TTC. Vous pouvez également utiliser votre propre routeur si vous le souhaitez.
 
 ### Est-ce que je peux utiliser ma FritzBox / autre routeur ?
 
