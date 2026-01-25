@@ -53,9 +53,13 @@ BIC : BBRUBEBB
 
 ## Progression de la collecte
 
-En date du 21 janvier, nous avons récolté 5 315 €.
+En date du 25 janvier, nous avons récolté 5 390 €.
 
 <div style="width:100%;"><canvas id="donation-bar"></canvas></div>
+
+Nous clôturerons notre appel aux dons le dimanche **15 mars** ! 
+
+Nous ferons le point lors de notre Assemblée Générale qui aura lieu le dimanche **19 avril** au Marbré (32, rue des Palais, Schaerbeek). Plus d'infos à venir…
 
 ## Foire aux questions
 
