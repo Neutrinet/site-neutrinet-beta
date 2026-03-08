@@ -53,7 +53,7 @@ BIC : BBRUBEBB
 
 ## Progression de la collecte
 
-En date du 23 février, nous avons récolté 5 943 €.
+En date du 7 mars, nous avons récolté 6 043 €.
 
 <div style="width:100%;"><canvas id="donation-bar"></canvas></div>
 
