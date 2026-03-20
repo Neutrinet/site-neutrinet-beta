@@ -53,7 +53,7 @@ BIC : BBRUBEBB
 
 ## Progression de la collecte
 
-Au total, nous avons récolté 6 368 €.
+Au total, nous avons récolté 6 368 € de dons.
 
 <div style="width:100%;"><canvas id="donation-bar"></canvas></div>
 
