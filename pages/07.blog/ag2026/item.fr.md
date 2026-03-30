@@ -13,7 +13,7 @@ sitemap:
 published: true
 ---
 
-> TL;DR:
+TL;DR:
 > Date : 19 avril 2026  
 > Heure de début : 10h (formel), 14h30 (informel)  
 > Adresse : Marbré, 32 rue des Palais, 1030 Schaerbeek  
