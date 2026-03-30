@@ -17,8 +17,8 @@ published: false
 > Date : 19 avril 2026  
 > Heure de début : 10h (formel), 14h30 (informel)  
 > Adresse : Marbré, 32 rue des Palais, 1030 Schaerbeek  
-> Localisation : https://www.openstreetmap.org/way/228262454  
-> Ordre du jour : https://doc.neutrinet.be/s/ag2026-ordre-du-jour#  
+> Localisation : [https://www.openstreetmap.org/way/228262454](https://www.openstreetmap.org/way/228262454)  
+> Ordre du jour : [https://doc.neutrinet.be/s/ag2026-ordre-du-jour#](https://doc.neutrinet.be/s/ag2026-ordre-du-jour#)  
 > Online : non, c'est en présentiel.
 
 Bien le bonsoir,
