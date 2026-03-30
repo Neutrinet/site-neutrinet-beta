@@ -50,7 +50,7 @@ L'apéro et les boissons seront fournies par l'association.
 
 ### Ordre du jour
 
-L'ordre du jour est disponible à cette adresse : https://doc.neutrinet.be/s/ag2026-ordre-du-jour
+L'ordre du jour est disponible à cette adresse : [https://doc.neutrinet.be/s/ag2026-ordre-du-jour](https://doc.neutrinet.be/s/ag2026-ordre-du-jour)
 
 ### Membres effectif·ve·s
 
@@ -64,7 +64,7 @@ Devenir administrateur·ice apporte l'avantage de signer des papiers au nom de N
 
 ### Cotisation
 
-N'oubliez pas de vous mettre en ordre de cotisation avant l'A.G. ! Pour rappel, la cotisation annuelle est de 30 € (10 €/an pour les personnes précaires). Nos informations bancaires se trouvent sur notre wiki : https://wiki.neutrinet.be/fr/administration/banks
+N'oubliez pas de vous mettre en ordre de cotisation avant l'A.G. ! Pour rappel, la cotisation annuelle est de 30 € (10 €/an pour les personnes précaires). Nos informations bancaires se trouvent sur notre wiki : [https://wiki.neutrinet.be/fr/administration/banks](https://wiki.neutrinet.be/fr/administration/banks)
 
 Au plaisir de vous rencontrer lors de l'A.G.,
 
