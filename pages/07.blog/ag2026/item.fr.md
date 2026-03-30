@@ -1,6 +1,5 @@
 ---
 title: 'Invitation A.G. 2026'
-subtitle: 'Et aussi des tables rondes sur différents sujets !'
 taxonomy:
     category:
         - blog
