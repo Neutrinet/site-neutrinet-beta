@@ -69,3 +69,5 @@ N'oubliez pas de vous mettre en ordre de cotisation avant l'A.G. ! Pour rappel, 
 Au plaisir de vous rencontrer lors de l'A.G.,
 
 Neutrinet ASBL
+
+Crédit Photo : "King Penguins (Aptenodytes patagonicus) - Salisbury Plains" par Gregory 'Slobirdr' Smith – CC BY-SA 2.0.
