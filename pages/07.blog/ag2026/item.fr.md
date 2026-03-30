@@ -1,8 +1,6 @@
 ---
 title: 'Invitation A.G. 2022'
 subtitle: 'Et aussi des tables rondes sur différents sujets !'
-date: '03/06/2022 10:00 pm'
-published: true
 taxonomy:
     category:
         - blog
@@ -11,6 +9,8 @@ taxonomy:
         - evenement
 feed:
     limit: 10
+sitemap:
+    lastmod: '03/30/2026 08:19 am'
 ---
 
 > TL;DR:
