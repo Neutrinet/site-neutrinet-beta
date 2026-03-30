@@ -1,5 +1,5 @@
 ---
-title: 'Invitation A.G. 2022'
+title: 'Invitation A.G. 2026'
 subtitle: 'Et aussi des tables rondes sur différents sujets !'
 taxonomy:
     category:
@@ -15,74 +15,58 @@ published: false
 ---
 
 > TL;DR:
->
-> - Date : 26 mars 2022
-> - Heure de début : 10h
-> - Adresse : École ISFSC, 111 rue de la Poste, 1030 Schaerbeek
-> - Localisation : [https://www.openstreetmap.org/node/7156760585](https://www.openstreetmap.org/node/7156760585)
-> - Contenu : [https://doc.neutrinet.be/ag2022](https://doc.neutrinet.be/ag2022)
-> - Online : non, c'est en présentiel.
+> Date : 19 avril 2026
+> Heure de début : 10h (formel), 14h30 (informel)
+> Adresse : Marbré, 32 rue des Palais, 1030 Schaerbeek
+> Localisation : https://www.openstreetmap.org/way/228262454
+> Ordre du jour : https://doc.neutrinet.be/s/ag2026-ordre-du-jour#
+> Online : non, c'est en présentiel.
 
-Bonjour à toi,
+Bien le bonsoir,
 
-Que tu sois administrateur·ice, sympatisant·e, curieux·se ou autre flâneur·se d'un Internet neutre et décentralisé, sois la ou le bienvenu·e à l'A.G. de Neutrinet, comme à chacune de ses [nombreuses rencontres et réunions](https://wiki.neutrinet.be/fr/rapports/start) d'ailleurs qui sont ouvertes à toutes et tous.
+C'est le printemps, et avec lui s'ouvre la saison des A.G. ! Comme toujours, vous êtes le ou la bienvenu·e à celle de Neutrinet !
 
-Il y aura au matin, le moment formel que tout le monde adore et qui est nécessaire administrativement au fonctionnement d'une ASBL. Mais ! Il y aura aussi, dans l'après-midi, **quelques tables rondes** qui accompagneront la vie présente et à venir de Neutrinet.
+Nous commencerons par un moment formel nécessaire au fonctionnement de l'ASBL (présentation comptes et du budget, adhésion des membres effectif·ves, changement du siège social, renouvellement du CA, de la CCJ et des représentant·es pour les associations dans lesquelles Neutrinet a une patte). Puis, nous aurons un moment plus informel où nous ferons le bilan de l'année écoulée.
 
-Sans oublier que cela reste surtout l'occasion de se voir, se revoir et se rencontrer.
+Sans oublier que cela reste surtout l'occasion de se voir, se revoir et se rencontrer !
 
 ### Date et Heures
 
-L'A.G. aura lieu le samedi 26 mars 2022.
+L'A.G. aura lieu le dimanche 19 avril 2026.
 
-- à partir de 10h : Accueil
-- à partir de 11h : A.G. formelle
-- à partir de 12h30 : Auberge espagnole
-- à partir de 14h30 : Tables rondes
+- à partir de 10h00 : Accueil
+- à partir de 10h30 : A.G. formelle
+- à partir de 13h30 : Repas sous forme d'auberge espagnole
+- à partir de 14h30 : Bilan de l'année 2025
 
 ### Lieu
 
-École ISFSC<br />
-111 rue de la Poste<br />
-1030 Schaerbeek<br />
-Ou sur [une carte](https://www.openstreetmap.org/node/7156760585#map=19/50.85946/4.36780)
+L'A.G. se tiendra au [Marbré](https://communa.be/les-lieux/marbre/), 32 rue des Palais, 1030 Schaerbeek.
 
-### Nourriture et boissons
+### Repas
 
-La journée se passera autour d'une auberge espagnole.
+Le repas se fera sous forme d'auberge espagnole : apportez ce que vous souhaitez manger et partager avec les autres !
 
-N'hésitez pas à amenez nourriture, snacks, chips, biscuits, etc et aussi les boissons qui vous feront plaisir.
-
-Les personnes qui organisent l'A.G. viendront elles aussi avec leur part et un peu plus pour celles et ceux qui n'aurait pas l'opportunité d'apporter quelque chose.
+L'apéro et les boissons seront fournies par l'association.
 
 ### Ordre du jour
 
-L'ordre du jour est disponible à cette adresse : [https://doc.neutrinet.be/ag2022](https://doc.neutrinet.be/ag2022)
+L'ordre du jour est disponible à cette adresse : https://doc.neutrinet.be/s/ag2026-ordre-du-jour
 
-C'est en même temps le bloc-notes collaboratif que nous utiliserons durant cette A.G., dés lors, si vous souhaitez y ajouter l'un ou l'autre point, vous pouvez le faire dirrectement à l'adresse mentionnée ci-dessus, en cliquant sur l'icône en forme de crayon.
+### Membres effectif·ve·s
 
-N'hésitez pas à y apporter des modifications, mais faites le **avant le 15 mars à 23h42** et ne le modifiez plus entre le 15 et le 26 mars, jour de l'assemblée.  Cela évitera d'avoir des points de dernière minute qui sont toujours chiants à placer dans une AG.
-
+Si vous souhaitez devenir membre effective de Neutrinet et avoir le droit de vote en A.G., faites-le nous savoir en répondant à ce mail ou sur le [Mattermost](https://chat.neutrinet.be)
 
 ### Administrateur·ice·s
 
-Si vous souhaitez devenir administrateur·ice de neutrinet et apparaître sur le [site de la BCE](https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012), faites-le nous savoir en répondant à ce mail ou sur le [Mattermost](https://chat.neutrinet.be).
+Si vous souhaitez devenir administrateur·ice de Neutrinet et apparaître sur le site de la [BCE](https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012), faites-le nous savoir en répondant à ce mail ou sur le [Mattermost](https://chat.neutrinet.be) avec une petite présentation de vous-même.
 
-Devenir administrateur·ice apporte l'avantage de signer des papiers au nom de Neutrinet et de payer des factures mais aussi de faire grossir les rangs des personnes publiquement membres de l'association et offrir une plus grande importance à l'ASBL aux yeux du monde !
+Devenir administrateur·ice apporte l'avantage de signer des papiers au nom de Neutrinet et de payer des factures, mais aussi de faire grossir les rangs des personnes publiquement membres de l'association et offrir une plus grande importance à l'ASBL aux yeux du monde !
 
-<div id="tables_rondes"></div>
+### Cotisation
 
-### Tables rondes, carrées, ovales, triangulaires ou multi-dimensionnelles
+N'oubliez pas de vous mettre en ordre de cotisation avant l'A.G. ! Pour rappel, la cotisation annuelle est de 30 € (10 €/an pour les personnes précaires). Nos informations bancaires se trouvent sur notre wiki : https://wiki.neutrinet.be/fr/administration/banks
 
-- [marchand et non-marchand](https://doc.neutrinet.be/ag2022-marchand-et-non-marchand#)
-- [collecte](https://doc.neutrinet.be/ag2022-collecte#)
-- [éducation permanente et populaire](https://doc.neutrinet.be/ag2022-education-permanent-et-populaire#)
-- [membre](https://doc.neutrinet.be/ag2022-membre#)
-- [zapatisme](https://doc.neutrinet.be/ag2022-zapatisme)
-- Ou autre en créant un pad de genre [https://doc.neutrinet.be/ag2022-REMPLACEZ-MOI-PAR-VOTRE-THEME](https://doc.neutrinet.be/ag2022-REMPLACEZ-MOI-PAR-VOTRE-THEME)
+Au plaisir de vous rencontrer lors de l'A.G.,
 
-Si vous avez des questions ou remarques n'hésitez pas à nous le faire savoir sur `contact @ neutrinet . be` ou sur notre [Mattermost](https://chat.neutrinet.be).
-
-Au plaisir de vous rencontrer lors de l'ag,
-
-Neutrinet asbl
+Neutrinet ASBL
