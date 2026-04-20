@@ -19,6 +19,12 @@ form:
             type: email
             validate:
                 required: true
+        address:
+            label: 'Adresse de la ligne internet'
+            placeholder: 'Indiquez l''adresse complète (étage ou numéro de boite compris) de la ligne internet'
+            type: text
+            validate:
+                required: true
         technology:
             label: 'Technologie souhaitée'
             placeholder: 'Dites-nous ce que vous souhaitez comme type de ligne internet'
