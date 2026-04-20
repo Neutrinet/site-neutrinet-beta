@@ -8,9 +8,11 @@ form:
     fields:
         contact_section:
             title: Coordonnées
-            text: 'Nous avons besoin de vos coordonnées'
-            type: spacer
+            type: section
             fields:
+                description:
+                    text: 'Nous avons besoin de vos coordonnées'
+                    type: spacer
                 name:
                     label: Nom
                     placeholder: 'Indiquez votre nom'
