@@ -70,17 +70,6 @@ form:
             extension: txt
             body: '{% include ''forms/data.txt.twig'' %}'
         message: "Merci pour votre message\_!"
-media:
-    featured_image:
-        toggle: true
-        file: {  }
-partials:
-    header_subtitle:
-        toggle: true
-    metadata:
-        where: header
-    breadcrumbs:
-        toggle: false
 published: true
 cache_enable: false
 ---
