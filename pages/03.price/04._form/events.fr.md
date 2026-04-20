@@ -82,4 +82,6 @@ partials:
     breadcrumbs:
         toggle: false
 published: true
+cache_enable: false
 ---
+
