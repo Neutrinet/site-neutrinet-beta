@@ -1,6 +1,7 @@
 ---
 title: 'Commande de ligne internet'
 menu: 'Commande de ligne internet'
+template: modular/form
 form:
     keep_alive: true
     name: collect-form

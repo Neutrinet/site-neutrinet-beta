@@ -1,0 +1,9 @@
+{# Default - Modular #}
+
+<section>
+  {% if module.content()|raw %}
+    {{ module.content()|raw }}
+  {% elseif page.content()|raw %}
+    {{ page.content()|raw }}
+  {% endif %}
+</section>
