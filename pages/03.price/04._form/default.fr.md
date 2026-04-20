@@ -6,26 +6,31 @@ form:
     keep_alive: true
     name: collect-form
     fields:
-        name:
-            label: Nom
-            placeholder: 'Indiquez votre nom'
-            autofocus: 'on'
-            autocomplete: 'on'
-            type: text
-            validate:
-                required: true
-        email:
-            label: E-mail
-            placeholder: 'Indiquez votre adresse e-mail'
-            type: email
-            validate:
-                required: true
-        address:
-            label: 'Adresse de la ligne internet'
-            placeholder: 'Indiquez l''adresse complète (étage ou numéro de boite compris) de la ligne internet'
-            type: text
-            validate:
-                required: true
+        contact_section:
+            title: Coordonnées
+            text: 'Nous avons besoin de vos coordonnées'
+            type: spacer
+            fields: null
+            name:
+                label: Nom
+                placeholder: 'Indiquez votre nom'
+                autofocus: 'on'
+                autocomplete: 'on'
+                type: text
+                validate:
+                    required: true
+            email:
+                label: E-mail
+                placeholder: 'Indiquez votre adresse e-mail'
+                type: email
+                validate:
+                    required: true
+            address:
+                label: 'Adresse de la ligne internet'
+                placeholder: 'Indiquez l''adresse complète (étage ou numéro de boite compris) de la ligne internet'
+                type: text
+                validate:
+                    required: true
         current_technology:
             label: 'Technologie actuelle'
             placeholder: 'Dites-nous ce que vous souhaitez comme bande passante'
