@@ -33,36 +33,43 @@ form:
                     type: text
                     validate:
                         required: true
-        current_technology:
-            label: 'Technologie actuelle'
-            placeholder: 'Dites-nous ce que vous souhaitez comme bande passante'
-            type: radio
-            options:
-                vdsl: VDSL
-                fibre: Fibre
-                coaxial: Coaxial
-            validate:
-                required: true
-        wanted_technology:
-            label: 'Technologie souhaitée'
-            help: 'Dites-nous ce que vous souhaitez comme type de ligne internet'
-            type: checkboxes
-            options:
-                vdsl: 'VDSL 100/40 mbps (50€/mois)'
-                gpon0: 'Fibre 50/10 mbps (50€/mois)'
-                gpon1: 'Fibre 150/50 mbps (60€/mois)'
-                gpon2: 'Fibre 500/100 mbps (75€/mois)'
-            help_options:
-                vdsl: 'La VDSL est disponible avec un débit théorique maximal de 100 mbps en téléchargement et 40 mbps en upload.'
-            validate:
-                required: true
-        router_needed:
-            label: 'Besoin d''un routeur?'
-            type: toggle
-            highlight: 1
-            validate:
-                required: true
-                type: bool
+        technology_section:
+            title: 'Détails techniques'
+            type: section
+            fields:
+                description:
+                    text: 'Nous avons besoins de détails techniques'
+                    type: spacer
+                current_technology:
+                    label: 'Technologie actuelle'
+                    placeholder: 'Dites-nous ce que vous souhaitez comme bande passante'
+                    type: radio
+                    options:
+                        vdsl: VDSL
+                        fibre: Fibre
+                        coaxial: Coaxial
+                    validate:
+                        required: true
+                wanted_technology:
+                    label: 'Technologie souhaitée'
+                    help: 'Dites-nous ce que vous souhaitez comme type de ligne internet'
+                    type: checkboxes
+                    options:
+                        vdsl: 'VDSL 100/40 mbps (50€/mois)'
+                        gpon0: 'Fibre 50/10 mbps (50€/mois)'
+                        gpon1: 'Fibre 150/50 mbps (60€/mois)'
+                        gpon2: 'Fibre 500/100 mbps (75€/mois)'
+                    help_options:
+                        vdsl: 'La VDSL est disponible avec un débit théorique maximal de 100 mbps en téléchargement et 40 mbps en upload.'
+                    validate:
+                        required: true
+                router_needed:
+                    label: 'Besoin d''un routeur?'
+                    type: toggle
+                    highlight: 1
+                    validate:
+                        required: true
+                        type: bool
         basic-captcha:
             label: 'Veuillez résoudre le problème mathématique.'
             type: basic-captcha
