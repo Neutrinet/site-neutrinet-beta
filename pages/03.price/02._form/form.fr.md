@@ -130,17 +130,5 @@ form:
         message: "Merci pour votre message\_!"
 published: true
 cache_enable: false
-body_classes: '04/20/2026 11:48 pm'
-media:
-    featured_image:
-        toggle: true
-        file: {  }
-partials:
-    header_subtitle:
-        toggle: true
-    metadata:
-        where: header
-    breadcrumbs:
-        toggle: false
 ---
 
