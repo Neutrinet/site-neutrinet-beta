@@ -81,6 +81,7 @@ partials:
         where: header
     breadcrumbs:
         toggle: false
+published: true
 ---
 
 # Prochaines rencontres
