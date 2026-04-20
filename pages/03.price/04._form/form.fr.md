@@ -83,5 +83,3 @@ partials:
         toggle: false
 published: true
 ---
-
-# Prochaines rencontres
