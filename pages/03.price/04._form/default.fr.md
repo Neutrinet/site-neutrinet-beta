@@ -52,6 +52,7 @@ form:
         router_needed:
             label: 'Besoin d''un routeur?'
             type: toggle
+            highlight: 1
             validate:
                 required: true
                 type: bool
