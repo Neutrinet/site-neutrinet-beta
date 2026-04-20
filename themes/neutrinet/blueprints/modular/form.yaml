@@ -1,0 +1,90 @@
+# Page-specific settings for default templates
+title: Form
+extends@: default
+
+form:
+  validation: loose
+  fields:
+    tabs:
+      fields:        
+        page_settings:
+          type: tab
+          title: Customize page
+          fields:
+            featured_image_section:
+              type: section
+              title: Featured Image
+              underline: true
+              fields:
+                featured_image_directions:
+                  type: display
+                  label: How this works
+                  markdown: true
+                  content: You can add a custom Featured Image per page for sharing on social sites. If no custom image is uploaded, it will use the first image of the page. If the page has no photos, it will use the preview image defined in the theme settings. A `1200×630` image size is recommended.
+                header.media.featured_image.toggle:
+                  type: toggle
+                  label: Enable preview image
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: Enable
+                    0: Disable
+                  validate:
+                    type: bool
+                header.media.featured_image.file:
+                  type: file
+                  label: Upload your custom preview image.
+                  destination: 'self@'
+                  multiple: false
+                  avoid_overwriting: false
+                  limit: 1
+                  filesize: 1
+                  accept:
+                    - image/*
+            header_subtitle_section:
+              type: section
+              title: Header Subtitle
+              underline: true
+              fields:
+                header_subtitle_description:
+                  type: display
+                  label: How this works
+                  markdown: true
+                  content: In pages that are not set to the home page, the header uses the page summary as a subtitle. Use the settings below to disable it.
+                header.partials.header_subtitle.toggle:
+                  type: toggle
+                  label: Enable header subtitle
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: Enable
+                    0: Disable
+                  validate:
+                    type: bool
+            item_settings_section:
+              type: section
+              title: Template Settings
+              underline: true
+              fields:
+                item_settings_description:
+                  type: display
+                  label: Description
+                  markdown: true
+                  content: Settings applicable to item, post, and article templates go here.
+                header.partials.metadata.where:
+                  type: radio
+                  label: Move page attributes to
+                  options:
+                    header: Header
+                    content_footer: Footer
+                  default: header
+                header.partials.breadcrumbs.toggle:
+                  type: toggle
+                  label: Force visibility of breadcrumbs on a specific on any page. Visible by default of `item` pages, hidden on the rest.
+                  highlight: 1
+                  default: 0
+                  options:
+                    1: Visible
+                    0: Hidden
+                  validate:
+                    type: bool
