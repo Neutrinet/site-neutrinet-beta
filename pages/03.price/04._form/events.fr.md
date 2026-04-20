@@ -35,7 +35,7 @@ form:
         current_technology:
             label: 'Technologie actuelle'
             placeholder: 'Dites-nous ce que vous souhaitez comme bande passante'
-            type: checkbox
+            type: radio
             options:
                 vdsl: VDSL
                 fibre: Fibre
