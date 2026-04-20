@@ -37,6 +37,7 @@ events:
         venue_url: 'http://www.lamaisondelapaix.be/localisation/'
         title: 'Préparation des ateliers au DK'
         description: '**Mardi 24 septembre**, à 18h30, nous nous réunirons avec d''autres à la [Maison de la Paix](http://www.lamaisondelapaix.be/localisation/) pour discuter du programme et de l''organisation des prochains ateliers du DK.'
+published: false
 ---
 
 # Prochaines rencontres
