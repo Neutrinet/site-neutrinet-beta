@@ -9,6 +9,7 @@ form:
         contact_section:
             title: Coordonnées
             type: section
+            underline: true
             fields:
                 description:
                     text: 'Nous avons besoin de vos coordonnées'

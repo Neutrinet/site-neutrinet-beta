@@ -3,9 +3,8 @@
 <section class="section modular-features {{ page.header.class}}">
         <section class="container {{ grid_size }}">
             <div class="frame-box">
-
-                {{ page.content()|raw }}
-
+               {{ content|raw }}
+               {% include "forms/form.html.twig" %}
             </div>
         </section>
 </section>
