@@ -49,6 +49,12 @@ form:
                 vdsl: 'La VDSL est disponible avec un débit théorique maximal de 100 mbps en téléchargement et 40 mbps en upload.'
             validate:
                 required: true
+        router_needed:
+            label: 'Besoin d''un routeur?'
+            type: toggle
+            validate:
+                required: true
+                type: bool
         basic-captcha:
             label: 'Veuillez résoudre le problème mathématique.'
             type: basic-captcha
