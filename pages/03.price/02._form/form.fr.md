@@ -60,14 +60,13 @@ form:
                     text: 'Cette section vous permet de nous indiquer quel type de ligne internet vous souhaitez. Veuillez indiquer l''adresse la plus complète possible (étage ou boite postale compris). Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse.'
                     type: spacer
                 address:
-                    label: 'Adresse de la ligne internet'
+                    label: "Quelle est Adresse de la ligne internet\_? Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris)."
                     placeholder: 'Indiquez l''adresse complète (étage ou numéro de boite compris) de la ligne internet'
                     type: text
                     validate:
                         required: true
                 current_technology:
-                    label: 'Technologie actuelle'
-                    help: 'Dites-nous quel type de connexion vous avez actuellement'
+                    label: 'Quel type de connexion internet avez-vous actuellement ?'
                     type: radio
                     options:
                         vdsl: VDSL
@@ -76,20 +75,17 @@ form:
                     validate:
                         required: true
                 wanted_technology:
-                    label: 'Technologie souhaitée'
-                    help: 'Dites-nous quel type de ligne internet vous souhaitez'
+                    label: "Quel(s) type(s) de connexion(s) internet souhaitez-vous\_? Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse."
                     type: checkboxes
                     options:
                         vdsl: "VDSL 100/40 mbps (50\_€/mois)"
                         gpon0: "Fibre 50/10 mbps (50\_€/mois)"
                         gpon1: "Fibre 150/50 mbps (60\_€/mois)"
                         gpon2: "Fibre 500/100 mbps (75\_€/mois)"
-                    help_options:
-                        vdsl: 'La VDSL est disponible avec un débit théorique maximal de 100 mbps en téléchargement et 40 mbps en upload.'
                     validate:
                         required: true
                 easy_switch:
-                    label: 'Code easy switch'
+                    label: "Si vous migrez vers la même technologie, veuillez nous fournir le code easy switch qui se trouve sur la facture de votre FAI actuel. En cas d'easy switch, les frais d'installation sont moins chers (30\_€ au lieu de 180\_€)."
                     type: text
                     placeholder: 'Indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel'
                     validate:
@@ -103,7 +99,7 @@ form:
                     validate:
                         required: true
                 router_model:
-                    label: 'Si vous utilisez votre propre routeur, merci d''indiquer le modèle'
+                    label: "Si vous utilisez votre propre routeur, merci d'indiquer le modèle\_:"
                     type: text
                     validate:
                         required: false
