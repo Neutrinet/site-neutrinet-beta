@@ -13,6 +13,7 @@ form:
             fields:
                 name:
                     label: Nom
+                    placeholder: ''
                     autofocus: 'on'
                     autocomplete: 'on'
                     type: text
