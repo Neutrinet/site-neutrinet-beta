@@ -54,13 +54,17 @@ form:
             type: section
             fields:
                 address:
-                    label: "Quelle est l'adresse de la ligne internet\_?<br /><em>Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris).</em>"
+                    label: "Quelle est l'adresse de la ligne internet\_?  \n*Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris).*"
+                    data_label: 'Adresse de la ligne internet'
+                    markdown: true
                     placeholder: 'Indiquez l''adresse complète de la ligne internet'
                     type: text
                     validate:
                         required: true
                 current_technology:
                     label: "Quel type de connexion internet avez-vous actuellement\_?"
+                    data_label: 'Technologie actuelle'
+                    markdown: true
                     type: radio
                     options:
                         vdsl: VDSL
@@ -69,8 +73,9 @@ form:
                     validate:
                         required: true
                 wanted_technology:
-                    label: "Quel(s) type(s) de connexion(s) internet souhaitez-vous\_?"
-                    sublabel: 'Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse.'
+                    label: "Quel(s) type(s) de connexion(s) internet souhaitez-vous\_?  \n*Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse.*"
+                    data_label: 'Technologie(s) souhaitée(s)'
+                    markdown: true
                     type: checkboxes
                     options:
                         vdsl: "VDSL 100/40 mbps (50\_€/mois)"
@@ -80,14 +85,15 @@ form:
                     validate:
                         required: true
                 easy_switch:
-                    label: 'Si vous migrez vers la même technologie, indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel.'
-                    sublabel: "En cas d'easy switch, les frais d'installation sont moins chers (30\_€ au lieu de 180\_€)."
+                    label: "Si vous migrez vers la même technologie, indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel.  \n*En cas d'easy switch, les frais d'installation sont moins chers (30\_€ au lieu de 180\_€).*"
+                    data_label: 'Code easy switch'
                     markdown: true
                     type: text
                     validate:
                         required: false
                 router_choice:
                     label: "Avez-vous besoin d'un routeur\_?"
+                    markdown: true
                     type: radio
                     options:
                         mikrotik: "Oui, je souhaite commander un routeur Mikrotik hap ac² avec Openwrt installé (75\_€)"
@@ -96,6 +102,7 @@ form:
                         required: true
                 router_model:
                     label: "Si vous utilisez votre propre routeur, indiquez-nous le modèle\_:"
+                    markdown: true
                     placeholder: "Indiquez le modèle de votre routeur (par ex.\_: Fritzbox 7530 AX)"
                     type: text
                     validate:
