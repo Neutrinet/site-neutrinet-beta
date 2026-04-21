@@ -93,6 +93,7 @@ form:
                         required: false
                 router_choice:
                     label: "Avez-vous besoin d'un routeur\_?"
+                    data_label: Routeur
                     markdown: true
                     type: radio
                     options:
@@ -102,6 +103,7 @@ form:
                         required: true
                 router_model:
                     label: "Si vous utilisez votre propre routeur, indiquez-nous le modèle\_:"
+                    data_label: 'Modèle du routeur'
                     markdown: true
                     placeholder: "Indiquez le modèle de votre routeur (par ex.\_: Fritzbox 7530 AX)"
                     type: text
@@ -110,6 +112,7 @@ form:
         basic-captcha:
             label: 'Veuillez résoudre le problème mathématique.'
             type: basic-captcha
+            markdown: true
             captcha_type: basic
             validate:
                 required: true
