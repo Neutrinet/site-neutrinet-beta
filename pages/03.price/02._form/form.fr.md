@@ -69,7 +69,8 @@ form:
                     validate:
                         required: true
                 wanted_technology:
-                    label: "Quel(s) type(s) de connexion(s) internet souhaitez-vous\_?<br /><em>Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse.</em>"
+                    label: "Quel(s) type(s) de connexion(s) internet souhaitez-vous\_?"
+                    sublabel: 'Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse.'
                     type: checkboxes
                     options:
                         vdsl: "VDSL 100/40 mbps (50\_€/mois)"
@@ -79,7 +80,8 @@ form:
                     validate:
                         required: true
                 easy_switch:
-                    label: "Si vous migrez vers la même technologie, indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel.  \n*En cas d'easy switch, les frais d'installation sont moins chers (30\_€ au lieu de 180\_€).*"
+                    label: 'Si vous migrez vers la même technologie, indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel.'
+                    sublabel: "En cas d'easy switch, les frais d'installation sont moins chers (30\_€ au lieu de 180\_€)."
                     markdown: true
                     type: text
                     validate:
