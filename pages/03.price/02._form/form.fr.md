@@ -114,10 +114,10 @@ form:
             -
                 to: '{{ form.value.email }}'
                 subject: '[Neutrinet] Merci pour votre mail'
-                body: "Bonjour {{ form.value.name }},\n\nMerci pour votre message ! Nous reviendrons vers vous dès que possible.\n\nBien à vous,\nNeutrinet asbl"
+                body: "Bonjour {{ form.value.firstname }} {{ form.value.name }},\n\nNous avons bien reçu votre commande de ligne internet ! Nous reviendrons vers vous dès que possible.\n\nBien à vous,\nNeutrinet asbl"
             -
                 subject: '[Neutrinet] Commande de ligne internet'
-                reply_to: '{{ form.value.name }} <{{ form.value.email }}>'
+                reply_to: '{{ form.value.firstname }} {{ form.value.name }} <{{ form.value.email }}>'
                 body: '{{ form.value.description }}'
         save:
             fileprefix: collect-
