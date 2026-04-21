@@ -11,9 +11,6 @@ form:
             type: section
             underline: true
             fields:
-                description:
-                    text: 'Nous avons besoin de vos coordonnées'
-                    type: spacer
                 name:
                     label: Nom
                     placeholder: 'Indiquez votre nom'
@@ -56,17 +53,14 @@ form:
             title: 'Ligne internet'
             type: section
             fields:
-                description:
-                    text: 'Cette section vous permet de nous indiquer quel type de ligne internet vous souhaitez.<br /><em>Veuillez indiquer l''adresse la plus complète possible (étage ou boite postale compris). Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse.</em>'
-                    type: spacer
                 address:
-                    label: "Quelle est Adresse de la ligne internet\_? Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris)."
+                    label: "Quelle est Adresse de la ligne internet\_?<br /><em>Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris).</em>"
                     placeholder: 'Indiquez l''adresse complète (étage ou numéro de boite compris) de la ligne internet'
                     type: text
                     validate:
                         required: true
                 current_technology:
-                    label: 'Quel type de connexion internet avez-vous actuellement ?'
+                    label: "Quel type de connexion internet avez-vous actuellement\_?"
                     type: radio
                     options:
                         vdsl: VDSL
@@ -75,7 +69,7 @@ form:
                     validate:
                         required: true
                 wanted_technology:
-                    label: "Quel(s) type(s) de connexion(s) internet souhaitez-vous\_? Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse."
+                    label: "Quel(s) type(s) de connexion(s) internet souhaitez-vous\_?<br /><em>Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse.</em>"
                     type: checkboxes
                     options:
                         vdsl: "VDSL 100/40 mbps (50\_€/mois)"
@@ -85,13 +79,13 @@ form:
                     validate:
                         required: true
                 easy_switch:
-                    label: "Si vous migrez vers la même technologie, veuillez nous fournir le code easy switch qui se trouve sur la facture de votre FAI actuel. En cas d'easy switch, les frais d'installation sont moins chers (30\_€ au lieu de 180\_€)."
+                    label: "Si vous migrez vers la même technologie, indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel.<br /><em>En cas d'easy switch, les frais d'installation sont moins chers (30\_€ au lieu de 180\_€).</em>"
                     type: text
                     placeholder: 'Indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel'
                     validate:
                         required: false
                 router_choice:
-                    label: 'Avez-vous besoin d''un routeur ?'
+                    label: "Avez-vous besoin d'un routeur\_?"
                     type: radio
                     options:
                         mikrotik: "Oui, je souhaite commander un routeur Mikrotik hap ac² avec Openwrt installé (75\_€)"
@@ -99,7 +93,7 @@ form:
                     validate:
                         required: true
                 router_model:
-                    label: "Si vous utilisez votre propre routeur, merci d'indiquer le modèle\_:"
+                    label: "Si vous utilisez votre propre routeur, indiquez-nous le modèle\_:"
                     type: text
                     validate:
                         required: false
