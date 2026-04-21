@@ -21,11 +21,13 @@ form:
                         required: true
                 firstname:
                     label: Prénom
+                    placeholder: 'Indiquez votre prénom'
                     type: text
                     validate:
                         required: true
                 email:
                     label: E-mail
+                    placeholder: 'Indiquez votre adresse e-mail'
                     type: email
                     validate:
                         required: true
@@ -37,6 +39,7 @@ form:
                         required: false
                 vat:
                     label: 'Numéro de TVA'
+                    placeholder: 'Indiquez le numéro de TVA de la personne morale'
                     type: text
                     validate:
                         required: false
@@ -51,7 +54,8 @@ form:
             type: section
             fields:
                 address:
-                    label: "Quelle est Adresse de la ligne internet\_?<br /><em>Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris).</em>"
+                    label: "Quelle est l'adresse de la ligne internet\_?<br /><em>Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris).</em>"
+                    placeholder: 'Indiquez l''adresse complète de la ligne internet'
                     type: text
                     validate:
                         required: true
@@ -89,6 +93,7 @@ form:
                         required: true
                 router_model:
                     label: "Si vous utilisez votre propre routeur, indiquez-nous le modèle\_:"
+                    placeholder: "Indiquez le modèle de votre routeur (par ex.\_: Fritzbox 7530 AX)"
                     type: text
                     validate:
                         required: false
