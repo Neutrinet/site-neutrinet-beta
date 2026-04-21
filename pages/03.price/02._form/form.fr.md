@@ -54,7 +54,7 @@ form:
             type: section
             fields:
                 address:
-                    label: "Quelle est l'adresse de la ligne internet\_?<br /><em>Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris).</em>"
+                    label: "Quelle est l'adresse de la ligne internet\_?<br />*Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris).*"
                     placeholder: 'Indiquez l''adresse complète de la ligne internet'
                     type: text
                     validate:
