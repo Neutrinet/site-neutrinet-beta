@@ -79,7 +79,8 @@ form:
                     validate:
                         required: true
                 easy_switch:
-                    label: "Si vous migrez vers la même technologie, indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel.<br /><em>En cas d'easy switch, les frais d'installation sont moins chers (30\_€ au lieu de 180\_€).</em>"
+                    label: "Si vous migrez vers la même technologie, indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel.\n*En cas d'easy switch, les frais d'installation sont moins chers (30\\_€ au lieu de 180\\_€).*\n"
+                    markdown: true
                     type: text
                     validate:
                         required: false
