@@ -57,7 +57,7 @@ form:
             type: section
             fields:
                 description:
-                    text: 'Cette section vous permet de nous indiquer quel type de ligne internet vous souhaitez. Veuillez indiquer l''adresse la plus complète possible (étage ou boite postale compris). Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse.'
+                    text: 'Cette section vous permet de nous indiquer quel type de ligne internet vous souhaitez.<br /><em>Veuillez indiquer l''adresse la plus complète possible (étage ou boite postale compris). Vous pouvez choisir plusieurs options, nous vérifierons ce qui est disponible à votre adresse.</em>'
                     type: spacer
                 address:
                     label: "Quelle est Adresse de la ligne internet\_? Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris)."
