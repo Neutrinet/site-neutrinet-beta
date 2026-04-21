@@ -13,7 +13,7 @@ form:
             fields:
                 name:
                     label: Nom
-                    placeholder: ''
+                    placeholder: 'Indiquez votre nom'
                     autofocus: 'on'
                     autocomplete: 'on'
                     type: text
