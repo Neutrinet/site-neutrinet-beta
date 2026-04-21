@@ -94,13 +94,19 @@ form:
                     placeholder: 'Indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel'
                     validate:
                         required: false
-                router_needed:
-                    label: 'Je souhaite commander un routeur Mikrotik hap ac² avec Openwrt (75€)'
-                    type: toggle
-                    highlight: 1
+                router_choice:
+                    label: 'Avez-vous besoin d''un routeur ?'
+                    type: radio
+                    options:
+                        mikrotik: "Oui, je souhaite commander un routeur Mikrotik hap ac² avec Openwrt installé (75\_€)"
+                        other: 'Non, je souhaite utiliser mon propre routeur (par ex. Fritzbox)'
                     validate:
                         required: true
-                        type: bool
+                router_model:
+                    label: 'Si vous utilisez votre propre routeur, merci d''indiquer le modèle'
+                    type: text
+                    validate:
+                        required: false
         basic-captcha:
             label: 'Veuillez résoudre le problème mathématique.'
             type: basic-captcha

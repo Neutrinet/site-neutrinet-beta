@@ -112,7 +112,8 @@
 div.custom-banner-container {
   /* Invisible: fixes banner on page above page content */
   position: fixed;
-  width: 100%;
+  width: 20%;
+  min-width: 350px;
   z-index: 10000;
 
   /* Animate show/hide */
@@ -122,7 +123,7 @@ div.custom-banner-container {
   transition: all 0.2s ease-in-out 0s;
  
   bottom: 1rem;
-  right: 1rem;
+  right: 0;
  
   /* Hidden by default */
   opacity: 0;
@@ -140,7 +141,7 @@ div.custom-banner-body {
   justify-content: space-between;
   width: 20%;
   min-width: 350px;
-  margin: 0 0 0 auto;
+  margin: 0;
   padding: 1rem ;
   border-radius: 10px;
   box-shadow: 5px 5px 1rem gray; 
@@ -175,6 +176,7 @@ div.custom-banner-content {
 @media all and (max-width:480px) {
   div.custom-banner-container {
     right: 0;
+    width: 100%;
   }
       
   div.custom-banner-body {
