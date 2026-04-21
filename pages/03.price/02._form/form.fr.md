@@ -120,7 +120,7 @@ form:
                 to: hgo@batato.be
                 subject: '[Neutrinet] Commande de ligne internet'
                 reply_to: '{{ form.value.firstname }} {{ form.value.name }} <{{ form.value.email }}>'
-                body: '{{ include ''forms/data.html.twig'' }}'
+                body: '{% include ''forms/data.html.twig'' %}'
         save:
             fileprefix: collect-
             dateformat: Ymd-His-u
