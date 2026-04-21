@@ -13,7 +13,6 @@ form:
             fields:
                 name:
                     label: Nom
-                    placeholder: 'Indiquez votre nom'
                     autofocus: 'on'
                     autocomplete: 'on'
                     type: text
@@ -21,13 +20,11 @@ form:
                         required: true
                 firstname:
                     label: Prénom
-                    placeholder: 'Indiquez votre prénom'
                     type: text
                     validate:
                         required: true
                 email:
                     label: E-mail
-                    placeholder: 'Indiquez votre adresse e-mail'
                     type: email
                     validate:
                         required: true
@@ -39,7 +36,6 @@ form:
                         required: false
                 vat:
                     label: 'Numéro de TVA'
-                    placeholder: 'Indiquez votre numéro de TVA'
                     type: text
                     validate:
                         required: false
@@ -55,7 +51,6 @@ form:
             fields:
                 address:
                     label: "Quelle est Adresse de la ligne internet\_?<br /><em>Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris).</em>"
-                    placeholder: 'Indiquez l''adresse complète (étage ou numéro de boite compris) de la ligne internet'
                     type: text
                     validate:
                         required: true
@@ -81,7 +76,6 @@ form:
                 easy_switch:
                     label: "Si vous migrez vers la même technologie, indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel.<br /><em>En cas d'easy switch, les frais d'installation sont moins chers (30\_€ au lieu de 180\_€).</em>"
                     type: text
-                    placeholder: 'Indiquez le code easy switch qui se trouve sur la facture de votre FAI actuel'
                     validate:
                         required: false
                 router_choice:
