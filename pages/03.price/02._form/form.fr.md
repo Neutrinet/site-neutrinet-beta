@@ -112,7 +112,7 @@ form:
         basic-captcha:
             label: 'Veuillez résoudre le problème mathématique.'
             type: basic-captcha
-            markdown: true
+            store: false
             captcha_type: basic
             validate:
                 required: true
