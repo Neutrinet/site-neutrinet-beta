@@ -115,8 +115,7 @@ form:
                     label: Message
                     data_label: Message
                     type: textarea
-                    rows: 5
-                    minlength: 10
+                    rows: 6
                     validate:
                         required: false
         basic-captcha:
