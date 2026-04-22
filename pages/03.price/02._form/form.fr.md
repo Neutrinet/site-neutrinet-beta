@@ -109,6 +109,14 @@ form:
                     type: text
                     validate:
                         required: false
+                comment:
+                    type: honeypot
+                message:
+                    label: Message
+                    data_label: Message
+                    type: textarea
+                    validate:
+                        required: false
         basic-captcha:
             label: 'Veuillez résoudre le problème mathématique.'
             type: basic-captcha
