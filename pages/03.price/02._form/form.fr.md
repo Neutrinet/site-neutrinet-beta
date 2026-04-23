@@ -125,8 +125,7 @@ form:
             store: false
             captcha_type: characters
             chars:
-                font: zxx-sans.ttf
-                size: 32
+                size: 24
             validate:
                 required: true
     buttons:
