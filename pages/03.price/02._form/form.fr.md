@@ -141,8 +141,7 @@ form:
             -
                 to: '{{ form.value.email }}'
                 subject: '[Neutrinet] Merci pour votre mail'
-                content_type: plain/text
-                body: '{% include ''forms/collect-order-user.txt.twig'' %}'
+                body: '{% include ''forms/collect-order-user.html.twig'' %}'
             -
                 to: hgo@batato.be
                 subject: '[Neutrinet] Commande de ligne internet'
