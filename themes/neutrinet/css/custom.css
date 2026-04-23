@@ -190,3 +190,13 @@ div.custom-banner-content {
     user-select: all;
     cursor: pointer;
 }
+
+.form-data.basic-captcha .form-input-wrapper {
+    align-items: center;
+    border: none;
+}
+
+.form-data.basic-captcha input.form-input {
+    border: 1px solid #ccc;
+    margin-left: 0.5em;
+}

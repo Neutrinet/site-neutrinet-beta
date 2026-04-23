@@ -120,7 +120,7 @@ form:
                     validate:
                         required: false
         basic-captcha:
-            label: 'Veuillez résoudre le problème mathématique.'
+            label: 'Veuillez résoudre le captcha.'
             type: basic-captcha
             store: false
             captcha_type: characters
