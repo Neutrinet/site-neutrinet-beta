@@ -114,8 +114,7 @@ form:
                 comment:
                     type: honeypot
                 message:
-                    label: Message
-                    data_label: Message
+                    label: 'Informations supplémentaires'
                     type: textarea
                     rows: 6
                     validate:
@@ -124,7 +123,7 @@ form:
             label: 'Veuillez résoudre le problème mathématique.'
             type: basic-captcha
             store: false
-            captcha_type: basic
+            captcha_type: basic-captcha
             validate:
                 required: true
     buttons:
