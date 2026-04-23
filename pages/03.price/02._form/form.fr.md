@@ -32,13 +32,15 @@ form:
                     validate:
                         required: true
                 company_name:
-                    label: 'Raison sociale'
+                    label: 'Raison sociale  \n*Remplissez ce champ si vous prenez la ligne internet au nom d''une personne morale.*'
+                    markdown: true
                     placeholder: 'Indiquez le nom de la personne morale'
                     type: text
                     validate:
                         required: false
                 vat:
-                    label: 'Numéro de TVA'
+                    label: 'Numéro de TVA  \n*Remplissez ce champ si la personne morale est assujettie à la TVA.*'
+                    markdown: true
                     placeholder: 'Indiquez le numéro de TVA de la personne morale'
                     type: text
                     validate:
