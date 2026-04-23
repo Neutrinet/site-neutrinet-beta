@@ -141,8 +141,9 @@ form:
             -
                 to: '{{ form.value.email }}'
                 subject: '[Neutrinet] Merci pour votre mail'
+                reply_to: contact@neutrinet.be
                 content_type: text/plain
-                body: "Bonjour {{ form.value.firstname }} {{ form.value.name }},\n\nNous avons bien reçu votre commande de ligne internet ! Nous reviendrons vers vous dès que possible.\n\nBien à vous,\nNeutrinet asbl"
+                body: "Bonjour {{ form.value.firstname }} {{ form.value.name }},\n\nNous avons bien reçu votre commande de ligne internet ! Nous reviendrons vers vous dès que possible.\n\nPour rappel, voici les informations que vous nous avez envoyées:\n\n{% include ''forms/data.html.twig''\n\nBien à vous,\nNeutrinet asbl"
             -
                 to: hgo@batato.be
                 subject: '[Neutrinet] Commande de ligne internet'
@@ -154,6 +155,7 @@ form:
             extension: txt
             body: '{% include ''forms/data.txt.twig'' %}'
         message: "Merci pour votre message\_!"
+        reset: true
 published: true
 cache_enable: false
 ---
