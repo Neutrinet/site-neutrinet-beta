@@ -15,7 +15,6 @@ form:
                     label: Nom
                     placeholder: 'Indiquez votre nom'
                     autofocus: 'on'
-                    autocomplete: 'on'
                     type: text
                     validate:
                         required: true
