@@ -143,7 +143,7 @@ form:
                 subject: '[Neutrinet] Merci pour votre mail'
                 reply_to: contact@neutrinet.be
                 content_type: text/plain
-                body: '{% include ''''forms/collect-order-user.txt.twig'''' %}'
+                body: '{% include ''forms/collect-order-user.txt.twig'' %}'
             -
                 to: hgo@batato.be
                 subject: '[Neutrinet] Commande de ligne internet'
