@@ -1,0 +1,9 @@
+{% for field in form.fields %}
+{% if field.type != "textarea" %}
+{{ field.label }}: {{ string(form.value(field.name)|e) }}
+{% else %}
+{{ field.label }}:
+    {{ string(form.value(field.name)|e) }}
+{% endif %} 
+{% endfor %}
+
