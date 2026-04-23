@@ -33,6 +33,7 @@ form:
                         required: true
                 company_name:
                     label: "Raison sociale  \n*Remplissez ce champ si vous prenez la ligne internet au nom d'une personne morale.*"
+                    data_label: 'Raison sociale'
                     markdown: true
                     placeholder: 'Indiquez le nom de la personne morale'
                     type: text
@@ -40,6 +41,7 @@ form:
                         required: false
                 vat:
                     label: "Numéro de TVA  \n*Remplissez ce champ si la personne morale est assujettie à la TVA.*"
+                    data_label: 'Numéro de TVA'
                     markdown: true
                     placeholder: 'Indiquez le numéro de TVA de la personne morale'
                     type: text
