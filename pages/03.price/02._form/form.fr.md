@@ -123,7 +123,10 @@ form:
             label: 'Veuillez résoudre le problème mathématique.'
             type: basic-captcha
             store: false
-            captcha_type: math
+            captcha_type: characters
+            chars:
+                font: zxx-sans.ttf
+                size: 32
             validate:
                 required: true
     buttons:
