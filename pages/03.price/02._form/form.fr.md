@@ -141,7 +141,7 @@ form:
             -
                 to: '{{ form.value.email }}'
                 subject: '[Neutrinet] Merci pour votre mail'
-                reply_to: contact@neutrinet.be
+                content_type: plain/text
                 body: '{% include ''forms/collect-order-user.txt.twig'' %}'
             -
                 to: hgo@batato.be
