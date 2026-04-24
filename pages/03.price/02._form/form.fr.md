@@ -141,12 +141,24 @@ form:
             -
                 to: '{{ form.value.email }}'
                 subject: '[Neutrinet] Merci pour votre mail'
-                body: '{% include ''forms/collect-order-user.html.twig'' %}'
+                body:
+                    -
+                        content_type: text/html
+                        body: '{% include ''forms/collect-order-user.html.twig'' %}'
+                    -
+                        content_type: text/plain
+                        body: '{% include ''forms/collect-order-user.txt.twig'' %}'
             -
                 to: hgo@batato.be
                 subject: '[Neutrinet] Commande de ligne internet'
                 reply_to: '{{ form.value.firstname }} {{ form.value.name }} <{{ form.value.email }}>'
-                body: '{% include ''forms/data.html.twig'' %}'
+                body:
+                    -
+                        content_type: text/html
+                        body: '{% include ''forms/data.html.twig'' %}'
+                    -
+                        content_type: text/plain
+                        body: '{% include ''forms/data.txt.twig'' %}'
         save:
             fileprefix: collect-
             dateformat: Ymd-His-u
