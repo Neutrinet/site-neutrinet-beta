@@ -143,9 +143,6 @@ form:
                 subject: '[Neutrinet] Merci pour votre mail'
                 body:
                     -
-                        content_type: text/html
-                        body: '{% include ''forms/collect-order-user.html.twig'' %}'
-                    -
                         content_type: text/plain
                         body: '{% include ''forms/collect-order-user.txt.twig'' %}'
             -
