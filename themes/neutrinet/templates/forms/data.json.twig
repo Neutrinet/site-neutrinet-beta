@@ -1,1 +1,7 @@
-{{ fields|json_encode|raw }}
+{%- macro render_field(form, fields, scope) %}
+    {%- import _self as self %}
+    {{- fields|json_encode| raw }}
+{%- endmacro -%}
+{%- import _self as macro -%}
+{{- macro.render_field(form, form.fields, '') -}}
+
