@@ -9,11 +9,11 @@
             {%- if show_field %}
                 {%- set value = form.value(scope ~ (field.name ?? index)) -%}
                 {%- if value -%}
-                    *{%- if field.markdown -%}
+                    {%- if field.markdown -%}
                         {{- field.data_label ? field.data_label|t|e|markdown(false) : field.label|t|emarkdown(false) }}
                     {%- else -%}
                         {{- field.data_label ? field.data_label|t|e : field.label|t|e }}
-                    {%- endif -%}:*
+                    {%- endif -%}:
                     {%- if field.type == 'checkboxes' -%}
                         {{ "\n" }}
                         {%- set use_keys = field.use is defined and field.use == 'keys' -%}
@@ -68,4 +68,3 @@
 {%- endmacro -%}
 {%- import _self as macro -%}
 {{- macro.render_field(form, form.fields, '') ~ "\n" -}}
-

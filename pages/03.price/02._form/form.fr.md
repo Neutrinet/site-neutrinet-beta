@@ -160,7 +160,7 @@ form:
             fileprefix: collect-
             dateformat: Ymd-His-u
             extension: txt
-            body: '{% include ''forms/data.txt.twig'' %}'
+            body: '{% include ''forms/data.json.twig'' %}'
         message: "Merci pour votre message\_!"
         reset: true
 published: true
