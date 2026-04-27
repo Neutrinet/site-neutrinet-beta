@@ -76,6 +76,10 @@
   color: black;
 }
 
+.modular-features.modular-form {
+  text-align: left;
+}
+
 #donation {
   display: flex;
   padding: 4rem 0 0;
