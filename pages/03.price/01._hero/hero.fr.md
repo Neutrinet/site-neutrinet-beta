@@ -5,8 +5,8 @@ hero_classes: 'parallax text-light overlay-dark-gradient '
 hero_image: header.jpg
 ---
 
-# Des lignes internet
-## Pour faire de l'auto-hébergement
+# Vous prendrez bien une ligne ?
+## Quittez votre FAI ha
 
 Vous souhaitez prendre une ligne internet chez Neutrinet ? Il vous suffit de remplir ce formulaire et nous vous recontacterons pour vous dire quel type de ligne internet est disponible à votre adresse.
 
