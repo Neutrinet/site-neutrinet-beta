@@ -27,6 +27,17 @@ sitemap:
     lastmod: '03/01/2025 04:27 pm'
 published: true
 image_align: left
+media:
+    featured_image:
+        toggle: true
+        file: {  }
+partials:
+    header_subtitle:
+        toggle: true
+    metadata:
+        where: header
+    breadcrumbs:
+        toggle: false
 ---
 
 ## Foire aux questions
