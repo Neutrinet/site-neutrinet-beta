@@ -26,6 +26,7 @@ features:
 sitemap:
     lastmod: '03/01/2025 04:27 pm'
 published: true
+image_align: left
 ---
 
 ## Foire aux questions
