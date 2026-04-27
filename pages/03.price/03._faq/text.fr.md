@@ -1,6 +1,6 @@
 ---
 title: 'Foire aux questions'
-menu: Highlights
+menu: FAQ
 class: offset-box
 features:
     -
