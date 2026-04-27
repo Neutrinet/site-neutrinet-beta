@@ -5,10 +5,6 @@ hero_classes: 'parallax text-light overlay-dark-gradient '
 hero_image: header.jpg
 ---
 
-# Neutrinet
-## Producteur local d'internet
+# Commande de ligne internet
 
-
-<p class="text-justify text-strong">
-Neutrinet s’engage pour un internet neutre, libre, et décentralisé, en offrant les outils nécessaires à celles et ceux qui veulent se réapproprier leurs données et poser les briques d’un internet en accord avec leurs valeurs.
-</p>
+Vous souhaitez prendre une ligne internet chez Neutrinet ? Il vous suffit de remplir ce formulaire et nous vous recontacterons pour vous dire quel type de ligne internet est disponible à votre adresse.
