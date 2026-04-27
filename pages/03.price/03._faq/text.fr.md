@@ -54,36 +54,50 @@ Enfin, une ligne internet chez Neutrinet vous facilitera l'auto-hébergement (c'
 
 ### Y a-t-il des frais d'activation pour la ligne internet ?
 
-Cela dépend du type de ligne internet qui est disponible. Pour la VDSL, les frais d'activation sont assez élevés malheureusement (180€). Par contre, il n'y a pas de frais d'activation pour la fibre.
+Oui, il y a des frais d'activation et ceux-ci sont assez élevés malheureusement (180€ TTC). Cependant, lorsque le passage d'un technicien n'est pas nécessaire (ex: easy switch), les frais d'activation ne s'élèvent qu'à 30€ TTC.
+
+### Y a-t-il des quotas de bande passante ?
+
+Non, nous ne mettons pas de quotas ou de limite sur la bande passante.
+
+### Est-ce que je peux résilier ma ligne internet quand je veux ?
+
+Nous avons un engagement de 12 mois auprès de notre prestataire pour chaque nouvelle ligne internet. Si vous souhaitez résilier votre abonnement internet avant ces 12 mois, nous pourrions être amenés à vous facturer des frais d'annulation.
+
+Mis à part cette limitation, vous pouvez résilier votre abonnement internet par mail en précisant bien l'adresse concernée.
 
 ### Comment puis-je commander ma ligne internet ?
 
-Il vous suffit de nous contacter par mail sur [contact@neutrinet.be](mailto:contact@neutrinet.be) en indiquant votre adresse, ainsi que la bande passante souhaitée. Nous ferons ensuite un test d'éligibilité pour savoir si la fibre ou la VDSL est disponible à cette adresse.
+Il vous suffit de remplir le formulaire en haut de cette page. Nous aurons besoins des informations suivantes :
+1. Votre adresse complète (numéro de boite ou étage compris)
+2. La technologie (VDSL ou fibre) et la bande passante souhaitée
+3. Si vous avez besoin d'un routeur ou non (voir plus bas)
+4. La technologie de votre ligne internet actuelle pour savoir si un easy switch est possible
 
-Si la fibre a déjà été installée chez vous, indiquez-nous le numéro de ligne si vous l'avez. Dites-nous également si vous souhaitez faire un easy switch et on vous expliquera comment la faire.
+Nous ferons ensuite un test d'éligibilité pour savoir si la fibre ou la VDSL est disponible à cette adresse.
 
-Il faut parfois compter un délais d'un mois pour que la ligne internet soit installée. Un test d'éligibilité positif ne signifie pas que la ligne pourra être installée, cela dépend de beaucoup de facteurs malheureusement. Soyons donc patient·e !
+Si la fibre a déjà été installée chez vous, indiquez-nous le numéro de ligne si vous l'avez. 
 
-### Le modem est-il fourni lors de l'installation ?
+Si vous souhaitez faire un easy switch, transmettez-nous les codes correspondant. Ceux-ci se trouvent en général sur la facture de votre fournisseur d'accès à internet actuel. Si vous ne voyez pas ce que c'est, on vous expliquera comment faire.
 
-Le modem n'est pas compris dans l'abonnement internet. Nous proposons un modem à prix coûtant à 75€. Vous pouvez également utiliser votre propre modem si vous le souhaitez.
+Il faut parfois compter un délais d'un mois pour que la ligne internet soit installée. Un test d'éligibilité positif ne signifie pas que la ligne pourra être installée, cela dépend de beaucoup de facteurs malheureusement. Soyez donc patient·e !
 
-### Est-ce que je peux utiliser ma FritzBox / autre modem ?
+### Le routeur est-il fourni lors de l'installation ?
 
-Oui, vous pouvez utiliser une FritzBox ou tout autre modem compatible sur le réseau belge. Contactez-nous pour vérifier que votre modem est bien compatible et pour qu'on puisse vous aider à la configuration de celui-ci.
+Le routeur n'est pas compris dans l'abonnement internet. Nous proposons un routeur Mikrotik hap ac² avec OpenWrt installé à 75€ TTC. Vous pouvez également utiliser votre propre routeur si vous le souhaitez.
+
+### Est-ce que je peux utiliser ma FritzBox / autre routeur ?
+
+Oui, vous pouvez utiliser une FritzBox ou tout autre routeur compatible sur le réseau belge. Dites-nous dans le formulaire le modèle de votre routeur pour vérifier que celui-ci est bien compatible et pour qu'on puisse vous aider à la configuration de celui-ci.
+
+### Qu'est-ce qu'un easy switch ?
+
+Un easy switch permet de faire un changement de fournisseurs d'accès à internet à distance (sans passage de technicien). Il s'agit d'un code qui se trouve en général sur vos factures internet. C'est une procédure assez rapide qui prend moins de 24h lorsque celle-ci est démarrée.
+
+L'easy switch n'est possible que si vous ne changez pas de technologie. Par exemple, si vous êtes déjà en VDSL chez votre fournisseur d'accès à internet actuel et que vous prenez une ligne VDSL chez nous.
+
+Lorsque la ligne internet sera activée, l'abonnement de votre ancien fournisseur d'accès à internet sera automatiquement interrompu.
 
 ### Je n'habite pas en Belgique, est-ce que je peux quand même commander une ligne internet ?
 
 Non, nous ne pouvons fournir des lignes internet que pour la Belgique. 
-
-### Est-ce que les dons sont défiscalisables ?
-
-Non, les dons ne sont pas défiscalisables. Neutrinet n'est pas une association agréée par le SPF Finances.
-
-### J'aimerais contribuer à Neutrinet, comment puis-je faire ?
-
-Neutrinet fonctionne sur du bénévolat, il n'y a pas de salarié·es dans l'association. Chacun·e peut participer à la vie de l'association, que ce soit pour les aspects techniques, les tâches administratives, le support, etc.
-
-Vous pouvez nous rejoindre lors de nos install party ou de nos réunions mensuelles. [Consultez notre agenda](https://files.neutrinet.be/index.php/apps/calendar/p/375V4JSNHTU04NXL) pour plus d'informations.
-
-Vous pouvez nous contacter par mail sur [contact@neutrinet.be](mailto:contact@neutrinet.be) ou via [notre Mattermost](https://chat.neutrinet.be).
