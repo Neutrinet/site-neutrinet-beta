@@ -25,7 +25,7 @@ features:
         url: laboratoire
 sitemap:
     lastmod: '03/01/2025 04:27 pm'
-published: false
+published: true
 ---
 
 ## Foire aux questions
