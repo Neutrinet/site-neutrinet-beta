@@ -42,7 +42,7 @@ partials:
 
 ## Foire aux questions
 
-### Pourquoi choisir Neutrinet comme fournisseur d'accès internet ?
+### Pourquoi choisir Neutrinet comme fournisseur d'accès à internet ?
 
 Neutrinet est un fournisseur d'accès à internet associatif et non-marchand. Toutes nos décisions sont prises en réunions, lesquelles sont publiques et ouvertes à toutes et tous.
 
@@ -60,35 +60,11 @@ Oui, il y a des frais d'activation et ceux-ci sont assez élevés malheureusemen
 
 Non, nous ne mettons pas de quotas ou de limite sur la bande passante.
 
-### Est-ce que je peux résilier ma ligne internet quand je veux ?
+### Je peux résilier ma ligne internet quand je veux ?
 
 Nous avons un engagement de 12 mois auprès de notre prestataire pour chaque nouvelle ligne internet. Si vous souhaitez résilier votre abonnement internet avant ces 12 mois, nous pourrions être amenés à vous facturer des frais d'annulation.
 
 Mis à part cette limitation, vous pouvez résilier votre abonnement internet par mail en précisant bien l'adresse concernée.
-
-### Comment puis-je commander ma ligne internet ?
-
-Il vous suffit de remplir le formulaire en haut de cette page. Nous aurons besoins des informations suivantes :
-1. Votre adresse complète (numéro de boite ou étage compris)
-2. La technologie (VDSL ou fibre) et la bande passante souhaitée
-3. Si vous avez besoin d'un routeur ou non (voir plus bas)
-4. La technologie de votre ligne internet actuelle pour savoir si un easy switch est possible
-
-Nous ferons ensuite un test d'éligibilité pour savoir si la fibre ou la VDSL est disponible à cette adresse.
-
-Si la fibre a déjà été installée chez vous, indiquez-nous le numéro de ligne si vous l'avez. 
-
-Si vous souhaitez faire un easy switch, transmettez-nous les codes correspondant. Ceux-ci se trouvent en général sur la facture de votre fournisseur d'accès à internet actuel. Si vous ne voyez pas ce que c'est, on vous expliquera comment faire.
-
-Il faut parfois compter un délais d'un mois pour que la ligne internet soit installée. Un test d'éligibilité positif ne signifie pas que la ligne pourra être installée, cela dépend de beaucoup de facteurs malheureusement. Soyez donc patient·e !
-
-### Le routeur est-il fourni lors de l'installation ?
-
-Le routeur n'est pas compris dans l'abonnement internet. Nous proposons un routeur Mikrotik hap ac² avec OpenWrt installé à 75€ TTC. Vous pouvez également utiliser votre propre routeur si vous le souhaitez.
-
-### Est-ce que je peux utiliser ma FritzBox / autre routeur ?
-
-Oui, vous pouvez utiliser une FritzBox ou tout autre routeur compatible sur le réseau belge. Dites-nous dans le formulaire le modèle de votre routeur pour vérifier que celui-ci est bien compatible et pour qu'on puisse vous aider à la configuration de celui-ci.
 
 ### Qu'est-ce qu'un easy switch ?
 
@@ -97,6 +73,32 @@ Un easy switch permet de faire un changement de fournisseurs d'accès à interne
 L'easy switch n'est possible que si vous ne changez pas de technologie. Par exemple, si vous êtes déjà en VDSL chez votre fournisseur d'accès à internet actuel et que vous prenez une ligne VDSL chez nous.
 
 Lorsque la ligne internet sera activée, l'abonnement de votre ancien fournisseur d'accès à internet sera automatiquement interrompu.
+
+### Comment se déroule la commande d'une ligne internet ?
+
+Lorsque vous aurez rempli le formulaire ci-dessous, nous ferons un test d'éligibilité pour savoir quelle technologie (fibre ou VDSL) est disponible à votre adresse.
+
+Si vous ne changez pas de technologie (par exemple, si vous avez actuellement une ligne VDSL et vous souhaitez rester en VDSL chez nous), nous vous proposerons de faire un easy switch. Il nous faudra les codes easy switch qui se trouvent en général sur la facture de votre fournisseur d'accès à internet actuel. Si vous ne voyez pas ce que c'est, nous vous expliquerons comment faire.
+
+Sinon, le passage d'un technicien Proximus sera nécessaire, et nous vous proposerons une date. Si vous n'êtes pas là lors du passage du technicien, des frais supplémentaires pourront être demandés.
+
+Il faut compter un délais d'un mois, voire plus, pour que la ligne internet soit installée. Un test d'éligibilité positif ne signifie pas que la ligne pourra être installée, cela dépend de beaucoup de facteurs malheureusement. Soyez donc patient·e !
+
+Dans tous les cas, vous ne paierez la ligne internet que lorsque celle-ci sera activée. Le premier mois sera au prorate du nombre de jours restants. Par exemple, si la ligne internet est activée le 15 du mois, vous ne paierez que la moitié du prix mensuel le premier mois.
+
+### Le routeur est-il fourni lors de l'installation ?
+
+Le routeur n'est pas compris dans l'abonnement internet. Nous proposons un routeur Mikrotik hap ac² avec OpenWrt installé à 75€ TTC. Vous pouvez également utiliser votre propre routeur si vous le souhaitez.
+
+### Je peux utiliser ma FritzBox / autre routeur ?
+
+Oui, vous pouvez utiliser une FritzBox ou tout autre routeur compatible sur le réseau belge. Dites-nous dans le formulaire le modèle de votre routeur pour vérifier que celui-ci est bien compatible et pour qu'on puisse vous aider à la configuration de celui-ci.
+
+### Vous venez installer le routeur ?
+
+Non, l'installation du routeur est de votre responsabilité. Nous vous livrons le routeur Mikrotik hap ac² déjà configuré avec les identifiants de connexion pour la ligne internet, mais nous ne venons pas l'installer chez vous. De même, si vous utilisez votre propre routeur, nous pouvons vous aider à le configurer, mais nous ne serons pas présents sur place au moment de l'activation de la ligne.
+
+Si vous ne savez pas comment configurer votre routeur, nous vous conseillons donc de demander l'aide à quelqu'un qui s'y connaît le jour de l'activation.
 
 ### Je n'habite pas en Belgique, est-ce que je peux quand même commander une ligne internet ?
 

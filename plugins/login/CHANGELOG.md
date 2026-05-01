@@ -1,3 +1,19 @@
+# v3.8.3
+## 04/24/2026
+
+1. [](#new)
+   * `bin/plugin login new-user` now supports picking which admin permission type(s) to grant when Admin Access is chosen: **classic Admin** (`admin.*`), **Admin2** (`api.*`), or **both**. Interactive mode adds a follow-up question with the detected default pre-selected (based on which admin plugin is installed under `user/plugins/`); scripted mode accepts a new `--admin-type admin|api|both` option and falls back to the same auto-detection when omitted.
+1. [](#bugfix)
+   * CLI-created admin users can now log into Admin2 on Grav 2.0. Previously only `admin.super` was written, which Admin2 ignores — see [#329](https://github.com/getgrav/grav-plugin-login/issues/329).
+
+# v3.8.2
+## 04/24/2026
+
+1. [](#bugfix)
+   * [security] Fixed unauthenticated privilege escalation in `Login::register` (GHSA-pxm6-mhxr-q4mj): if an admin added `groups` or `access` to `user_registration.fields`, an attacker could self-register as super-admin by POSTing those values. Registration form input for those fields is now ignored with a log warning; server-side config, `default_values`, and invitations remain authoritative.
+2. [](#improved)
+   * IP pseudonymization (rate-limit keys, remember-me cookie salt) now uses `Security::getNonceKey()` when running on Grav 2.0+, and continues to read `security.salt` from config on Grav 1.7. Tracks Grav 2.0's GHSA-3f29-pqwf-v4j4 remediation (HMAC key is no longer reachable via sandboxed Twig).
+
 # v3.8.1
 ## 04/17/2026
 
