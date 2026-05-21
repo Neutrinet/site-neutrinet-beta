@@ -46,7 +46,7 @@ form:
                     type: text
                     validate:
                         required: false
-                address:
+                contact_address:
                     label: 'Adresse ou siège social'
                     placeholder: 'Indiquez votre adresse ou le siège social de la personne morale'
                     type: text
@@ -56,7 +56,7 @@ form:
             title: 'Ligne internet'
             type: section
             fields:
-                address:
+                internet_address:
                     label: "Quelle est l'adresse de la ligne internet\_?  \n*Veuillez indiquer l'adresse la plus complète possible (étage ou numéro de boite compris).*"
                     data_label: 'Adresse de la ligne internet'
                     markdown: true
