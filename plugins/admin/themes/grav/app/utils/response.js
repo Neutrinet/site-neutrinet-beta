@@ -1,9 +1,8 @@
 import $ from 'jquery';
 import toastr from './toastr';
 import isOnline from './offline';
-// import { config } from 'grav-config';
+import { config } from 'grav-config';
 import trim from 'mout/string/trim';
-import { showSessionExpiredModal } from './session-expired';
 
 let UNLOADING = false;
 let error = function(response) {
@@ -26,12 +25,6 @@ export function parseStatus(response) {
 }
 
 export function parseJSON(response) {
-    // If the session is no longer valid, surface a blocking modal instead of generic errors
-    if (response && (response.status === 401 || response.status === 403)) {
-        showSessionExpiredModal();
-        throw new Error('Unauthorized');
-    }
-
     return response.text().then((text) => {
         let parsed = text;
         try {
@@ -60,8 +53,7 @@ export function userFeedback(response) {
 
     switch (status) {
         case 'unauthenticated':
-            // Show a blocking modal and stop further processing
-            showSessionExpiredModal();
+            document.location.href = config.base_url_relative;
             throw error('Logged out');
         case 'unauthorized':
             status = 'error';
@@ -99,13 +91,6 @@ export function userFeedback(response) {
 
 export function userFeedbackError(error) {
     if (UNLOADING) { return true; }
-    // If we can detect an unauthorized state here, show modal
-    const unauthorized = (error && (error.message === 'Unauthorized' || (error.response && (error.response.status === 401 || error.response.status === 403))));
-    if (unauthorized) {
-        showSessionExpiredModal();
-        return;
-    }
-
     let stack = error.stack ? `<pre><code>${error.stack}</code></pre>` : '';
     toastr.error(`Fetch Failed: <br /> ${error.message} ${stack}`);
     console.error(`${error.message} at ${error.stack}`);

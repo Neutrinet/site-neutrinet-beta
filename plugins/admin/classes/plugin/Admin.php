@@ -342,31 +342,6 @@ class Admin
     }
 
     /**
-     * @return array<int, array{id:string, source_version:?string, target_version:?string, created_at:int, created_at_iso:?string, backup_path:?string, package_path:?string}>
-     */
-    public function safeUpgradeSnapshots(): array
-    {
-        try {
-            $manager = new SafeUpgradeManager();
-
-            return $manager->listSnapshots();
-        } catch (\Throwable $e) {
-            return [];
-        }
-    }
-
-    public function safeUpgradeHasSnapshots(): bool
-    {
-        try {
-            $manager = new SafeUpgradeManager();
-
-            return $manager->hasSnapshots();
-        } catch (\Throwable $e) {
-            return false;
-        }
-    }
-
-    /**
      * Return the languages available in the site
      *
      * @return array
@@ -736,6 +711,10 @@ class Admin
         $code = $data['2fa_code'] ?? null;
 
         $secret = $user->twofa_secret ?? null;
+        // Strip any whitespace from secret (fixes corrupted secrets)
+        if ($secret) {
+            $secret = preg_replace('/\s+/', '', $secret);
+        }
 
         if (!$code || !$secret || !$twoFa->verifyCode($secret, $code)) {
             $login->logout(['admin' => true]);
@@ -1072,6 +1051,11 @@ class Admin
     {
         // Clean fields for all users
         unset($post['hashed_password']);
+
+        // Sanitize twofa_secret: strip all whitespace to prevent corruption
+        if (isset($post['twofa_secret']) && is_string($post['twofa_secret'])) {
+            $post['twofa_secret'] = preg_replace('/\s+/', '', $post['twofa_secret']);
+        }
 
         // Clean field for users who shouldn't be able to modify these fields
         if (!$this->authorize(['admin.user', 'admin.super'])) {

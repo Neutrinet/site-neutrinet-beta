@@ -96,8 +96,6 @@ class AdminBaseController
 
         // Make sure that user is logged into admin.
         if (!$this->admin->authorize()) {
-            $this->respondUnauthorizedIfAjax();
-
             return false;
         }
 
@@ -236,31 +234,6 @@ class AdminBaseController
         $response = $this->createJsonResponse($json, $code);
 
         $this->close($response);
-    }
-
-    /**
-     * Return a JSON 401 response when an unauthenticated request was clearly triggered via AJAX.
-     *
-     * @return void
-     */
-    protected function respondUnauthorizedIfAjax(): void
-    {
-        $uri = $this->grav['uri'] ?? null;
-        $extension = $uri ? $uri->extension() : null;
-        $accept = $_SERVER['HTTP_ACCEPT'] ?? '';
-        $requestedWith = $_SERVER['HTTP_X_REQUESTED_WITH'] ?? '';
-
-        $acceptsJson = is_string($accept) && (stripos($accept, 'application/json') !== false || stripos($accept, 'text/json') !== false);
-        $isAjax = ($extension === 'json') || $acceptsJson || (is_string($requestedWith) && strtolower($requestedWith) === 'xmlhttprequest');
-
-        if (!$isAjax) {
-            return;
-        }
-
-        $this->sendJsonResponse([
-            'status' => 'unauthenticated',
-            'message' => Admin::translate('PLUGIN_ADMIN.SESSION_EXPIRED_DESC')
-        ], 401);
     }
 
     /**
@@ -796,8 +769,13 @@ class AdminBaseController
                 } elseif ($obj instanceof UserInterface and $key === 'avatar') {
                     $obj->set($key, $files);
                 } else {
-                    // TODO: [this is JS handled] if it's single file, remove existing and use set, if it's multiple, use join
-                    $obj->join($key, $files); // stores
+                    // For single file fields, replace existing value to prevent stale file entries
+                    $fieldSettings = $obj->blueprints()->schema()->getProperty($key);
+                    if (is_array($fieldSettings) && empty($fieldSettings['multiple'])) {
+                        $obj->set($key, $files);
+                    } else {
+                        $obj->join($key, $files);
+                    }
                 }
 
             }

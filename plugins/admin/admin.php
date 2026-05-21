@@ -6,6 +6,7 @@ use Grav\Common\Cache;
 use Grav\Common\Data\Data;
 use Grav\Common\Debugger;
 use Grav\Common\File\CompiledYamlFile;
+use Grav\Common\GPM\Upgrader;
 use Grav\Common\Grav;
 use Grav\Common\Helpers\LogViewer;
 use Grav\Common\Inflector;
@@ -32,7 +33,6 @@ use Grav\Plugin\Admin\Popularity;
 use Grav\Plugin\Admin\Router;
 use Grav\Plugin\Admin\Themes;
 use Grav\Plugin\Admin\AdminController;
-use Grav\Plugin\Admin\SafeUpgradeManager;
 use Grav\Plugin\Admin\Twig\AdminTwigExtension;
 use Grav\Plugin\Admin\WhiteLabel;
 use Grav\Plugin\Form\Form;
@@ -180,6 +180,42 @@ class AdminPlugin extends Plugin
      */
     public function autoload(): ClassLoader
     {
+        // Register a fallback autoloader for vendor dependencies that might be missing during upgrades.
+        // This helps prevent "class not found" errors when upgrading between versions with different dependencies.
+        // The fallback reads the autoload maps fresh from disk each time - critical because files may change during upgrades.
+        $psr4File = __DIR__ . '/vendor/composer/autoload_psr4.php';
+        $classmapFile = __DIR__ . '/vendor/composer/autoload_classmap.php';
+
+        spl_autoload_register(function ($class) use ($psr4File, $classmapFile) {
+            // Read fresh from disk - files may have been replaced during an upgrade
+            $classMap = file_exists($classmapFile) ? (include $classmapFile) : [];
+            $psr4Map = file_exists($psr4File) ? (include $psr4File) : [];
+
+            // First check classmap for exact class match
+            if (isset($classMap[$class]) && file_exists($classMap[$class])) {
+                require_once $classMap[$class];
+                return true;
+            }
+
+            // Then try PSR-4 namespaces
+            foreach ($psr4Map as $prefix => $paths) {
+                $prefixLen = strlen($prefix);
+                if (strncmp($prefix, $class, $prefixLen) === 0) {
+                    $relativeClass = substr($class, $prefixLen);
+                    $relativePath = str_replace('\\', '/', $relativeClass) . '.php';
+
+                    foreach ($paths as $path) {
+                        $file = $path . '/' . $relativePath;
+                        if (file_exists($file)) {
+                            require_once $file;
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false;
+        }, true, false); // prepend=true to run before other autoloaders
+
         return require __DIR__ . '/vendor/autoload.php';
     }
 
@@ -384,34 +420,6 @@ class AdminPlugin extends Plugin
             'reports'        => [['admin.super'], 'PLUGIN_ADMIN.REPORTS'],
             'direct-install' => [['admin.super'], 'PLUGIN_ADMIN.DIRECT_INSTALL'],
         ]);
-
-        $config = $this->grav['config'] ?? null;
-        if (!SafeUpgradeManager::configAllowsSafeUpgrade($config)) {
-            return;
-        }
-
-        try {
-            $manifestFiles = glob(GRAV_ROOT . '/user/data/upgrades/*.json') ?: [];
-
-            if (!$manifestFiles) {
-                $manager = new SafeUpgradeManager(Grav::instance());
-                $manifestFiles = $manager->hasSnapshots() ? [true] : [];
-            }
-
-            $tools = $event['tools'];
-            Grav::instance()['log']->debug('[Admin] Tools before restore grav: ' . implode(',', array_keys($tools)));
-
-            if ($manifestFiles) {
-                $tools['restore-grav'] = [['admin.super'], 'PLUGIN_ADMIN.RESTORE_GRAV'];
-                Grav::instance()['log']->debug('[Admin] Restore Grav tool enabled');
-            }
-
-            $event['tools'] = $tools;
-            Grav::instance()['log']->debug('[Admin] Tools after register: ' . implode(',', array_keys($tools)));
-        } catch (\Throwable $e) {
-            // ignore availability errors, snapshots tool will simply stay hidden
-            Grav::instance()['log']->warning('[Admin] Restore Grav detection failed: ' . $e->getMessage());
-        }
     }
 
     /**
@@ -736,6 +744,21 @@ class AdminPlugin extends Plugin
         switch ($this->template) {
             case 'dashboard':
                 $twig->twig_vars['popularity'] = $this->popularity;
+
+                // Cross-family migration notice: when the remote advertises a new major,
+                // surface a one-time banner on the dashboard. Uses cached GPM data; failures
+                // must not break the dashboard.
+                try {
+                    $upgrader = new Upgrader();
+                    if (method_exists($upgrader, 'isNextMajorAvailable') && $upgrader->isNextMajorAvailable()) {
+                        $twig->twig_vars['grav_next_major'] = [
+                            'version'       => $upgrader->getNextMajorVersion(),
+                            'migration_url' => $upgrader->getMigrationUrl(),
+                        ];
+                    }
+                } catch (\Throwable $e) {
+                    // Swallow — notice is informational only.
+                }
                 break;
         }
 
@@ -1140,13 +1163,17 @@ class AdminPlugin extends Plugin
             return new Themes($this->grav);
         };
 
-        // Initialize white label functionality
-        $this->grav['admin-whitelabel'] = new WhiteLabel();
+        // Initialize white label functionality (lazy-loaded to avoid loading scssphp during upgrades)
+        $this->grav['admin-whitelabel'] = function () {
+            return new WhiteLabel();
+        };
 
-        // Compile a missing preset.css file
+        // Compile a missing preset.css file - skip during AJAX task requests to avoid autoloader conflicts during upgrades
+        $task = $this->uri->param('task') ?? $this->uri->query('task');
+        $isTaskRequest = !empty($task);
         $preset_css = 'asset://admin-preset.css';
         $preset_path = $this->grav['locator']->findResource($preset_css);
-        if (!$preset_path) {
+        if (!$preset_path && !$isTaskRequest) {
             $this->grav['admin-whitelabel']->compilePresetScss($this->config->get('plugins.admin.whitelabel'));
         }
 

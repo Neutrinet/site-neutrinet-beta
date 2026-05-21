@@ -1,16 +1,44 @@
-# v1.10.50
-## 11/14/2025
+
+# v1.10.51
+## 05/05/2026
 
 1. [](#new)
-    * Support for 'safe-upgrade' installation
-    * Support for safe-upgrade restore functionality in Tools
+    * Release as 1.10.51
+
+# v1.10.49.5
+## 05/05/2026
+
+1. [](#bugfix)
+    * [security] Fixed stored XSS in the page move/parents dialog (GHSA-fmg2-f5r9-24qc)
+
+# v1.10.49.4
+## 04/16/2026
+
+1. [](#new)
+    * Grav 2.0 migration banner on the dashboard — surfaces when the remote advertises a next-major release, with stacked CTAs for either "Start migration" (when migrate-grav is enabled) or "Install Migrate plugin" (deep-linking to `/admin/plugins/migrate-grav`), plus an external "Learn how to migrate" link
+2. [](#improved)
+    * Log date handling in Tools → Logs now renders more reliably ([#2497](https://github.com/getgrav/grav-plugin-admin/pull/2497))
+    * Backup dates now carry a `title` attribute for the full timestamp on hover ([#2499](https://github.com/getgrav/grav-plugin-admin/pull/2499))
+3. [](#bugfix)
+    * Scheduler status display now matches runtime enabled logic — no more "enabled" showing for jobs that won't actually run
+    * Single-file save path fixed
+    * Module folder renames now preserve the leading underscore (`_folder`)
+    * 2FA verification no longer fails when the pasted token carries trailing/embedded whitespace ([#2489](https://github.com/getgrav/grav-plugin-admin/issues/2489))
+    * scheduler-webhook plugin compatibility fixes
+
+# v1.10.49.3
+## 01/27/2026
+
 1. [](#improved)
-    * Improved session expiration/logout handling
-    * Various minor CSS fixes
-1. [](#bugfix)   
-    * Fix for deeply nested sortable fields (at last!)
-    * Restore admin session timeout modal by returning 401 for timed-out AJAX requests
-    * Honor `system.updates.safe_upgrade` so legacy Grav installs keep the classic updater
+    * Support new `licensing.getgrav.org` server for premium downloads
+
+# v1.10.49.2
+## 12/29/2025
+
+1. [](#improved)
+    * Added fallback autoloader to handle class location changes during upgrades
+    * Lazy-load WhiteLabel and ScssCompiler to avoid loading scssphp during upgrades
+    * Use sendJsonResponse() to exit early after package install/reinstall tasks
 
 # v1.10.49.1
 ## 09/03/2025

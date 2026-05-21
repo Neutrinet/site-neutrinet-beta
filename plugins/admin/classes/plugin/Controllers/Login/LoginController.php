@@ -232,34 +232,6 @@ class LoginController extends AdminController
     }
 
     /**
-     * Return a fresh login nonce and keep anonymous session alive while on the login screen.
-     *
-     * Route: GET /login.json/task:nonce
-     *
-     * @return ResponseInterface
-     */
-    public function taskNonce(): ResponseInterface
-    {
-        // Touch the anonymous session to prevent immediate expiry on the login page.
-        $session = $this->getSession();
-        if (!$session->isStarted()) {
-            $session->start();
-        }
-        $session->__set('admin_login_keepalive', time());
-
-        // Generate a fresh nonce for the login form.
-        $nonce = Admin::getNonce($this->nonce_action);
-
-        return $this->createJsonResponse([
-            'status' => 'success',
-            'message' => null,
-            'nonce_name' => $this->nonce_name,
-            'nonce_action' => $this->nonce_action,
-            'nonce' => $nonce
-        ]);
-    }
-
-    /**
      * Handle 2FA verification.
      *
      * @return ResponseInterface
@@ -306,6 +278,8 @@ class LoginController extends AdminController
 
         $code = $data['2fa_code'] ?? '';
         $secret = $user->twofa_secret ?? '';
+        // Strip any whitespace from secret (fixes corrupted secrets)
+        $secret = preg_replace('/\s+/', '', $secret);
         $twofa_valid = $twoFa->verifyCode($secret, $code);
 
         $yubikey_otp = $data['yubikey_otp'] ?? '';

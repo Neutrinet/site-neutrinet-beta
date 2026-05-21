@@ -54,9 +54,6 @@ use Twig\Loader\FilesystemLoader;
  */
 class AdminController extends AdminBaseController
 {
-    /** @var SafeUpgradeManager|null */
-    protected $safeUpgradeManager;
-
     /**
      * @param Grav|null $grav
      * @param string|null $view
@@ -754,18 +751,6 @@ class AdminController extends AdminBaseController
     // INSTALL & UPGRADE
 
     /**
-     * @return SafeUpgradeManager
-     */
-    protected function getSafeUpgradeManager()
-    {
-        if (null === $this->safeUpgradeManager) {
-            $this->safeUpgradeManager = new SafeUpgradeManager();
-        }
-
-        return $this->safeUpgradeManager;
-    }
-
-    /**
      * Handles updating Grav
      *
      * Route: GET /update.json/task:updategrav (AJAX call)
@@ -804,273 +789,6 @@ class AdminController extends AdminBaseController
         }
 
         $this->sendJsonResponse($json_response);
-    }
-
-    /**
-     * Safe upgrade preflight endpoint.
-     *
-     * Route: GET /update.json/task:safeUpgradePreflight (AJAX call)
-     *
-     * @return bool
-     */
-    public function taskSafeUpgradePreflight()
-    {
-        if (!$this->authorizeTask('install grav', ['admin.super'])) {
-            $this->admin->json_response = [
-                'status'  => 'error',
-                'message' => $this->admin::translate('PLUGIN_ADMIN.INSUFFICIENT_PERMISSIONS_FOR_TASK')
-            ];
-
-            return false;
-        }
-
-        $post = $this->getPost($_POST ?? []);
-        $force = !empty($post['force']);
-
-        $result = $this->getSafeUpgradeManager()->preflight($force);
-
-        $status = $result['status'] ?? 'ready';
-        $response = [
-            'status' => $status === 'error' ? 'error' : 'success',
-            'data' => $result,
-        ];
-
-        if (!empty($result['message'])) {
-            $response['message'] = $result['message'];
-        }
-
-        $this->sendJsonResponse($response);
-
-        return true;
-    }
-
-    /**
-     * Start safe upgrade process.
-     *
-     * Route: POST /update.json/task:safeUpgradeStart (AJAX call)
-     *
-     * @return bool
-     */
-    public function taskSafeUpgradeStart()
-    {
-        if (!$this->authorizeTask('install grav', ['admin.super'])) {
-            $this->admin->json_response = [
-                'status'  => 'error',
-                'message' => $this->admin::translate('PLUGIN_ADMIN.INSUFFICIENT_PERMISSIONS_FOR_TASK')
-            ];
-
-            return false;
-        }
-
-        $post = $this->getPost($_POST ?? []);
-        $options = [
-            'force' => !empty($post['force']),
-            'timeout' => isset($post['timeout']) ? (int)$post['timeout'] : 30,
-            'overwrite' => !empty($post['overwrite']),
-            'decisions' => isset($post['decisions']) && is_array($post['decisions']) ? $post['decisions'] : [],
-        ];
-
-        $manager = $this->getSafeUpgradeManager();
-        $result = $manager->queue($options);
-        $status = $result['status'] ?? 'error';
-
-        if ($status === 'error') {
-            $manager->clearJobContext();
-            $result = $manager->run($options);
-            $status = $result['status'] ?? 'error';
-            $result['fallback'] = true;
-        }
-
-        $response = [
-            'status' => $status === 'error' ? 'error' : 'success',
-            'data' => $result,
-        ];
-
-        if (!empty($result['message'])) {
-            $response['message'] = $result['message'];
-        }
-
-        $this->sendJsonResponse($response);
-
-        return true;
-    }
-
-    /**
-     * Poll safe upgrade progress.
-     *
-     * Route: GET /update.json/task:safeUpgradeStatus (AJAX call)
-     *
-     * @return bool
-     */
-    public function taskSafeUpgradeStatus()
-    {
-        if (!$this->authorizeTask('install grav', ['admin.super'])) {
-            $this->admin->json_response = [
-                'status'  => 'error',
-                'message' => $this->admin::translate('PLUGIN_ADMIN.INSUFFICIENT_PERMISSIONS_FOR_TASK')
-            ];
-
-            return false;
-        }
-
-        $manager = $this->getSafeUpgradeManager();
-        $jobId = isset($_GET['job']) ? (string)$_GET['job'] : '';
-
-        if ($jobId !== '') {
-            $data = $manager->getJobStatus($jobId);
-        } else {
-            $data = [
-                'job' => null,
-                'progress' => $manager->getProgress(),
-            ];
-        }
-
-        $this->sendJsonResponse([
-            'status' => 'success',
-            'data' => $data,
-        ]);
-
-        return true;
-    }
-
-    /**
-     * Restore a safe-upgrade snapshot via Tools.
-     *
-     * Route: POST /tools/restore-grav?task:safeUpgradeRestore
-     *
-     * @return bool
-     */
-    public function taskSafeUpgradeRestore()
-    {
-        if (!$this->authorizeTask('install grav', ['admin.super'])) {
-            $this->sendJsonResponse([
-                'status' => 'error',
-                'message' => $this->admin::translate('PLUGIN_ADMIN.INSUFFICIENT_PERMISSIONS_FOR_TASK')
-            ]);
-
-            return false;
-        }
-
-        $post = $this->getPost($_POST ?? []);
-        $snapshotId = isset($post['snapshot']) ? (string)$post['snapshot'] : '';
-
-        if ($snapshotId === '') {
-            $this->sendJsonResponse([
-                'status' => 'error',
-                'message' => $this->admin::translate('PLUGIN_ADMIN.RESTORE_GRAV_INVALID')
-            ]);
-
-            return true;
-        }
-
-        $manager = $this->getSafeUpgradeManager();
-        $result = $manager->queueRestore($snapshotId);
-        $status = $result['status'] ?? 'error';
-
-        $response = [
-            'status' => $status === 'error' ? 'error' : 'success',
-            'data' => $result,
-        ];
-
-        if (!empty($result['message'])) {
-            $response['message'] = $result['message'];
-        }
-
-        $this->sendJsonResponse($response);
-
-        return true;
-    }
-
-    /**
-     * Create a manual safe-upgrade snapshot via Tools.
-     *
-     * Route: POST /tools/restore-grav?task:safeUpgradeSnapshot
-     *
-     * @return bool
-     */
-    public function taskSafeUpgradeSnapshot()
-    {
-        if (!$this->authorizeTask('install grav', ['admin.super'])) {
-            $this->sendJsonResponse([
-                'status' => 'error',
-                'message' => $this->admin::translate('PLUGIN_ADMIN.INSUFFICIENT_PERMISSIONS_FOR_TASK')
-            ]);
-
-            return false;
-        }
-
-        $post = $this->getPost($_POST ?? []);
-        $label = isset($post['label']) ? (string)$post['label'] : null;
-
-        $manager = $this->getSafeUpgradeManager();
-        $result = $manager->queueSnapshot($label);
-        $status = $result['status'] ?? 'error';
-
-        $response = [
-            'status' => $status === 'error' ? 'error' : 'success',
-            'data' => $result,
-        ];
-
-        if (!empty($result['message'])) {
-            $response['message'] = $result['message'];
-        }
-
-        $this->sendJsonResponse($response);
-
-        return true;
-    }
-
-    /**
-     * Delete one or more safe-upgrade snapshots via Tools.
-     *
-     * Route: POST /tools/restore-grav?task:safeUpgradeDelete
-     *
-     * @return bool
-     */
-    public function taskSafeUpgradeDelete()
-    {
-        if (!$this->authorizeTask('install grav', ['admin.super'])) {
-            return false;
-        }
-
-        $post = $this->getPost($_POST ?? []);
-        $snapshots = $post['snapshots'] ?? [];
-        if (is_string($snapshots)) {
-            $snapshots = [$snapshots];
-        }
-
-        if (empty($snapshots)) {
-            $this->admin->setMessage($this->admin::translate('PLUGIN_ADMIN.RESTORE_GRAV_INVALID'), 'error');
-            $this->setRedirect('/tools/restore-grav');
-
-            return false;
-        }
-
-        $manager = $this->getSafeUpgradeManager();
-        $results = $manager->deleteSnapshots($snapshots);
-
-        $success = array_filter($results, static function ($item) {
-            return ($item['status'] ?? 'error') === 'success';
-        });
-        $failed = array_filter($results, static function ($item) {
-            return ($item['status'] ?? 'error') !== 'success';
-        });
-
-        if ($success) {
-            $this->admin->setMessage(
-                sprintf($this->admin::translate('PLUGIN_ADMIN.RESTORE_GRAV_DELETE_SUCCESS'), count($success)),
-                'info'
-            );
-        }
-
-        foreach ($failed as $entry) {
-            $message = $entry['message'] ?? $this->admin::translate('PLUGIN_ADMIN.RESTORE_GRAV_DELETE_FAILED');
-            $this->admin->setMessage($message, 'error');
-        }
-
-        $this->setRedirect('/tools/restore-grav');
-
-        return true;
     }
 
     /**
@@ -1323,15 +1041,16 @@ class AdminController extends AdminBaseController
         $result = Gpm::install(array_keys($dependencies), ['theme' => $type === 'themes']);
 
         if ($result) {
-            $this->admin->json_response = ['status' => 'success', 'message' => 'Dependencies installed successfully'];
+            $json_response = ['status' => 'success', 'message' => 'Dependencies installed successfully'];
         } else {
-            $this->admin->json_response = [
+            $json_response = [
                 'status'  => 'error',
                 'message' => $this->admin::translate('PLUGIN_ADMIN.INSTALLATION_FAILED')
             ];
         }
 
-        return true;
+        // Exit early to prevent any post-install code from running with potentially mismatched autoloaders
+        $this->sendJsonResponse($json_response);
     }
 
     /**
@@ -1376,19 +1095,20 @@ class AdminController extends AdminBaseController
         }
 
         if ($result) {
-            $this->admin->json_response = [
+            $json_response = [
                 'status'  => 'success',
                 'message' => $this->admin::translate(is_string($result) ? $result : sprintf($this->admin::translate($reinstall ?: 'PLUGIN_ADMIN.PACKAGE_X_REINSTALLED_SUCCESSFULLY',
                     null), $package))
             ];
         } else {
-            $this->admin->json_response = [
+            $json_response = [
                 'status'  => 'error',
                 'message' => $this->admin::translate($reinstall ?: 'PLUGIN_ADMIN.INSTALLATION_FAILED')
             ];
         }
 
-        return true;
+        // Exit early to prevent any post-install code from running with potentially mismatched autoloaders
+        $this->sendJsonResponse($json_response);
     }
 
     /**
@@ -1501,19 +1221,20 @@ class AdminController extends AdminBaseController
         $result = Gpm::directInstall($url);
 
         if ($result === true) {
-            $this->admin->json_response = [
+            $json_response = [
                 'status'  => 'success',
                 'message' => $this->admin::translate(sprintf($this->admin::translate('PLUGIN_ADMIN.PACKAGE_X_REINSTALLED_SUCCESSFULLY',
                     null), $package_name))
             ];
         } else {
-            $this->admin->json_response = [
+            $json_response = [
                 'status'  => 'error',
                 'message' => $this->admin::translate('PLUGIN_ADMIN.REINSTALLATION_FAILED')
             ];
         }
 
-        return true;
+        // Exit early to prevent any post-install code from running with potentially mismatched autoloaders
+        $this->sendJsonResponse($json_response);
     }
 
     /**
@@ -2426,7 +2147,6 @@ class AdminController extends AdminBaseController
          * @var string $name
          * @var Medium|ImageMedium $medium
          */
-        $this->grav['log']->debug('[AI Pro][listmedia] route=' . $this->route . ' path=' . ($media->getPath() ?: 'n/a') . ' count=' . count($media->all()));
         foreach ($media->all() as $name => $medium) {
 
             $metadata = [];

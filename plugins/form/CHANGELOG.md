@@ -1,3 +1,59 @@
+# v9.1.3
+## 05/06/2026
+
+1. [](#bugfix)
+    * Bumped `trilbymedia/cap-php` to `^1.0` (was `^0.1.1`) to pull in 1.0.0, which fixes a fatal `Cache key length must be less than 65 characters` error from `Psr16Storage` when using the Cap captcha provider with a strict PSR-16 cache backend (e.g. Grav's default cache). Cap challenge/redeem endpoints would 500 immediately on issuance.
+
+# v9.1.2
+## 04/30/2026
+
+1. [](#bugfix)
+    * Fixed PHP 8.1+ deprecation notice — explicit string casts where `null` was being passed to string-typed function arguments.
+
+# v9.1.1
+## 04/30/2026
+
+1. [](#bugfix)
+   * Fix Changelog date on v9.0.0 entry
+
+# v9.1.0
+## 04/29/2026
+
+1. [](#new)
+   * PHP 8.1 now set in dependencies
+1. [](#bugfix)
+   * [security] Fixed unauthenticated page-content overwrite via file upload (GHSA-w4rc-p66m-x6qq). Public form uploads now strip path components from the POST-supplied filename and hard-block page-content extensions (`md`, `yaml`, `yml`, `json`, `twig`, `ini`) regardless of the configurable dangerous-extensions list. A permissive `accept` policy combined with the default `destination: self@` could otherwise let an attacker overwrite the page's own `.md` and pivot to super-admin via a `process: save` action.
+
+# v9.0.3
+## 04/28/2026
+
+1. [](#bugfix)
+   * fix for selectize to support selectize with keys
+
+# v9.0.2
+## 04/27/2026
+
+1. [](#improved)
+   * Support saving keys in selectize field
+
+# v9.0.2
+## 04/25/2026
+
+1. [](#bugfix)
+   * Don't require PHP 8.1+ due to Cap POW Captcha
+
+# v9.0.1
+## 04/24/2026
+
+1. [](#bugfix)
+   * [security] Fixed stored XSS in select-field option text (GHSA-c2q3-p4jr-c55f). Removed the `|raw` filter from `templates/forms/fields/select/select.html.twig`; option labels — including taxonomy values that propagate cross-page through the admin's shared selection pool — are now autoescaped, so a lower-privileged editor can no longer inject script that runs in an admin's browser when they open any page editor.
+
+# v9.0.0
+## 04/21/2026
+
+1. [](#new)
+    * Added new open source Cap.js powered Proof of Work (POW) captcha option, local PHP-based server, so no 3rd party services required, and 'invisible', no checkboxes or visual interaction required.
+
 # v8.2.1
 ## 12/28/2025
 

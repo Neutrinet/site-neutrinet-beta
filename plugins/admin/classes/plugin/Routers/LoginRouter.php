@@ -47,9 +47,8 @@ class LoginRouter
             ];
         }
 
-        $httpMethod = $request->getMethod() ?? '';
-        $template = $this->taskTemplates[$task ?? ''] ?? $adminInfo['view'];
-
+        $httpMethod = $request->getMethod();
+        $template = $this->taskTemplates[$task] ?? $adminInfo['view'];
         $params = [];
 
         switch ($template) {

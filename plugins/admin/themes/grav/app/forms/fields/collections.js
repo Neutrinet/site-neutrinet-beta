@@ -231,15 +231,11 @@ export default class CollectionsField {
           // special case to preserve array field index keys
           if (prop === 'name' && element.data('gravArrayType')) {
             const match_index = element.attr(prop).match(/\[[0-9]{1,}\]$/);
-            const array_container = element[0].closest('[data-grav-array-name]');
-
-            if (match_index) {
+            const pattern = element[0].closest('[data-grav-array-name]').dataset.gravArrayName;
+            if (match_index && pattern) {
               array_index = match_index[0];
-              element.attr(prop, element.attr(prop).slice(0, array_index.length * -1));
-            }
-
-            if (array_container && array_container.dataset && array_container.dataset.gravArrayName) {
-              element.attr(prop, array_container.dataset.gravArrayName);
+              element.attr(prop, `${pattern}${match_index[0]}`);
+              return;
             }
           }
 
@@ -259,8 +255,14 @@ export default class CollectionsField {
 
           let matchedKey = currentKey;
           let replaced = element.attr(prop).replace(regexps[0], (/* str, p1, offset */) => {
+            let extras = '';
+            if (array_index) {
+              extras = array_index;
+              console.log(indexes, extras);
+            }
+
             matchedKey = indexes.shift() || matchedKey;
-            return `[${matchedKey}]`;
+            return `[${matchedKey}]${extras}`;
           });
 
           replaced = replaced.replace(regexps[1], (/* str, p1, offset */) => {
@@ -268,7 +270,7 @@ export default class CollectionsField {
             return `.${matchedKey}.`;
           });
 
-          element.attr(prop, array_index ? `${replaced}${array_index}` : replaced);
+          element.attr(prop, replaced);
         });
       });
     });

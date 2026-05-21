@@ -1,6 +1,5 @@
 import { config } from 'grav-config';
 import { userFeedbackError } from './response';
-import { showSessionExpiredModal } from './session-expired';
 
 const MAX_SAFE_DELAY = 2147483647;
 
@@ -20,30 +19,14 @@ class KeepAlive {
         this.active = false;
     }
 
-    checkOnce() {
+    fetch() {
         let data = new FormData();
         data.append('admin-nonce', config.admin_nonce);
 
-        return fetch(`${config.base_url_relative}/task${config.param_sep}keepAlive`, {
+        fetch(`${config.base_url_relative}/task${config.param_sep}keepAlive`, {
             credentials: 'same-origin',
-            headers: {
-                'Accept': 'application/json'
-            },
             method: 'post',
             body: data
-        })
-            .then((response) => {
-                if (response && (response.status === 401 || response.status === 403)) {
-                    return false;
-                }
-                return true;
-            })
-            .catch(() => false);
-    }
-
-    fetch() {
-        return this.checkOnce().then((ok) => {
-            if (!ok) { showSessionExpiredModal(); }
         }).catch(userFeedbackError);
     }
 }
