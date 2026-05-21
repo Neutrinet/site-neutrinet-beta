@@ -161,7 +161,7 @@ form:
                         body: '{% include ''forms/data.txt.twig'' %}'
         save:
             fileprefix: collect-
-            dateformat: 'Y-d-m_H:i:s'
+            dateformat: 'Y-d-m_H:i:s_u'
             body: '{% include ''forms/data.json.twig'' %}'
         message: "Merci pour votre message\_!"
         reset: true
