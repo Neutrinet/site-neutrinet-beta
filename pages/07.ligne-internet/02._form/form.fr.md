@@ -149,7 +149,7 @@ form:
                         content_type: text/plain
                         body: '{% include ''forms/collect-order-user.txt.twig'' %}'
             -
-                to: hgo@batato.be
+                to: contact@neutrinet.be
                 subject: '[Neutrinet] Commande de ligne internet'
                 reply_to: '{{ form.value.firstname }} {{ form.value.name }} <{{ form.value.email }}>'
                 body:
