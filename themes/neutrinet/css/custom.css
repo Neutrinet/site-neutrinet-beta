@@ -76,6 +76,16 @@
   color: black;
 }
 
+.modular-features.modular-form {
+  text-align: left;
+}
+
+.modular-form .frame-box > p {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: none;
+}
+
 #donation {
   display: flex;
   padding: 4rem 0 0;
@@ -189,4 +199,14 @@ div.custom-banner-content {
 .copyable {
     user-select: all;
     cursor: pointer;
+}
+
+.form-data.basic-captcha .form-input-wrapper {
+    align-items: center;
+    border: none;
+}
+
+.form-data.basic-captcha input.form-input {
+    border: 1px solid #ccc;
+    margin-left: 0.5em;
 }

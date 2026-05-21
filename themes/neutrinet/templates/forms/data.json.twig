@@ -1,0 +1,50 @@
+{% macro render_field(form, fields) %}
+{%- set array = [ ] -%}
+{%- for index, field in fields -%}
+    {%- set show_field = attribute(field, "input@") ?? field.store ?? true -%}
+    {%- set key = field.name -%}
+    {%- if field.fields -%}
+        {%- set subarray = [ ] -%}
+        {%- for index, field in field.fields -%}
+            {%- set show_field = attribute(field, "input@") ?? field.store ?? true -%}
+            {%- if show_field -%}
+                {%- set subkey = field.name -%}
+                {%- if field.type == 'checkboxes' -%}
+                    {%- set value = [ ] -%}
+                    {%- set use_keys = field.use is defined and field.use == 'keys' -%}
+                    {%- for k, v in form.value(field.name) -%}
+                        {%- if use_keys -%}
+                            {%- set value = value|merge({ (k): v }) -%}
+                        {%- else -%}
+                            {%- set value = value|merge([ v ]) -%}
+                        {%- endif -%}
+                    {%- endfor -%}
+                {%- else -%}
+                    {%- set value = form.value(field.name) -%}
+                {%- endif -%}
+                {%- set subarray = subarray|merge({ (subkey): value }) -%}
+            {%- endif -%}
+        {%- endfor -%}
+        {%- set array = array|merge({ (key): subarray }) -%}
+    {%- else -%}
+        {%- if show_field -%}
+            {%- if field.type == 'checkboxes' -%}
+                {%- set value = [ ] -%}
+                {%- set use_keys = field.use is defined and field.use == 'keys' -%}
+                {%- for k, v in form.value(field.name) -%}
+                    {%- if use_keys -%}
+                        {%- set value = value|merge({ (k): v }) -%}
+                    {%- else -%}
+                        {%- set value = value|merge([ v ]) -%}
+                    {%- endif -%}
+                {%- endfor -%}
+            {%- else -%}
+                {%- set value = form.value(field.name) -%}
+            {%- endif -%}
+            {%- set array = array|merge({ (key): value }) -%}
+        {%- endif -%}
+    {%- endif -%}
+{%- endfor -%}
+{{ array|json_encode|raw }}
+{% endmacro %}
+{{- _self.render_field(form, form.fields) -}}
