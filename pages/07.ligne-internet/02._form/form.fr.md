@@ -70,9 +70,9 @@ form:
                     markdown: true
                     type: radio
                     options:
-                        vdsl: VDSL
-                        fibre: Fibre
-                        coaxial: Coaxial
+                        vdsl: 'VDSL (ex: Proximus, Edpnet, …)'
+                        fibre: 'Fibre (ex: Proximus, Edpnet, …)'
+                        coaxial: 'Coaxial (ex: Orange, Voo, Telenet, …)'
                     validate:
                         required: true
                 wanted_technology:
