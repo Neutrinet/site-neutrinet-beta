@@ -10,7 +10,7 @@ feed:
     limit: 10
 sitemap:
     lastmod: '03/30/2026 08:19 am'
-published: false
+published: true
 media_order: P1090445-truncated.jpg
 ---
 
