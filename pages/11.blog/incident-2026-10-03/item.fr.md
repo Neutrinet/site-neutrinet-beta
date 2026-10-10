@@ -28,7 +28,7 @@ Nos serveurs étant tous chiffrés, lorsque ceux-ci redémarrent nous devons nou
 
 Nous avons profité de cette intervention pour ajouter de la RAM à nos serveurs, ce qui nous permet désormais d'absorber la charge d'un serveur en maintenance, et installer des cartes réseaux plus performantes (Intel X710). Ces opérations étaient prévue le lundi 5 octobre et auraient nécessité de redémarrer nos serveurs.
 
-Pour éviter ce genre de situation à l'avenir, nous réfléchissons à mettre en place un accès « out of band »^[1] (par ex. un accès via la 4G), nous permettant d'intervenir à distance même lorsque l'ensemble de notre cluster redémarre.
+Pour éviter ce genre de situation à l'avenir, nous réfléchissons à mettre en place un accès « out of band »<sup>[1]</sup> (par ex. un accès via la 4G), nous permettant d'intervenir à distance même lorsque l'ensemble de notre cluster redémarre.
 
 ## Chronologie
 
