@@ -188,9 +188,14 @@ class GitSyncPlugin extends Plugin
      */
     public function isGithubSignatureValid($secret, $signatureHeader, $payload)
     {
-        [$algorithm, $signature] = explode('=', $signatureHeader);
+        if (!preg_match('/\\A(sha1|sha256)=([0-9a-f]+)\\z/i', (string) $signatureHeader, $matches)) {
+            return false;
+        }
 
-        return $signature === hash_hmac($algorithm, $payload, $secret);
+        $algorithm = strtolower($matches[1]);
+        $signature = strtolower($matches[2]);
+
+        return hash_equals(hash_hmac($algorithm, $payload, $secret), $signature);
     }
 
     /**
@@ -201,7 +206,7 @@ class GitSyncPlugin extends Plugin
      */
     public function isGitlabTokenValid($secret, $token)
     {
-        return $secret === $token;
+        return hash_equals((string) $secret, (string) $token);
     }
 
     /**
@@ -215,8 +220,8 @@ class GitSyncPlugin extends Plugin
     public function isGiteaSecretValid($secret, $payload)
     {
         $payload = json_decode($payload, true);
-        if (!empty($payload) && isset($payload['secret'])) {
-            return $secret === $payload['secret'];
+        if (is_array($payload) && isset($payload['secret']) && is_string($payload['secret'])) {
+            return hash_equals((string) $secret, (string) $payload['secret']);
         }
 
         return false;
@@ -264,12 +269,15 @@ class GitSyncPlugin extends Plugin
     {
         $items = $event['items'] ?? [];
         $items[] = [
-            'id'       => 'git-sync',
-            'plugin'   => 'git-sync',
-            'label'    => 'Git Sync',
-            'icon'     => 'fa-code-branch',
-            'route'    => '/plugin/git-sync',
-            'priority' => 5,
+            'id'        => 'git-sync',
+            'plugin'    => 'git-sync',
+            'label'     => 'Git Sync',
+            'icon'      => 'fa-code-branch',
+            'route'     => '/plugin/git-sync',
+            'priority'  => 5,
+            // Match the read-level any-of check in GitSyncApiController:
+            // anyone with read / write / admin (or the parent) sees the item.
+            'authorize' => ['api.git-sync', 'api.git-sync.read', 'api.git-sync.write', 'api.git-sync.admin'],
         ];
         $event['items'] = $items;
     }
@@ -282,11 +290,14 @@ class GitSyncPlugin extends Plugin
 
         $items = $event['items'] ?? [];
         $items[] = [
-            'id'     => 'git-sync-quick',
-            'plugin' => 'git-sync',
-            'label'  => 'Synchronize Git Sync',
-            'icon'   => 'fa-code-branch',
-            'action' => 'sync',
+            'id'        => 'git-sync-quick',
+            'plugin'    => 'git-sync',
+            'label'     => $this->adminString('MENUBAR_SYNC_LABEL', 'Synchronize Git Sync'),
+            'icon'      => 'fa-code-branch',
+            'action'    => 'sync',
+            // Sync is a write action — only show the menubar button to users
+            // who can actually run it.
+            'authorize' => ['api.git-sync', 'api.git-sync.write', 'api.git-sync.admin'],
         ];
         $event['items'] = $items;
     }
@@ -326,7 +337,7 @@ class GitSyncPlugin extends Plugin
         $event['definition'] = [
             'id'            => 'git-sync',
             'plugin'        => 'git-sync',
-            'title'         => 'Git Sync',
+            'title'         => $this->adminString('PLUGIN_PAGE_TITLE', 'Git Sync'),
             'icon'          => 'fa-code-branch',
             'page_type'     => 'blueprint',
             'blueprint'     => 'git-sync',
@@ -335,27 +346,27 @@ class GitSyncPlugin extends Plugin
             'actions'       => [
                 [
                     'id'    => 'wizard',
-                    'label' => 'Wizard',
+                    'label' => $this->adminString('ACTION_WIZARD', 'Wizard'),
                     'icon'  => 'fa-wand-magic-sparkles',
                     // No endpoint — admin-next dispatches grav:plugin-page-action
                     // and the auto-loaded git-sync widget script catches it.
                 ],
                 [
                     'id'       => 'sync',
-                    'label'    => 'Synchronize',
+                    'label'    => $this->adminString('ACTION_SYNCHRONIZE', 'Synchronize'),
                     'icon'     => 'fa-cloud-arrow-up',
                     'endpoint' => '/git-sync/sync',
                 ],
                 [
                     'id'       => 'reset',
-                    'label'    => 'Reset Local Copy',
+                    'label'    => $this->adminString('ACTION_RESET_LOCAL_COPY', 'Reset Local Copy'),
                     'icon'     => 'fa-clock-rotate-left',
                     'endpoint' => '/git-sync/reset',
-                    'confirm'  => 'Discard all local changes and re-pull from the remote? Any uncommitted edits will be lost.',
+                    'confirm'  => $this->adminString('RESET_CONFIRM_MSG', 'Discard all local changes and re-pull from the remote? Any uncommitted edits will be lost.'),
                 ],
                 [
                     'id'      => 'save',
-                    'label'   => 'Save',
+                    'label'   => $this->adminString('ACTION_SAVE', 'Save'),
                     'icon'    => 'fa-check',
                     'primary' => true,
                 ],
@@ -393,17 +404,19 @@ class GitSyncPlugin extends Plugin
                     'name'     => 'admin_next_notice',
                     'type'     => 'display',
                     'markdown' => true,
-                    'content'  => "**Git Sync** has its own admin page with the full configuration form, the setup Wizard, and the Synchronize / Reset actions. Open it from the **Git Sync** entry in the sidebar.",
+                    'content'  => $this->adminString('ADMIN_NEXT_NOTICE', '**Git Sync** has its own admin page with the full configuration form, the setup Wizard, and the Synchronize / Reset actions. Open it from the **Git Sync** entry in the sidebar.'),
                 ],
                 [
                     'name'      => 'enabled',
                     'type'      => 'toggle',
-                    'label'     => 'Plugin Status',
+                    // Shared admin vocabulary, not a plugin-private key — matches
+                    // blueprints.yaml:34,38,39, and ships translated in every locale.
+                    'label'     => 'PLUGIN_ADMIN.PLUGIN_STATUS',
                     'highlight' => 1,
                     'default'   => 0,
                     'options'   => [
-                        ['value' => '1', 'label' => 'Enabled'],
-                        ['value' => '0', 'label' => 'Disabled'],
+                        ['value' => '1', 'label' => 'PLUGIN_ADMIN.ENABLED'],
+                        ['value' => '0', 'label' => 'PLUGIN_ADMIN.DISABLED'],
                     ],
                     'validate'  => ['type' => 'bool'],
                 ],
@@ -452,7 +465,7 @@ class GitSyncPlugin extends Plugin
         $widgets[] = [
             'id'       => 'git-sync',
             'plugin'   => 'git-sync',
-            'label'    => 'Git Sync Wizard',
+            'label'    => $this->adminString('FLOATING_WIDGET_LABEL', 'Git Sync Wizard'),
             'icon'     => 'fa-wand-magic-sparkles',
             'autoLoad' => true,
             'showFab'  => false,
@@ -595,12 +608,10 @@ class GitSyncPlugin extends Plugin
      */
     public function onAdminSave(Event $event)
     {
-        $obj           = $event['object'];
-        $adminPath 	   = trim($this->grav['admin']->base, '/');
-        $isPluginRoute = $this->grav['uri']->path() === "/$adminPath/plugins/" . $this->name;
+        $obj = $event['object'];
 
         if ($obj instanceof Data) {
-            if (!$isPluginRoute || !Helper::isGitInstalled()) {
+            if (!$this->isPluginConfig($obj) || !Helper::isGitInstalled()) {
                 return true;
             }
 
@@ -628,20 +639,16 @@ class GitSyncPlugin extends Plugin
      */
     public function onAdminAfterSave(Event $event)
     {
-        $obj           = $event['object'];
-        $adminPath	   = trim($this->grav['admin']->base, '/');
-        $uriPath       = $this->grav['uri']->path();
-        $isPluginRoute = $uriPath === "/$adminPath/plugins/" . $this->name;
+        $obj = $event['object'];
 
-        if ($obj instanceof PageInterface && !$this->grav['config']->get('plugins.git-sync.sync.on_save', true)) {
-            return;
-        }
+        // Hand the page to GitSync so {{pageTitle}} / {{pageRoute}} resolve from
+        // the object rather than from a scraped admin-classic form POST (#254).
+        $this->git->setPage($obj);
 
         if ($obj instanceof Data) {
+            $isPluginRoute = $this->isPluginConfig($obj);
             $folders = $this->git->getConfig('folders', $event['object']->get('folders', []));
-            $data_type = preg_replace('#^/' . preg_quote($adminPath, '#') . '/#', '', $uriPath);
-            $data_type = explode('/', $data_type);
-            $data_type = array_shift($data_type);
+            $data_type = $this->getDataType($obj);
 
             if (null === $data_type || !Helper::isGitInstalled() || (!$isPluginRoute && !in_array($this->getFolderMapping($data_type), $folders, true))) {
                 return;
@@ -662,7 +669,11 @@ class GitSyncPlugin extends Plugin
             }
         }
 
-        $this->synchronize();
+        // Saving this plugin's settings must still configure the repository above,
+        // but automatic synchronization follows the save switch for every object.
+        if ($this->grav['config']->get('plugins.git-sync.sync.on_save', true)) {
+            $this->synchronize();
+        }
     }
 
     public function onAdminAfterSaveAs()
@@ -673,18 +684,20 @@ class GitSyncPlugin extends Plugin
         }
     }
 
-    public function onAdminAfterDelete()
+    public function onAdminAfterDelete(Event $event)
     {
         if ($this->grav['config']->get('plugins.git-sync.sync.on_delete', true))
         {
+            $this->git->setPage($event['object'] ?? null);
             $this->synchronize();
         }
     }
 
-    public function onAdminAfterMedia()
+    public function onAdminAfterMedia(Event $event)
     {
         if ($this->grav['config']->get('plugins.git-sync.sync.on_media', true))
         {
+            $this->git->setPage($event['object'] ?? null);
             $this->synchronize();
         }
     }
@@ -699,6 +712,100 @@ class GitSyncPlugin extends Plugin
         if ($action === 'gitsync') {
             $this->synchronize();
         }
+    }
+
+    /**
+     * Admin base route, or an empty string when there isn't one.
+     *
+     * Admin Next talks to the site over `/api/*`, where `$grav['admin']` is
+     * either absent or a proxy with an empty base, so nothing route-shaped can
+     * be derived from it.
+     *
+     * @return string
+     */
+    private function getAdminBase()
+    {
+        $admin = $this->grav['admin'] ?? null;
+
+        return $admin && isset($admin->base) ? trim((string) $admin->base, '/') : '';
+    }
+
+    /**
+     * Whether the object being saved is this plugin's own settings.
+     *
+     * Admin-classic recognises that from the URL of the settings page. Admin
+     * Next saves through `/api/v1/config/plugins/git-sync` instead, so match on
+     * the config file the object was loaded from and keep the route check as
+     * the fallback.
+     *
+     * @param mixed $obj
+     * @return bool
+     */
+    private function isPluginConfig($obj)
+    {
+        if (!$obj instanceof Data) {
+            return false;
+        }
+
+        $file = $obj->file();
+        if ($file && method_exists($file, 'filename')) {
+            $suffix = '/plugins/' . $this->name . '.yaml';
+            $filename = str_replace('\\', '/', (string) $file->filename());
+            if (substr($filename, -strlen($suffix)) === $suffix) {
+                return true;
+            }
+        }
+
+        $base = $this->getAdminBase();
+
+        return $base !== '' && $this->grav['uri']->path() === "/$base/plugins/" . $this->name;
+    }
+
+    /**
+     * Which area of the site a settings object belongs to — 'config',
+     * 'plugins', 'themes', 'user' or 'data' — so `getFolderMapping()` can say
+     * whether the save touched a folder GitSync is tracking.
+     *
+     * Admin-classic reads this off the admin URL. Without one, fall back to the
+     * file that was written, which carries the same distinction:
+     * `user/config/plugins/x.yaml` is a plugin save, `user/config/site.yaml` a
+     * config save, `user/accounts/bob.yaml` an account save.
+     *
+     * @param mixed $obj
+     * @return string|null
+     */
+    private function getDataType($obj)
+    {
+        $base = $this->getAdminBase();
+        if ($base !== '') {
+            $data_type = preg_replace('#^/' . preg_quote($base, '#') . '/#', '', $this->grav['uri']->path());
+            $data_type = explode('/', $data_type);
+
+            return array_shift($data_type);
+        }
+
+        $file = $obj instanceof Data ? $obj->file() : null;
+        if (!$file || !method_exists($file, 'filename')) {
+            return null;
+        }
+
+        $user_dir = rtrim(str_replace('\\', '/', USER_DIR), '/') . '/';
+        $filename = str_replace('\\', '/', (string) $file->filename());
+        if (strpos($filename, $user_dir) !== 0) {
+            return null;
+        }
+
+        $parts = explode('/', substr($filename, strlen($user_dir)));
+        $top = array_shift($parts);
+
+        // Plugin and theme settings both live under `user/config`, but
+        // admin-classic calls them 'plugins' and 'themes' — keep that so the
+        // folder mapping behaves identically either side.
+        if ($top === 'config' && $parts && in_array($parts[0], ['plugins', 'themes'], true)) {
+            return $parts[0];
+        }
+
+        return $top === 'accounts' ? 'user' : $top;
     }
 
     /**
@@ -740,5 +847,28 @@ class GitSyncPlugin extends Plugin
         }
 
         return bin2hex($bytes);
+    }
+
+    /**
+     * Translate a plugin string for labels handed to the admin through an
+     * API event.
+     *
+     * onApiMenubarItems, onApiPluginPageInfo and onApiFloatingWidgets build
+     * their payloads directly (not through a blueprint), so nothing on the
+     * way out runs them through the API's translation lookup. A bare
+     * `PLUGIN_GIT_SYNC.FOO` key would reach the browser as that literal
+     * string. Resolve it here instead, and fall back to the English source
+     * if the key doesn't resolve.
+     *
+     * @param string $key Key within the PLUGIN_GIT_SYNC namespace.
+     * @param string $fallback English text to use when the key does not resolve.
+     * @return string
+     */
+    protected function adminString(string $key, string $fallback): string
+    {
+        $lookup = 'PLUGIN_GIT_SYNC.' . $key;
+        $translated = $this->grav['language']->translate([$lookup]);
+
+        return ($translated === '' || $translated === $lookup) ? $fallback : $translated;
     }
 }

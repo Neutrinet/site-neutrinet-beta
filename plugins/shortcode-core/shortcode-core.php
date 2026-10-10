@@ -9,6 +9,7 @@ use Grav\Common\Utils;
 use Grav\Plugin\ShortcodeCore\ShortcodeManager;
 use Grav\Plugin\ShortcodeCore\ShortcodeTwigVar;
 use RocketTheme\Toolbox\Event\Event;
+use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 use Twig\TwigFilter;
 
 
@@ -226,12 +227,106 @@ class ShortcodeCorePlugin extends Plugin
         $include_default_shortcodes = $this->config->get('plugins.shortcode-core.include_default_shortcodes', true);
         if ($include_default_shortcodes) {
             $this->shortcodes->registerAllShortcodes(__DIR__ . '/classes/shortcodes', ['ignore' => ['Shortcode', 'ShortcodeObject']]);
+            $this->unregisterExcludedShortcodes();
         }
 
         // Add custom shortcodes directory if provided
         $custom_shortcodes = $this->config->get('plugins.shortcode-core.custom_shortcodes');
         if (isset($custom_shortcodes)) {
             $this->shortcodes->registerAllShortcodes(GRAV_ROOT . $custom_shortcodes);
+        }
+
+        // Register config-defined shortcodes (the "shortcode builder" — no PHP class needed)
+        $this->registerConfigShortcodes();
+    }
+
+    /**
+     * Drop individual tags from the built-in set.
+     *
+     * `include_default_shortcodes` is all or nothing, and the `ignore` list
+     * registerAllShortcodes() takes is by PHP class rather than by tag: one
+     * class can register six tags ([h1] to [h6]), and a class name does not
+     * always match the tag it registers. So the tags come off after
+     * registration, named the way a site actually writes them in its config.
+     *
+     * An excluded tag stops being parsed and its brackets render as literal
+     * text, which is what already happens with the whole set switched off.
+     * Requested in getgrav/grav#4288.
+     *
+     * @return void
+     */
+    protected function unregisterExcludedShortcodes()
+    {
+        $excluded = $this->config->get('plugins.shortcode-core.exclude_default_shortcodes');
+        if (!is_array($excluded)) {
+            return;
+        }
+
+        $containers = [$this->shortcodes->getHandlers(), $this->shortcodes->getRawHandlers()];
+
+        foreach ($excluded as $name) {
+            $name = trim((string) $name);
+            if ($name === '') {
+                continue;
+            }
+
+            foreach ($containers as $handlers) {
+                if ($handlers->has($name)) {
+                    $handlers->remove($name);
+                }
+            }
+        }
+    }
+
+    /**
+     * Register shortcodes defined in config, each backed by a Twig template or
+     * an inline Twig output string — the "shortcode builder". Lets a site add
+     * its own shortcodes without writing a PHP class or a plugin.
+     *
+     * Config (`plugins.shortcode-core.shortcodes`) is a list of definitions,
+     * each `{ name, template? | output? }`. A keyed map (tag => definition) is
+     * also accepted. The template/output is trusted code (it lives on disk or
+     * in admin-authored config, not in page content), and the author-supplied
+     * `params`/`content` it receives are auto-escaped by Twig on output — so
+     * this stays inside the Grav 2 content-security model.
+     */
+    protected function registerConfigShortcodes(): void
+    {
+        $defined = $this->config->get('plugins.shortcode-core.shortcodes');
+        if (!is_array($defined)) {
+            return;
+        }
+
+        $twig = $this->grav['twig'];
+
+        foreach ($defined as $key => $def) {
+            if (!is_array($def)) {
+                continue;
+            }
+
+            // `name` field (list form) or the map key (keyed form).
+            $name = trim((string) ($def['name'] ?? (is_string($key) ? $key : '')));
+            $template = trim((string) ($def['template'] ?? ''));
+            $output = (string) ($def['output'] ?? '');
+
+            if ($name === '' || ($template === '' && $output === '')) {
+                continue;
+            }
+
+            $this->shortcodes->getHandlers()->add($name, static function (ShortcodeInterface $sc) use ($twig, $template, $output) {
+                $vars = [
+                    'params'    => $sc->getParameters(),
+                    'content'   => $sc->getContent(),
+                    'shortcode' => $sc,
+                ];
+
+                // A template file wins over inline output when both are set.
+                if ($template !== '') {
+                    return $twig->processTemplate($template, $vars);
+                }
+
+                return $twig->processString($output, $vars);
+            });
         }
     }
 
@@ -309,7 +404,17 @@ class ShortcodeCorePlugin extends Plugin
     }
 
     public function onEditorProShortcodeRegister($event) {
-        error_log('ShortcodeCore: onEditorProShortcodeRegister called');
+        // Only offer tags that will actually parse. With the built-in set
+        // switched off, or a tag excluded, inserting one from the picker just
+        // leaves raw bracket text on the page. The older NextGen editor path
+        // has always checked this; this one never did (getgrav/grav#4288).
+        if (!$this->config->get('plugins.shortcode-core.include_default_shortcodes', true)) {
+            return $event;
+        }
+
+        $excluded = $this->config->get('plugins.shortcode-core.exclude_default_shortcodes');
+        $excluded = is_array($excluded) ? array_map('trim', $excluded) : [];
+
         $shortcodes = $event['shortcodes'];
         
         // Register core shortcodes for Editor Pro
@@ -1023,11 +1128,12 @@ class ShortcodeCorePlugin extends Plugin
         
         // Add all core shortcodes to the registry
         foreach ($coreShortcodes as $shortcode) {
+            if (in_array($shortcode['name'], $excluded, true)) {
+                continue;
+            }
             $shortcodes[] = $shortcode;
         }
-        
-        error_log('ShortcodeCore: Added ' . count($coreShortcodes) . ' shortcodes, total: ' . count($shortcodes));
-        
+
         $event['shortcodes'] = $shortcodes;
         return $event;
     }

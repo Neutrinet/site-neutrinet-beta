@@ -372,6 +372,47 @@ To have more control over your generated email, you may also use the following a
 * `reply_to`: Set one or more addresses that should be used to reply to the message.
 * `cc` _(Carbon copy)_: Add one or more addresses to the delivery list. Many email clients will mark email in one's inbox differently depending on whether they are in the `To:` or `Cc:` list.
 * `bcc` _(Blind carbon copy)_: Add one or more addresses to the delivery list that should (usually) not be listed in the message data, remaining invisible to other recipients.
+* `tags`: One or more strings the API-based sending services (Postmark, Mailgun, SendGrid, Mailjet and friends) group and report on. Ignored by plain SMTP.
+* `metadata`: A map of name to string value that those same services carry alongside the message and hand back on their webhooks.
+* `headers`: A map of header name to value, written onto the message itself. See below.
+* `error_message`: What to show the visitor if this email cannot be sent. Without it the plugin uses the **Form send failure message** setting, and without that a translated default. The mail server's own explanation of the failure always goes to the Grav log rather than onto the page, and is only added to the visitor's message when Grav's debugger is enabled.
+
+### Custom headers
+
+`headers` puts headers on the message that this plugin has no parameter of its own for. It takes a map of header name to value:
+
+```yaml
+form:
+  name: newsletter
+  process:
+    email:
+      subject: 'This month at Example'
+      body: '{% include "forms/data.html.twig" %}'
+      headers:
+        List-Unsubscribe: '<mailto:leave@example.com>, <https://example.com/newsletter/u/{{ form.value.token }}>'
+        List-Unsubscribe-Post: 'List-Unsubscribe=One-Click'
+        Precedence: 'bulk'
+```
+
+That pair is the reason the parameter exists. Together they are RFC 8058 one-click unsubscribe, which is what puts the unsubscribe button next to your name in Gmail and Outlook, and bulk senders are now expected to have it. Without a button to press, the thing people reach for instead is the spam button, which costs you every other message you send.
+
+A few details worth knowing:
+
+* Values are rendered as Twig with the same variables as every other email parameter, so a per-recipient token can be built inline as above.
+* Setting a header that is already on the message replaces it rather than adding a second one.
+* A value may be a list, which writes the header once per entry. Only headers that are allowed to repeat will take that; `Subject` or `Message-ID` will not.
+* Headers are applied last, after the addresses, the subject, the tags and the metadata, so a header you set by name is the one that goes out.
+* A name that is not a valid header name, or a value the header in question will not take, is skipped and written to `logs/email.log` and to Grav's own log. The rest of the email still goes.
+
+Plugins building a message in PHP can pass the same thing to `buildMessage()`, or hand a list of headers to `applyHeaders()` on a message built with `message()`. A plugin that has to work on older releases too can ask first rather than comparing version numbers:
+
+```php
+$email = $this->grav['Email'];
+
+if (method_exists($email, 'supportsParameter') && $email::supportsParameter('headers')) {
+    $email->applyHeaders($message, ['List-Unsubscribe-Post' => 'List-Unsubscribe=One-Click']);
+}
+```
 
 ### Specifying email addresses
 
@@ -468,6 +509,17 @@ body:
 
 ```
 
+# Receiving email
+
+The plugin can also read mail sent *to* a site, for plugins that need it (a helpdesk turning replies into ticket updates, for example). It does nothing on its own: another plugin calls it. What it provides, on PHP 8.1 and later:
+
+- `InboundGateway`, the one class a plugin calls to verify and read an inbound webhook request, whichever provider it came from.
+- Two built-in receivers that need no provider account: `cloudflare`, for a free Cloudflare Email Routing Worker, and `generic`, for any script or mail server that can sign and post a raw message. [docs/inbound-cloudflare.md](docs/inbound-cloudflare.md) has the Worker source and a ready-made shell sender.
+- Receivers from provider plugins (Postmark, Mailgun, SendGrid, Amazon SES and others) as those plugins add them.
+- A small IMAP client, for mailboxes with no webhook (Gmail with an app password, most hosting mailboxes). It doesn't need PHP's imap extension.
+
+Plugin authors will find the details in [docs/providers.md](docs/providers.md#receiving-mail).
+
 # Troubleshooting
 
 ## Emails are not sent
@@ -475,6 +527,12 @@ body:
 #### Debugging
 
 The first step in determining why emails are not sent is to enable debugging.  This can be done via the `user/config/email.yaml` file or via the plugin settings in the admin.  Just enable this and then try sending an email again.  Then inspect the `logs/email.log` file for potential problems.
+
+#### An email arrives with no recipients, or never arrives at all
+
+An address the plugin cannot parse is dropped, and if every address in a parameter is dropped the message goes out with that header missing entirely. Look in `logs/email.log` or `logs/grav.log` for a line beginning `plugin-email:` that names the parameter and the value it could not read.
+
+Nearly always the value has been HTML-escaped on the way in. `to: "{{ form.value.recipient|e }}"` turns `John Doe <john@example.com>` into `John Doe &lt;john@example.com&gt;`, which is not an email address, and Twig autoescape does the same thing without being asked. Use `|raw` on address parameters.
 
 #### ISP Port 25 blocking
 

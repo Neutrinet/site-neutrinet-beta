@@ -1,3 +1,29 @@
+# v5.3.1
+## 09/13/2026
+
+1. [](#new)
+    * The plugin is now fully translated into Spanish. Thanks @pmoreno-rodriguez [#122](https://github.com/getgrav/grav-plugin-sitemap/pull/122)
+
+# v5.3.0
+## 09/10/2026
+
+1. [](#new)
+    * The plugin now serves `/llms.txt`, an index of every page in the sitemap as a Markdown link with its description, in the format AI agents look for. Each link points at the page's Markdown version from Grav 2.1's Markdown output, and the same ignore rules as the XML sitemap apply
+    * An optional `/llms-full.txt` joins every page's full Markdown into one document. It is off by default and cached once built
+
+# v5.2.3
+## 08/31/2026
+
+1. [](#bugfix)
+    * Fixed the sitemap cache never being read, so every request rebuilt the entire sitemap from scratch
+    * Fixed sitemap settings changes not taking effect until a page was edited
+
+# v5.2.2
+## 08/11/2026
+
+1. [](#bugfix)
+    * Fixed the page-level `Sitemap Last Modified` field being saved with the current date even when it was never set [#121](https://github.com/getgrav/grav-plugin-sitemap/issues/121)
+
 # v5.2.1
 ## 05/01/2026
 

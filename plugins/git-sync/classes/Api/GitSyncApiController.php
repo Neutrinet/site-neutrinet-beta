@@ -30,6 +30,17 @@ class GitSyncApiController extends AbstractApiController
     {
         $user = $this->getUser($request);
 
+        $required = $level === 'write'
+            ? ['api.git-sync', 'api.git-sync.write', 'api.git-sync.admin']
+            : ['api.git-sync', 'api.git-sync.read', 'api.git-sync.write', 'api.git-sync.admin'];
+
+        // API-key scope cap first. isSuperAdmin() reads the account behind the
+        // key, so a key scoped to something unrelated on a super-admin account
+        // used to pass this gate outright.
+        if (!$this->keyScopeAllowsAny($request, $required)) {
+            throw new ForbiddenException("API key is not authorized for Git Sync '{$level}'");
+        }
+
         if ($this->isSuperAdmin($user)) {
             return;
         }
@@ -38,10 +49,6 @@ class GitSyncApiController extends AbstractApiController
             throw new ForbiddenException('API access is not enabled for this user.');
         }
 
-        $required = $level === 'write'
-            ? ['api.git-sync', 'api.git-sync.write', 'api.git-sync.admin']
-            : ['api.git-sync', 'api.git-sync.read', 'api.git-sync.write', 'api.git-sync.admin'];
-
         foreach ($required as $perm) {
             if ($this->hasPermission($user, $perm)) {
                 return;
@@ -49,6 +56,23 @@ class GitSyncApiController extends AbstractApiController
         }
 
         throw new ForbiddenException("Missing required Git Sync '{$level}' permission");
+    }
+
+    /**
+     * Whether the API-key scope cap lets the request use at least one of
+     * $permissions. Unscoped credentials (session, JWT, unscoped key) pass.
+     *
+     * @param string[] $permissions
+     */
+    private function keyScopeAllowsAny(ServerRequestInterface $request, array $permissions): bool
+    {
+        foreach ($permissions as $permission) {
+            if ($this->scopeAllows($request, $permission)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /**
@@ -82,7 +106,7 @@ class GitSyncApiController extends AbstractApiController
             'webhook'           => (string) ($cfg['webhook'] ?? ''),
             'webhook_enabled'   => (bool) ($cfg['webhook_enabled'] ?? false),
             'webhook_secret'    => (string) ($cfg['webhook_secret'] ?? ''),
-            'branch'            => (string) ($cfg['branch'] ?? 'master'),
+            'branch'            => (string) ($cfg['branch'] ?? 'main'),
             'logging'           => (bool) ($cfg['logging'] ?? false),
             'sync'              => [
                 'direction'   => (string) ($sync['direction'] ?? 'both'),
@@ -94,7 +118,7 @@ class GitSyncApiController extends AbstractApiController
             ],
             'remote'            => [
                 'name'   => (string) ($remote['name'] ?? 'origin'),
-                'branch' => (string) ($remote['branch'] ?? 'master'),
+                'branch' => (string) ($remote['branch'] ?? 'main'),
             ],
             'git'               => [
                 'author'      => (string) ($git['author'] ?? 'gituser'),

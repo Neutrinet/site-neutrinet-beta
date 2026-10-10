@@ -240,12 +240,16 @@ class Form implements FormInterface, ArrayAccess
                 if ($file) {
                     $imagePath = $original->getTmpFile();
                     $thumbPath = $file->getTmpFile();
+                    // Filenames may contain '#' or '?' which would otherwise be
+                    // treated as URL fragment/query delimiters by the browser.
+                    $imageRel = str_replace(['#', '?'], ['%23', '%3F'], Folder::getRelativePath($imagePath));
+                    $thumbRel = str_replace(['#', '?'], ['%23', '%3F'], Folder::getRelativePath($thumbPath));
                     $list[$basename] = [
                         'name' => $file->getClientFilename(),
                         'type' => $file->getClientMediaType(),
                         'size' => $file->getSize(),
-                        'image_url' => $url->rootUrl() . '/' . Folder::getRelativePath($imagePath) . '?' . filemtime($imagePath),
-                        'thumb_url' => $url->rootUrl() . '/' . Folder::getRelativePath($thumbPath) . '?' . filemtime($thumbPath),
+                        'image_url' => $url->rootUrl() . '/' . $imageRel . '?' . filemtime($imagePath),
+                        'thumb_url' => $url->rootUrl() . '/' . $thumbRel . '?' . filemtime($thumbPath),
                         'cropData' => $original->getMetaData()['crop'] ?? []
                     ];
                 }
@@ -462,7 +466,12 @@ class Form implements FormInterface, ArrayAccess
     public function value($name = null, $fallback = false)
     {
         if (!$name) {
-            return $this->data;
+            // Return the values as a plain array rather than the Data object.
+            // Twig resolves `form.value.<field>` as native array access, which
+            // the content sandbox does not gate — a Data object would trip the
+            // sandbox on the sub-key (regression #4207) and, more broadly, this
+            // is the safer "get all values" contract to hand a template.
+            return $this->data ? $this->data->toArray() : [];
         }
 
         if (isset($this->data[$name])) {

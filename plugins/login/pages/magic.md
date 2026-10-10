@@ -6,7 +6,8 @@ login_redirect_here: false
 
 form:
   fields:
-    - name: email
+    - id: email
+      name: email
       type: email
       placeholder: PLUGIN_LOGIN.ENTER_EMAIL
       autofocus: true
@@ -15,4 +16,4 @@ form:
         type: email
 ---
 
-Enter your email address to receive a one-time sign-in link.
+[translate=PLUGIN_LOGIN.MAGIC_PAGE_DESC /]
