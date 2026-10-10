@@ -11,6 +11,7 @@ feed:
 sitemap:
     lastmod: '03/30/2026 08:19 am'
 published: false
+media_order: P1090445-truncated.jpg
 ---
 
 Ce samedi 3 octobre entre 21h30 et 23h30 (heure locale), nous avons rencontré un incident qui a impacté l'ensemble de nos lignes internet ainsi que notre serveur VPN. Un·e bénévole a dû se rendre au datacenter pour rétablir la situation, un grand merci !
