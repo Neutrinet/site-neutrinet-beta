@@ -5,11 +5,10 @@ taxonomy:
         - blog
     tag:
         - neutrinet
-        - evenement
+        - incident
 feed:
     limit: 10
-sitemap:
-    lastmod: '03/30/2026 08:19 am'
+sitemap: {  }
 published: true
 media_order: P1090445-truncated.jpg
 ---
