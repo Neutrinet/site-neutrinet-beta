@@ -1,5 +1,5 @@
 ---
-title: 'Invitation A.G. 2026 (Copy)'
+title: 'Détails sur l''incident du 3 octobre 2026'
 taxonomy:
     category:
         - blog
@@ -13,61 +13,30 @@ sitemap:
 published: false
 ---
 
-TL;DR:
-> Date : 19 avril 2026  
-> Heure de début : 10h (formel), 14h30 (informel)  
-> Adresse : Marbré, 32 rue des Palais, 1030 Schaerbeek  
-> Localisation : [https://www.openstreetmap.org/way/228262454](https://www.openstreetmap.org/way/228262454)  
-> Ordre du jour : [https://doc.neutrinet.be/s/ag2026-ordre-du-jour#](https://doc.neutrinet.be/s/ag2026-ordre-du-jour#)  
-> Online : non, c'est en présentiel.
+Ce samedi 3 octobre entre 21h30 et 23h30 (heure locale), nous avons rencontré un incident qui a impacté l'ensemble de nos lignes internet ainsi que notre serveur VPN. Un·e bénévole a dû se rendre au datacenter pour rétablir la situation, un grand merci !
 
-Bien le bonsoir,
+Toutes nos excuses aux membres impacté·es.
 
-C'est le printemps, et avec lui s'ouvre la saison des A.G. ! Comme toujours, vous êtes le ou la bienvenu·e à celle de Neutrinet !
+La panne s'est produite suite à une mise à jour de l'un de nos serveurs en vue de préparer une maintenance prévue le lundi 5 octobre (remplacement des disques SSD, ajout de RAM, et ajout de cartes réseaux plus performantes).
 
-Nous commencerons par un moment formel nécessaire au fonctionnement de l'ASBL (présentation comptes et du budget, adhésion des membres effectif·ves, changement du siège social, renouvellement du CA, de la CCJ et des représentant·es pour les associations dans lesquelles Neutrinet a une patte). Puis, nous aurons un moment plus informel où nous ferons le bilan de l'année écoulée.
+Pour ce faire, nous avons mis ce serveur en maintenance, et Proxmox a automatiquement migré ses machines virtuelles vers nos deux autres serveurs. Malheureusement, l'un de ces serveurs a planté car il n'avait pas assez de mémoire vive pour accueillir ces nouvelles machines virtuelles.
 
-Sans oublier que cela reste surtout l'occasion de se voir, se revoir et se rencontrer !
+Ne nous étant pas aperçu·es de ce crash, nous avons ensuite redémarré le serveur en maintenance comme prévu. Nous nous sommes donc retrouvé·es avec un seul serveur encore fonctionnel sur trois. Le cluster ayant perdu son quorum (la majorité des serveurs n'étant plus joignables), le service watchdog a redémarré ce dernier serveur par mesure de sécurité.
 
-### Date et Heures
+Nos serveurs étant tous chiffrés, lorsque ceux-ci redémarrent nous devons nous connecter à leur interface de gestion à distance (iDRAC) pour entrer la phrase de passe et débloquer le démarrage. Or, l'accès à ces interfaces passe par notre propre réseau, qui était lui aussi hors service. N'ayant plus aucun accès depuis l'extérieur, nous n'avons pas eu d'autre choix que d'intervenir sur place pour déchiffrer les disques.
 
-L'A.G. aura lieu le dimanche 19 avril 2026.
+Nous avons profité de cette intervention pour ajouter de la RAM à nos serveurs, ce qui nous permet désormais d'absorber la charge d'un serveur en maintenance, et installer des cartes réseaux plus performantes (Intel X710). Ces opérations étaient prévue le lundi 5 octobre et auraient nécessité de redémarrer nos serveurs.
 
-- à partir de 10h00 : Accueil
-- à partir de 10h30 : A.G. formelle
-- à partir de 13h30 : Repas sous forme d'auberge espagnole
-- à partir de 14h30 : Bilan de l'année 2025
+Pour éviter ce genre de situation à l'avenir, nous réfléchissons à mettre en place un accès « out of band » [1] (par ex. un accès via la 4G), nous permettant d'intervenir à distance même lorsque l'ensemble de notre cluster redémarre.
 
-### Lieu
+## Chronologie
 
-L'A.G. se tiendra au [Marbré](https://communa.be/les-lieux/marbre/), 32 rue des Palais, 1030 Schaerbeek.
+* 21h00 : mise en maintenance du serveur « topi », migration automatique des machines virtuelles vers les serveurs « nam » et « bour » par Proxmox
+* 21h15 : crash de nam (manque de RAM)
+* 21h30 : redémarrage de topi pour la mise à jour, perte du quorum, redémarrage automatique de bour par le watchdog, coupure totale du service
+* 22h30 : arrivée au datacenter
+* 22h45 : ajout de la RAM et des cartes réseaux
+* 23h10 : redémarrage du cluster
+* 23h30 : cluster opérationnel, sessions BGP rétablies, retour à la normale
 
-### Repas
-
-Le repas se fera sous forme d'auberge espagnole : apportez ce que vous souhaitez manger et partager avec les autres !
-
-L'apéro et les boissons seront fournies par l'association.
-
-### Ordre du jour
-
-L'ordre du jour est disponible à cette adresse : [https://doc.neutrinet.be/s/ag2026-ordre-du-jour](https://doc.neutrinet.be/s/ag2026-ordre-du-jour)
-
-### Membres effectif·ve·s
-
-Si vous souhaitez devenir membre effective de Neutrinet et avoir le droit de vote en A.G., faites-le nous savoir en répondant à ce mail ou sur le [Mattermost](https://chat.neutrinet.be)
-
-### Administrateur·ice·s
-
-Si vous souhaitez devenir administrateur·ice de Neutrinet et apparaître sur le site de la [BCE](https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=835033012), faites-le nous savoir en répondant à ce mail ou sur le [Mattermost](https://chat.neutrinet.be) avec une petite présentation de vous-même.
-
-Devenir administrateur·ice apporte l'avantage de signer des papiers au nom de Neutrinet et de payer des factures, mais aussi de faire grossir les rangs des personnes publiquement membres de l'association et offrir une plus grande importance à l'ASBL aux yeux du monde !
-
-### Cotisation
-
-N'oubliez pas de vous mettre en ordre de cotisation avant l'A.G. ! Pour rappel, la cotisation annuelle est de 30 € (10 €/an pour les personnes précaires). Nos informations bancaires se trouvent sur notre wiki : [https://wiki.neutrinet.be/fr/administration/banks](https://wiki.neutrinet.be/fr/administration/banks)
-
-Au plaisir de vous rencontrer lors de l'A.G.,
-
-Neutrinet ASBL
-
-Crédit Photo : "King Penguins (Aptenodytes patagonicus) - Salisbury Plains" par Gregory 'Slobirdr' Smith – CC BY-SA 2.0.
+[1] https://en.wikipedia.org/wiki/Out-of-band_management
